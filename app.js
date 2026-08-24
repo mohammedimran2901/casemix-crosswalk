@@ -14,15 +14,42 @@ function fmtRate(v, cur) {
 }
 
 function renderRow(p, blur) {
+  const cm = typeof CASEMIX !== "undefined" ? CASEMIX[p.name] : null;
   const tr = document.createElement("tr");
   if (blur) tr.classList.add("blurred");
   tr.innerHTML =
     `<td><strong>${p.name}</strong></td>` +
-    cell(p.us, "USD") + cell(p.uk, "GBP") + cell(p.de, "EUR") + cell(p.au, "AUD");
+    cell(p.us, "USD", cm && cm.alos.us) + cell(p.uk, "GBP", cm && cm.alos.uk) +
+    cell(p.de, "EUR", cm && cm.alos.de) + cell(p.au, "AUD", cm && cm.alos.au);
   tbody.appendChild(tr);
 }
-function cell(arr, cur) {
-  return `<td><span class="code">${arr[0]}</span> <span class="rate">${fmtRate(arr[2], cur)}</span><span class="desc">${arr[1]}</span></td>`;
+function cell(arr, cur, alos) {
+  const alosHtml = alos != null ? `<span class="alos">🏥 ${alos.toFixed(1)} days ALOS</span>` : "";
+  return `<td><span class="code">${arr[0]}</span> <span class="rate">${fmtRate(arr[2], cur)}</span>${alosHtml}<span class="desc">${arr[1]}</span></td>`;
+}
+
+const COUNTRY_KEYS = ["us", "uk", "de", "au"];
+const COUNTRY_NAMES = { us: "🇺🇸 US MS-DRG", uk: "🇬🇧 UK HRG", de: "🇩🇪 G-DRG", au: "🇦🇺 AR-DRG" };
+
+function renderComplexity(p, blur) {
+  const cm = typeof CASEMIX !== "undefined" ? CASEMIX[p.name] : null;
+  const panel = document.getElementById("complexityPanel");
+  if (!cm || !panel) { if (panel) panel.innerHTML = ""; return; }
+  let html = `<h3>📐 Case-mix complexity breakdown — ${p.name}</h3>
+    <p class="cm-sub">Share of cases by complexity tier (approx. % of cases)</p>
+    <div class="cm-grid">`;
+  COUNTRY_KEYS.forEach(k => {
+    const rows = cm.complexity[k];
+    html += `<div class="cm-card${blur ? " blurred" : ""}"><div class="cm-title">${COUNTRY_NAMES[k]}</div>`;
+    rows.forEach(([label, pct]) => {
+      html += `<div class="cm-row"><span class="cm-label">${label}</span>
+        <div class="cm-bar"><div class="cm-fill" style="width:${pct}%"></div></div>
+        <span class="cm-pct">${pct}%</span></div>`;
+    });
+    html += `<div class="cm-alos">Avg. stay: <strong>${cm.alos[k].toFixed(1)} days</strong></div></div>`;
+  });
+  html += `</div><p class="fineprint">Complexity tiers reflect each system's own split logic (e.g. US MCC/CC levels, German komplizierte Grundkrankheit). Approximate distributions — verify against official statistics.</p>`;
+  panel.innerHTML = html;
 }
 
 function showPaywall() {
@@ -55,6 +82,7 @@ function search(qRaw) {
 
   if (unlocked || freeUsed < FREE_LOOKUPS) {
     matches.forEach(p => renderRow(p, false));
+    renderComplexity(matches[0], false);
     if (!unlocked) {
       freeUsed++;
       localStorage.setItem("cc_free_used", freeUsed);
@@ -64,6 +92,7 @@ function search(qRaw) {
   } else {
     // Show blurred teaser rows
     matches.slice(0, 4).forEach(p => renderRow(p, true));
+    renderComplexity(matches[0], true);
     showPaywall();
   }
 }
