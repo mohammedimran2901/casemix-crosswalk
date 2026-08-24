@@ -1,0 +1,552 @@
+{
+ "HN12A": {
+  "name": "Very Major Hip Procedures for Non-Trauma with CC Score 10+",
+  "elective": 13900.0,
+  "non_elective": 17144.0
+ },
+ "HN12B": {
+  "name": "Very Major Hip Procedures for Non-Trauma with CC Score 8-9",
+  "elective": 11644.0,
+  "non_elective": 14361.0
+ },
+ "HN12C": {
+  "name": "Very Major Hip Procedures for Non-Trauma with CC Score 6-7",
+  "elective": 9839.0,
+  "non_elective": 12135.0
+ },
+ "HN12D": {
+  "name": "Very Major Hip Procedures for Non-Trauma with CC Score 4-5",
+  "elective": 8260.0,
+  "non_elective": 10188.0
+ },
+ "HN12E": {
+  "name": "Very Major Hip Procedures for Non-Trauma with CC Score 2-3",
+  "elective": 7489.0,
+  "non_elective": 9236.0
+ },
+ "HN12F": {
+  "name": "Very Major Hip Procedures for Non-Trauma with CC Score 0-1",
+  "elective": 7251.0,
+  "non_elective": 8942.0
+ },
+ "HN13A": {
+  "name": "Major Hip Procedures for Non-Trauma, 19 years and over, with CC Score 10+",
+  "elective": 13061.0,
+  "non_elective": 16108.0
+ },
+ "HN13B": {
+  "name": "Major Hip Procedures for Non-Trauma, 19 years and over, with CC Score 6-9",
+  "elective": 10685.0,
+  "non_elective": 13180.0
+ },
+ "HN13C": {
+  "name": "Major Hip Procedures for Non-Trauma, 19 years and over, with CC Score 4-5",
+  "elective": 8121.0,
+  "non_elective": 10016.0
+ },
+ "HN13D": {
+  "name": "Major Hip Procedures for Non-Trauma, 19 years and over, with CC Score 2-3",
+  "elective": 6767.0,
+  "non_elective": 8347.0
+ },
+ "HN13E": {
+  "name": "Major Hip Procedures for Non-Trauma, 19 years and over, with CC Score 1",
+  "elective": 6317.0,
+  "non_elective": 7791.0
+ },
+ "HN13F": {
+  "name": "Major Hip Procedures for Non-Trauma, 19 years and over, with CC Score 0",
+  "elective": 5865.0,
+  "non_elective": 7234.0
+ },
+ "HN13G": {
+  "name": "Major Hip Procedures for Non-Trauma, 18 years and under, with CC Score 1+",
+  "elective": 6317.0,
+  "non_elective": 7791.0
+ },
+ "HN13H": {
+  "name": "Major Hip Procedures for Non-Trauma, 18 years and under, with CC Score 0",
+  "elective": 5865.0,
+  "non_elective": 7234.0
+ },
+ "HN14A": {
+  "name": "Intermediate Hip Procedures for Non-Trauma, 19 years and over, with CC Score 6+",
+  "elective": 7896.0,
+  "non_elective": 9737.0
+ },
+ "HN14B": {
+  "name": "Intermediate Hip Procedures for Non-Trauma, 19 years and over, with CC Score 4-5",
+  "elective": 5639.0,
+  "non_elective": 6956.0
+ },
+ "HN14C": {
+  "name": "Intermediate Hip Procedures for Non-Trauma, 19 years and over, with CC Score 2-3",
+  "elective": 4060.0,
+  "non_elective": 5007.0
+ },
+ "HN14D": {
+  "name": "Intermediate Hip Procedures for Non-Trauma, 19 years and over, with CC Score 1",
+  "elective": 3383.0,
+  "non_elective": 4173.0
+ },
+ "HN14E": {
+  "name": "Intermediate Hip Procedures for Non-Trauma, 19 years and over, with CC Score 0",
+  "elective": 2375.0,
+  "non_elective": 2930.0
+ },
+ "HN14F": {
+  "name": "Intermediate Hip Procedures for Non-Trauma, between 6 and 18 years, with CC Score 1+",
+  "elective": 4297.0,
+  "non_elective": 5299.0
+ },
+ "HN14G": {
+  "name": "Intermediate Hip Procedures for Non-Trauma, between 6 and 18 years, with CC Score 0",
+  "elective": 3224.0,
+  "non_elective": 3976.0
+ },
+ "HN14H": {
+  "name": "Intermediate Hip Procedures for Non-Trauma, 5 years and under",
+  "elective": 3257.0,
+  "non_elective": 4018.0
+ },
+ "HN15A": {
+  "name": "Minor Hip Procedures for Non-Trauma, 19 years and over",
+  "elective": 1338.0,
+  "non_elective": 1650.0
+ },
+ "HN15B": {
+  "name": "Minor Hip Procedures for Non-Trauma, 18 years and under",
+  "elective": 1593.0,
+  "non_elective": 1965.0
+ },
+ "HN16A": {
+  "name": "Minimal Hip Procedures, 19 years and over",
+  "elective": 573.0,
+  "non_elective": 707.0
+ },
+ "HN16B": {
+  "name": "Minimal Hip Procedures, between 6 and 18 years",
+  "elective": 573.0,
+  "non_elective": 707.0
+ },
+ "HN16C": {
+  "name": "Minimal Hip Procedures, 5 years and under",
+  "elective": 573.0,
+  "non_elective": 707.0
+ },
+ "HN22A": {
+  "name": "Very Major Knee Procedures for Non-Trauma with CC Score 8+",
+  "elective": 10826.0,
+  "non_elective": 13351.0
+ },
+ "HN22B": {
+  "name": "Very Major Knee Procedures for Non-Trauma with CC Score 6-7",
+  "elective": 10149.0,
+  "non_elective": 12517.0
+ },
+ "HN22C": {
+  "name": "Very Major Knee Procedures for Non-Trauma with CC Score 4-5",
+  "elective": 8054.0,
+  "non_elective": 9933.0
+ },
+ "HN22D": {
+  "name": "Very Major Knee Procedures for Non-Trauma with CC Score 2-3",
+  "elective": 7578.0,
+  "non_elective": 9347.0
+ },
+ "HN22E": {
+  "name": "Very Major Knee Procedures for Non-Trauma with CC Score 0-1",
+  "elective": 7222.0,
+  "non_elective": 8908.0
+ },
+ "HN23A": {
+  "name": "Major Knee Procedures for Non-Trauma, 19 years and over, with CC Score 4+",
+  "elective": 5076.0,
+  "non_elective": 6260.0
+ },
+ "HN23B": {
+  "name": "Major Knee Procedures for Non-Trauma, 19 years and over, with CC Score 2-3",
+  "elective": 4737.0,
+  "non_elective": 5842.0
+ },
+ "HN23C": {
+  "name": "Major Knee Procedures for Non-Trauma, 19 years and over, with CC Score 0-1",
+  "elective": 4399.0,
+  "non_elective": 5425.0
+ },
+ "HN23D": {
+  "name": "Major Knee Procedures for Non-Trauma, 18 years and under, with CC Score 1+",
+  "elective": 3747.0,
+  "non_elective": 4622.0
+ },
+ "HN23E": {
+  "name": "Major Knee Procedures for Non-Trauma, 18 years and under, with CC Score 0",
+  "elective": 3040.0,
+  "non_elective": 3749.0
+ },
+ "HN24A": {
+  "name": "Intermediate Knee Procedures for Non-Trauma, 19 years and over, with CC Score 4+",
+  "elective": 3271.0,
+  "non_elective": 4034.0
+ },
+ "HN24B": {
+  "name": "Intermediate Knee Procedures for Non-Trauma, 19 years and over, with CC Score 2-3",
+  "elective": 2369.0,
+  "non_elective": 2922.0
+ },
+ "HN24C": {
+  "name": "Intermediate Knee Procedures for Non-Trauma, 19 years and over, with CC Score 0-1",
+  "elective": 2143.0,
+  "non_elective": 2643.0
+ },
+ "HN24D": {
+  "name": "Intermediate Knee Procedures for Non-Trauma, between 6 and 18 years, with CC Score 1+",
+  "elective": 2369.0,
+  "non_elective": 2922.0
+ },
+ "HN24E": {
+  "name": "Intermediate Knee Procedures for Non-Trauma, between 6 and 18 years, with CC Score 0",
+  "elective": 2143.0,
+  "non_elective": 2643.0
+ },
+ "HN24F": {
+  "name": "Intermediate Knee Procedures for Non-Trauma, 5 years and under",
+  "elective": 2143.0,
+  "non_elective": 2643.0
+ },
+ "HN25A": {
+  "name": "Minor Knee Procedures for Non-Trauma, 19 years and over",
+  "elective": 1362.0,
+  "non_elective": 1680.0
+ },
+ "HN25B": {
+  "name": "Minor Knee Procedures for Non-Trauma, 18 years and under",
+  "elective": 1362.0,
+  "non_elective": 1680.0
+ },
+ "HN26A": {
+  "name": "Minimal Knee Procedures, 19 years and over",
+  "elective": 573.0,
+  "non_elective": 707.0
+ },
+ "HN26B": {
+  "name": "Minimal Knee Procedures, between 6 and 18 years",
+  "elective": 573.0,
+  "non_elective": 707.0
+ },
+ "HN26C": {
+  "name": "Minimal Knee Procedures, 5 years and under",
+  "elective": 573.0,
+  "non_elective": 707.0
+ },
+ "HN32A": {
+  "name": "Very Major Foot Procedures for Non-Trauma with CC Score 4+",
+  "elective": 7670.0,
+  "non_elective": 9460.0
+ },
+ "HN32B": {
+  "name": "Very Major Foot Procedures for Non-Trauma with CC Score 2-3",
+  "elective": 6767.0,
+  "non_elective": 8347.0
+ },
+ "HN32C": {
+  "name": "Very Major Foot Procedures for Non-Trauma with CC Score 0-1",
+  "elective": 6317.0,
+  "non_elective": 7791.0
+ },
+ "HN33A": {
+  "name": "Major Foot Procedures for Non-Trauma, 19 years and over, with CC Score 4+",
+  "elective": 5076.0,
+  "non_elective": 6260.0
+ },
+ "HN33B": {
+  "name": "Major Foot Procedures for Non-Trauma, 19 years and over, with CC Score 2-3",
+  "elective": 4512.0,
+  "non_elective": 5565.0
+ },
+ "HN33C": {
+  "name": "Major Foot Procedures for Non-Trauma, 19 years and over, with CC Score 0-1",
+  "elective": 3948.0,
+  "non_elective": 4869.0
+ },
+ "HN33D": {
+  "name": "Major Foot Procedures for Non-Trauma, 18 years and under",
+  "elective": 3948.0,
+  "non_elective": 4869.0
+ },
+ "HN34A": {
+  "name": "Intermediate Foot Procedures for Non-Trauma, 19 years and over, with CC Score 4+",
+  "elective": 3384.0,
+  "non_elective": 4174.0
+ },
+ "HN34B": {
+  "name": "Intermediate Foot Procedures for Non-Trauma, 19 years and over, with CC Score 2-3",
+  "elective": 2570.0,
+  "non_elective": 3169.0
+ },
+ "HN34C": {
+  "name": "Intermediate Foot Procedures for Non-Trauma, 19 years and over, with CC Score 0-1",
+  "elective": 2170.0,
+  "non_elective": 2675.0
+ },
+ "HN34D": {
+  "name": "Intermediate Foot Procedures for Non-Trauma, 18 years and under",
+  "elective": 2170.0,
+  "non_elective": 2675.0
+ },
+ "HN35A": {
+  "name": "Minor Foot Procedures for Non-Trauma, 19 years and over",
+  "elective": 1304.0,
+  "non_elective": 1608.0
+ },
+ "HN35B": {
+  "name": "Minor Foot Procedures for Non-Trauma, 18 years and under",
+  "elective": 1304.0,
+  "non_elective": 1608.0
+ },
+ "HN36Z": {
+  "name": "Minimal Foot Procedures",
+  "elective": 573.0,
+  "non_elective": 707.0
+ },
+ "HN42A": {
+  "name": "Very Major Hand Procedures for Non-Trauma with CC Score 2+",
+  "elective": 6317.0,
+  "non_elective": 7791.0
+ },
+ "HN42B": {
+  "name": "Very Major Hand Procedures for Non-Trauma with CC Score 0-1",
+  "elective": 6091.0,
+  "non_elective": 7512.0
+ },
+ "HN43A": {
+  "name": "Major Hand Procedures for Non-Trauma, 19 years and over, with CC Score 2+",
+  "elective": 3835.0,
+  "non_elective": 4730.0
+ },
+ "HN43B": {
+  "name": "Major Hand Procedures for Non-Trauma, 19 years and over, with CC Score 0-1",
+  "elective": 3384.0,
+  "non_elective": 4174.0
+ },
+ "HN43C": {
+  "name": "Major Hand Procedures for Non-Trauma, 18 years and under",
+  "elective": 3384.0,
+  "non_elective": 4174.0
+ },
+ "HN44A": {
+  "name": "Intermediate Hand Procedures for Non-Trauma, 19 years and over, with CC Score 2+",
+  "elective": 2594.0,
+  "non_elective": 3199.0
+ },
+ "HN44B": {
+  "name": "Intermediate Hand Procedures for Non-Trauma, 19 years and over, with CC Score 0-1",
+  "elective": 2143.0,
+  "non_elective": 2643.0
+ },
+ "HN44C": {
+  "name": "Intermediate Hand Procedures for Non-Trauma, between 6 and 18 years",
+  "elective": 2143.0,
+  "non_elective": 2643.0
+ },
+ "HN44D": {
+  "name": "Intermediate Hand Procedures for Non-Trauma, 5 years and under",
+  "elective": 2143.0,
+  "non_elective": 2643.0
+ },
+ "HN45A": {
+  "name": "Minor Hand Procedures for Non-Trauma, 19 years and over",
+  "elective": 1304.0,
+  "non_elective": 1608.0
+ },
+ "HN45B": {
+  "name": "Minor Hand Procedures for Non-Trauma, between 6 and 18 years",
+  "elective": 1304.0,
+  "non_elective": 1608.0
+ },
+ "HN45C": {
+  "name": "Minor Hand Procedures for Non-Trauma, 5 years and under",
+  "elective": 1304.0,
+  "non_elective": 1608.0
+ },
+ "HN46Z": {
+  "name": "Minimal Hand Procedures",
+  "elective": 573.0,
+  "non_elective": 707.0
+ },
+ "HN52A": {
+  "name": "Very Major Shoulder Procedures for Non-Trauma with CC Score 4+",
+  "elective": 7413.0,
+  "non_elective": 9143.0
+ },
+ "HN52B": {
+  "name": "Very Major Shoulder Procedures for Non-Trauma with CC Score 2-3",
+  "elective": 6760.0,
+  "non_elective": 8337.0
+ },
+ "HN52C": {
+  "name": "Very Major Shoulder Procedures for Non-Trauma with CC Score 0-1",
+  "elective": 6323.0,
+  "non_elective": 7798.0
+ },
+ "HN53A": {
+  "name": "Major Shoulder Procedures for Non-Trauma with CC Score 4+",
+  "elective": 5076.0,
+  "non_elective": 6260.0
+ },
+ "HN53B": {
+  "name": "Major Shoulder Procedures for Non-Trauma with CC Score 2-3",
+  "elective": 4737.0,
+  "non_elective": 5842.0
+ },
+ "HN53C": {
+  "name": "Major Shoulder Procedures for Non-Trauma with CC Score 0-1",
+  "elective": 4393.0,
+  "non_elective": 5418.0
+ },
+ "HN54A": {
+  "name": "Intermediate Shoulder Procedures for Non-Trauma, 19 years and over, with CC Score 4+",
+  "elective": 3158.0,
+  "non_elective": 3895.0
+ },
+ "HN54B": {
+  "name": "Intermediate Shoulder Procedures for Non-Trauma, 19 years and over, with CC Score 2-3",
+  "elective": 2820.0,
+  "non_elective": 3478.0
+ },
+ "HN54C": {
+  "name": "Intermediate Shoulder Procedures for Non-Trauma, 19 years and over, with CC Score 0-1",
+  "elective": 2731.0,
+  "non_elective": 3368.0
+ },
+ "HN54D": {
+  "name": "Intermediate Shoulder Procedures for Non-Trauma, 18 years and under",
+  "elective": 2245.0,
+  "non_elective": 2769.0
+ },
+ "HN55Z": {
+  "name": "Minor Shoulder Procedures for Non-Trauma",
+  "elective": 1304.0,
+  "non_elective": 1608.0
+ },
+ "HN56Z": {
+  "name": "Minimal Shoulder Procedures",
+  "elective": 573.0,
+  "non_elective": 707.0
+ },
+ "HN62A": {
+  "name": "Very Major Elbow Procedures for Non-Trauma with CC Score 2+",
+  "elective": 6771.0,
+  "non_elective": 8351.0
+ },
+ "HN62B": {
+  "name": "Very Major Elbow Procedures for Non-Trauma with CC Score 0-1",
+  "elective": 6323.0,
+  "non_elective": 7798.0
+ },
+ "HN63A": {
+  "name": "Major Elbow Procedures for Non-Trauma with CC Score 2+",
+  "elective": 5076.0,
+  "non_elective": 6260.0
+ },
+ "HN63B": {
+  "name": "Major Elbow Procedures for Non-Trauma with CC Score 0-1",
+  "elective": 4512.0,
+  "non_elective": 5565.0
+ },
+ "HN64A": {
+  "name": "Intermediate Elbow Procedures for Non-Trauma, 19 years and over, with CC Score 2+",
+  "elective": 3114.0,
+  "non_elective": 3795.0
+ },
+ "HN64B": {
+  "name": "Intermediate Elbow Procedures for Non-Trauma, 19 years and over, with CC Score 0-1",
+  "elective": 3114.0,
+  "non_elective": 3795.0
+ },
+ "HN64C": {
+  "name": "Intermediate Elbow Procedures for Non-Trauma, between 6 and 18 years",
+  "elective": 3158.0,
+  "non_elective": 3895.0
+ },
+ "HN64D": {
+  "name": "Intermediate Elbow Procedures for Non-Trauma, 5 years and under",
+  "elective": 3158.0,
+  "non_elective": 3895.0
+ },
+ "HN65Z": {
+  "name": "Minor Elbow Procedures for Non-Trauma",
+  "elective": 1304.0,
+  "non_elective": 1608.0
+ },
+ "HN66Z": {
+  "name": "Minimal Elbow Procedures",
+  "elective": 573.0,
+  "non_elective": 707.0
+ },
+ "HN80A": {
+  "name": "Very Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 9+",
+  "elective": 27752.0,
+  "non_elective": 34228.0
+ },
+ "HN80B": {
+  "name": "Very Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 6-8",
+  "elective": 19605.0,
+  "non_elective": 24179.0
+ },
+ "HN80C": {
+  "name": "Very Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 3-5",
+  "elective": 15156.0,
+  "non_elective": 18692.0
+ },
+ "HN80D": {
+  "name": "Very Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 0-2",
+  "elective": 11907.0,
+  "non_elective": 14685.0
+ },
+ "HN81A": {
+  "name": "Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 9+",
+  "elective": 20086.0,
+  "non_elective": 24774.0
+ },
+ "HN81B": {
+  "name": "Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 6-8",
+  "elective": 13068.0,
+  "non_elective": 16117.0
+ },
+ "HN81C": {
+  "name": "Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 4-5",
+  "elective": 11075.0,
+  "non_elective": 13659.0
+ },
+ "HN81D": {
+  "name": "Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 2-3",
+  "elective": 10446.0,
+  "non_elective": 12884.0
+ },
+ "HN81E": {
+  "name": "Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 0-1",
+  "elective": 9817.0,
+  "non_elective": 12107.0
+ },
+ "HN85Z": {
+  "name": "Very Complex, Foot, Hand, Shoulder or Elbow Procedures for Non-Trauma",
+  "elective": 9434.0,
+  "non_elective": 11636.0
+ },
+ "HN86A": {
+  "name": "Complex, Foot, Hand, Shoulder or Elbow Procedures for Non-Trauma, with CC Score 2+",
+  "elective": 8798.0,
+  "non_elective": 10851.0
+ },
+ "HN86B": {
+  "name": "Complex, Foot, Hand, Shoulder or Elbow Procedures for Non-Trauma, with CC Score 0-1",
+  "elective": 7670.0,
+  "non_elective": 9460.0
+ },
+ "HN93Z": {
+  "name": "Other Muscle, Tendon, Fascia or Ligament Procedures",
+  "elective": 1718.0,
+  "non_elective": 2119.0
+ }
+}

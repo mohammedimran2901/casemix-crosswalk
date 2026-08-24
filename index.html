@@ -27,18 +27,18 @@
   <div class="container">
     <div class="badge">✦ Built for market-access &amp; health-economics teams</div>
     <h1>Compare DRG / HRG reimbursement<br><span class="grad">across countries</span> — in seconds.</h1>
-    <p class="sub">Stop digging through grouper manuals and tariff PDFs. Search a procedure and instantly see the equivalent code and published payment rate in the US, UK, Germany and Australia — side by side.</p>
+    <p class="sub">Stop digging through grouper manuals and tariff PDFs. Search a procedure and instantly see the equivalent code, published payment rates across complexity tiers, and average length of stay — compiled directly from official CMS and NHS tariff publications.</p>
     <div class="hero-actions">
       <a href="#search" class="btn btn-primary btn-lg">Search codes now →</a>
       <a href="#pricing" class="btn btn-ghost btn-lg">See pricing</a>
     </div>
     <div class="stats">
-      <div class="stat"><strong>4</strong><span>casemix systems</span></div>
-      <div class="stat"><strong>15+</strong><span>procedures at launch</span></div>
-      <div class="stat"><strong>4</strong><span>currencies</span></div>
-      <div class="stat"><strong>&lt;1s</strong><span>lookup time</span></div>
+      <div class="stat"><strong>2</strong><span>casemix systems (verified)</span></div>
+      <div class="stat"><strong>9</strong><span>procedure families</span></div>
+      <div class="stat"><strong>100%</strong><span>source-verified prices</span></div>
+      <div class="stat"><strong>40+</strong><span>official complexity tiers</span></div>
     </div>
-    <p class="hero-note">US MS-DRG · UK NHS HRG · DE G-DRG · AU AR-DRG</p>
+    <p class="hero-note">US MS-DRG (CMS FY2026) · UK NHS HRG (Payment Scheme 2025/26) · DE &amp; AU coming soon</p>
   </div>
 </section>
 
@@ -46,11 +46,11 @@
   <div class="container">
     <div class="section-head">
       <h2>Find your code</h2>
-      <p>Type a procedure name or a code from any of the four systems.</p>
+      <p>Type a procedure name or a code from either system (e.g. "470", "HN12D").</p>
     </div>
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
-      <input type="text" id="searchBox" placeholder='Try "knee replacement", "hip", "IN020K", "HNZ11"...' autocomplete="off">
+      <input type="text" id="searchBox" placeholder='Try "hip replacement", "spinal fusion", "470", "HN22C"...' autocomplete="off">
     </div>
     <p id="resultCount" class="result-count"></p>
     <div class="export-bar hidden" id="exportBar">
@@ -63,10 +63,8 @@
         <thead>
           <tr>
             <th>Procedure</th>
-            <th><span class="flag">🇺🇸</span> US MS-DRG</th>
-            <th><span class="flag">🇬🇧</span> UK HRG</th>
-            <th><span class="flag">🇩🇪</span> G-DRG</th>
-            <th><span class="flag">🇦🇺</span> AR-DRG</th>
+            <th><span class="flag">🇺🇸</span> US MS-DRG <span class="src-tag">FY2026 verified</span></th>
+            <th><span class="flag">🇬🇧</span> UK HRG <span class="src-tag">2025/26 verified</span></th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -134,12 +132,11 @@
 <footer>
   <div class="container">
     <p><strong>CasemixCrosswalk</strong> · © 2026</p>
-    <p class="fineprint">Data compiled from public tariff catalogs (CMS, NHS England, InEK, IHACPA). Not affiliated with any of these bodies.</p>
+    <p class="fineprint"><strong>Sources:</strong> US — CMS FY2026 IPPS Final Rule (CMS-1833-F), Tables 1A/1D &amp; 5; national average = DRG weight × $7,276.76, before geographic adjustment. UK — NHS Payment Scheme 2025/26 Annex A (pay award edition, 27 Jun 2025); elective unit price, before Market Forces Factor. Reference tool only — not a certified grouping engine; verify against local pricing analysis.</p>
   </div>
 </footer>
 
 <script src="data.js"></script>
-<script src="casemix.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -92,6 +92,7 @@ td strong { color:var(--dark); font-weight:700; }
 .cm-fill { height:100%; background:linear-gradient(90deg,var(--accent),#0891b2); border-radius:99px; }
 .cm-pct { font-size:.76rem; font-weight:800; color:var(--dark); text-align:right; }
 .cm-alos { margin-top:12px; padding-top:10px; border-top:1px solid var(--line); font-size:.8rem; color:var(--muted); }
+.src-tag { display:inline-block; font-size:.6rem; font-weight:700; background:rgba(255,255,255,.15); padding:2px 7px; border-radius:99px; margin-left:5px; text-transform:none; letter-spacing:.02em; }
 .cm-alos strong { color:#0891b2; }
 
 /* ---------- Export bar ---------- */
