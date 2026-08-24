@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CasemixCrosswalk — Compare DRG / HRG reimbursement across countries</title>
+<meta name="description" content="Search orthopedic procedure codes across US MS-DRG, UK HRG, German G-DRG and Australian AR-DRG systems. See published reimbursement side by side.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="container header-inner">
+    <div class="logo">Casemix<span>Crosswalk</span></div>
+    <nav>
+      <a href="#pricing">Pricing</a>
+      <a href="#search" class="btn btn-outline">Try it free</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Compare DRG / HRG reimbursement<br>across countries — in seconds.</h1>
+    <p class="sub">Stop digging through grouper manuals and tariff PDFs. Search a procedure, see the equivalent code and published payment rate in the US, UK, Germany and Australia — side by side.</p>
+    <a href="#search" class="btn btn-primary btn-lg">Search codes now →</a>
+    <p class="hero-note">Covers orthopedic procedures · US MS-DRG · UK NHS HRG · DE G-DRG · AU AR-DRG</p>
+  </div>
+</section>
+
+<section id="search" class="search-section">
+  <div class="container">
+    <h2>Find your code</h2>
+    <input type="text" id="searchBox" placeholder='Try "knee replacement", "hip", "IN020K", "IJ414"...' autocomplete="off">
+    <p id="resultCount" class="result-count"></p>
+
+    <div class="table-wrap">
+      <table id="resultsTable">
+        <thead>
+          <tr>
+            <th>Procedure</th>
+            <th>🇺🇸 US MS-DRG</th>
+            <th>🇬🇧 UK HRG</th>
+            <th>🇩🇪 G-DRG</th>
+            <th>🇦🇺 AR-DRG</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="paywall" class="paywall hidden">
+        <h3>🔓 Unlock full access</h3>
+        <p>You've viewed your 3 free lookups. Get unlimited search, full reimbursement rates for all countries, and CSV export.</p>
+        <a id="buyButton" href="#" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Get full access — $19 one-time</a>
+        <p class="fineprint">Instant access via Stripe. Replace this link with your own Payment Link after purchase setup.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container feature-grid">
+    <div><h3>⚡ Fast</h3><p>No logins, no sales calls. Type a keyword or code, get answers immediately.</p></div>
+    <div><h3>🌍 Multi-country</h3><p>US, UK, German and Australian casemix systems in one view.</p></div>
+    <div><h3>📊 Exportable</h3><p>Download comparisons as CSV for your market-access decks and pricing models.</p></div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <h2>Pricing</h2>
+    <div class="price-card">
+      <div class="price">$19</div>
+      <div class="price-note">one-time · lifetime access to current dataset</div>
+      <ul>
+        <li>Unlimited searches</li>
+        <li>Full reimbursement rates (all 4 countries)</li>
+        <li>CSV export</li>
+        <li>Dataset updates for 12 months</li>
+      </ul>
+      <a id="buyButton2" href="#" class="btn btn-primary" target="_blank" rel="noopener">Buy now</a>
+      <p class="fineprint">Reference tool only — not a certified grouping engine. Always verify against official tariff publications.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 CasemixCrosswalk · Data compiled from public tariff catalogs (CMS, NHS England, InEK, IHACPA) · Not affiliated with any of these bodies.</p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
