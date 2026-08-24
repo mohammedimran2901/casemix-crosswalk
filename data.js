@@ -9,7 +9,84 @@
 // Sources & download dates: see SOURCES.md
 const SOURCES = {
   us: "CMS FY2026 IPPS Final Rule (CMS-1833-F), Tables 1A/1D & 5",
-  uk: "NHS Payment Scheme 2025/26 Annex A (pay award, 27 Jun 2025)"
+  uk: "NHS Payment Scheme 2025/26 Annex A (pay award, 27 Jun 2025)",
+  ae: "DoH Abu Dhabi IR-DRG relative weights (v2012-Q2 era, DoH-published weight update file)"
+};
+
+// 🇦🇪 UAE: Abu Dhabi Department of Health IR-DRG system.
+// Payment = relative weight × facility-specific negotiated base rate (AED),
+// so DoH publishes WEIGHTS, not prices. Current weights require free Shafafiya
+// registration; the weights below are from the DoH-published weight update
+// file (v2012-Q2 era) — vintage labelled in SOURCES.md.
+const AE = {
+  "Primary hip replacement (elective)": { family: "IR-DRG 81041–81043 (Major Lower Extremity Joint)", tiers: [
+    { code: "81041", tier: "severity 1", weight: 1.984 },
+    { code: "81042", tier: "severity 2 (w/CC)", weight: 2.165 },
+    { code: "81043", tier: "severity 3 (w/MCC)", weight: 3.183 } ] },
+  "Primary knee replacement (elective)": { family: "IR-DRG 81041–81043 (Major Lower Extremity Joint)", tiers: [
+    { code: "81041", tier: "severity 1", weight: 1.984 },
+    { code: "81042", tier: "severity 2 (w/CC)", weight: 2.165 },
+    { code: "81043", tier: "severity 3 (w/MCC)", weight: 3.183 } ] },
+  "Shoulder replacement (elective)": { family: "IR-DRG 81051–81053 (Major Upper Extremity Joint)", tiers: [
+    { code: "81051", tier: "severity 1", weight: 1.693 },
+    { code: "81052", tier: "severity 2 (w/CC)", weight: 1.957 },
+    { code: "81053", tier: "severity 3 (w/MCC)", weight: 3.333 } ] },
+  "Elbow replacement (elective)": { family: "IR-DRG 81051–81053 (Major Upper Extremity Joint)", tiers: [
+    { code: "81051", tier: "severity 1", weight: 1.693 },
+    { code: "81052", tier: "severity 2 (w/CC)", weight: 1.957 },
+    { code: "81053", tier: "severity 3 (w/MCC)", weight: 3.333 } ] },
+  "Knee arthroscopy (e.g. meniscectomy)": { family: "IR-DRG 81701–81703 (Knee & Lower Leg)", tiers: [
+    { code: "81701", tier: "severity 1", weight: 1.107 },
+    { code: "81702", tier: "severity 2 (w/CC)", weight: 1.62 },
+    { code: "81703", tier: "severity 3 (w/MCC)", weight: 3.076 } ] },
+  "ACL / major knee ligament reconstruction": { family: "IR-DRG 81701–81703 (Knee & Lower Leg)", tiers: [
+    { code: "81701", tier: "severity 1", weight: 1.107 },
+    { code: "81702", tier: "severity 2 (w/CC)", weight: 1.62 },
+    { code: "81703", tier: "severity 3 (w/MCC)", weight: 3.076 } ] },
+  "Lumbar spinal fusion, single level (elective)": { family: "IR-DRG 81071–81073 (Spinal Fusion)", tiers: [
+    { code: "81071", tier: "severity 1", weight: 2.339 },
+    { code: "81072", tier: "severity 2 (w/CC)", weight: 3.134 },
+    { code: "81073", tier: "severity 3 (w/MCC)", weight: 6.384 } ] },
+  "Multi-level lumbar spinal fusion": { family: "IR-DRG 81071–81073 (Spinal Fusion)", tiers: [
+    { code: "81071", tier: "severity 1", weight: 2.339 },
+    { code: "81072", tier: "severity 2 (w/CC)", weight: 3.134 },
+    { code: "81073", tier: "severity 3 (w/MCC)", weight: 6.384 } ] },
+  "Cervical spinal fusion (elective)": { family: "IR-DRG 81071–81073 (Spinal Fusion)", tiers: [
+    { code: "81071", tier: "severity 1", weight: 2.339 },
+    { code: "81072", tier: "severity 2 (w/CC)", weight: 3.134 },
+    { code: "81073", tier: "severity 3 (w/MCC)", weight: 6.384 } ] },
+  "Complex spinal deformity correction": { family: "IR-DRG 81061–81063 (Spinal Fusion for Curvature)", tiers: [
+    { code: "81061", tier: "severity 1", weight: 4.427 },
+    { code: "81062", tier: "severity 2 (w/CC)", weight: 5.317 },
+    { code: "81063", tier: "severity 3 (w/MCC)", weight: 7.885 } ] },
+  "Major foot / ankle reconstruction (elective)": { family: "IR-DRG 81301–81303 (Foot Procedures)", tiers: [
+    { code: "81301", tier: "severity 1", weight: 0.969 },
+    { code: "81302", tier: "severity 2 (w/CC)", weight: 1.428 },
+    { code: "81303", tier: "severity 3 (w/MCC)", weight: 2.131 } ] },
+  "Bunion correction / minor foot surgery": { family: "IR-DRG 81301–81303 (Foot Procedures)", tiers: [
+    { code: "81301", tier: "severity 1", weight: 0.969 },
+    { code: "81302", tier: "severity 2 (w/CC)", weight: 1.428 },
+    { code: "81303", tier: "severity 3 (w/MCC)", weight: 2.131 } ] },
+  "Carpal tunnel release / minor hand surgery": { family: "IR-DRG 81801–81803 (Upper Extremity Procedures)", tiers: [
+    { code: "81801", tier: "severity 1", weight: 0.904 },
+    { code: "81802", tier: "severity 2 (w/CC)", weight: 1.369 },
+    { code: "81803", tier: "severity 3 (w/MCC)", weight: 2.622 } ] },
+  "Major hand surgery (e.g. Dupuytren's contracture)": { family: "IR-DRG 81801–81803 (Upper Extremity Procedures)", tiers: [
+    { code: "81801", tier: "severity 1", weight: 0.904 },
+    { code: "81802", tier: "severity 2 (w/CC)", weight: 1.369 },
+    { code: "81803", tier: "severity 3 (w/MCC)", weight: 2.622 } ] },
+  "Shoulder arthroscopy / intermediate shoulder surgery": { family: "IR-DRG 81801–81803 (Upper Extremity Procedures)", tiers: [
+    { code: "81801", tier: "severity 1", weight: 0.904 },
+    { code: "81802", tier: "severity 2 (w/CC)", weight: 1.369 },
+    { code: "81803", tier: "severity 3 (w/MCC)", weight: 2.622 } ] },
+  "Other hip surgery, non-joint (elective)": { family: "IR-DRG 81201–81203 (Hip & Femur Except Major Joint)", tiers: [
+    { code: "81201", tier: "severity 1", weight: 1.362 },
+    { code: "81202", tier: "severity 2 (w/CC)", weight: 1.753 },
+    { code: "81203", tier: "severity 3 (w/MCC)", weight: 3.028 } ] },
+  "Soft tissue / tendon procedures (musculoskeletal)": { family: "IR-DRG 81501–81503 (Soft Tissue Procedures)", tiers: [
+    { code: "81501", tier: "severity 1", weight: 0.846 },
+    { code: "81502", tier: "severity 2 (w/CC)", weight: 1.416 },
+    { code: "81503", tier: "severity 3 (w/MCC)", weight: 3.091 } ] },
 };
 
 const PROCEDURES = [

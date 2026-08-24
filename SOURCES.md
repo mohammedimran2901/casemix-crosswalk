@@ -21,6 +21,15 @@ All prices shown in CasemixCrosswalk are compiled directly from the following of
 - **Complexity tiers:** HRG4+ CC (comorbidity-related) score bands, as published.
 - **Downloaded:** 2026-08-24
 
+## 🇦🇪 United Arab Emirates — IR-DRG (Abu Dhabi)
+- **System:** IR-DRG, mandated by the Department of Health (DoH) Abu Dhabi for all inpatient encounters (also implemented in Dubai). Payment = relative weight × facility-specific negotiated base rate (AED), with outlier rules.
+- **Rules source:** DoH Claims & Adjudication Rules V2025 (PDF, doh.gov.ae Shafafiya section) — confirms IR-DRG mandate and that relative weights are set in the Mandatory Tariff.
+    https://www.doh.gov.ae/-/media/Feature/shafifya/Prices/Adjudication-Rules/DOH-Claims-and-Adjudication-Rules-V2025.ashx
+- **Weights source:** DoH-published DRG weight update file (v2012-Q2 era), `DRG_WeightUpdateMethodology-V2012-Q2.ashx` (Excel, "WeightUpdate" sheet, 789 IR-DRGs with severity 1–3 weights).
+    https://www.doh.gov.ae/-/media/Feature/shafifya/Prices/Adjudication-Rules/DRG_WeightUpdateMethodology-V2012-Q2.ashx
+- **Important vintage note:** the *current* Mandatory Tariff weights require free registration on the Shafafiya portal (https://shafafiyaportal.doh.gov.ae). The weights shown are from the older public publication and may differ from current weights.
+- **Downloaded:** 2026-08-24
+
 ## Procedure-to-HRG/DRG family mapping
 Mappings were made at the procedure-family level (e.g., "primary hip replacement → Very Major Hip Procedures HN12"; "revision hip/knee → HN80/HN81"; "single-level lumbar fusion → HC54"). Exact HRG assignment for an individual patient depends on the OPCS/ICD-10 coding and the NHS grouper; exact MS-DRG assignment depends on the CMS Grouper. Users should verify individual case mappings.
 

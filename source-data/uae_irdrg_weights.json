@@ -1,0 +1,5525 @@
+[
+ {
+  "drg": "146131",
+  "mdc": "Childbirth",
+  "desc": "IM Vaginal Delivery",
+  "severity": 1,
+  "weight": 0.3839000014078841
+ },
+ {
+  "drg": "61131",
+  "mdc": "The Digestive System",
+  "desc": "IP Appendiceal Procedures",
+  "severity": 1,
+  "weight": 0.9047999999999988
+ },
+ {
+  "drg": "61501",
+  "mdc": "The Digestive System",
+  "desc": "IP Anal Procedures",
+  "severity": 1,
+  "weight": 0.6582000000000143
+ },
+ {
+  "drg": "61141",
+  "mdc": "The Digestive System",
+  "desc": "IP Inguinal & Femoral Hernia Procedures",
+  "severity": 1,
+  "weight": 0.7430000000000199
+ },
+ {
+  "drg": "64171",
+  "mdc": "The Digestive System",
+  "desc": "IM Other Gastroenteritis & Abdominal Pain",
+  "severity": 1,
+  "weight": 0.4408000000000142
+ },
+ {
+  "drg": "111401",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Urethral & Transurethral Procedures",
+  "severity": 1,
+  "weight": 0.7403999745330054
+ },
+ {
+  "drg": "146101",
+  "mdc": "Childbirth",
+  "desc": "IP Cesarean Delivery",
+  "severity": 1,
+  "weight": 0.6700999962919326
+ },
+ {
+  "drg": "31201",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Other Ear, Nose, Mouth & Throat Procedures",
+  "severity": 1,
+  "weight": 0.965599999999995
+ },
+ {
+  "drg": "81801",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Upper Extremity Procedures",
+  "severity": 1,
+  "weight": 0.9040999999999877
+ },
+ {
+  "drg": "54201",
+  "mdc": "The Circulatory System",
+  "desc": "IM Angina Pectoris & Chest Pain",
+  "severity": 1,
+  "weight": 0.529899999999998
+ },
+ {
+  "drg": "134161",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Antepartum Disorders",
+  "severity": 1,
+  "weight": 0.29710001384887413
+ },
+ {
+  "drg": "31151",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Tonsil & Adenoid Procedures",
+  "severity": 1,
+  "weight": 0.5471000000000003
+ },
+ {
+  "drg": "81701",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Knee & Lower Leg Procedures Except Foot",
+  "severity": 1,
+  "weight": 1.1074000000000384
+ },
+ {
+  "drg": "51401",
+  "mdc": "The Circulatory System",
+  "desc": "IP Percutaneous Cardiovascular Procedures",
+  "severity": 1,
+  "weight": 2.25
+ },
+ {
+  "drg": "91401",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Other Skin, Subcutaneous Tissue & Breast Procedures",
+  "severity": 1,
+  "weight": 1.246699999999979
+ },
+ {
+  "drg": "44161",
+  "mdc": "Respiratory System",
+  "desc": "IM Simple Pneumonia & Whooping Cough",
+  "severity": 1,
+  "weight": 0.49199999999998145
+ },
+ {
+  "drg": "71141",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Laparoscopic Cholecystectomy",
+  "severity": 1,
+  "weight": 1.0587000000000244
+ },
+ {
+  "drg": "64181",
+  "mdc": "The Digestive System",
+  "desc": "IM Other Digestive System Diagnoses",
+  "severity": 1,
+  "weight": 0.5026000000000048
+ },
+ {
+  "drg": "94121",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Cellulitis",
+  "severity": 1,
+  "weight": 0.4902999999999941
+ },
+ {
+  "drg": "146132",
+  "mdc": "Childbirth",
+  "desc": "IM Vaginal Delivery w/CC",
+  "severity": 2,
+  "weight": 0.42269999386296664
+ },
+ {
+  "drg": "158171",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams Without Major Procedure",
+  "severity": 1,
+  "weight": 0.1149000625398103
+ },
+ {
+  "drg": "131201",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Uterine & Adnexal Procedures",
+  "severity": 1,
+  "weight": 0.8546000297095874
+ },
+ {
+  "drg": "11301",
+  "mdc": "Nervous System",
+  "desc": "IP Spine Procedures",
+  "severity": 1,
+  "weight": 1.1123000000000027
+ },
+ {
+  "drg": "44181",
+  "mdc": "Respiratory System",
+  "desc": "IM Asthma & Bronchiolitis",
+  "severity": 1,
+  "weight": 0.43089999999998513
+ },
+ {
+  "drg": "34131",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Epiglottitis, Otitis Media, Upper Respiratory Tract Infection & Laryngotracheitis",
+  "severity": 1,
+  "weight": 0.34239999999999793
+ },
+ {
+  "drg": "21301",
+  "mdc": "The Eye",
+  "desc": "IP Intraocular & Lens Procedures",
+  "severity": 1,
+  "weight": 0.7983000000000132
+ },
+ {
+  "drg": "121121",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Moderately Complex Prostate & Scrotal Contents Procedures",
+  "severity": 1,
+  "weight": 0.6412999453188168
+ },
+ {
+  "drg": "111201",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Upper Urinary Tract Procedures",
+  "severity": 1,
+  "weight": 1.336899949960293
+ },
+ {
+  "drg": "131111",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Dilation & Curettage, Intrauterine & Cervical Procedures",
+  "severity": 1,
+  "weight": 0.5813000263148693
+ },
+ {
+  "drg": "64111",
+  "mdc": "The Digestive System",
+  "desc": "IM Peptic Ulcer & Gastritis",
+  "severity": 1,
+  "weight": 0.5898000000000108
+ },
+ {
+  "drg": "54161",
+  "mdc": "The Circulatory System",
+  "desc": "IM Atherosclerosis",
+  "severity": 1,
+  "weight": 0.5514999999999985
+ },
+ {
+  "drg": "84121",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Fracture Or Dislocation Except Femur & Pelvis",
+  "severity": 1,
+  "weight": 0.49870000000000275
+ },
+ {
+  "drg": "111403",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Urethral & Transurethral Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.4244994930888897
+ },
+ {
+  "drg": "61121",
+  "mdc": "The Digestive System",
+  "desc": "IP Hernia Procedures Except Inguinal & Femoral",
+  "severity": 1,
+  "weight": 0.9525999999999878
+ },
+ {
+  "drg": "146102",
+  "mdc": "Childbirth",
+  "desc": "IP Cesarean Delivery w/CC",
+  "severity": 2,
+  "weight": 0.7438999994786988
+ },
+ {
+  "drg": "54101",
+  "mdc": "The Circulatory System",
+  "desc": "IM Acute Myocardial Infarction",
+  "severity": 1,
+  "weight": 0.6887000000000025
+ },
+ {
+  "drg": "44151",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory Infections & Inflammations",
+  "severity": 1,
+  "weight": 0.8219000000000038
+ },
+ {
+  "drg": "164131",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Red Blood Cell Disorders Except Sickle Cell Anemia Crisis",
+  "severity": 1,
+  "weight": 0.5328999932867626
+ },
+ {
+  "drg": "81401",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Local Excision & Removal Of Internal Fixation Device",
+  "severity": 1,
+  "weight": 0.8983
+ },
+ {
+  "drg": "134131",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Abortion",
+  "severity": 1,
+  "weight": 0.36939998170616795
+ },
+ {
+  "drg": "81501",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Soft Tissue Procedures",
+  "severity": 1,
+  "weight": 0.8460999999999975
+ },
+ {
+  "drg": "81601",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Other Musculoskeletel System & Connective Tissue Procedures",
+  "severity": 1,
+  "weight": 0.9596000000000118
+ },
+ {
+  "drg": "51171",
+  "mdc": "The Circulatory System",
+  "desc": "IP Vein Ligation & Stripping",
+  "severity": 1,
+  "weight": 0.8094000000000031
+ },
+ {
+  "drg": "31121",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Sinus & Mastoid Procedures",
+  "severity": 1,
+  "weight": 1.0765999999999984
+ },
+ {
+  "drg": "104101",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Diabetes And Nutritional & Misc Metabolic Disorders",
+  "severity": 1,
+  "weight": 0.4815000510158078
+ },
+ {
+  "drg": "184141",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Other Bacterial & Parasitic Diseases",
+  "severity": 1,
+  "weight": 0.5280999163909591
+ },
+ {
+  "drg": "44211",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory System Signs, Symptoms & Other Diagnoses",
+  "severity": 1,
+  "weight": 0.4841999999999907
+ },
+ {
+  "drg": "111402",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Urethral & Transurethral Procedures w/CC",
+  "severity": 2,
+  "weight": 1.050199990919703
+ },
+ {
+  "drg": "134162",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Antepartum Disorders w/CC",
+  "severity": 2,
+  "weight": 0.42569999346846704
+ },
+ {
+  "drg": "51402",
+  "mdc": "The Circulatory System",
+  "desc": "IP Percutaneous Cardiovascular Procedures w/CC",
+  "severity": 2,
+  "weight": 2.4184000000000125
+ },
+ {
+  "drg": "21201",
+  "mdc": "The Eye",
+  "desc": "IP Orbital & Extraocular Procedures",
+  "severity": 1,
+  "weight": 1.0726999999999998
+ },
+ {
+  "drg": "94131",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Trauma To The Skin, Subcutaneous Tissue & Breast",
+  "severity": 1,
+  "weight": 0.6136000000000021
+ },
+ {
+  "drg": "54191",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiac Arrhythmia & Conduction Disorders",
+  "severity": 1,
+  "weight": 0.5336000000000052
+ },
+ {
+  "drg": "14221",
+  "mdc": "Nervous System",
+  "desc": "IM Seizure",
+  "severity": 1,
+  "weight": 0.6091999999999911
+ },
+ {
+  "drg": "84211",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Other Musculoskeletal System & Connective Tissue Diagnoses",
+  "severity": 1,
+  "weight": 0.5569999999999955
+ },
+ {
+  "drg": "101201",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IP Thyroid, Parathyroid & Thyroglossal Duct Procedures",
+  "severity": 1,
+  "weight": 0.821699875201557
+ },
+ {
+  "drg": "91501",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Breast Procedures",
+  "severity": 1,
+  "weight": 1.009200000000007
+ },
+ {
+  "drg": "54241",
+  "mdc": "The Circulatory System",
+  "desc": "IM Other Circulatory System Diagnoses",
+  "severity": 1,
+  "weight": 0.5745000000000003
+ },
+ {
+  "drg": "131301",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Vagina, Cervix & Vulva Procedures",
+  "severity": 1,
+  "weight": 0.7060999958746881
+ },
+ {
+  "drg": "54162",
+  "mdc": "The Circulatory System",
+  "desc": "IM Atherosclerosis w/CC",
+  "severity": 2,
+  "weight": 0.6306999999999969
+ },
+ {
+  "drg": "64172",
+  "mdc": "The Digestive System",
+  "desc": "IM Other Gastroenteritis & Abdominal Pain w/CC",
+  "severity": 2,
+  "weight": 0.6262000000000001
+ },
+ {
+  "drg": "134141",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Threatened Abortion",
+  "severity": 1,
+  "weight": 0.3479000566492968
+ },
+ {
+  "drg": "54171",
+  "mdc": "The Circulatory System",
+  "desc": "IM Hypertension",
+  "severity": 1,
+  "weight": 0.5560000000000013
+ },
+ {
+  "drg": "44163",
+  "mdc": "Respiratory System",
+  "desc": "IM Simple Pneumonia & Whooping Cough w/MCC",
+  "severity": 3,
+  "weight": 1.3901000000000046
+ },
+ {
+  "drg": "44162",
+  "mdc": "Respiratory System",
+  "desc": "IM Simple Pneumonia & Whooping Cough w/CC",
+  "severity": 2,
+  "weight": 0.8467000000000138
+ },
+ {
+  "drg": "51151",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Catheterization",
+  "severity": 1,
+  "weight": 1.1211999999999913
+ },
+ {
+  "drg": "146103",
+  "mdc": "Childbirth",
+  "desc": "IP Cesarean Delivery w/MCC",
+  "severity": 3,
+  "weight": 0.9803999664629528
+ },
+ {
+  "drg": "114131",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Urinary Stones",
+  "severity": 1,
+  "weight": 0.4438999131557283
+ },
+ {
+  "drg": "54123",
+  "mdc": "The Circulatory System",
+  "desc": "IM Heart Failure w/MCC",
+  "severity": 3,
+  "weight": 1.3999000000000017
+ },
+ {
+  "drg": "54202",
+  "mdc": "The Circulatory System",
+  "desc": "IM Angina Pectoris & Chest Pain w/CC",
+  "severity": 2,
+  "weight": 0.6105000000000017
+ },
+ {
+  "drg": "146133",
+  "mdc": "Childbirth",
+  "desc": "IM Vaginal Delivery w/MCC",
+  "severity": 3,
+  "weight": 0.5852000545465433
+ },
+ {
+  "drg": "64182",
+  "mdc": "The Digestive System",
+  "desc": "IM Other Digestive System Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.7862000000000046
+ },
+ {
+  "drg": "34151",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Other Ear, Nose, Mouth & Throat Diagnoses",
+  "severity": 1,
+  "weight": 0.5041999999999979
+ },
+ {
+  "drg": "184121",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Fever",
+  "severity": 1,
+  "weight": 0.41520002266881584
+ },
+ {
+  "drg": "114121",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Kidney & Urinary Tract Infections",
+  "severity": 1,
+  "weight": 0.48859996903073616
+ },
+ {
+  "drg": "44183",
+  "mdc": "Respiratory System",
+  "desc": "IM Asthma & Bronchiolitis w/MCC",
+  "severity": 3,
+  "weight": 0.6911000000000047
+ },
+ {
+  "drg": "84171",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Medical Back Problems",
+  "severity": 1,
+  "weight": 0.5817000000000043
+ },
+ {
+  "drg": "174132",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Chemotherapy w/CC",
+  "severity": 2,
+  "weight": 1.328500096544397
+ },
+ {
+  "drg": "94122",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Cellulitis w/CC",
+  "severity": 2,
+  "weight": 0.7704999999999986
+ },
+ {
+  "drg": "14241",
+  "mdc": "Nervous System",
+  "desc": "IM Head Trauma",
+  "severity": 1,
+  "weight": 0.711399999999998
+ },
+ {
+  "drg": "14261",
+  "mdc": "Nervous System",
+  "desc": "IM Other Nervous System Disorders",
+  "severity": 1,
+  "weight": 0.7430999999999985
+ },
+ {
+  "drg": "14142",
+  "mdc": "Nervous System",
+  "desc": "IM Cerebrovascular ACCident With Infarct w/CC",
+  "severity": 2,
+  "weight": 1.165799999999995
+ },
+ {
+  "drg": "74121",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Pancreas Disorders Except Malignancy",
+  "severity": 1,
+  "weight": 0.675700000000003
+ },
+ {
+  "drg": "91301",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Skin Graft Without Burns",
+  "severity": 1,
+  "weight": 1.3803000000000027
+ },
+ {
+  "drg": "74141",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Other Biliary Tract Disorders",
+  "severity": 1,
+  "weight": 0.6246999999999967
+ },
+ {
+  "drg": "64173",
+  "mdc": "The Digestive System",
+  "desc": "IM Other Gastroenteritis & Abdominal Pain w/MCC",
+  "severity": 3,
+  "weight": 0.9302999999999988
+ },
+ {
+  "drg": "54122",
+  "mdc": "The Circulatory System",
+  "desc": "IM Heart Failure w/CC",
+  "severity": 2,
+  "weight": 0.8711999999999919
+ },
+ {
+  "drg": "121131",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Non-Complex Prostate & Scrotal Contents Procedures",
+  "severity": 1,
+  "weight": 0.798900059982578
+ },
+ {
+  "drg": "134121",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Menstrual & Other Female Reproductive System Disorders",
+  "severity": 1,
+  "weight": 0.5048000126753492
+ },
+ {
+  "drg": "104102",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Diabetes And Nutritional & Misc Metabolic Disorders w/CC",
+  "severity": 2,
+  "weight": 0.7137999603182758
+ },
+ {
+  "drg": "51403",
+  "mdc": "The Circulatory System",
+  "desc": "IP Percutaneous Cardiovascular Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.336800000000002
+ },
+ {
+  "drg": "54163",
+  "mdc": "The Circulatory System",
+  "desc": "IM Atherosclerosis w/MCC",
+  "severity": 3,
+  "weight": 0.9776999999999992
+ },
+ {
+  "drg": "81071",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Spinal Fusion Procedures Except For Curvature Of The Spine",
+  "severity": 1,
+  "weight": 2.339200000000004
+ },
+ {
+  "drg": "111203",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Upper Urinary Tract Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.479801011077778
+ },
+ {
+  "drg": "44212",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory System Signs, Symptoms & Other Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.6904999999999918
+ },
+ {
+  "drg": "51152",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Catheterization w/CC",
+  "severity": 2,
+  "weight": 1.4058999999999968
+ },
+ {
+  "drg": "54103",
+  "mdc": "The Circulatory System",
+  "desc": "IM Acute Myocardial Infarction w/MCC",
+  "severity": 3,
+  "weight": 1.5687999999999993
+ },
+ {
+  "drg": "81201",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Hip & Femur Procedures Except Major Joint",
+  "severity": 1,
+  "weight": 1.3620999999999988
+ },
+ {
+  "drg": "74131",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Liver Disorders Except Malignancy, Cirrhosis Or Alcoholic Hepatitis",
+  "severity": 1,
+  "weight": 0.6317999999999985
+ },
+ {
+  "drg": "214121",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Poisoning & Toxic Effects Of Drugs",
+  "severity": 1,
+  "weight": 0.3913999943876906
+ },
+ {
+  "drg": "114133",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Urinary Stones w/MCC",
+  "severity": 3,
+  "weight": 1.1208990473000002
+ },
+ {
+  "drg": "61201",
+  "mdc": "The Digestive System",
+  "desc": "IP Complex Intestinal Procedures",
+  "severity": 1,
+  "weight": 1.6458000000000064
+ },
+ {
+  "drg": "41203",
+  "mdc": "Respiratory System",
+  "desc": "IP Non-Complex Respiratory System Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.4627000000000017
+ },
+ {
+  "drg": "61132",
+  "mdc": "The Digestive System",
+  "desc": "IP Appendiceal Procedures w/CC",
+  "severity": 2,
+  "weight": 1.0030999999999484
+ },
+ {
+  "drg": "21302",
+  "mdc": "The Eye",
+  "desc": "IP Intraocular & Lens Procedures w/CC",
+  "severity": 2,
+  "weight": 0.9114999999999999
+ },
+ {
+  "drg": "34132",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Epiglottitis, Otitis Media, Upper Respiratory Tract Infection & Laryngotracheitis w/CC",
+  "severity": 2,
+  "weight": 0.5104000000000031
+ },
+ {
+  "drg": "54121",
+  "mdc": "The Circulatory System",
+  "desc": "IM Heart Failure",
+  "severity": 1,
+  "weight": 0.6285000000000018
+ },
+ {
+  "drg": "104111",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Hypovolemia & Electrolyte Disorders",
+  "severity": 1,
+  "weight": 0.326599935740043
+ },
+ {
+  "drg": "44213",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory System Signs, Symptoms & Other Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.058600000000001
+ },
+ {
+  "drg": "134151",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM False Labor",
+  "severity": 1,
+  "weight": 0.21639993222375573
+ },
+ {
+  "drg": "111202",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Upper Urinary Tract Procedures w/CC",
+  "severity": 2,
+  "weight": 1.704900093931823
+ },
+ {
+  "drg": "94141",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Other Skin & Breast Disorders",
+  "severity": 1,
+  "weight": 0.41009999999999996
+ },
+ {
+  "drg": "64112",
+  "mdc": "The Digestive System",
+  "desc": "IM Peptic Ulcer & Gastritis w/CC",
+  "severity": 2,
+  "weight": 0.8668000000000071
+ },
+ {
+  "drg": "184131",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Non-Bacterial Infections",
+  "severity": 1,
+  "weight": 0.40970001088172836
+ },
+ {
+  "drg": "161201",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IP Other Procedures Of Blood & Blood Forming Organs",
+  "severity": 1,
+  "weight": 1.0380998370570407
+ },
+ {
+  "drg": "81041",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Major Lower Extremity Joint & Limb Reattachment Procedures",
+  "severity": 1,
+  "weight": 1.9843000000000057
+ },
+ {
+  "drg": "51153",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Catheterization w/MCC",
+  "severity": 3,
+  "weight": 2.4008000000000003
+ },
+ {
+  "drg": "134171",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Postpartum Disorders",
+  "severity": 1,
+  "weight": 0.36210002953040077
+ },
+ {
+  "drg": "164132",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Red Blood Cell Disorders Except Sickle Cell Anemia Crisis w/CC",
+  "severity": 2,
+  "weight": 0.7526001039848305
+ },
+ {
+  "drg": "164111",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Coagulation Disorders",
+  "severity": 1,
+  "weight": 0.8423001354599972
+ },
+ {
+  "drg": "81301",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Foot Procedures",
+  "severity": 1,
+  "weight": 0.9693000000000016
+ },
+ {
+  "drg": "14141",
+  "mdc": "Nervous System",
+  "desc": "IM Cerebrovascular ACCident With Infarct",
+  "severity": 1,
+  "weight": 0.9103000000000033
+ },
+ {
+  "drg": "61502",
+  "mdc": "The Digestive System",
+  "desc": "IP Anal Procedures w/CC",
+  "severity": 2,
+  "weight": 1.0407000000000008
+ },
+ {
+  "drg": "114122",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Kidney & Urinary Tract Infections w/CC",
+  "severity": 2,
+  "weight": 0.686699982960322
+ },
+ {
+  "drg": "124111",
+  "mdc": "The Male Reproductive System",
+  "desc": "IM Male Reproductive System Diagnoses Except Malignancy",
+  "severity": 1,
+  "weight": 0.45319985367105226
+ },
+ {
+  "drg": "64183",
+  "mdc": "The Digestive System",
+  "desc": "IM Other Digestive System Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.3817999999999986
+ },
+ {
+  "drg": "184103",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Septicemia w/MCC",
+  "severity": 3,
+  "weight": 1.8293000679628335
+ },
+ {
+  "drg": "224121",
+  "mdc": "Factors Influencing Health Status & Other Contacts With Health Services",
+  "desc": "IM Other Factors Influencing Health Status",
+  "severity": 1,
+  "weight": 0.26490005095479174
+ },
+ {
+  "drg": "184143",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Other Bacterial & Parasitic Diseases w/MCC",
+  "severity": 3,
+  "weight": 1.9674000371754705
+ },
+ {
+  "drg": "54203",
+  "mdc": "The Circulatory System",
+  "desc": "IM Angina Pectoris & Chest Pain w/MCC",
+  "severity": 3,
+  "weight": 0.8102000000000006
+ },
+ {
+  "drg": "54172",
+  "mdc": "The Circulatory System",
+  "desc": "IM Hypertension w/CC",
+  "severity": 2,
+  "weight": 0.6848999999999992
+ },
+ {
+  "drg": "34141",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Dental & Oral Disease",
+  "severity": 1,
+  "weight": 0.5418999999999985
+ },
+ {
+  "drg": "64151",
+  "mdc": "The Digestive System",
+  "desc": "IM Gastrointestinal Obstruction",
+  "severity": 1,
+  "weight": 0.5464999999999999
+ },
+ {
+  "drg": "54173",
+  "mdc": "The Circulatory System",
+  "desc": "IM Hypertension w/MCC",
+  "severity": 3,
+  "weight": 1.0683999999999982
+ },
+ {
+  "drg": "104103",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Diabetes And Nutritional & Misc Metabolic Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.2511001461260853
+ },
+ {
+  "drg": "24121",
+  "mdc": "The Eye",
+  "desc": "IM Other Eye Disorders",
+  "severity": 1,
+  "weight": 0.5353999999999989
+ },
+ {
+  "drg": "174131",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Chemotherapy",
+  "severity": 1,
+  "weight": 1.016799986203408
+ },
+ {
+  "drg": "114161",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Other Kidney & Urinary Tract Diagnoses",
+  "severity": 1,
+  "weight": 0.5745000028048652
+ },
+ {
+  "drg": "64121",
+  "mdc": "The Digestive System",
+  "desc": "IM Esophageal Disorders",
+  "severity": 1,
+  "weight": 0.5109999999999993
+ },
+ {
+  "drg": "174133",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Chemotherapy w/MCC",
+  "severity": 3,
+  "weight": 2.270100177349742
+ },
+ {
+  "drg": "61401",
+  "mdc": "The Digestive System",
+  "desc": "IP Other Digestive System Procedures",
+  "severity": 1,
+  "weight": 1.0542999999999996
+ },
+ {
+  "drg": "34111",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Dysequilibrium",
+  "severity": 1,
+  "weight": 0.5464999999999994
+ },
+ {
+  "drg": "114103",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Kidney & Urinary Tract Malignancy & Renal Failure w/MCC",
+  "severity": 3,
+  "weight": 1.7690994115957728
+ },
+ {
+  "drg": "44201",
+  "mdc": "Respiratory System",
+  "desc": "IM Pneumothorax & Pleural Effusion",
+  "severity": 1,
+  "weight": 0.5925000000000007
+ },
+ {
+  "drg": "44173",
+  "mdc": "Respiratory System",
+  "desc": "IM Chronic Obstructive Pulmonary Disease w/MCC",
+  "severity": 3,
+  "weight": 1.2391999999999979
+ },
+ {
+  "drg": "111301",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Bladder & Lower Urinary Tract Procedures",
+  "severity": 1,
+  "weight": 0.7925000430939658
+ },
+ {
+  "drg": "54192",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiac Arrhythmia & Conduction Disorders w/CC",
+  "severity": 2,
+  "weight": 0.7290000000000018
+ },
+ {
+  "drg": "114162",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Other Kidney & Urinary Tract Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.8617000406301526
+ },
+ {
+  "drg": "81602",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Other Musculoskeletel System & Connective Tissue Procedures w/CC",
+  "severity": 2,
+  "weight": 1.644299999999995
+ },
+ {
+  "drg": "54102",
+  "mdc": "The Circulatory System",
+  "desc": "IM Acute Myocardial Infarction w/CC",
+  "severity": 2,
+  "weight": 0.9706000000000018
+ },
+ {
+  "drg": "114163",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Other Kidney & Urinary Tract Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.4786996083305577
+ },
+ {
+  "drg": "54151",
+  "mdc": "The Circulatory System",
+  "desc": "IM Peripheral & Other Vascular Disorders",
+  "severity": 1,
+  "weight": 0.5534999999999998
+ },
+ {
+  "drg": "214162",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Burns w/CC",
+  "severity": 2,
+  "weight": 0.6549002739915879
+ },
+ {
+  "drg": "91403",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Other Skin, Subcutaneous Tissue & Breast Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.411
+ },
+ {
+  "drg": "114132",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Urinary Stones w/CC",
+  "severity": 2,
+  "weight": 0.6379997908221128
+ },
+ {
+  "drg": "54183",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiac Congenital & Valvular Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.2879999999999991
+ },
+ {
+  "drg": "54193",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiac Arrhythmia & Conduction Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.1912999999999991
+ },
+ {
+  "drg": "61203",
+  "mdc": "The Digestive System",
+  "desc": "IP Complex Intestinal Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.906599999999998
+ },
+ {
+  "drg": "11302",
+  "mdc": "Nervous System",
+  "desc": "IP Spine Procedures w/CC",
+  "severity": 2,
+  "weight": 1.4809000000000014
+ },
+ {
+  "drg": "34133",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Epiglottitis, Otitis Media, Upper Respiratory Tract Infection & Laryngotracheitis w/MCC",
+  "severity": 3,
+  "weight": 0.7576999999999999
+ },
+ {
+  "drg": "131202",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Uterine & Adnexal Procedures w/CC",
+  "severity": 2,
+  "weight": 1.032200059848415
+ },
+ {
+  "drg": "54243",
+  "mdc": "The Circulatory System",
+  "desc": "IM Other Circulatory System Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.2721999999999996
+ },
+ {
+  "drg": "11201",
+  "mdc": "Nervous System",
+  "desc": "IP Cranial & Peripheral Nerve Procedures",
+  "severity": 1,
+  "weight": 1.3011000000000013
+ },
+ {
+  "drg": "64131",
+  "mdc": "The Digestive System",
+  "desc": "IM Diverticulitis, Diverticulosis & Inflammatory Bowel Disease",
+  "severity": 1,
+  "weight": 0.6778000000000013
+ },
+ {
+  "drg": "134163",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Antepartum Disorders w/MCC",
+  "severity": 3,
+  "weight": 0.5987001970947988
+ },
+ {
+  "drg": "44171",
+  "mdc": "Respiratory System",
+  "desc": "IM Chronic Obstructive Pulmonary Disease",
+  "severity": 1,
+  "weight": 0.6328000000000021
+ },
+ {
+  "drg": "71143",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Laparoscopic Cholecystectomy w/MCC",
+  "severity": 3,
+  "weight": 2.3226000000000004
+ },
+ {
+  "drg": "164141",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Other Blood & Blood Forming Organs Disorders",
+  "severity": 1,
+  "weight": 0.6165997169360551
+ },
+ {
+  "drg": "34121",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Epistaxis",
+  "severity": 1,
+  "weight": 0.4547999999999997
+ },
+ {
+  "drg": "14161",
+  "mdc": "Nervous System",
+  "desc": "IM Transient Ischemia",
+  "severity": 1,
+  "weight": 0.6801999999999995
+ },
+ {
+  "drg": "64113",
+  "mdc": "The Digestive System",
+  "desc": "IM Peptic Ulcer & Gastritis w/MCC",
+  "severity": 3,
+  "weight": 1.4175000000000006
+ },
+ {
+  "drg": "44153",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory Infections & Inflammations w/MCC",
+  "severity": 3,
+  "weight": 2.039800000000009
+ },
+ {
+  "drg": "104113",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Hypovolemia & Electrolyte Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.0188000029114277
+ },
+ {
+  "drg": "121141",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Transurethral Prostatectomy",
+  "severity": 1,
+  "weight": 0.6624003153969383
+ },
+ {
+  "drg": "44182",
+  "mdc": "Respiratory System",
+  "desc": "IM Asthma & Bronchiolitis w/CC",
+  "severity": 2,
+  "weight": 0.6630999999999916
+ },
+ {
+  "drg": "41301",
+  "mdc": "Respiratory System",
+  "desc": "IP Moderately Complex Respiratory System Procedures",
+  "severity": 1,
+  "weight": 1.4467000000000034
+ },
+ {
+  "drg": "114102",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Kidney & Urinary Tract Malignancy & Renal Failure w/CC",
+  "severity": 2,
+  "weight": 1.0173001166334943
+ },
+ {
+  "drg": "61403",
+  "mdc": "The Digestive System",
+  "desc": "IP Other Digestive System Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.2527999999999975
+ },
+ {
+  "drg": "71142",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Laparoscopic Cholecystectomy w/CC",
+  "severity": 2,
+  "weight": 1.4847000000000015
+ },
+ {
+  "drg": "14251",
+  "mdc": "Nervous System",
+  "desc": "IM Concussion",
+  "severity": 1,
+  "weight": 0.7687000000000007
+ },
+ {
+  "drg": "74132",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Liver Disorders Except Malignancy, Cirrhosis Or Alcoholic Hepatitis w/CC",
+  "severity": 2,
+  "weight": 0.9245999999999988
+ },
+ {
+  "drg": "54242",
+  "mdc": "The Circulatory System",
+  "desc": "IM Other Circulatory System Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.7894000000000004
+ },
+ {
+  "drg": "14143",
+  "mdc": "Nervous System",
+  "desc": "IM Cerebrovascular ACCident With Infarct w/MCC",
+  "severity": 3,
+  "weight": 1.874399999999998
+ },
+ {
+  "drg": "74143",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Other Biliary Tract Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.4581000000000013
+ },
+ {
+  "drg": "54211",
+  "mdc": "The Circulatory System",
+  "desc": "IM Syncope & Collapse",
+  "severity": 1,
+  "weight": 0.5936999999999989
+ },
+ {
+  "drg": "84201",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Musculoskeletal Signs, Symptoms, Sprains & Minor Inflammations",
+  "severity": 1,
+  "weight": 0.488999999999999
+ },
+ {
+  "drg": "51071",
+  "mdc": "The Circulatory System",
+  "desc": "IP Coronary Bypass Without Cardiac Catheterization",
+  "severity": 1,
+  "weight": 3.2199999999999993
+ },
+ {
+  "drg": "104112",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Hypovolemia & Electrolyte Disorders w/CC",
+  "severity": 2,
+  "weight": 0.6178000382871356
+ },
+ {
+  "drg": "184142",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Other Bacterial & Parasitic Diseases w/CC",
+  "severity": 2,
+  "weight": 0.9957001077790317
+ },
+ {
+  "drg": "54153",
+  "mdc": "The Circulatory System",
+  "desc": "IM Peripheral & Other Vascular Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.3388000000000004
+ },
+ {
+  "drg": "214163",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Burns w/MCC",
+  "severity": 3,
+  "weight": 1.169499740843529
+ },
+ {
+  "drg": "51201",
+  "mdc": "The Circulatory System",
+  "desc": "IP Other Circulatory System Procedures",
+  "severity": 1,
+  "weight": 1.705399999999998
+ },
+ {
+  "drg": "74142",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Other Biliary Tract Disorders w/CC",
+  "severity": 2,
+  "weight": 0.9449000000000007
+ },
+ {
+  "drg": "44152",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory Infections & Inflammations w/CC",
+  "severity": 2,
+  "weight": 1.1999000000000066
+ },
+ {
+  "drg": "14243",
+  "mdc": "Nervous System",
+  "desc": "IM Head Trauma w/MCC",
+  "severity": 3,
+  "weight": 1.9956999999999998
+ },
+ {
+  "drg": "91402",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Other Skin, Subcutaneous Tissue & Breast Procedures w/CC",
+  "severity": 2,
+  "weight": 1.815600000000002
+ },
+ {
+  "drg": "14262",
+  "mdc": "Nervous System",
+  "desc": "IM Other Nervous System Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8417000000000019
+ },
+ {
+  "drg": "114101",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Kidney & Urinary Tract Malignancy & Renal Failure",
+  "severity": 1,
+  "weight": 0.613499983520214
+ },
+ {
+  "drg": "14223",
+  "mdc": "Nervous System",
+  "desc": "IM Seizure w/MCC",
+  "severity": 3,
+  "weight": 1.1773000000000013
+ },
+ {
+  "drg": "214131",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Complications Of Treatment",
+  "severity": 1,
+  "weight": 0.4788004023594592
+ },
+ {
+  "drg": "114123",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Kidney & Urinary Tract Infections w/MCC",
+  "severity": 3,
+  "weight": 1.0792999604972224
+ },
+ {
+  "drg": "11131",
+  "mdc": "Nervous System",
+  "desc": "IP Carpal Tunnel Release",
+  "severity": 1,
+  "weight": 0.7437999999999981
+ },
+ {
+  "drg": "14222",
+  "mdc": "Nervous System",
+  "desc": "IM Seizure w/CC",
+  "severity": 2,
+  "weight": 0.7817000000000006
+ },
+ {
+  "drg": "54182",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiac Congenital & Valvular Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8098999999999992
+ },
+ {
+  "drg": "114111",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Nephritis",
+  "severity": 1,
+  "weight": 0.5354001512304354
+ },
+ {
+  "drg": "91302",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Skin Graft Without Burns w/CC",
+  "severity": 2,
+  "weight": 2.4924000000000026
+ },
+ {
+  "drg": "74133",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Liver Disorders Except Malignancy, Cirrhosis Or Alcoholic Hepatitis w/MCC",
+  "severity": 3,
+  "weight": 1.5304
+ },
+ {
+  "drg": "61111",
+  "mdc": "The Digestive System",
+  "desc": "IP Peritoneal Adhesiolysis",
+  "severity": 1,
+  "weight": 0.9702000000000011
+ },
+ {
+  "drg": "24101",
+  "mdc": "The Eye",
+  "desc": "IM Acute Major Eye Infections",
+  "severity": 1,
+  "weight": 0.44170000000000054
+ },
+ {
+  "drg": "184122",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Fever w/CC",
+  "severity": 2,
+  "weight": 0.694799688545891
+ },
+ {
+  "drg": "134122",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Menstrual & Other Female Reproductive System Disorders w/CC",
+  "severity": 2,
+  "weight": 0.5769003214672417
+ },
+ {
+  "drg": "164133",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Red Blood Cell Disorders Except Sickle Cell Anemia Crisis w/MCC",
+  "severity": 3,
+  "weight": 1.2737002263257153
+ },
+ {
+  "drg": "74122",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Pancreas Disorders Except Malignancy w/CC",
+  "severity": 2,
+  "weight": 0.9579999999999987
+ },
+ {
+  "drg": "61133",
+  "mdc": "The Digestive System",
+  "desc": "IP Appendiceal Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.4332999999999985
+ },
+ {
+  "drg": "81702",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Knee & Lower Leg Procedures Except Foot w/CC",
+  "severity": 2,
+  "weight": 1.6204999999999978
+ },
+ {
+  "drg": "158083",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt >2499 Grams With Respiratory Distress Syndrome w/MCC",
+  "severity": 3,
+  "weight": 3.9573999950635654
+ },
+ {
+  "drg": "104121",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Inborn Errors Of Metabolism",
+  "severity": 1,
+  "weight": 0.4941999763406069
+ },
+ {
+  "drg": "184111",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Post-Operative & Post-Traumatic Infections",
+  "severity": 1,
+  "weight": 0.6152006737523817
+ },
+ {
+  "drg": "84181",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Other Bone & Joint Diseases",
+  "severity": 1,
+  "weight": 0.6107000000000009
+ },
+ {
+  "drg": "164121",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Sickle Cell Anemia Crisis",
+  "severity": 1,
+  "weight": 0.7657998229775032
+ },
+ {
+  "drg": "81802",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Upper Extremity Procedures w/CC",
+  "severity": 2,
+  "weight": 1.3694999999999973
+ },
+ {
+  "drg": "14133",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Traumatic Intracranial Hemorrhage w/MCC",
+  "severity": 3,
+  "weight": 2.139799999999998
+ },
+ {
+  "drg": "214161",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Burns",
+  "severity": 1,
+  "weight": 0.37640023306744214
+ },
+ {
+  "drg": "64102",
+  "mdc": "The Digestive System",
+  "desc": "IM Digestive Malignancy w/CC",
+  "severity": 2,
+  "weight": 1.1182000000000014
+ },
+ {
+  "drg": "84161",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Connective Tissue Disorders",
+  "severity": 1,
+  "weight": 0.7125999999999988
+ },
+ {
+  "drg": "131112",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Dilation & Curettage, Intrauterine & Cervical Procedures w/CC",
+  "severity": 2,
+  "weight": 0.798299796266955
+ },
+ {
+  "drg": "44172",
+  "mdc": "Respiratory System",
+  "desc": "IM Chronic Obstructive Pulmonary Disease w/CC",
+  "severity": 2,
+  "weight": 0.8560999999999986
+ },
+ {
+  "drg": "31301",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Mouth Procedures",
+  "severity": 1,
+  "weight": 0.8449000000000002
+ },
+ {
+  "drg": "104131",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Other Endocrine Disorders",
+  "severity": 1,
+  "weight": 0.5174003954619054
+ },
+ {
+  "drg": "134132",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Abortion w/CC",
+  "severity": 2,
+  "weight": 0.426300228155769
+ },
+ {
+  "drg": "14132",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Traumatic Intracranial Hemorrhage w/CC",
+  "severity": 2,
+  "weight": 1.3233000000000017
+ },
+ {
+  "drg": "81402",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Local Excision & Removal Of Internal Fixation Device w/CC",
+  "severity": 2,
+  "weight": 1.478499999999998
+ },
+ {
+  "drg": "84212",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Other Musculoskeletal System & Connective Tissue Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.7998999999999995
+ },
+ {
+  "drg": "84172",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Medical Back Problems w/CC",
+  "severity": 2,
+  "weight": 0.8110999999999997
+ },
+ {
+  "drg": "224122",
+  "mdc": "Factors Influencing Health Status & Other Contacts With Health Services",
+  "desc": "IM Other Factors Influencing Health Status w/CC",
+  "severity": 2,
+  "weight": 0.7960999143731322
+ },
+ {
+  "drg": "54223",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiomyopathy w/MCC",
+  "severity": 3,
+  "weight": 1.2372000000000005
+ },
+ {
+  "drg": "104132",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Other Endocrine Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8884995729170728
+ },
+ {
+  "drg": "24122",
+  "mdc": "The Eye",
+  "desc": "IM Other Eye Disorders w/CC",
+  "severity": 2,
+  "weight": 0.7252000000000003
+ },
+ {
+  "drg": "51203",
+  "mdc": "The Circulatory System",
+  "desc": "IP Other Circulatory System Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.188000000000001
+ },
+ {
+  "drg": "84122",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Fracture Or Dislocation Except Femur & Pelvis w/CC",
+  "severity": 2,
+  "weight": 0.7102000000000003
+ },
+ {
+  "drg": "84173",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Medical Back Problems w/MCC",
+  "severity": 3,
+  "weight": 1.3477000000000001
+ },
+ {
+  "drg": "41202",
+  "mdc": "Respiratory System",
+  "desc": "IP Non-Complex Respiratory System Procedures w/CC",
+  "severity": 2,
+  "weight": 1.645799999999999
+ },
+ {
+  "drg": "31152",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Tonsil & Adenoid Procedures w/CC",
+  "severity": 2,
+  "weight": 0.7703999999999996
+ },
+ {
+  "drg": "184123",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Fever w/MCC",
+  "severity": 3,
+  "weight": 1.005000141265882
+ },
+ {
+  "drg": "84123",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Fracture Or Dislocation Except Femur & Pelvis w/MCC",
+  "severity": 3,
+  "weight": 1.1986
+ },
+ {
+  "drg": "174103",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Acute Leukemia w/MCC",
+  "severity": 3,
+  "weight": 5.8959007020775545
+ },
+ {
+  "drg": "11101",
+  "mdc": "Nervous System",
+  "desc": "IP Craniotomy",
+  "severity": 1,
+  "weight": 2.3231
+ },
+ {
+  "drg": "54181",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiac Congenital & Valvular Disorders",
+  "severity": 1,
+  "weight": 0.5754999999999997
+ },
+ {
+  "drg": "91202",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Skin Graft With Burns w/CC",
+  "severity": 2,
+  "weight": 2.5173000000000014
+ },
+ {
+  "drg": "31131",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Salivary Gland Procedures",
+  "severity": 1,
+  "weight": 0.8699999999999997
+ },
+ {
+  "drg": "14162",
+  "mdc": "Nervous System",
+  "desc": "IM Transient Ischemia w/CC",
+  "severity": 2,
+  "weight": 0.7871000000000001
+ },
+ {
+  "drg": "74123",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Pancreas Disorders Except Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.8207000000000004
+ },
+ {
+  "drg": "44203",
+  "mdc": "Respiratory System",
+  "desc": "IM Pneumothorax & Pleural Effusion w/MCC",
+  "severity": 3,
+  "weight": 1.5656000000000012
+ },
+ {
+  "drg": "84111",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Fracture Of Pelvis Or Dislocation Of Hip",
+  "severity": 1,
+  "weight": 0.5335
+ },
+ {
+  "drg": "94123",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Cellulitis w/MCC",
+  "severity": 3,
+  "weight": 1.2479000000000007
+ },
+ {
+  "drg": "174111",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Lymphoma & Non-Acute Leukemia",
+  "severity": 1,
+  "weight": 1.0221997435296597
+ },
+ {
+  "drg": "134142",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Threatened Abortion w/CC",
+  "severity": 2,
+  "weight": 0.45370019740045114
+ },
+ {
+  "drg": "14151",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Specific Cva & Pre-Cerebral OCClusion Without Infarct",
+  "severity": 1,
+  "weight": 0.772599999999999
+ },
+ {
+  "drg": "61202",
+  "mdc": "The Digestive System",
+  "desc": "IP Complex Intestinal Procedures w/CC",
+  "severity": 2,
+  "weight": 2.281599999999998
+ },
+ {
+  "drg": "54152",
+  "mdc": "The Circulatory System",
+  "desc": "IM Peripheral & Other Vascular Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8346999999999987
+ },
+ {
+  "drg": "81603",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Other Musculoskeletel System & Connective Tissue Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.3434999999999993
+ },
+ {
+  "drg": "224123",
+  "mdc": "Factors Influencing Health Status & Other Contacts With Health Services",
+  "desc": "IM Other Factors Influencing Health Status w/MCC",
+  "severity": 3,
+  "weight": 1.5859004468086018
+ },
+ {
+  "drg": "84101",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Fractures Of Femur",
+  "severity": 1,
+  "weight": 0.5596999999999996
+ },
+ {
+  "drg": "121151",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Circumcision",
+  "severity": 1,
+  "weight": 0.6405999663404907
+ },
+ {
+  "drg": "44202",
+  "mdc": "Respiratory System",
+  "desc": "IM Pneumothorax & Pleural Effusion w/CC",
+  "severity": 2,
+  "weight": 0.9902999999999991
+ },
+ {
+  "drg": "174101",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Acute Leukemia",
+  "severity": 1,
+  "weight": 1.1037998552494162
+ },
+ {
+  "drg": "184112",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Post-Operative & Post-Traumatic Infections w/CC",
+  "severity": 2,
+  "weight": 0.950499647339344
+ },
+ {
+  "drg": "11103",
+  "mdc": "Nervous System",
+  "desc": "IP Craniotomy w/MCC",
+  "severity": 3,
+  "weight": 7.016499999999999
+ },
+ {
+  "drg": "51072",
+  "mdc": "The Circulatory System",
+  "desc": "IP Coronary Bypass Without Cardiac Catheterization w/CC",
+  "severity": 2,
+  "weight": 3.6559000000000017
+ },
+ {
+  "drg": "184102",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Septicemia w/CC",
+  "severity": 2,
+  "weight": 1.0391003463414639
+ },
+ {
+  "drg": "41303",
+  "mdc": "Respiratory System",
+  "desc": "IP Moderately Complex Respiratory System Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.0990999999999875
+ },
+ {
+  "drg": "41201",
+  "mdc": "Respiratory System",
+  "desc": "IP Non-Complex Respiratory System Procedures",
+  "severity": 1,
+  "weight": 1.1259999999999997
+ },
+ {
+  "drg": "164103",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Agranulocytosis w/MCC",
+  "severity": 3,
+  "weight": 1.6045002069720014
+ },
+ {
+  "drg": "64101",
+  "mdc": "The Digestive System",
+  "desc": "IM Digestive Malignancy",
+  "severity": 1,
+  "weight": 0.7875999999999984
+ },
+ {
+  "drg": "131101",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Abortion Procedures",
+  "severity": 1,
+  "weight": 0.5813998422506955
+ },
+ {
+  "drg": "121142",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Transurethral Prostatectomy w/CC",
+  "severity": 2,
+  "weight": 0.8181999557633338
+ },
+ {
+  "drg": "61101",
+  "mdc": "The Digestive System",
+  "desc": "IP Non-Complex Small & Large Bowel Procedures",
+  "severity": 1,
+  "weight": 1.2060000000000008
+ },
+ {
+  "drg": "134172",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Postpartum Disorders w/CC",
+  "severity": 2,
+  "weight": 0.5799002403318189
+ },
+ {
+  "drg": "94132",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Trauma To The Skin, Subcutaneous Tissue & Breast w/CC",
+  "severity": 2,
+  "weight": 0.7075000000000006
+ },
+ {
+  "drg": "81202",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Hip & Femur Procedures Except Major Joint w/CC",
+  "severity": 2,
+  "weight": 1.7529999999999981
+ },
+ {
+  "drg": "14242",
+  "mdc": "Nervous System",
+  "desc": "IM Head Trauma w/CC",
+  "severity": 2,
+  "weight": 1.0942000000000005
+ },
+ {
+  "drg": "61402",
+  "mdc": "The Digestive System",
+  "desc": "IP Other Digestive System Procedures w/CC",
+  "severity": 2,
+  "weight": 1.6274
+ },
+ {
+  "drg": "81203",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Hip & Femur Procedures Except Major Joint w/MCC",
+  "severity": 3,
+  "weight": 3.027999999999999
+ },
+ {
+  "drg": "74113",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Malignancy Of Hepatobiliary System & Pancreas w/MCC",
+  "severity": 3,
+  "weight": 1.8302999999999991
+ },
+ {
+  "drg": "14131",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Traumatic Intracranial Hemorrhage",
+  "severity": 1,
+  "weight": 1.0001999999999998
+ },
+ {
+  "drg": "214171",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Other Injury, Poisoning & Toxic Effect Diagnoses",
+  "severity": 1,
+  "weight": 0.5875997246602275
+ },
+ {
+  "drg": "94101",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Major Skin Disorders",
+  "severity": 1,
+  "weight": 0.6229000000000009
+ },
+ {
+  "drg": "54212",
+  "mdc": "The Circulatory System",
+  "desc": "IM Syncope & Collapse w/CC",
+  "severity": 2,
+  "weight": 0.7407
+ },
+ {
+  "drg": "81502",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Soft Tissue Procedures w/CC",
+  "severity": 2,
+  "weight": 1.4164999999999994
+ },
+ {
+  "drg": "51202",
+  "mdc": "The Circulatory System",
+  "desc": "IP Other Circulatory System Procedures w/CC",
+  "severity": 2,
+  "weight": 2.2898000000000094
+ },
+ {
+  "drg": "44123",
+  "mdc": "Respiratory System",
+  "desc": "IM Pulmonary Embolism w/MCC",
+  "severity": 3,
+  "weight": 1.5814999999999997
+ },
+ {
+  "drg": "121111",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Penis Procedures",
+  "severity": 1,
+  "weight": 1.3537994552155868
+ },
+ {
+  "drg": "91203",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Skin Graft With Burns w/MCC",
+  "severity": 3,
+  "weight": 7.7826
+ },
+ {
+  "drg": "74103",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Cirrhosis & Alcoholic Hepatitis w/MCC",
+  "severity": 3,
+  "weight": 1.5199
+ },
+ {
+  "drg": "61142",
+  "mdc": "The Digestive System",
+  "desc": "IP Inguinal & Femoral Hernia Procedures w/CC",
+  "severity": 2,
+  "weight": 1.0406000000000004
+ },
+ {
+  "drg": "14263",
+  "mdc": "Nervous System",
+  "desc": "IM Other Nervous System Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.359199999999999
+ },
+ {
+  "drg": "164102",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Agranulocytosis w/CC",
+  "severity": 2,
+  "weight": 1.01989922438125
+ },
+ {
+  "drg": "64122",
+  "mdc": "The Digestive System",
+  "desc": "IM Esophageal Disorders w/CC",
+  "severity": 2,
+  "weight": 0.7475000000000008
+ },
+ {
+  "drg": "146122",
+  "mdc": "Childbirth",
+  "desc": "IP Vaginal Delivery With Procedure Except Sterilization &/Or Dilation & Curettage w/CC",
+  "severity": 2,
+  "weight": 0.4180000377761488
+ },
+ {
+  "drg": "146121",
+  "mdc": "Childbirth",
+  "desc": "IP Vaginal Delivery With Procedure Except Sterilization &/Or Dilation & Curettage",
+  "severity": 1,
+  "weight": 0.3807000032347918
+ },
+ {
+  "drg": "158121",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt 1500-1999 Grams Without Major Procedure",
+  "severity": 1,
+  "weight": 0.6705995488526317
+ },
+ {
+  "drg": "184113",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Post-Operative & Post-Traumatic Infections w/MCC",
+  "severity": 3,
+  "weight": 1.5547994079190477
+ },
+ {
+  "drg": "111303",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Bladder & Lower Urinary Tract Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.7167938725000003
+ },
+ {
+  "drg": "44121",
+  "mdc": "Respiratory System",
+  "desc": "IM Pulmonary Embolism",
+  "severity": 1,
+  "weight": 0.9145000000000002
+ },
+ {
+  "drg": "71121",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Cholecystectomy Except Laparoscopic",
+  "severity": 1,
+  "weight": 1.3648000000000011
+ },
+ {
+  "drg": "84163",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Connective Tissue Disorders w/MCC",
+  "severity": 3,
+  "weight": 2.1580999999999992
+ },
+ {
+  "drg": "214122",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Poisoning & Toxic Effects Of Drugs w/CC",
+  "severity": 2,
+  "weight": 0.5353004908218747
+ },
+ {
+  "drg": "164113",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Coagulation Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.6295005196666663
+ },
+ {
+  "drg": "14111",
+  "mdc": "Nervous System",
+  "desc": "IM Nervous System Malignancy & Degenerative Disorders",
+  "severity": 1,
+  "weight": 0.8487999999999984
+ },
+ {
+  "drg": "51113",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Defibrillator & Heart Assist System Insertion w/MCC",
+  "severity": 3,
+  "weight": 8.9943
+ },
+ {
+  "drg": "51041",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Valve Procedures Without Cardiac Catheterization",
+  "severity": 1,
+  "weight": 4.1488999999999985
+ },
+ {
+  "drg": "64103",
+  "mdc": "The Digestive System",
+  "desc": "IM Digestive Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.8701999999999983
+ },
+ {
+  "drg": "14231",
+  "mdc": "Nervous System",
+  "desc": "IM Migraine & Other Headaches",
+  "severity": 1,
+  "weight": 0.5563000000000001
+ },
+ {
+  "drg": "61122",
+  "mdc": "The Digestive System",
+  "desc": "IP Hernia Procedures Except Inguinal & Femoral w/CC",
+  "severity": 2,
+  "weight": 1.2415000000000007
+ },
+ {
+  "drg": "164143",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Other Blood & Blood Forming Organs Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.965098822388235
+ },
+ {
+  "drg": "64132",
+  "mdc": "The Digestive System",
+  "desc": "IM Diverticulitis, Diverticulosis & Inflammatory Bowel Disease w/CC",
+  "severity": 2,
+  "weight": 0.8693999999999993
+ },
+ {
+  "drg": "31202",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Other Ear, Nose, Mouth & Throat Procedures w/CC",
+  "severity": 2,
+  "weight": 1.7206000000000001
+ },
+ {
+  "drg": "41302",
+  "mdc": "Respiratory System",
+  "desc": "IP Moderately Complex Respiratory System Procedures w/CC",
+  "severity": 2,
+  "weight": 2.063599999999996
+ },
+ {
+  "drg": "81803",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Upper Extremity Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.6223999999999994
+ },
+ {
+  "drg": "51073",
+  "mdc": "The Circulatory System",
+  "desc": "IP Coronary Bypass Without Cardiac Catheterization w/MCC",
+  "severity": 3,
+  "weight": 5.247100000000001
+ },
+ {
+  "drg": "21303",
+  "mdc": "The Eye",
+  "desc": "IP Intraocular & Lens Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.1884
+ },
+ {
+  "drg": "44193",
+  "mdc": "Respiratory System",
+  "desc": "IM Interstitial Lung Disease w/MCC",
+  "severity": 3,
+  "weight": 1.6060999999999999
+ },
+ {
+  "drg": "114151",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Kidney & Urinary Tract Signs & Symptoms",
+  "severity": 1,
+  "weight": 0.435900488014444
+ },
+ {
+  "drg": "184132",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Non-Bacterial Infections w/CC",
+  "severity": 2,
+  "weight": 0.5986993603038968
+ },
+ {
+  "drg": "14171",
+  "mdc": "Nervous System",
+  "desc": "IM Cranial & Peripheral Nerve Disorders",
+  "severity": 1,
+  "weight": 0.6980000000000003
+ },
+ {
+  "drg": "224111",
+  "mdc": "Factors Influencing Health Status & Other Contacts With Health Services",
+  "desc": "IM Signs & Symptoms",
+  "severity": 1,
+  "weight": 0.4905007003468756
+ },
+ {
+  "drg": "164112",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Coagulation Disorders w/CC",
+  "severity": 2,
+  "weight": 1.0029004102031236
+ },
+ {
+  "drg": "11102",
+  "mdc": "Nervous System",
+  "desc": "IP Craniotomy w/CC",
+  "severity": 2,
+  "weight": 3.2324000000000006
+ },
+ {
+  "drg": "81072",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Spinal Fusion Procedures Except For Curvature Of The Spine w/CC",
+  "severity": 2,
+  "weight": 3.1337999999999995
+ },
+ {
+  "drg": "81073",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Spinal Fusion Procedures Except For Curvature Of The Spine w/MCC",
+  "severity": 3,
+  "weight": 6.3839
+ },
+ {
+  "drg": "44113",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory Failure w/MCC",
+  "severity": 3,
+  "weight": 1.5885999999999998
+ },
+ {
+  "drg": "14112",
+  "mdc": "Nervous System",
+  "desc": "IM Nervous System Malignancy & Degenerative Disorders w/CC",
+  "severity": 2,
+  "weight": 0.9849999999999997
+ },
+ {
+  "drg": "44191",
+  "mdc": "Respiratory System",
+  "desc": "IM Interstitial Lung Disease",
+  "severity": 1,
+  "weight": 0.8254000000000001
+ },
+ {
+  "drg": "51063",
+  "mdc": "The Circulatory System",
+  "desc": "IP Other Cardiothoracic Procedures w/MCC",
+  "severity": 3,
+  "weight": 5.982100000000002
+ },
+ {
+  "drg": "81302",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Foot Procedures w/CC",
+  "severity": 2,
+  "weight": 1.428199999999999
+ },
+ {
+  "drg": "41023",
+  "mdc": "Respiratory System",
+  "desc": "IP Long Term Mechanical Ventilation Without Tracheostomy w/MCC",
+  "severity": 3,
+  "weight": 7.6127585398
+ },
+ {
+  "drg": "31203",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Other Ear, Nose, Mouth & Throat Procedures w/MCC",
+  "severity": 3,
+  "weight": 9.977399999999992
+ },
+ {
+  "drg": "174141",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Other Myeloprolif Disorders & Poorly Differentiated Neoplasm Diagnosis",
+  "severity": 1,
+  "weight": 0.7941998151853659
+ },
+ {
+  "drg": "184101",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Septicemia",
+  "severity": 1,
+  "weight": 0.6233995336946657
+ },
+ {
+  "drg": "14191",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Bacterial Infections Of Nervous System Except Viral Meningitis",
+  "severity": 1,
+  "weight": 1.2224000000000002
+ },
+ {
+  "drg": "64162",
+  "mdc": "The Digestive System",
+  "desc": "IM Major Gastrointestinal Infections w/CC",
+  "severity": 2,
+  "weight": 1.2087
+ },
+ {
+  "drg": "64152",
+  "mdc": "The Digestive System",
+  "desc": "IM Gastrointestinal Obstruction w/CC",
+  "severity": 2,
+  "weight": 0.7762
+ },
+ {
+  "drg": "84112",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Fracture Of Pelvis Or Dislocation Of Hip w/CC",
+  "severity": 2,
+  "weight": 0.7344000000000006
+ },
+ {
+  "drg": "131302",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Vagina, Cervix & Vulva Procedures w/CC",
+  "severity": 2,
+  "weight": 0.8982000191155886
+ },
+ {
+  "drg": "44141",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory Malignancy",
+  "severity": 1,
+  "weight": 0.8667000000000008
+ },
+ {
+  "drg": "158131",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt 2000-2499 Grams Without Major Procedure",
+  "severity": 1,
+  "weight": 0.15989970653809518
+ },
+ {
+  "drg": "224112",
+  "mdc": "Factors Influencing Health Status & Other Contacts With Health Services",
+  "desc": "IM Signs & Symptoms w/CC",
+  "severity": 2,
+  "weight": 0.6136004953875007
+ },
+ {
+  "drg": "44142",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory Malignancy w/CC",
+  "severity": 2,
+  "weight": 1.2533999999999994
+ },
+ {
+  "drg": "134111",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Female Reproductive System Infections",
+  "severity": 1,
+  "weight": 0.5808002156639342
+ },
+ {
+  "drg": "34112",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Dysequilibrium w/CC",
+  "severity": 2,
+  "weight": 0.6472000000000007
+ },
+ {
+  "drg": "14192",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Bacterial Infections Of Nervous System Except Viral Meningitis w/CC",
+  "severity": 2,
+  "weight": 1.7708999999999993
+ },
+ {
+  "drg": "164142",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Other Blood & Blood Forming Organs Disorders w/CC",
+  "severity": 2,
+  "weight": 0.9993997516666675
+ },
+ {
+  "drg": "34142",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Dental & Oral Disease w/CC",
+  "severity": 2,
+  "weight": 0.7845000000000009
+ },
+ {
+  "drg": "131203",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Uterine & Adnexal Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.518699795551724
+ },
+ {
+  "drg": "94142",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Other Skin & Breast Disorders w/CC",
+  "severity": 2,
+  "weight": 0.6095
+ },
+ {
+  "drg": "74112",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Malignancy Of Hepatobiliary System & Pancreas w/CC",
+  "severity": 2,
+  "weight": 1.246899999999998
+ },
+ {
+  "drg": "44143",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.7700000000000005
+ },
+ {
+  "drg": "84103",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Fractures Of Femur w/MCC",
+  "severity": 3,
+  "weight": 1.2796
+ },
+ {
+  "drg": "64133",
+  "mdc": "The Digestive System",
+  "desc": "IM Diverticulitis, Diverticulosis & Inflammatory Bowel Disease w/MCC",
+  "severity": 3,
+  "weight": 1.4036
+ },
+ {
+  "drg": "121122",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Moderately Complex Prostate & Scrotal Contents Procedures w/CC",
+  "severity": 2,
+  "weight": 1.2209017852250001
+ },
+ {
+  "drg": "101202",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IP Thyroid, Parathyroid & Thyroglossal Duct Procedures w/CC",
+  "severity": 2,
+  "weight": 1.0782997250781245
+ },
+ {
+  "drg": "14121",
+  "mdc": "Nervous System",
+  "desc": "IM Multiple Sclerosis & Cerebellar Ataxia",
+  "severity": 1,
+  "weight": 0.7496000000000007
+ },
+ {
+  "drg": "124112",
+  "mdc": "The Male Reproductive System",
+  "desc": "IM Male Reproductive System Diagnoses Except Malignancy w/CC",
+  "severity": 2,
+  "weight": 0.6661004713482759
+ },
+ {
+  "drg": "64123",
+  "mdc": "The Digestive System",
+  "desc": "IM Esophageal Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.2854000000000005
+ },
+ {
+  "drg": "214172",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Other Injury, Poisoning & Toxic Effect Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.6842995322250002
+ },
+ {
+  "drg": "94102",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Major Skin Disorders w/CC",
+  "severity": 2,
+  "weight": 1.0148000000000004
+ },
+ {
+  "drg": "84182",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Other Bone & Joint Diseases w/CC",
+  "severity": 2,
+  "weight": 0.7520999999999993
+ },
+ {
+  "drg": "184133",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Non-Bacterial Infections w/MCC",
+  "severity": 3,
+  "weight": 1.0126994475594593
+ },
+ {
+  "drg": "84162",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Connective Tissue Disorders w/CC",
+  "severity": 2,
+  "weight": 1.0414000000000008
+ },
+ {
+  "drg": "81042",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Major Lower Extremity Joint & Limb Reattachment Procedures w/CC",
+  "severity": 2,
+  "weight": 2.165300000000001
+ },
+ {
+  "drg": "81303",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Foot Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.1306
+ },
+ {
+  "drg": "34143",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Dental & Oral Disease w/MCC",
+  "severity": 3,
+  "weight": 1.398
+ },
+ {
+  "drg": "214173",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Other Injury, Poisoning & Toxic Effect Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.05709778928
+ },
+ {
+  "drg": "44133",
+  "mdc": "Respiratory System",
+  "desc": "IM Major Chest Trauma w/MCC",
+  "severity": 3,
+  "weight": 1.5186
+ },
+ {
+  "drg": "51061",
+  "mdc": "The Circulatory System",
+  "desc": "IP Other Cardiothoracic Procedures",
+  "severity": 1,
+  "weight": 2.6802999999999977
+ },
+ {
+  "drg": "214133",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Complications Of Treatment w/MCC",
+  "severity": 3,
+  "weight": 1.5283004561562503
+ },
+ {
+  "drg": "91502",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Breast Procedures w/CC",
+  "severity": 2,
+  "weight": 1.1061000000000003
+ },
+ {
+  "drg": "164101",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Agranulocytosis",
+  "severity": 1,
+  "weight": 0.6851996014886088
+ },
+ {
+  "drg": "14181",
+  "mdc": "Nervous System",
+  "desc": "IM Bacterial & Tuberculous Infections Of Nervous System",
+  "severity": 1,
+  "weight": 1.3053999999999997
+ },
+ {
+  "drg": "214111",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Allergic Reactions",
+  "severity": 1,
+  "weight": 0.3095007070304347
+ },
+ {
+  "drg": "84132",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Musculoskeletal & Connective Tissue Malignancy & Pathological Fractures w/CC",
+  "severity": 2,
+  "weight": 0.9665
+ },
+ {
+  "drg": "14201",
+  "mdc": "Nervous System",
+  "desc": "IM Viral Meningitis",
+  "severity": 1,
+  "weight": 0.5835000000000002
+ },
+ {
+  "drg": "194151",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Neuroses Except Depression",
+  "severity": 1,
+  "weight": 0.4039999696588235
+ },
+ {
+  "drg": "114112",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Nephritis w/CC",
+  "severity": 2,
+  "weight": 0.9566999322393944
+ },
+ {
+  "drg": "158143",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams With Major Anomaly Or Hereditary Condition w/MCC",
+  "severity": 3,
+  "weight": 4.617801562168751
+ },
+ {
+  "drg": "174112",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Lymphoma & Non-Acute Leukemia w/CC",
+  "severity": 2,
+  "weight": 1.3851985202969692
+ },
+ {
+  "drg": "134102",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Female Reproductive System Malignancy w/CC",
+  "severity": 2,
+  "weight": 0.9988006940088231
+ },
+ {
+  "drg": "111302",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Bladder & Lower Urinary Tract Procedures w/CC",
+  "severity": 2,
+  "weight": 1.2043001853109105
+ },
+ {
+  "drg": "14172",
+  "mdc": "Nervous System",
+  "desc": "IM Cranial & Peripheral Nerve Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8662999999999998
+ },
+ {
+  "drg": "84143",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Osteomyelitis w/MCC",
+  "severity": 3,
+  "weight": 2.1071999999999997
+ },
+ {
+  "drg": "84113",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Fracture Of Pelvis Or Dislocation Of Hip w/MCC",
+  "severity": 3,
+  "weight": 1.3035
+ },
+ {
+  "drg": "104133",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Other Endocrine Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.5372981648176476
+ },
+ {
+  "drg": "91201",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Skin Graft With Burns",
+  "severity": 1,
+  "weight": 1.1475000000000004
+ },
+ {
+  "drg": "71103",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Pancreas & Liver Procedures w/MCC",
+  "severity": 3,
+  "weight": 7.605899999999999
+ },
+ {
+  "drg": "94133",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Trauma To The Skin, Subcutaneous Tissue & Breast w/MCC",
+  "severity": 3,
+  "weight": 1.0613
+ },
+ {
+  "drg": "161202",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IP Other Procedures Of Blood & Blood Forming Organs w/CC",
+  "severity": 2,
+  "weight": 1.7357973360312502
+ },
+ {
+  "drg": "94103",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Major Skin Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.7847000000000006
+ },
+ {
+  "drg": "61503",
+  "mdc": "The Digestive System",
+  "desc": "IP Anal Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.9641
+ },
+ {
+  "drg": "34101",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Ear, Nose, Mouth & Throat Malignancy",
+  "severity": 1,
+  "weight": 0.8581000000000002
+ },
+ {
+  "drg": "84151",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Septic Arthritis",
+  "severity": 1,
+  "weight": 0.6466999999999995
+ },
+ {
+  "drg": "124102",
+  "mdc": "The Male Reproductive System",
+  "desc": "IM Male Reproductive System Malignancy w/CC",
+  "severity": 2,
+  "weight": 1.4229995294611115
+ },
+ {
+  "drg": "71101",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Pancreas & Liver Procedures",
+  "severity": 1,
+  "weight": 2.1862
+ },
+ {
+  "drg": "214132",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Complications Of Treatment w/CC",
+  "severity": 2,
+  "weight": 0.7888003090950821
+ },
+ {
+  "drg": "174113",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Lymphoma & Non-Acute Leukemia w/MCC",
+  "severity": 3,
+  "weight": 2.515700145538235
+ },
+ {
+  "drg": "51043",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Valve Procedures Without Cardiac Catheterization w/MCC",
+  "severity": 3,
+  "weight": 8.589
+ },
+ {
+  "drg": "158163",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams With Congenital/Perinatal Infections w/MCC",
+  "severity": 3,
+  "weight": 1.5755043994181817
+ },
+ {
+  "drg": "84183",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Other Bone & Joint Diseases w/MCC",
+  "severity": 3,
+  "weight": 1.0358
+ },
+ {
+  "drg": "64161",
+  "mdc": "The Digestive System",
+  "desc": "IM Major Gastrointestinal Infections",
+  "severity": 1,
+  "weight": 0.8770000000000002
+ },
+ {
+  "drg": "11121",
+  "mdc": "Nervous System",
+  "desc": "IP Extracranial Vascular Procedures",
+  "severity": 1,
+  "weight": 1.0814
+ },
+ {
+  "drg": "61301",
+  "mdc": "The Digestive System",
+  "desc": "IP Non-Complex Stomach, Esophageal & Duodenal Procedures",
+  "severity": 1,
+  "weight": 0.8846999999999998
+ },
+ {
+  "drg": "94112",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Malignant Breast Disorders w/CC",
+  "severity": 2,
+  "weight": 1.014
+ },
+ {
+  "drg": "214112",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Allergic Reactions w/CC",
+  "severity": 2,
+  "weight": 0.4539007863000001
+ },
+ {
+  "drg": "54233",
+  "mdc": "The Circulatory System",
+  "desc": "IM Malfunction, Reaction & Complication Of Cardiaovascolar Device Or Procedure w/MCC",
+  "severity": 3,
+  "weight": 1.7635999999999985
+ },
+ {
+  "drg": "44131",
+  "mdc": "Respiratory System",
+  "desc": "IM Major Chest Trauma",
+  "severity": 1,
+  "weight": 0.6350000000000011
+ },
+ {
+  "drg": "214123",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Poisoning & Toxic Effects Of Drugs w/MCC",
+  "severity": 3,
+  "weight": 1.024102164184211
+ },
+ {
+  "drg": "14211",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Traumatic Stupor & Coma",
+  "severity": 1,
+  "weight": 0.6447000000000002
+ },
+ {
+  "drg": "134143",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Threatened Abortion w/MCC",
+  "severity": 3,
+  "weight": 0.5627004053871556
+ },
+ {
+  "drg": "74102",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Cirrhosis & Alcoholic Hepatitis w/CC",
+  "severity": 2,
+  "weight": 0.901699999999999
+ },
+ {
+  "drg": "14182",
+  "mdc": "Nervous System",
+  "desc": "IM Bacterial & Tuberculous Infections Of Nervous System w/CC",
+  "severity": 2,
+  "weight": 2.0335
+ },
+ {
+  "drg": "161203",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IP Other Procedures Of Blood & Blood Forming Organs w/MCC",
+  "severity": 3,
+  "weight": 3.3887988489999996
+ },
+ {
+  "drg": "84213",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Other Musculoskeletal System & Connective Tissue Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.3663999999999996
+ },
+ {
+  "drg": "61103",
+  "mdc": "The Digestive System",
+  "desc": "IP Non-Complex Small & Large Bowel Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.1498
+ },
+ {
+  "drg": "174102",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Acute Leukemia w/CC",
+  "severity": 2,
+  "weight": 1.4396010554878782
+ },
+ {
+  "drg": "51062",
+  "mdc": "The Circulatory System",
+  "desc": "IP Other Cardiothoracic Procedures w/CC",
+  "severity": 2,
+  "weight": 3.7771999999999974
+ },
+ {
+  "drg": "158172",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams Without Major Procedure w/CC",
+  "severity": 2,
+  "weight": 0.24870044638061195
+ },
+ {
+  "drg": "158123",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt 1500-1999 Grams Without Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 4.7829008313833326
+ },
+ {
+  "drg": "14113",
+  "mdc": "Nervous System",
+  "desc": "IM Nervous System Malignancy & Degenerative Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.4431999999999996
+ },
+ {
+  "drg": "14103",
+  "mdc": "Nervous System",
+  "desc": "IM Spinal Disorders & Injuries w/MCC",
+  "severity": 3,
+  "weight": 2.3787999999999987
+ },
+ {
+  "drg": "104123",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Inborn Errors Of Metabolism w/MCC",
+  "severity": 3,
+  "weight": 1.5209984710789477
+ },
+ {
+  "drg": "134101",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Female Reproductive System Malignancy",
+  "severity": 1,
+  "weight": 0.7956016391300001
+ },
+ {
+  "drg": "121132",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Non-Complex Prostate & Scrotal Contents Procedures w/CC",
+  "severity": 2,
+  "weight": 1.3191970788923078
+ },
+ {
+  "drg": "51051",
+  "mdc": "The Circulatory System",
+  "desc": "IP Coronary Bypass With Cardiac Catheterization",
+  "severity": 1,
+  "weight": 4.5643
+ },
+ {
+  "drg": "14152",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Specific Cva & Pre-Cerebral OCClusion Without Infarct w/CC",
+  "severity": 2,
+  "weight": 0.9309000000000004
+ },
+ {
+  "drg": "114142",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Malfunction, Reaction Or Complication Of Urinary Tract Device, Graft Or Transplantation w/CC",
+  "severity": 2,
+  "weight": 0.796500802849124
+ },
+ {
+  "drg": "11202",
+  "mdc": "Nervous System",
+  "desc": "IP Cranial & Peripheral Nerve Procedures w/CC",
+  "severity": 2,
+  "weight": 1.6867000000000008
+ },
+ {
+  "drg": "44132",
+  "mdc": "Respiratory System",
+  "desc": "IM Major Chest Trauma w/CC",
+  "severity": 2,
+  "weight": 0.9342000000000003
+ },
+ {
+  "drg": "41022",
+  "mdc": "Respiratory System",
+  "desc": "IP Long Term Mechanical Ventilation Without Tracheostomy w/CC",
+  "severity": 2,
+  "weight": 5.1517093839
+ },
+ {
+  "drg": "158103",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Died Or Transferred To Another Acute Care Facility w/MCC",
+  "severity": 3,
+  "weight": 2.0764970748272726
+ },
+ {
+  "drg": "51143",
+  "mdc": "The Circulatory System",
+  "desc": "IP Permanent Cardiac Pacemaker Insertion w/MCC",
+  "severity": 3,
+  "weight": 4.1558084557
+ },
+ {
+  "drg": "51303",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Pacemaker & Defibrillator Device Replacement w/MCC",
+  "severity": 3,
+  "weight": 4.3356
+ },
+ {
+  "drg": "64153",
+  "mdc": "The Digestive System",
+  "desc": "IM Gastrointestinal Obstruction w/MCC",
+  "severity": 3,
+  "weight": 1.3863
+ },
+ {
+  "drg": "81703",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Knee & Lower Leg Procedures Except Foot w/MCC",
+  "severity": 3,
+  "weight": 3.0761
+ },
+ {
+  "drg": "14213",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Traumatic Stupor & Coma w/MCC",
+  "severity": 3,
+  "weight": 1.5754999999999988
+ },
+ {
+  "drg": "81403",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Local Excision & Removal Of Internal Fixation Device w/MCC",
+  "severity": 3,
+  "weight": 2.7074
+ },
+ {
+  "drg": "134123",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Menstrual & Other Female Reproductive System Disorders w/MCC",
+  "severity": 3,
+  "weight": 0.95209775266
+ },
+ {
+  "drg": "94143",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Other Skin & Breast Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.1210000000000002
+ },
+ {
+  "drg": "31141",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Cleft Lip & Palate Repair",
+  "severity": 1,
+  "weight": 0.7346000000000003
+ },
+ {
+  "drg": "41101",
+  "mdc": "Respiratory System",
+  "desc": "IP Complex Respiratory System Procedures",
+  "severity": 1,
+  "weight": 2.0596
+ },
+ {
+  "drg": "74111",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Malignancy Of Hepatobiliary System & Pancreas",
+  "severity": 1,
+  "weight": 0.9166999999999995
+ },
+ {
+  "drg": "14193",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Bacterial Infections Of Nervous System Except Viral Meningitis w/MCC",
+  "severity": 3,
+  "weight": 3.0805000000000002
+ },
+ {
+  "drg": "134152",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM False Labor w/CC",
+  "severity": 2,
+  "weight": 0.23510021624861072
+ },
+ {
+  "drg": "104122",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IM Inborn Errors Of Metabolism w/CC",
+  "severity": 2,
+  "weight": 0.8585002182648144
+ },
+ {
+  "drg": "34152",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Other Ear, Nose, Mouth & Throat Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.7338999999999991
+ },
+ {
+  "drg": "131113",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Dilation & Curettage, Intrauterine & Cervical Procedures w/MCC",
+  "severity": 3,
+  "weight": 0.9704001591560977
+ },
+ {
+  "drg": "84133",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Musculoskeletal & Connective Tissue Malignancy & Pathological Fractures w/MCC",
+  "severity": 3,
+  "weight": 1.7418000000000002
+ },
+ {
+  "drg": "61112",
+  "mdc": "The Digestive System",
+  "desc": "IP Peritoneal Adhesiolysis w/CC",
+  "severity": 2,
+  "weight": 1.3918
+ },
+ {
+  "drg": "84102",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Fractures Of Femur w/CC",
+  "severity": 2,
+  "weight": 0.7396999999999995
+ },
+ {
+  "drg": "51042",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Valve Procedures Without Cardiac Catheterization w/CC",
+  "severity": 2,
+  "weight": 5.146500000000001
+ },
+ {
+  "drg": "51123",
+  "mdc": "The Circulatory System",
+  "desc": "IP Complex Thoracic Vascular Procedures w/MCC",
+  "severity": 3,
+  "weight": 8.8377
+ },
+ {
+  "drg": "51111",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Defibrillator & Heart Assist System Insertion",
+  "severity": 1,
+  "weight": 6.078899999999999
+ },
+ {
+  "drg": "54113",
+  "mdc": "The Circulatory System",
+  "desc": "IM Acute & Subacute Endocarditis w/MCC",
+  "severity": 3,
+  "weight": 2.8232
+ },
+ {
+  "drg": "51141",
+  "mdc": "The Circulatory System",
+  "desc": "IP Permanent Cardiac Pacemaker Insertion",
+  "severity": 1,
+  "weight": 2.2315032939
+ },
+ {
+  "drg": "84153",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Septic Arthritis w/MCC",
+  "severity": 3,
+  "weight": 1.8451
+ },
+ {
+  "drg": "224113",
+  "mdc": "Factors Influencing Health Status & Other Contacts With Health Services",
+  "desc": "IM Signs & Symptoms w/MCC",
+  "severity": 3,
+  "weight": 0.9231981084499997
+ },
+ {
+  "drg": "134173",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Postpartum Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.112500267914286
+ },
+ {
+  "drg": "91303",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Skin Graft Without Burns w/MCC",
+  "severity": 3,
+  "weight": 5.7742
+ },
+ {
+  "drg": "44112",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory Failure w/CC",
+  "severity": 2,
+  "weight": 1.1084999999999998
+ },
+ {
+  "drg": "41103",
+  "mdc": "Respiratory System",
+  "desc": "IP Complex Respiratory System Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.8152
+ },
+ {
+  "drg": "54221",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiomyopathy",
+  "severity": 1,
+  "weight": 0.6933000000000002
+ },
+ {
+  "drg": "114113",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Nephritis w/MCC",
+  "severity": 3,
+  "weight": 1.6687969162000005
+ },
+ {
+  "drg": "84192",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Malfunction, Reaction Or Complication Of Orthopedic Device Or Procedure w/CC",
+  "severity": 2,
+  "weight": 0.8755000000000001
+ },
+ {
+  "drg": "24123",
+  "mdc": "The Eye",
+  "desc": "IM Other Eye Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.2084
+ },
+ {
+  "drg": "11111",
+  "mdc": "Nervous System",
+  "desc": "IP Ventricular Shunt Procedures",
+  "severity": 1,
+  "weight": 1.2442999999999995
+ },
+ {
+  "drg": "81503",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Soft Tissue Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.0912
+ },
+ {
+  "drg": "64163",
+  "mdc": "The Digestive System",
+  "desc": "IM Major Gastrointestinal Infections w/MCC",
+  "severity": 3,
+  "weight": 1.8073000000000004
+ },
+ {
+  "drg": "174121",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Radiotherapy",
+  "severity": 1,
+  "weight": 0.5736036630923077
+ },
+ {
+  "drg": "121101",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Complex Prostatectomy Procedures",
+  "severity": 1,
+  "weight": 1.2454010708
+ },
+ {
+  "drg": "114152",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Kidney & Urinary Tract Signs & Symptoms w/CC",
+  "severity": 2,
+  "weight": 0.5982979452875
+ },
+ {
+  "drg": "84152",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Septic Arthritis w/CC",
+  "severity": 2,
+  "weight": 0.9596
+ },
+ {
+  "drg": "14212",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Traumatic Stupor & Coma w/CC",
+  "severity": 2,
+  "weight": 0.9009
+ },
+ {
+  "drg": "14173",
+  "mdc": "Nervous System",
+  "desc": "IM Cranial & Peripheral Nerve Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.452
+ },
+ {
+  "drg": "71131",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Other Hepatobiliary & Pancreas Procedures",
+  "severity": 1,
+  "weight": 1.1804
+ },
+ {
+  "drg": "84202",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Musculoskeletal Signs, Symptoms, Sprains & Minor Inflammations w/CC",
+  "severity": 2,
+  "weight": 0.6241000000000002
+ },
+ {
+  "drg": "61143",
+  "mdc": "The Digestive System",
+  "desc": "IP Inguinal & Femoral Hernia Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.1489
+ },
+ {
+  "drg": "54232",
+  "mdc": "The Circulatory System",
+  "desc": "IM Malfunction, Reaction & Complication Of Cardiaovascolar Device Or Procedure w/CC",
+  "severity": 2,
+  "weight": 0.9025999999999997
+ },
+ {
+  "drg": "54222",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiomyopathy w/CC",
+  "severity": 2,
+  "weight": 0.8149000000000008
+ },
+ {
+  "drg": "71102",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Pancreas & Liver Procedures w/CC",
+  "severity": 2,
+  "weight": 3.281300000000001
+ },
+ {
+  "drg": "158173",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams Without Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 0.7720006634218746
+ },
+ {
+  "drg": "158142",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams With Major Anomaly Or Hereditary Condition w/CC",
+  "severity": 2,
+  "weight": 0.858200510529166
+ },
+ {
+  "drg": "158113",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt 1000-1499 Grams Without Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 10.295899883626472
+ },
+ {
+  "drg": "31111",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Other Complex Head & Neck Procedures",
+  "severity": 1,
+  "weight": 1.561599999999999
+ },
+ {
+  "drg": "81043",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Major Lower Extremity Joint & Limb Reattachment Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.1832
+ },
+ {
+  "drg": "51033",
+  "mdc": "The Circulatory System",
+  "desc": "IP Complex Cardiothoracic Repair Of Heart Anomaly w/MCC",
+  "severity": 3,
+  "weight": 8.9612
+ },
+ {
+  "drg": "51142",
+  "mdc": "The Circulatory System",
+  "desc": "IP Permanent Cardiac Pacemaker Insertion w/CC",
+  "severity": 2,
+  "weight": 2.7368
+ },
+ {
+  "drg": "61113",
+  "mdc": "The Digestive System",
+  "desc": "IP Peritoneal Adhesiolysis w/MCC",
+  "severity": 3,
+  "weight": 3.2323999999999993
+ },
+ {
+  "drg": "24103",
+  "mdc": "The Eye",
+  "desc": "IM Acute Major Eye Infections w/MCC",
+  "severity": 3,
+  "weight": 1.1291
+ },
+ {
+  "drg": "121102",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Complex Prostatectomy Procedures w/CC",
+  "severity": 2,
+  "weight": 1.430000623
+ },
+ {
+  "drg": "81101",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Cranial & Facial Bone Reconstructive Procedures",
+  "severity": 1,
+  "weight": 1.3783999999999994
+ },
+ {
+  "drg": "71111",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Complex Biliary Tract Procedures",
+  "severity": 1,
+  "weight": 1.7681999999999998
+ },
+ {
+  "drg": "54213",
+  "mdc": "The Circulatory System",
+  "desc": "IM Syncope & Collapse w/MCC",
+  "severity": 3,
+  "weight": 1.0104
+ },
+ {
+  "drg": "204112",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IM Alcohol, Opioid & Cocaine Abuse & Dependence w/CC",
+  "severity": 2,
+  "weight": 0.6379020877
+ },
+ {
+  "drg": "34102",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Ear, Nose, Mouth & Throat Malignancy w/CC",
+  "severity": 2,
+  "weight": 1.0564
+ },
+ {
+  "drg": "164123",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Sickle Cell Anemia Crisis w/MCC",
+  "severity": 3,
+  "weight": 1.6309992632035715
+ },
+ {
+  "drg": "174143",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Other Myeloprolif Disorders & Poorly Differentiated Neoplasm Diagnosis w/MCC",
+  "severity": 3,
+  "weight": 1.7691983039124999
+ },
+ {
+  "drg": "84142",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Osteomyelitis w/CC",
+  "severity": 2,
+  "weight": 1.239
+ },
+ {
+  "drg": "84203",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Musculoskeletal Signs, Symptoms, Sprains & Minor Inflammations w/MCC",
+  "severity": 3,
+  "weight": 0.9213000000000001
+ },
+ {
+  "drg": "74101",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IM Cirrhosis & Alcoholic Hepatitis",
+  "severity": 1,
+  "weight": 0.5739
+ },
+ {
+  "drg": "54131",
+  "mdc": "The Circulatory System",
+  "desc": "IM Deep Vein Thrombophlebitis",
+  "severity": 1,
+  "weight": 0.485
+ },
+ {
+  "drg": "51172",
+  "mdc": "The Circulatory System",
+  "desc": "IP Vein Ligation & Stripping w/CC",
+  "severity": 2,
+  "weight": 1.2249
+ },
+ {
+  "drg": "84141",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Osteomyelitis",
+  "severity": 1,
+  "weight": 0.8583999999999997
+ },
+ {
+  "drg": "158151",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams With Aspiration Syndrome",
+  "severity": 1,
+  "weight": 0.24299432318571426
+ },
+ {
+  "drg": "174142",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Other Myeloprolif Disorders & Poorly Differentiated Neoplasm Diagnosis w/CC",
+  "severity": 2,
+  "weight": 1.1605010773086955
+ },
+ {
+  "drg": "44192",
+  "mdc": "Respiratory System",
+  "desc": "IM Interstitial Lung Disease w/CC",
+  "severity": 2,
+  "weight": 1.0793000000000006
+ },
+ {
+  "drg": "131303",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Vagina, Cervix & Vulva Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.2219000674434821
+ },
+ {
+  "drg": "41013",
+  "mdc": "Respiratory System",
+  "desc": "IP Long Term Mechanical Ventilation With Tracheostomy w/MCC",
+  "severity": 3,
+  "weight": 17.1707034486
+ },
+ {
+  "drg": "51163",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Pacemaker & Defibrillator Revision Except Device Replacement w/MCC",
+  "severity": 3,
+  "weight": 2.8216
+ },
+ {
+  "drg": "54143",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiac Arrest, Unexplained w/MCC",
+  "severity": 3,
+  "weight": 0.8745
+ },
+ {
+  "drg": "14253",
+  "mdc": "Nervous System",
+  "desc": "IM Concussion w/MCC",
+  "severity": 3,
+  "weight": 1.4352
+ },
+ {
+  "drg": "134103",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Female Reproductive System Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.7764026623300002
+ },
+ {
+  "drg": "34153",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Other Ear, Nose, Mouth & Throat Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.0561000000000003
+ },
+ {
+  "drg": "158141",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams With Major Anomaly Or Hereditary Condition",
+  "severity": 1,
+  "weight": 0.19730188609374996
+ },
+ {
+  "drg": "11112",
+  "mdc": "Nervous System",
+  "desc": "IP Ventricular Shunt Procedures w/CC",
+  "severity": 2,
+  "weight": 1.7384999999999995
+ },
+ {
+  "drg": "111112",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Complex Bladder Procedures w/CC",
+  "severity": 2,
+  "weight": 2.408995458271428
+ },
+ {
+  "drg": "81023",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Amputation w/MCC",
+  "severity": 3,
+  "weight": 3.4962
+ },
+ {
+  "drg": "34103",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Ear, Nose, Mouth & Throat Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.5907
+ },
+ {
+  "drg": "81051",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Major Upper Extremity Joint & Limb Reattachment Procedures",
+  "severity": 1,
+  "weight": 1.6932000000000005
+ },
+ {
+  "drg": "94111",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Malignant Breast Disorders",
+  "severity": 1,
+  "weight": 0.7400999999999984
+ },
+ {
+  "drg": "34123",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Epistaxis w/MCC",
+  "severity": 3,
+  "weight": 0.8844
+ },
+ {
+  "drg": "161111",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IP Spleen Procedures",
+  "severity": 1,
+  "weight": 1.5023960377375
+ },
+ {
+  "drg": "54111",
+  "mdc": "The Circulatory System",
+  "desc": "IM Acute & Subacute Endocarditis",
+  "severity": 1,
+  "weight": 0.9976
+ },
+ {
+  "drg": "14153",
+  "mdc": "Nervous System",
+  "desc": "IM Non-Specific Cva & Pre-Cerebral OCClusion Without Infarct w/MCC",
+  "severity": 3,
+  "weight": 1.4132
+ },
+ {
+  "drg": "194163",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Organic Disturbances & Mental Retardation w/MCC",
+  "severity": 3,
+  "weight": 1.1999014884875
+ },
+ {
+  "drg": "14232",
+  "mdc": "Nervous System",
+  "desc": "IM Migraine & Other Headaches w/CC",
+  "severity": 2,
+  "weight": 0.6807
+ },
+ {
+  "drg": "124101",
+  "mdc": "The Male Reproductive System",
+  "desc": "IM Male Reproductive System Malignancy",
+  "severity": 1,
+  "weight": 1.0473996621235293
+ },
+ {
+  "drg": "24112",
+  "mdc": "The Eye",
+  "desc": "IM Neurological Eye Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8047000000000001
+ },
+ {
+  "drg": "64141",
+  "mdc": "The Digestive System",
+  "desc": "IM Gastrointestinal Vascular Insufficiency",
+  "severity": 1,
+  "weight": 0.7706
+ },
+ {
+  "drg": "24102",
+  "mdc": "The Eye",
+  "desc": "IM Acute Major Eye Infections w/CC",
+  "severity": 2,
+  "weight": 0.7191
+ },
+ {
+  "drg": "44111",
+  "mdc": "Respiratory System",
+  "desc": "IM Respiratory Failure",
+  "severity": 1,
+  "weight": 0.7964000000000001
+ },
+ {
+  "drg": "194152",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Neuroses Except Depression w/CC",
+  "severity": 2,
+  "weight": 0.5687046222099998
+ },
+ {
+  "drg": "14252",
+  "mdc": "Nervous System",
+  "desc": "IM Concussion w/CC",
+  "severity": 2,
+  "weight": 0.9735000000000001
+ },
+ {
+  "drg": "21202",
+  "mdc": "The Eye",
+  "desc": "IP Orbital & Extraocular Procedures w/CC",
+  "severity": 2,
+  "weight": 1.4263000000000003
+ },
+ {
+  "drg": "174122",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Radiotherapy w/CC",
+  "severity": 2,
+  "weight": 1.3137985598400004
+ },
+ {
+  "drg": "214113",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Allergic Reactions w/MCC",
+  "severity": 3,
+  "weight": 0.7757975979000001
+ },
+ {
+  "drg": "134133",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Abortion w/MCC",
+  "severity": 3,
+  "weight": 0.49370033720810846
+ },
+ {
+  "drg": "94113",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IM Malignant Breast Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.6072
+ },
+ {
+  "drg": "51032",
+  "mdc": "The Circulatory System",
+  "desc": "IP Complex Cardiothoracic Repair Of Heart Anomaly w/CC",
+  "severity": 2,
+  "weight": 5.381900000000001
+ },
+ {
+  "drg": "11303",
+  "mdc": "Nervous System",
+  "desc": "IP Spine Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.7413000000000003
+ },
+ {
+  "drg": "51161",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Pacemaker & Defibrillator Revision Except Device Replacement",
+  "severity": 1,
+  "weight": 0.9407999999999997
+ },
+ {
+  "drg": "124113",
+  "mdc": "The Male Reproductive System",
+  "desc": "IM Male Reproductive System Diagnoses Except Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.0925008427999998
+ },
+ {
+  "drg": "61102",
+  "mdc": "The Digestive System",
+  "desc": "IP Non-Complex Small & Large Bowel Procedures w/CC",
+  "severity": 2,
+  "weight": 1.7781999999999991
+ },
+ {
+  "drg": "14183",
+  "mdc": "Nervous System",
+  "desc": "IM Bacterial & Tuberculous Infections Of Nervous System w/MCC",
+  "severity": 3,
+  "weight": 2.8288000000000006
+ },
+ {
+  "drg": "71133",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Other Hepatobiliary & Pancreas Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.3606
+ },
+ {
+  "drg": "44122",
+  "mdc": "Respiratory System",
+  "desc": "IM Pulmonary Embolism w/CC",
+  "severity": 2,
+  "weight": 1.1843000000000001
+ },
+ {
+  "drg": "51112",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Defibrillator & Heart Assist System Insertion w/CC",
+  "severity": 2,
+  "weight": 6.759100000000003
+ },
+ {
+  "drg": "158033",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt <1000 Grams Without Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 21.29769934360588
+ },
+ {
+  "drg": "158112",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt 1000-1499 Grams Without Major Procedure w/CC",
+  "severity": 2,
+  "weight": 5.054095285799999
+ },
+ {
+  "drg": "71132",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Other Hepatobiliary & Pancreas Procedures w/CC",
+  "severity": 2,
+  "weight": 1.6012
+ },
+ {
+  "drg": "158133",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt 2000-2499 Grams Without Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 2.5914080977166667
+ },
+ {
+  "drg": "84193",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Malfunction, Reaction Or Complication Of Orthopedic Device Or Procedure w/MCC",
+  "severity": 3,
+  "weight": 1.7100000000000006
+ },
+ {
+  "drg": "158153",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams With Aspiration Syndrome w/MCC",
+  "severity": 3,
+  "weight": 1.9321946462333333
+ },
+ {
+  "drg": "158081",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt >2499 Grams With Respiratory Distress Syndrome",
+  "severity": 1,
+  "weight": 1.9746974986944439
+ },
+ {
+  "drg": "71123",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Cholecystectomy Except Laparoscopic w/MCC",
+  "severity": 3,
+  "weight": 3.56
+ },
+ {
+  "drg": "158161",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams With Congenital/Perinatal Infections",
+  "severity": 1,
+  "weight": 0.8374011384909089
+ },
+ {
+  "drg": "31123",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Sinus & Mastoid Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.0446141122
+ },
+ {
+  "drg": "121143",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Transurethral Prostatectomy w/MCC",
+  "severity": 3,
+  "weight": 1.9974837730666668
+ },
+ {
+  "drg": "14163",
+  "mdc": "Nervous System",
+  "desc": "IM Transient Ischemia w/MCC",
+  "severity": 3,
+  "weight": 1.1026
+ },
+ {
+  "drg": "114153",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Kidney & Urinary Tract Signs & Symptoms w/MCC",
+  "severity": 3,
+  "weight": 0.8915974762285714
+ },
+ {
+  "drg": "34113",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Dysequilibrium w/MCC",
+  "severity": 3,
+  "weight": 0.8296
+ },
+ {
+  "drg": "91503",
+  "mdc": "The Skin, Subcutaneous Tissue & Breast",
+  "desc": "IP Breast Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.2463
+ },
+ {
+  "drg": "134112",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Female Reproductive System Infections w/CC",
+  "severity": 2,
+  "weight": 0.7912973037066665
+ },
+ {
+  "drg": "51173",
+  "mdc": "The Circulatory System",
+  "desc": "IP Vein Ligation & Stripping w/MCC",
+  "severity": 3,
+  "weight": 2.6604
+ },
+ {
+  "drg": "31132",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Salivary Gland Procedures w/CC",
+  "severity": 2,
+  "weight": 0.933
+ },
+ {
+  "drg": "24111",
+  "mdc": "The Eye",
+  "desc": "IM Neurological Eye Disorders",
+  "severity": 1,
+  "weight": 0.7289999999999996
+ },
+ {
+  "drg": "81102",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Cranial & Facial Bone Reconstructive Procedures w/CC",
+  "severity": 2,
+  "weight": 1.8557
+ },
+ {
+  "drg": "54132",
+  "mdc": "The Circulatory System",
+  "desc": "IM Deep Vein Thrombophlebitis w/CC",
+  "severity": 2,
+  "weight": 0.7046
+ },
+ {
+  "drg": "131102",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Abortion Procedures w/CC",
+  "severity": 2,
+  "weight": 0.9355985274454547
+ },
+ {
+  "drg": "84131",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Musculoskeletal & Connective Tissue Malignancy & Pathological Fractures",
+  "severity": 1,
+  "weight": 0.6997999999999999
+ },
+ {
+  "drg": "31122",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Sinus & Mastoid Procedures w/CC",
+  "severity": 2,
+  "weight": 1.6007
+ },
+ {
+  "drg": "61123",
+  "mdc": "The Digestive System",
+  "desc": "IP Hernia Procedures Except Inguinal & Femoral w/MCC",
+  "severity": 3,
+  "weight": 2.4696
+ },
+ {
+  "drg": "11011",
+  "mdc": "Nervous System",
+  "desc": "IP Intracranial Vascular Procedures",
+  "severity": 1,
+  "weight": 2.7696
+ },
+ {
+  "drg": "14101",
+  "mdc": "Nervous System",
+  "desc": "IM Spinal Disorders & Injuries",
+  "severity": 1,
+  "weight": 0.9532000000000004
+ },
+ {
+  "drg": "214101",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Injuries To Unspecified Or Multiple Sites",
+  "severity": 1,
+  "weight": 0.7850020233705883
+ },
+ {
+  "drg": "121123",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Moderately Complex Prostate & Scrotal Contents Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.86139803405
+ },
+ {
+  "drg": "14123",
+  "mdc": "Nervous System",
+  "desc": "IM Multiple Sclerosis & Cerebellar Ataxia w/MCC",
+  "severity": 3,
+  "weight": 1.3738
+ },
+ {
+  "drg": "51131",
+  "mdc": "The Circulatory System",
+  "desc": "IP Complex Abdominal Vascular Procedures",
+  "severity": 1,
+  "weight": 2.3197
+ },
+ {
+  "drg": "61302",
+  "mdc": "The Digestive System",
+  "desc": "IP Non-Complex Stomach, Esophageal & Duodenal Procedures w/CC",
+  "severity": 2,
+  "weight": 1.7242
+ },
+ {
+  "drg": "84191",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IM Malfunction, Reaction Or Complication Of Orthopedic Device Or Procedure",
+  "severity": 1,
+  "weight": 0.5198
+ },
+ {
+  "drg": "161113",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IP Spleen Procedures w/MCC",
+  "severity": 3,
+  "weight": 5.391197568128571
+ },
+ {
+  "drg": "41102",
+  "mdc": "Respiratory System",
+  "desc": "IP Complex Respiratory System Procedures w/CC",
+  "severity": 2,
+  "weight": 2.7195
+ },
+ {
+  "drg": "14102",
+  "mdc": "Nervous System",
+  "desc": "IM Spinal Disorders & Injuries w/CC",
+  "severity": 2,
+  "weight": 1.2607
+ },
+ {
+  "drg": "124103",
+  "mdc": "The Male Reproductive System",
+  "desc": "IM Male Reproductive System Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.5513003539874997
+ },
+ {
+  "drg": "71122",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Cholecystectomy Except Laparoscopic w/CC",
+  "severity": 2,
+  "weight": 1.9860000000000004
+ },
+ {
+  "drg": "11203",
+  "mdc": "Nervous System",
+  "desc": "IP Cranial & Peripheral Nerve Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.1297
+ },
+ {
+  "drg": "51122",
+  "mdc": "The Circulatory System",
+  "desc": "IP Complex Thoracic Vascular Procedures w/CC",
+  "severity": 2,
+  "weight": 3.7194999999999983
+ },
+ {
+  "drg": "146123",
+  "mdc": "Childbirth",
+  "desc": "IP Vaginal Delivery With Procedure Except Sterilization &/Or Dilation & Curettage w/MCC",
+  "severity": 3,
+  "weight": 0.5519997829387282
+ },
+ {
+  "drg": "158073",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt >2499 Grams With Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 16.187698373385718
+ },
+ {
+  "drg": "158111",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt 1000-1499 Grams Without Major Procedure",
+  "severity": 1,
+  "weight": 1.3157989218625001
+ },
+ {
+  "drg": "51023",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Valve Procedures With Cardiac Catheterization w/MCC",
+  "severity": 3,
+  "weight": 11.1012940949
+ },
+ {
+  "drg": "81011",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Bilateral & Multiple Major Lower Extremity Joint Procedures",
+  "severity": 1,
+  "weight": 2.9115
+ },
+ {
+  "drg": "101013",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IP Pituitary & Pineal Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.94979324815
+ },
+ {
+  "drg": "41021",
+  "mdc": "Respiratory System",
+  "desc": "IP Long Term Mechanical Ventilation Without Tracheostomy",
+  "severity": 1,
+  "weight": 4.8089897882
+ },
+ {
+  "drg": "121113",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Penis Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.95679579645
+ },
+ {
+  "drg": "121103",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Complex Prostatectomy Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.5548665638
+ },
+ {
+  "drg": "51121",
+  "mdc": "The Circulatory System",
+  "desc": "IP Complex Thoracic Vascular Procedures",
+  "severity": 1,
+  "weight": 2.2676
+ },
+ {
+  "drg": "51133",
+  "mdc": "The Circulatory System",
+  "desc": "IP Complex Abdominal Vascular Procedures w/MCC",
+  "severity": 3,
+  "weight": 5.6803
+ },
+ {
+  "drg": "204123",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IM Other Drug Abuse & Dependence w/MCC",
+  "severity": 3,
+  "weight": 1.0320200791
+ },
+ {
+  "drg": "51301",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Pacemaker & Defibrillator Device Replacement",
+  "severity": 1,
+  "weight": 2.1239
+ },
+ {
+  "drg": "194183",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Compulsive Nutrition Disorders w/MCC",
+  "severity": 3,
+  "weight": 2.5658983893
+ },
+ {
+  "drg": "174123",
+  "mdc": "The Myeloproliferative System & Poorly Differentiated Neoplasms",
+  "desc": "IM Radiotherapy w/MCC",
+  "severity": 3,
+  "weight": 2.6441911597
+ },
+ {
+  "drg": "111123",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Create, Revise, Remove Dialysis Device w/MCC",
+  "severity": 3,
+  "weight": 4.088196453933333
+ },
+ {
+  "drg": "11133",
+  "mdc": "Nervous System",
+  "desc": "IP Carpal Tunnel Release w/MCC",
+  "severity": 3,
+  "weight": 1.9819025351
+ },
+ {
+  "drg": "54133",
+  "mdc": "The Circulatory System",
+  "desc": "IM Deep Vein Thrombophlebitis w/MCC",
+  "severity": 3,
+  "weight": 1.1596225735
+ },
+ {
+  "drg": "51021",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Valve Procedures With Cardiac Catheterization",
+  "severity": 1,
+  "weight": 5.4127
+ },
+ {
+  "drg": "21203",
+  "mdc": "The Eye",
+  "desc": "IP Orbital & Extraocular Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.6638
+ },
+ {
+  "drg": "158082",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt >2499 Grams With Respiratory Distress Syndrome w/CC",
+  "severity": 2,
+  "weight": 2.8033000946
+ },
+ {
+  "drg": "11113",
+  "mdc": "Nervous System",
+  "desc": "IP Ventricular Shunt Procedures w/MCC",
+  "severity": 3,
+  "weight": 5.3052
+ },
+ {
+  "drg": "31101",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Complex Larynx Procedures",
+  "severity": 1,
+  "weight": 2.0487
+ },
+ {
+  "drg": "81052",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Major Upper Extremity Joint & Limb Reattachment Procedures w/CC",
+  "severity": 2,
+  "weight": 1.9569
+ },
+ {
+  "drg": "54231",
+  "mdc": "The Circulatory System",
+  "desc": "IM Malfunction, Reaction & Complication Of Cardiaovascolar Device Or Procedure",
+  "severity": 1,
+  "weight": 0.7352
+ },
+ {
+  "drg": "194132",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Bipolar Disorders w/CC",
+  "severity": 2,
+  "weight": 0.9002978851727271
+ },
+ {
+  "drg": "14122",
+  "mdc": "Nervous System",
+  "desc": "IM Multiple Sclerosis & Cerebellar Ataxia w/CC",
+  "severity": 2,
+  "weight": 0.9427999999999999
+ },
+ {
+  "drg": "131011",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Pelvic Evisceration, Radical Hysterectectomy & Radical Vulvectomy",
+  "severity": 1,
+  "weight": 1.32789822195
+ },
+ {
+  "drg": "101011",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IP Pituitary & Pineal Procedures",
+  "severity": 1,
+  "weight": 1.9063836943
+ },
+ {
+  "drg": "101102",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IP Adrenal Procedures w/CC",
+  "severity": 2,
+  "weight": 1.7704836622
+ },
+ {
+  "drg": "214153",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Burns, Transferred To Another Acute Care Facility w/MCC",
+  "severity": 3,
+  "weight": 0.67270335795
+ },
+ {
+  "drg": "214141",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Child Or Adult Maltreatment Syndrome",
+  "severity": 1,
+  "weight": 0.36387933645000003
+ },
+ {
+  "drg": "194141",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Depression",
+  "severity": 1,
+  "weight": 0.4089010403068963
+ },
+ {
+  "drg": "111111",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Complex Bladder Procedures",
+  "severity": 1,
+  "weight": 1.7811920432833332
+ },
+ {
+  "drg": "194101",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Schizophrenia",
+  "severity": 1,
+  "weight": 0.9374999371933063
+ },
+ {
+  "drg": "146111",
+  "mdc": "Childbirth",
+  "desc": "IP Vaginal Delivery With Sterilization &/Or Dilation & Curettage",
+  "severity": 1,
+  "weight": 0.6174031958785714
+ },
+ {
+  "drg": "194102",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Schizophrenia w/CC",
+  "severity": 2,
+  "weight": 1.041099475395
+ },
+ {
+  "drg": "146113",
+  "mdc": "Childbirth",
+  "desc": "IP Vaginal Delivery With Sterilization &/Or Dilation & Curettage w/MCC",
+  "severity": 3,
+  "weight": 0.8312971079000001
+ },
+ {
+  "drg": "194191",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Other Mental Disorders",
+  "severity": 1,
+  "weight": 0.6960991399047619
+ },
+ {
+  "drg": "51132",
+  "mdc": "The Circulatory System",
+  "desc": "IP Complex Abdominal Vascular Procedures w/CC",
+  "severity": 2,
+  "weight": 2.998
+ },
+ {
+  "drg": "204111",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IM Alcohol, Opioid & Cocaine Abuse & Dependence",
+  "severity": 1,
+  "weight": 0.4053996032323531
+ },
+ {
+  "drg": "14202",
+  "mdc": "Nervous System",
+  "desc": "IM Viral Meningitis w/CC",
+  "severity": 2,
+  "weight": 0.8982
+ },
+ {
+  "drg": "31153",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Tonsil & Adenoid Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.5512
+ },
+ {
+  "drg": "31302",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Mouth Procedures w/CC",
+  "severity": 2,
+  "weight": 1.1425
+ },
+ {
+  "drg": "44102",
+  "mdc": "Respiratory System",
+  "desc": "IM Cystic Fibrosis w/CC",
+  "severity": 2,
+  "weight": 1.9162
+ },
+ {
+  "drg": "24113",
+  "mdc": "The Eye",
+  "desc": "IM Neurological Eye Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.0676879242
+ },
+ {
+  "drg": "51052",
+  "mdc": "The Circulatory System",
+  "desc": "IP Coronary Bypass With Cardiac Catheterization w/CC",
+  "severity": 2,
+  "weight": 5.1685
+ },
+ {
+  "drg": "194161",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Organic Disturbances & Mental Retardation",
+  "severity": 1,
+  "weight": 0.7732999526298943
+ },
+ {
+  "drg": "11132",
+  "mdc": "Nervous System",
+  "desc": "IP Carpal Tunnel Release w/CC",
+  "severity": 2,
+  "weight": 0.8783
+ },
+ {
+  "drg": "184153",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Human Immunodeficiency Virus Infection w/MCC",
+  "severity": 3,
+  "weight": 1.9603976580916667
+ },
+ {
+  "drg": "114143",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Malfunction, Reaction Or Complication Of Urinary Tract Device, Graft Or Transplantation w/MCC",
+  "severity": 3,
+  "weight": 1.2917024064055556
+ },
+ {
+  "drg": "61303",
+  "mdc": "The Digestive System",
+  "desc": "IP Non-Complex Stomach, Esophageal & Duodenal Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.2352
+ },
+ {
+  "drg": "131103",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Abortion Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.53030365302
+ },
+ {
+  "drg": "34122",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IM Epistaxis w/CC",
+  "severity": 2,
+  "weight": 0.5617
+ },
+ {
+  "drg": "194162",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Organic Disturbances & Mental Retardation w/CC",
+  "severity": 2,
+  "weight": 0.8989007557095238
+ },
+ {
+  "drg": "101012",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IP Pituitary & Pineal Procedures w/CC",
+  "severity": 2,
+  "weight": 2.4971919790399997
+ },
+ {
+  "drg": "81022",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Amputation w/CC",
+  "severity": 2,
+  "weight": 1.9305999999999994
+ },
+ {
+  "drg": "158162",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams With Congenital/Perinatal Infections w/CC",
+  "severity": 2,
+  "weight": 1.0646993594384608
+ },
+ {
+  "drg": "51031",
+  "mdc": "The Circulatory System",
+  "desc": "IP Complex Cardiothoracic Repair Of Heart Anomaly",
+  "severity": 1,
+  "weight": 4.157
+ },
+ {
+  "drg": "54112",
+  "mdc": "The Circulatory System",
+  "desc": "IM Acute & Subacute Endocarditis w/CC",
+  "severity": 2,
+  "weight": 1.6404999999999998
+ },
+ {
+  "drg": "158102",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Died Or Transferred To Another Acute Care Facility w/CC",
+  "severity": 2,
+  "weight": 0.32570193345
+ },
+ {
+  "drg": "158132",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt 2000-2499 Grams Without Major Procedure w/CC",
+  "severity": 2,
+  "weight": 0.8964973449333331
+ },
+ {
+  "drg": "158032",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt <1000 Grams Without Major Procedure w/CC",
+  "severity": 2,
+  "weight": 6.3158030874857145
+ },
+ {
+  "drg": "224102",
+  "mdc": "Factors Influencing Health Status & Other Contacts With Health Services",
+  "desc": "IM Rehabilitation w/CC",
+  "severity": 2,
+  "weight": 1.3601980785454544
+ },
+ {
+  "drg": "64143",
+  "mdc": "The Digestive System",
+  "desc": "IM Gastrointestinal Vascular Insufficiency w/MCC",
+  "severity": 3,
+  "weight": 1.8161000000000003
+ },
+ {
+  "drg": "224103",
+  "mdc": "Factors Influencing Health Status & Other Contacts With Health Services",
+  "desc": "IM Rehabilitation w/MCC",
+  "severity": 3,
+  "weight": 1.9322037552666664
+ },
+ {
+  "drg": "111121",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Create, Revise, Remove Dialysis Device",
+  "severity": 1,
+  "weight": 1.00220131542
+ },
+ {
+  "drg": "54141",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiac Arrest, Unexplained",
+  "severity": 1,
+  "weight": 0.48230000000000006
+ },
+ {
+  "drg": "184152",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Human Immunodeficiency Virus Infection w/CC",
+  "severity": 2,
+  "weight": 1.1674042567454548
+ },
+ {
+  "drg": "194153",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Neuroses Except Depression w/MCC",
+  "severity": 3,
+  "weight": 0.7103161407000002
+ },
+ {
+  "drg": "31112",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Other Complex Head & Neck Procedures w/CC",
+  "severity": 2,
+  "weight": 1.9881
+ },
+ {
+  "drg": "14233",
+  "mdc": "Nervous System",
+  "desc": "IM Migraine & Other Headaches w/MCC",
+  "severity": 3,
+  "weight": 0.9089
+ },
+ {
+  "drg": "204101",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IM Drug & Alcohol Abuse & Dependence, Left Against Medical Advice",
+  "severity": 1,
+  "weight": 0.25160592128000003
+ },
+ {
+  "drg": "114141",
+  "mdc": "The Urinary Tract",
+  "desc": "IM Malfunction, Reaction Or Complication Of Urinary Tract Device, Graft Or Transplantation",
+  "severity": 1,
+  "weight": 0.51729887525
+ },
+ {
+  "drg": "194131",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Bipolar Disorders",
+  "severity": 1,
+  "weight": 0.6798002437937932
+ },
+ {
+  "drg": "194111",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Major Depression",
+  "severity": 1,
+  "weight": 0.554400207223256
+ },
+ {
+  "drg": "101101",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IP Adrenal Procedures",
+  "severity": 1,
+  "weight": 1.458689269475
+ },
+ {
+  "drg": "184151",
+  "mdc": "Infectious & Parasitic Diseases Of Systemic Or Unspecified Sites",
+  "desc": "IM Human Immunodeficiency Virus Infection",
+  "severity": 1,
+  "weight": 0.7325047925666667
+ },
+ {
+  "drg": "111113",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Complex Bladder Procedures w/MCC",
+  "severity": 3,
+  "weight": 5.1077097612
+ },
+ {
+  "drg": "204102",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IM Drug & Alcohol Abuse & Dependence, Left Against Medical Advice w/CC",
+  "severity": 2,
+  "weight": 0.47959004772
+ },
+ {
+  "drg": "31303",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Mouth Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.4463432208
+ },
+ {
+  "drg": "44101",
+  "mdc": "Respiratory System",
+  "desc": "IM Cystic Fibrosis",
+  "severity": 1,
+  "weight": 1.3400999999999998
+ },
+ {
+  "drg": "158101",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Died Or Transferred To Another Acute Care Facility",
+  "severity": 1,
+  "weight": 0.1299931011
+ },
+ {
+  "drg": "44103",
+  "mdc": "Respiratory System",
+  "desc": "IM Cystic Fibrosis w/MCC",
+  "severity": 3,
+  "weight": 2.8989000000000003
+ },
+ {
+  "drg": "204103",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IM Drug & Alcohol Abuse & Dependence, Left Against Medical Advice w/MCC",
+  "severity": 3,
+  "weight": 0.697135873
+ },
+ {
+  "drg": "111013",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Kidney Transplantation w/MCC",
+  "severity": 3,
+  "weight": 8.8512210528
+ },
+ {
+  "drg": "194133",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Bipolar Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.1607918781
+ },
+ {
+  "drg": "194171",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Childhood Mental Disorders",
+  "severity": 1,
+  "weight": 0.8286982094099997
+ },
+ {
+  "drg": "31142",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Cleft Lip & Palate Repair w/CC",
+  "severity": 2,
+  "weight": 0.8028999999999998
+ },
+ {
+  "drg": "214151",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Burns, Transferred To Another Acute Care Facility",
+  "severity": 1,
+  "weight": 0.2751896641
+ },
+ {
+  "drg": "194173",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Childhood Mental Disorders w/MCC",
+  "severity": 3,
+  "weight": 0.94620667552
+ },
+ {
+  "drg": "194172",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Childhood Mental Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8868972264249999
+ },
+ {
+  "drg": "161101",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IP Bone Marrow Transplantation",
+  "severity": 1,
+  "weight": 6.3548410434
+ },
+ {
+  "drg": "214143",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Child Or Adult Maltreatment Syndrome w/MCC",
+  "severity": 3,
+  "weight": 1.46580175655
+ },
+ {
+  "drg": "81061",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Spinal Fusion Procedures For Curvature Of The Spine",
+  "severity": 1,
+  "weight": 4.4271
+ },
+ {
+  "drg": "51022",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Valve Procedures With Cardiac Catheterization w/CC",
+  "severity": 2,
+  "weight": 6.9889
+ },
+ {
+  "drg": "71113",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Complex Biliary Tract Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.8209
+ },
+ {
+  "drg": "31102",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Complex Larynx Procedures w/CC",
+  "severity": 2,
+  "weight": 3.3346
+ },
+ {
+  "drg": "161102",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IP Bone Marrow Transplantation w/CC",
+  "severity": 2,
+  "weight": 9.67890518275
+ },
+ {
+  "drg": "81062",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Spinal Fusion Procedures For Curvature Of The Spine w/CC",
+  "severity": 2,
+  "weight": 5.3175
+ },
+ {
+  "drg": "214152",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Burns, Transferred To Another Acute Care Facility w/CC",
+  "severity": 2,
+  "weight": 0.5193883182
+ },
+ {
+  "drg": "11012",
+  "mdc": "Nervous System",
+  "desc": "IP Intracranial Vascular Procedures w/CC",
+  "severity": 2,
+  "weight": 4.688
+ },
+ {
+  "drg": "14203",
+  "mdc": "Nervous System",
+  "desc": "IM Viral Meningitis w/MCC",
+  "severity": 3,
+  "weight": 1.3262
+ },
+ {
+  "drg": "111011",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Kidney Transplantation",
+  "severity": 1,
+  "weight": 5.911777761350001
+ },
+ {
+  "drg": "194181",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Compulsive Nutrition Disorders",
+  "severity": 1,
+  "weight": 1.5127750413499998
+ },
+ {
+  "drg": "81053",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Major Upper Extremity Joint & Limb Reattachment Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.3331
+ },
+ {
+  "drg": "131012",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Pelvic Evisceration, Radical Hysterectectomy & Radical Vulvectomy w/CC",
+  "severity": 2,
+  "weight": 1.6901023181500001
+ },
+ {
+  "drg": "161103",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IP Bone Marrow Transplantation w/MCC",
+  "severity": 3,
+  "weight": 13.1175682512
+ },
+ {
+  "drg": "111012",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Kidney Transplantation w/CC",
+  "severity": 2,
+  "weight": 6.5382565966
+ },
+ {
+  "drg": "214142",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Child Or Adult Maltreatment Syndrome w/CC",
+  "severity": 2,
+  "weight": 0.7729578604
+ },
+ {
+  "drg": "214103",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Injuries To Unspecified Or Multiple Sites w/MCC",
+  "severity": 3,
+  "weight": 1.1980351217
+ },
+ {
+  "drg": "158052",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt 1500-1999 Grams With Major Procedure w/CC",
+  "severity": 2,
+  "weight": 9.2173448635
+ },
+ {
+  "drg": "41011",
+  "mdc": "Respiratory System",
+  "desc": "IP Long Term Mechanical Ventilation With Tracheostomy",
+  "severity": 1,
+  "weight": 9.4076219579
+ },
+ {
+  "drg": "51011",
+  "mdc": "The Circulatory System",
+  "desc": "IP Heart &/Or Lung Transplantation",
+  "severity": 1,
+  "weight": 12.883721995
+ },
+ {
+  "drg": "158051",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt 1500-1999 Grams With Major Procedure",
+  "severity": 1,
+  "weight": 6.5031545384
+ },
+ {
+  "drg": "158021",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt <1000 Grams With Major Procedure",
+  "severity": 1,
+  "weight": 24.2098094351
+ },
+ {
+  "drg": "131131",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Endoscopic Tubal Interruption",
+  "severity": 1,
+  "weight": 0.7048283544
+ },
+ {
+  "drg": "131122",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Open Tubal Interruption w/CC",
+  "severity": 2,
+  "weight": 0.7432943226
+ },
+ {
+  "drg": "201101",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IP Alcohol & Drug Rehabilitation &/Or Detoxification Therapy",
+  "severity": 1,
+  "weight": 0.4596324156
+ },
+ {
+  "drg": "158062",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt 2000-2499 Grams With Major Procedure w/CC",
+  "severity": 2,
+  "weight": 6.8280031671
+ },
+ {
+  "drg": "158023",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt <1000 Grams With Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 31.7305169887
+ },
+ {
+  "drg": "131133",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Endoscopic Tubal Interruption w/MCC",
+  "severity": 3,
+  "weight": 1.0278591522
+ },
+ {
+  "drg": "131132",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Endoscopic Tubal Interruption w/CC",
+  "severity": 2,
+  "weight": 0.7652404497
+ },
+ {
+  "drg": "71012",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Liver Transplantation w/CC",
+  "severity": 2,
+  "weight": 10.956792969
+ },
+ {
+  "drg": "51013",
+  "mdc": "The Circulatory System",
+  "desc": "IP Heart &/Or Lung Transplantation w/MCC",
+  "severity": 3,
+  "weight": 20.7842216451
+ },
+ {
+  "drg": "51012",
+  "mdc": "The Circulatory System",
+  "desc": "IP Heart &/Or Lung Transplantation w/CC",
+  "severity": 2,
+  "weight": 13.1672310534
+ },
+ {
+  "drg": "158043",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt 1000-1499 Grams With Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 22.2528801609
+ },
+ {
+  "drg": "158041",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt 1000-1499 Grams With Major Procedure",
+  "severity": 1,
+  "weight": 11.9594378767
+ },
+ {
+  "drg": "158022",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt <1000 Grams With Major Procedure w/CC",
+  "severity": 2,
+  "weight": 27.771143405
+ },
+ {
+  "drg": "158012",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, W Organ Transplantation Or Extracorporeal Membrane Oxygenation w/CC",
+  "severity": 2,
+  "weight": 18.5663071336
+ },
+ {
+  "drg": "158011",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, W Organ Transplantation Or Extracorporeal Membrane Oxygenation",
+  "severity": 1,
+  "weight": 15.0049731637
+ },
+ {
+  "drg": "71011",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Liver Transplantation",
+  "severity": 1,
+  "weight": 9.9312219777
+ },
+ {
+  "drg": "158013",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, W Organ Transplantation Or Extracorporeal Membrane Oxygenation w/MCC",
+  "severity": 3,
+  "weight": 21.7916399274
+ },
+ {
+  "drg": "121133",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Non-Complex Prostate & Scrotal Contents Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.5947784336
+ },
+ {
+  "drg": "41012",
+  "mdc": "Respiratory System",
+  "desc": "IP Long Term Mechanical Ventilation With Tracheostomy w/CC",
+  "severity": 2,
+  "weight": 10.0501283861
+ },
+ {
+  "drg": "201103",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IP Alcohol & Drug Rehabilitation &/Or Detoxification Therapy w/MCC",
+  "severity": 3,
+  "weight": 1.1229883181
+ },
+ {
+  "drg": "201102",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IP Alcohol & Drug Rehabilitation &/Or Detoxification Therapy w/CC",
+  "severity": 2,
+  "weight": 0.6172551521
+ },
+ {
+  "drg": "158063",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt 2000-2499 Grams With Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 12.7008648732
+ },
+ {
+  "drg": "158061",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt 2000-2499 Grams With Major Procedure",
+  "severity": 1,
+  "weight": 3.8444800567
+ },
+ {
+  "drg": "158053",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt 1500-1999 Grams With Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 13.5805202993
+ },
+ {
+  "drg": "158042",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt 1000-1499 Grams With Major Procedure w/CC",
+  "severity": 2,
+  "weight": 15.5207718465
+ },
+ {
+  "drg": "131123",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Open Tubal Interruption w/MCC",
+  "severity": 3,
+  "weight": 0.8263921153
+ },
+ {
+  "drg": "131121",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Open Tubal Interruption",
+  "severity": 1,
+  "weight": 0.6537439312
+ },
+ {
+  "drg": "81063",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Spinal Fusion Procedures For Curvature Of The Spine w/MCC",
+  "severity": 3,
+  "weight": 7.8845227479
+ },
+ {
+  "drg": "71013",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Liver Transplantation w/MCC",
+  "severity": 3,
+  "weight": 19.2204695767
+ },
+ {
+  "drg": "51053",
+  "mdc": "The Circulatory System",
+  "desc": "IP Coronary Bypass With Cardiac Catheterization w/MCC",
+  "severity": 3,
+  "weight": 7.5364759533
+ },
+ {
+  "drg": "131013",
+  "mdc": "The Female Reproductive System",
+  "desc": "IP Pelvic Evisceration, Radical Hysterectectomy & Radical Vulvectomy w/MCC",
+  "severity": 3,
+  "weight": 3.4640169578
+ },
+ {
+  "drg": "194123",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Personality & Impulse Control Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.5277932793
+ },
+ {
+  "drg": "81013",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Bilateral & Multiple Major Lower Extremity Joint Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.5650306582
+ },
+ {
+  "drg": "194193",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Other Mental Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.109743717
+ },
+ {
+  "drg": "31103",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Complex Larynx Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.9009879111
+ },
+ {
+  "drg": "31113",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Other Complex Head & Neck Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.6974185
+ },
+ {
+  "drg": "11013",
+  "mdc": "Nervous System",
+  "desc": "IP Intracranial Vascular Procedures w/MCC",
+  "severity": 3,
+  "weight": 9.0754
+ },
+ {
+  "drg": "31143",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Cleft Lip & Palate Repair w/MCC",
+  "severity": 3,
+  "weight": 1.0315676879
+ },
+ {
+  "drg": "194113",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Major Depression w/MCC",
+  "severity": 3,
+  "weight": 1.0800184495
+ },
+ {
+  "drg": "101103",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IP Adrenal Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.7316239021
+ },
+ {
+  "drg": "11123",
+  "mdc": "Nervous System",
+  "desc": "IP Extracranial Vascular Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.2046
+ },
+ {
+  "drg": "194122",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Personality & Impulse Control Disorders w/CC",
+  "severity": 2,
+  "weight": 0.779970127
+ },
+ {
+  "drg": "194112",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Major Depression w/CC",
+  "severity": 2,
+  "weight": 0.8422011427714285
+ },
+ {
+  "drg": "214102",
+  "mdc": "Injuries, Poisonings & Toxic Effects Of Drugs",
+  "desc": "IM Injuries To Unspecified Or Multiple Sites w/CC",
+  "severity": 2,
+  "weight": 0.8716079351750001
+ },
+ {
+  "drg": "194143",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Depression w/MCC",
+  "severity": 3,
+  "weight": 0.70579727066
+ },
+ {
+  "drg": "64142",
+  "mdc": "The Digestive System",
+  "desc": "IM Gastrointestinal Vascular Insufficiency w/CC",
+  "severity": 2,
+  "weight": 1.0344
+ },
+ {
+  "drg": "194142",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Depression w/CC",
+  "severity": 2,
+  "weight": 0.5245044777749999
+ },
+ {
+  "drg": "81103",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Cranial & Facial Bone Reconstructive Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.7898837409
+ },
+ {
+  "drg": "194103",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Schizophrenia w/MCC",
+  "severity": 3,
+  "weight": 1.28939938525
+ },
+ {
+  "drg": "204122",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IM Other Drug Abuse & Dependence w/CC",
+  "severity": 2,
+  "weight": 0.6701114275
+ },
+ {
+  "drg": "158031",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt <1000 Grams Without Major Procedure",
+  "severity": 1,
+  "weight": 0.1284945556
+ },
+ {
+  "drg": "146112",
+  "mdc": "Childbirth",
+  "desc": "IP Vaginal Delivery With Sterilization &/Or Dilation & Curettage w/CC",
+  "severity": 2,
+  "weight": 0.641802060675
+ },
+ {
+  "drg": "11122",
+  "mdc": "Nervous System",
+  "desc": "IP Extracranial Vascular Procedures w/CC",
+  "severity": 2,
+  "weight": 1.455
+ },
+ {
+  "drg": "81021",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Amputation",
+  "severity": 1,
+  "weight": 1.1759
+ },
+ {
+  "drg": "194192",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Other Mental Disorders w/CC",
+  "severity": 2,
+  "weight": 0.891387711725
+ },
+ {
+  "drg": "121153",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Circumcision w/MCC",
+  "severity": 3,
+  "weight": 2.6740884319250005
+ },
+ {
+  "drg": "158071",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt >2499 Grams With Major Procedure",
+  "severity": 1,
+  "weight": 3.63239964102
+ },
+ {
+  "drg": "134113",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM Female Reproductive System Infections w/MCC",
+  "severity": 3,
+  "weight": 1.4974046378
+ },
+ {
+  "drg": "224101",
+  "mdc": "Factors Influencing Health Status & Other Contacts With Health Services",
+  "desc": "IM Rehabilitation",
+  "severity": 1,
+  "weight": 1.0247012356199998
+ },
+ {
+  "drg": "101203",
+  "mdc": "The Endocrine, Nutritional & Metabolic Systems",
+  "desc": "IP Thyroid, Parathyroid & Thyroglossal Duct Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.4383151097
+ },
+ {
+  "drg": "194121",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Personality & Impulse Control Disorders",
+  "severity": 1,
+  "weight": 0.5883017353300002
+ },
+ {
+  "drg": "121152",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Circumcision w/CC",
+  "severity": 2,
+  "weight": 1.2201987835454544
+ },
+ {
+  "drg": "194182",
+  "mdc": "Mental Diseases & Disorders",
+  "desc": "IM Compulsive Nutrition Disorders w/CC",
+  "severity": 2,
+  "weight": 1.6644841159
+ },
+ {
+  "drg": "164122",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IM Sickle Cell Anemia Crisis w/CC",
+  "severity": 2,
+  "weight": 1.0621994386676472
+ },
+ {
+  "drg": "111122",
+  "mdc": "The Urinary Tract",
+  "desc": "IP Create, Revise, Remove Dialysis Device w/CC",
+  "severity": 2,
+  "weight": 1.9041007347292684
+ },
+ {
+  "drg": "134153",
+  "mdc": "The Female Reproductive System",
+  "desc": "IM False Labor w/MCC",
+  "severity": 3,
+  "weight": 0.45959640914166666
+ },
+ {
+  "drg": "204121",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IM Other Drug Abuse & Dependence",
+  "severity": 1,
+  "weight": 0.44979928707812483
+ },
+ {
+  "drg": "31133",
+  "mdc": "The Ear, Nose, Mouth & Throat",
+  "desc": "IP Salivary Gland Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.8908962069
+ },
+ {
+  "drg": "121112",
+  "mdc": "The Male Reproductive System",
+  "desc": "IP Penis Procedures w/CC",
+  "severity": 2,
+  "weight": 1.5458858988
+ },
+ {
+  "drg": "204113",
+  "mdc": "Alcohol/Drug Abuse & Dependence",
+  "desc": "IM Alcohol, Opioid & Cocaine Abuse & Dependence w/MCC",
+  "severity": 3,
+  "weight": 1.0275120859666667
+ },
+ {
+  "drg": "71112",
+  "mdc": "The Hepatobiliary System & Pancreas",
+  "desc": "IP Complex Biliary Tract Procedures w/CC",
+  "severity": 2,
+  "weight": 2.6141
+ },
+ {
+  "drg": "54142",
+  "mdc": "The Circulatory System",
+  "desc": "IM Cardiac Arrest, Unexplained w/CC",
+  "severity": 2,
+  "weight": 0.5643
+ },
+ {
+  "drg": "161112",
+  "mdc": "Blood, Blood Forming Organs, Immunological System",
+  "desc": "IP Spleen Procedures w/CC",
+  "severity": 2,
+  "weight": 2.415095199828571
+ },
+ {
+  "drg": "81012",
+  "mdc": "The Musculoskeletal System & Connective Tissue",
+  "desc": "IP Bilateral & Multiple Major Lower Extremity Joint Procedures w/CC",
+  "severity": 2,
+  "weight": 3.2498
+ },
+ {
+  "drg": "158072",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IP Neonate, Birthwt >2499 Grams With Major Procedure w/CC",
+  "severity": 2,
+  "weight": 6.822101891676924
+ },
+ {
+  "drg": "51302",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Pacemaker & Defibrillator Device Replacement w/CC",
+  "severity": 2,
+  "weight": 2.3898
+ },
+ {
+  "drg": "158152",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt >2499 Grams With Aspiration Syndrome w/CC",
+  "severity": 2,
+  "weight": 1.0156966281500002
+ },
+ {
+  "drg": "51162",
+  "mdc": "The Circulatory System",
+  "desc": "IP Cardiac Pacemaker & Defibrillator Revision Except Device Replacement w/CC",
+  "severity": 2,
+  "weight": 1.3177000000000003
+ },
+ {
+  "drg": "158122",
+  "mdc": "Newborns & Other Neonates",
+  "desc": "IM Neonate, Birthwt 1500-1999 Grams Without Major Procedure w/CC",
+  "severity": 2,
+  "weight": 2.4694983843266645
+ }
+]

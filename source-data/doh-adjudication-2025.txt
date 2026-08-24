@@ -1,0 +1,2999 @@
+ 
+ 
+Including the Mandatory Tariff Pricelist Application Rules. 
+ 
+ 
+DoH CLAIMS & ADJUDICATION 
+RULES 
+
+ 
+DoH Claims and Adjudication Rules V2024 
+ 
+Healthcare Payer Sector – Standards & Pricing     2 
+Table of Contents  
+1 Purpose and Scope ........................................................................................................................................................5 
+1.1 Document Purpose and Scope ..................................................................................................................................5 
+1.2 Mandatory Tariff Pricelist Purpose and Scope ..........................................................................................................5 
+1.3 Updates and Revisions ..............................................................................................................................................5 
+2 Implementation Rules ...................................................................................................................................................6 
+2.1 Rules implementation ...............................................................................................................................................6 
+2.2 Code Implementation ...............................................................................................................................................6 
+2.3 Rates Implementation ..............................................................................................................................................6 
+2.3.1 Multipliers Ranges .....................................................................................................................................................6 
+2.3.2 Multipliers Application Rules .....................................................................................................................................7 
+2.3.3 Rate Update Implementation Options ......................................................................................................................7 
+2.4 Pay for Quality ..........................................................................................................................................................8 
+2.4.1 Parameters for P4Q Indicators ..................................................................................................................................8 
+2.4.2 Application of Pay for Quality ....................................................................................................................................9 
+3 Code Definitions ............................................................................................................................................................9 
+3.1 Standard Codes .........................................................................................................................................................9 
+3.2 Service Codes ............................................................................................................................................................9 
+4 Claiming Methodologies ............................................................................................................................................ 10 
+4.1 Methodology per Encounter Type ......................................................................................................................... 10 
+4.1.1 Inpatient encounters .............................................................................................................................................. 10 
+4.1.2 Ambulatory Surgical Procedures or Same Day Surgery .......................................................................................... 10 
+4.1.3 Outpatient encounters ........................................................................................................................................... 10 
+4.2 Fee for Service ....................................................................................................................................................... 10 
+4.2.1 Fee for Service - Special Claiming Rules ................................................................................................................. 11 
+4.3 Per diem ................................................................................................................................................................. 18 
+4.3.1 Transferred Cases ................................................................................................................................................... 19 
+4.3.2 Special Rules on HCPCS for Per diems other than long term care ......................................................................... 20 
+4.4 IR-DRGs .................................................................................................................................................................. 20 
+4.4.1 DRG Rules ............................................................................................................................................................... 20 
+4.4.2 Payment Calculations ............................................................................................................................................. 22 
+4.5 Bundled Payment Methodology ............................................................................................................................ 23 
+4.5.1 ART Related services .............................................................................................................................................. 23 
+4.5.2 Bone Marrow transplant ........................................................................................................................................ 24 
+ 
+DoH Claims and Adjudication Rules V2024 
+ 
+Healthcare Payer Sector – Standards & Pricing     3 
+4.5.3 Comprehensive screening Codes: .......................................................................................................................... 25 
+5 Adjudication and Pre-authorizations Rules ................................................................................................................ 26 
+5.1 General Rules ......................................................................................................................................................... 26 
+5.2 Medically Unlikely Edit (MUE) ............................................................................................................................... 26 
+5.3 Abu Dhabi Insurers Simple Edits. ........................................................................................................................... 27 
+5.4 Modifiers ................................................................................................................................................................ 27 
+5.4.1 Modifier (25) .......................................................................................................................................................... 27 
+5.4.2 Modifier (52) .......................................................................................................................................................... 27 
+5.4.3 Modifier (24) .......................................................................................................................................................... 28 
+5.4.4 Modifier (50) .......................................................................................................................................................... 28 
+5.5 Hospital-Acquired Conditions (HACs) .................................................................................................................... 28 
+5.5.1 List of HACs ............................................................................................................................................................. 28 
+6 Appendices ................................................................................................................................................................. 30 
+6.1 Appendix 1 : Diagrams ........................................................................................................................................... 30 
+6.1.1 Diagram 1 Ambulance transfer .............................................................................................................................. 30 
+6.1.2 Diagram 2 DOH Claims & Adjudication Rules for bundle package for IVF services ................................................ 31 
+6.2 Appendix 2: Tables ................................................................................................................................................. 32 
+6.2.1 Table 1: Service Codes ............................................................................................................................................ 32 
+6.2.2 Table 2 : CPT Code Ranges ..................................................................................................................................... 52 
+6.2.3 Table 3 : Telemedicine Services.............................................................................................................................. 54 
+6.2.4 Table 4: DOH HAC list ............................................................................................................................................. 56 
+ 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     4 
+Revision History 
+ 
+Version Date Comments 
+v25.0 01/01/2025 • Updated adjudication rules to reflect changes since 
+the last version, including the transition to the 2021 
+codeset.  
+• All addendums published since the last version and 
+valid were incorporated.  
+• This document applies to claims with 
+“Encounter.Start” date of 1st January 2025 onward 
+   
+   
+   
+   
+   
+   
+ 
+  
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     5 
+1 Purpose and Scope 
+1.1 Document Purpose and Scope 
+Rules included in this document are built on the “Rules for Claiming under the Basic Product Pricelist” which was 
+part of the previous Basic Product Pricelist (former description of the Mandatory Tariff file). Hence content of this 
+document shall supersede any and all rules previous versions might have included. 
+This document complements the Mandatory Tariff pricelist; explaining its content and sets the claiming rules of its 
+use for all encounters. Notwithstanding, the contents of this document shall not be viewed or utilized in isolation 
+from:  
+1. Circulars and Standards published on DoH’s website,  
+2. DoH’s Data Standard,  
+3. Standard Providers Contract (SPC) provision and /or  
+In the event of any conflict between the content of this document and the Law and Rules and the aforementioned 
+governance; the Law and Rules and the governance shall take precedence. 
+Also, the content of this document and the Mandatory Tariff Pricelist shall not cancel, limit, or contradict with any 
+mandatory benefit defined as a minimum coverage by the Abu Dhabi health insurance law, and shall be 
+interpreted within the context of law and the benefit of the insured. 
+The Mandatory Tariff pricelist and the rules included herein are applicable to all health insurance products 
+regulated by the health insurance scheme. 
+It also applies to healthcare entities, providers and payers approved by DoH to participate in the health insurance 
+scheme. 
+1.2 Mandatory Tariff Pricelist Purpose and Scope 
+• The Mandatory Tariff is the exhaustive pricelist for the Basic Product Plan. 
+• Mandatory prices correspond to the Gross Amount due to the healthcare providers for services performed for 
+insured patients; Patients will need to pay a Patient Share while the payer is to pay the remaining Net Amount. 
+• The process of claiming shall not alter the benefits coverage for members, hence in the absence of a defined 
+code for services, the closest unlisted code can be used for claiming services. An observation must be 
+reported in the eClaim as defined in Routine reporting requirements published on Reporting - Shafafiya | 
+Department of Health Abu Dhabi Reference = “UnlistedCodes”. 
+1.3 Updates and Revisions 
+Future updates of the Mandatory Tariff and DoH Claims and Adjudication Rules will be published in the Shafafiya 
+website https://www.doh.gov.ae/en/Shafafiya 
+The updates of the Mandatory Tariff & the Claims and Adjudication rule major update shall aim to: 
+• Incorporate standard codes: ICD-10-CM, CPT, CDA, HCPCS addition, deletion or description update released 
+by AMA and CMS. And / or non-standard codes: Service Codes, released by DoH Healthcare Payer Sector. 
+• Wide-scale services and products prices update based on the revised CPT codes RVUs, Demand and Supply, 
+Market Trends and other Economic Factors. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     6 
+• Update the Claims & Adjudication Rules to align with the strategic objectives, latest claiming and adjudication 
+practices and governance. 
+There might be additional LIMITED/PERIODICAL updates to the Mandatory Tariff Pricelist and / or DoH Claims & 
+Adjudication Rules. The updates, or periodical addendums, shall be limited to: 
+• Update of the 3M™ International Refined Diagnosis Related Groups (IR-DRG) weights. 
+• Incorporate standard codes addition, deletion or description changes and / or non-standard codes; without 
+affecting the unchanged codes prices. 
+• Limited-scale price update or pricing un-priced codes of supply, product or service, to accommodate changes 
+in the market trends or other economic factors. 
+• Update of the Claims & Adjudication Rules. 
+Next limited/periodical updates schedule shall be established based on the recommendations by DoH in the 
+future for this purpose. At all times, the last published pricelist and rules shall remain in effect. 
+2 Implementation Rules 
+2.1 Rules implementation 
+The rules included herein shall be utilized for billing, adjudication and reimbursement purposes for claims with 
+“Encounter.Start” date of 1st January 2025 onward; 
+Where no rule existed in prior versions of the Claims and Adjudication rules, and only in the event both Providers 
+and Payers mutually agree, rules included herein can be retroactively implemented. 
+2.2 Code Implementation 
+• New Codes (update status = <N>) shall be available for encounter with “Encounter.Start” equal or greater than 
+the Code effective Date. Healthcare entities: providers and payers, shall have the choice to include or not 
+include the new Codes in their contractual agreement that is in effect. 
+• Retired Codes (Update Status = <E>) shall be permitted to be used for encounters with “Encounter.Start” less 
+or equal to the Code Expiry Date. Healthcare entities: providers and payers, shall not have the choice to use 
+the retired codes after the expiry date. 
+2.3 Rates Implementation 
+2.3.1 Multipliers Ranges 
+For priced services and for all inpatient DRGs, 
+• For the Basic Product, the prices, DRG weights and IR DRG Base Rate listed in the most updated Mandatory 
+Tariff version shall be implemented 
+• For the other Products, subject to section 2.4.2 of this document, services’ prices shall be set by the parties 
+between 1 and 3 times of the DoH Mandatory Tariff and the Basic Product DRG Base Rate. However, the DRG 
+weight, shall be used as published and in effect on the agreement effective or renewal date.  
+For unpriced or unlisted code, healthcare entities: 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     7 
+• For all products, and unless otherwise stated, providers and payers must negotiate a reimbursement rate per 
+service before concluding providing the service. 
+• If no specific charge is pre-negotiated, the provider must bill using the price of the most closely related drug, 
+supply, product, procedure or service 
+2.3.2 Multipliers Application Rules 
+ Medication/Drugs, blood and blood Products are not subject to 1 to 3 times the Mandatory Tariff range. Discount 
+application on the Medication and Drugs shall follow DoH circular 20, dated March 12th 2009 and Ministry of 
+Health circular number 89, and UAE FEDERAL LAW NO: 4, 1983. Dated 2004 on the retail; however remain subject 
+to the free market dynamics and the provisions of the contractual arrangement between the healthcare entities. 
+For all services and codes, providers and payers are permitted to negotiate multipliers per service category 
+(Laboratory, Radiology, etc.), or CPT codes range as outlined in section 6.2.2, but are not allowed to negotiate 
+individual prices per service code. Multiplier must fall within the range of 1 to 3 times the Mandatory Tariff, and be 
+in compliance with the following rules: 
+2.3.2.1 DRGs 
+o A single DRG Base Rate, per provider branch or all branches, and Insurance company single product, 
+bundle of products, or all products. 
+o In the presence of TPA: A single DRG Base Rate, per provider branch or all branches, and the represented 
+individual or all Insurance companies per single product, bundle of products, or all products. 
+2.3.2.2 CPTs 
+o Single multiplier for all CPT codes per Provider branch or all branches and Insurance company single 
+product, bundle of products, or all products; In the presence of TPA: per Individual or all represented 
+Insurance companies. 
+o Single multiplier per CPT range, as defined in section 6.2.2 of this document, per provider branch or all 
+branches and Insurance company single Product, the bundle of products, or all products. In the presence 
+of TPA: Individual or all represented Insurance companies. 
+2.3.2.3 Anesthesia codes 
+o Single Base Rate for all Anesthesia codes (00100-01999; 99100-99140), per provider branch or all branches, 
+and Insurance company single product, and the bundle of products, or all products. In the presence of 
+TPA: per Individual or all represented insurance companies. 
+2.3.3 Rate Update Implementation Options 
+Tariffs agreed between the Parties shall be as set out in the relevant appendix in the Standard Provider Contract 
+using one of the following options: 
+• Variable Rates: 
+o Using the price of the Mandatory Tariff in effect at the time of agreement with or without multiplier, 
+o The reimbursement rates shall be subject to the periodic price updates (Increase / Decrease) 
+published by DoH, while the multiplier will remain as negotiated. 
+o The Government Subsidized Basic Product reimbursement rates shall always be set as Variable Rates, 
+with a multiplier of 1. 
+ 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     8 
+• Fixed Rates: 
+o Using the price of the Mandatory Tariff in effect at the time of agreement with or without multiplier, OR 
+defined price per products or services; subject to price implementation rules. 
+o The reimbursement rates shall not be subject to the periodic price updates (Increase / Decrease) 
+published by DoH; and such, prices will remain unchanged throughout the contractual period despite any 
+update to the Mandatory Tariff DoH published. 
+o For this option to be utilized, the relevant Appendix in the SPC shall clearly state the Mandatory Tariff 
+version in use, e.g. V2012. 
+At the time of renewal, and in the event that no negotiation was initiated, prices and DRG weights will follow the 
+Mandatory Tariff in effect, while the multiplier and the DRG Base Rate shall remain constant. 
+2.4 Pay for Quality 
+For other products than Basic Products, Insurance companies and Providers can agree to include Pay for Quality 
+indicators in Appendix (IV) of their agreement. Examples of types of indicators in Pay for Quality program: 
+1. Clinical Outcome Quality Indicators 
+o Emergency Department visit to Admission ratio. 
+o Hospital Acquired Diseases. 
+o 30-day readmission 
+2. Administrative / Process Quality indicators 
+o Rejection Rate. 
+o Resubmission Rate. 
+3. Customer Satisfaction. 
+o Patient Satisfaction rate. 
+If mutually agreed to be included in the contractual agreement, the Pay for Quality program must be compliant 
+with the following requirement: 
+2.4.1 Parameters for P4Q Indicators 
+• Must have a Meaningful Use. 
+• Must have verifiable measurement, through external and independent source agreed by both parties or 
+centrally available via the Health Authority. 
+• Cost / Revenue neutral to the insurance companies, whereby providers can obtain additional payment or 
+reduction /refund of payment based on their performance against the performance of other providers offering 
+the same service, but the net effect at the aggregate level must be cost/revenue neutral to the payer. 
+• Providers can offset reductions under one indicator by the good performance on other indicators; the net 
+augmentation/reduction (additional payment or refund) shall be calculated against all the underlying 
+indicators for which the provider was eligible. 
+• Where possible, the principle of “one indicator for all categories” shall be applied. However P4Q indicators 
+should align with the respective characteristics of the provider’s category. E.g. readmission rates will only be 
+measured in hospitals. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     9 
+2.4.2 Application of Pay for Quality 
+• Scoring. P4Q indicators should be subject to scoring mechanisms irrespective of the size of the facility. 
+• Eligibility. Each indicator will have individual criteria for eligibility; i.e., “Overall patient satisfaction score” will 
+be applicable only to hospitals that participated in the DoH patient survey. 
+• Scope. The outcomes supplement/reduction will be applicable to all invoices included in the encounter type 
+pre-selected and has an “Encounter.Start” date within the agreed upon review period. 
+3 Code Definitions 
+3.1 Standard Codes 
+• Coding of healthcare products and services shall be in accordance with: 
+o “DoH Coding Manual for Hospitals and Other Healthcare Institutions” available at DoH website Standards 
+- Shafafiya | Department of Health Abu Dhabi, which includes: 
+▪ ICD-10-CM (International Classification of Diseases, 9th revision) coding conventions, 
+▪ CPT-4 (Current Procedural Terminology), 
+▪ HCPCS (Healthcare Common Procedure Coding System), 
+o IR-DRG codes rules as Defined by 3M, 
+o Dental Codes (USC&LS) rules as established by the Canadian Dental Association, Unified System of 
+Codes and List of Services, 
+o DoH Drug Codes rules as set by DoH Pharma/ Medicines and Medical Products Department, 
+including MOH registered drugs. 
+o The Coding Rules as established by DoH for the non-standard “Service Codes” as listed in section 3.2 
+and section 6.2.1 of this document. and 
+• All standard codes are defined and available for download from https://www.doh.gov.ae/en/Shafafiya/prices 
+under Prices/Mandatory Tariff. DoH has Emirate-wide licenses for all standard code sets. 
+• Non-standard codes are defined by DoH Healthcare Payer Sector to describe activity that is not 
+unambiguously represented by an existing standard code. 
+• Selection and sequencing of diagnoses, service codes, procedures codes, dental codes or DRGs must meet 
+the definitions of required data sets for applicable healthcare settings. Data Elements and DoH Data 
+Standards and Procedures are defined in https://www.doh.gov.ae/en/Shafafiya/standards under Coding 
+Manual. 
+3.2 Service Codes 
+Service Codes are Abu Dhabi specific codes defined by DoH Healthcare Payer Sector and added to describe an 
+activity that is not unambiguously represented in other existing standard codes set. 
+The conclusive list of the DoH Service Codes, along with the codes long description, is set in section 6.2.1 of this 
+document. A tabular set of the Service Codes is also found in the most updated version of the Mandatory Tariff.  
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     10 
+4 Claiming Methodologies 
+4.1 Methodology per Encounter Type 
+4.1.1 Inpatient encounters 
+1. Inpatient: Is a beneficiary registered and admitted to a hospital for bed occupancy for purposes of 
+receiving healthcare services and is medically expected to remain confined overnight and for a period in 
+excess of 12 consecutive hours. 
+2. Reimbursement of Inpatient encounters can follow one of the following methods; 
+a. Fee for Service (FFS) methodology, as defined in section 4.2. Or 
+b. Per diem (selected codes) with CPT, HCPCS, CDA and Drug Codes, as defined in section 4.3. Or 
+c. Inpatient DRGs. 
+3. On January 1st 2013, IR-DRG will become the only acceptable method of claiming for inpatient encounters 
+in the Emirate of Abu Dhabi for inpatient encounters; refer to circular 49 for implementation date. 
+4.1.2 Ambulatory Surgical Procedures or Same Day Surgery 
+1. Surgical interventions performed in Ambulatory Surgery Centers (ASCs) or Hospitals that are 
+licensed/sublicensed, equipped, and operated primarily for the purpose of performing surgical 
+procedures, and the beneficiary is medically expected to remain confined for 6 to 12 hours in a Day Care / 
+Day Stay section of the facility, even if the patient remains in the facility past midnight. 
+2. Reimbursement of Ambulatory Service encounters can follow one of the following methods; 
+a. Fee for Service (FFS) methodology, as defined in section 4.2. Or 
+b. Per diem (selected codes) with CPT, HCPCS, CDA, and Drug Codes, as defined in section 4.3. Or 
+c. Ambulatory DRGs. 
+3. For the Basic Product, Ambulatory Services shall be billed using the per diems methodology - as defined in 
+Section 4.3. For all other products, the use of any or all of the above methodologies shall be permitted. 
+4. DoH, at its own discretion, might decide to activate the ambulatory section (in part or in full) of the DRG 
+system or introduce a new prospective payment system that is analogous to the DRG system for the 
+Ambulatory Services, following stakeholders’ consultation and sufficient implementation time. 
+4.1.3 Outpatient encounters 
+Outpatient: is a beneficiary who has not been admitted at that encounter in the healthcare facility as an inpatient 
+or ambulatory case, but is seen for diagnostic, therapeutic or observation services. Reimbursement of outpatient 
+encounters can follow one of the following methods; 
+• Fee for Service (FFS) methodology, as defined in section 4.2. Or 
+• Per diem (selected codes) with CPT, HCPCS, CDA and Drug Codes, as defined in section 4.3. 
+All related services (excluding PBM claim) provided during the same day of an outpatient / emergency visit under 
+the care of the same physician should be billed in a single claim.  
+Pre-anesthesia check-up visit for an inpatient surgery is not billed separately; it is included in the inpatient DRG.   
+4.2 Fee for Service 
+• “Fee for Service” model allows for services rendered to be separately billed and reimbursed, using the 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     11 
+available codes sets approved by DoH. 
+• For Basic Product members, payment using Fee for Service (FFS) will be limited to services rendered in 
+outpatient and “ambulatory surgical” settings; for the services that are not included in the Per diem Codes 
+definition, or have no claiming rule that restricts its reimbursement. 
+• HCPCs codes prices or negotiated rates are inclusive of the device / item costs, handling cost, and provider 
+mark-up. 
+• In the absence of unbundling,1 the Fee for Service (FFS) model allows for services to be coded and billed 
+separately, subject to rules set by DoH or other acceptable coding references. 
+• Unless the code description or definition indicates the inclusion of other services, no code description or 
+definition can be stretched by providers or payers to include other services that have distinctive and 
+unambiguous defined codes. 
+• Following codes sets can be used for Fee for Service (FFS) claiming 
+o Service Codes: Refer to section 6.2.1  
+o CPT codes (including anesthesia codes): All CPT codes that are active and available for billing purposes. 
+o HCPCS: All approved and active HCPCS codes. 
+o Dental codes: All approved and active USC&LS codes. 
+4.2.1 Fee for Service - Special Claiming Rules 
+4.2.1.1 Evaluation and Management (E&M) Codes: 
+Department of Health Abu Dhabi mandates the use of Evaluation and Management codes for reimbursement of 
+doctor’s visits. Reimbursement of doctor visit, shall be in accordance with the following rules: 
+1. Facilities that have obtained JAWDA Data Certification will be included in the Shafafiya Certified Facilities List, 
+along with their respective grades and the certification's validity period. These facilities can bill their Evaluation 
+and Management (E&M) codes based on the DoH published criteria for reimbursing E&M, applying the rates 
+stipulated in the mandatory tariff for Basic products and negotiated rates (ranging from 1 to 3 times the 
+mandatory tariff) for other products.  
+2. Facilities without JAWDA Data Certification shall bill doctor’s visits using the lowest level of the E&M code 
+category, claiming the rate applicable for the lowest level of the respective E&M code category for the basic 
+product. For all other products, they shall bill the negotiated rate for the lowest level of the respective E&M 
+code category. Additionally, these facilities must report the correct E&M codes in a separate (additional) 
+activity line with charges set at zero as a prerequisite for reimbursement. 
+3. Newly licensed facilities that do not have the required three months of billing history are exempt from the 
+JAWDA Data certification requirement for the first six months from receipt of the first patient. These facilities, if 
+they have a valid Process Flow Map and proof of certified and/or experienced coder(s) shall bill doctor’s visits 
+utilizing the E&M codes, applying the rates as specified in the mandatory tariff for Basic product and 
+negotiated rates (1 to 3 times the mandatory tariff) for other products. However, if the JAWDA data 
+Certification is not obtained by the end of the exemption period, the insurance companies have the right to 
+reclaim any aggregate amount paid above the rate set for the uncertified providers. 
+ 
+1 Unbundling: is the practice in which separate procedure codes are billed for procedures which are typically included as one code 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     12 
+4.2.1.2 Services Included in E & M Codes 
+• E&M codes may be used by all physicians and Clinicians;2 subject to their scope of practice. 
+• Refer to the AMA coding guidelines and the DoH Coding Manual for proper selection of E&M level and services 
+included in the E&M Codes. 
+4.2.1.3 E & M Services Not Separately Reimbursable 
+The following CPT-4 codes for E&M services are not separately reimbursable if billed for the same patient, for the 
+same specialty3 at the same facility or the same facility group4 on the same date -or within the subsequent week- 
+of service. In such cases, for the following combinations, reimbursement will be made only for the higher paying of 
+the codes billed. 
+• New patient, office or other outpatient visit and another new patient, office or other outpatient visit. 
+• Established patient, office outpatient visit occurring within 7 days from the initial New/established patient, 
+office or other outpatient visit. 
+• New or established patient, subsequent hospital care and new or established patient, initial inpatient 
+consultation. Applicable only for the same date of service. 
+• New or established patient, initial hospital care and new or established patient, subsequent hospital care. 
+Applicable only for the same date of service. 
+• Calculation of the “Follow up within one week” starts from and includes the day of visit (ActivityStart); and 
+shall be billed using E&M code of an established patient codes 99211 to 99215 at “0” value. 
+4.2.1.4 Surgical CPT codes 
+• CPT Surgical Section codes represent the documented surgical procedure; however, by definition 
+following services are always included in addition to the operation per se: 
+o Local infiltration, metacarpal/metatarsal/digital block, or topical anesthesia; 
+o Subsequent to the decision for surgery, the same physician related E&M encounter on the date of the 
+procedure (including history and physical); 
+o Immediate postoperative care, including dictating operative notes, talking with the family and other 
+physicians; 
+o Writing orders; 
+o Evaluating the patient in the post-operative recovery area; 
+o Typical postoperative follow-up care. 
+• Surgical Codes do not include supplies and materials, Anesthesia, Operation Room charges or Recovery Room 
+or any service not otherwise specified above. 
+4.2.1.5 Anesthesia Codes 
+This claiming guide provides you with the claiming criteria for anesthesia services provided by DoH-licensed 
+physicians. For the Basic product and other products, if claiming using IR-DRG, Anesthesia codes are used for cost 
+ 
+2 This refers to licensed healthcare professional as follows: 1. Registered school nurse 2. Registered nurse 3. Regaistered midwife 4. 
+Optometrist 5. Podiatrists 7. Chiropractic Practitioner 8. Osteopathy practitioner 
+3 Specialty refers to the “category” column in the DOH published list of Clinician licenses at Dictionary - Shafafiya | Department of Health 
+Abu Dhabi (doh.gov.ae). 
+4 A Healthcare Facility Group is a group of DoH Licensed Healthcare facilities that are under the same ownership(s) or under the same direct 
+management and oversight of a headquarters. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     13 
+reporting and outlier calculation. Following are the types of anesthesia eligible for separate claiming 
+• Inhalation 
+• Regional, including: 
+o Spinal (low spinal, saddle block) 
+o Epidural (caudal) 
+o Nerves block (retro-bulbar, brachial plexus block, etc.) 
+o Field block 
+• Intravenous 
+• Rectal 
+The following types of anesthesia services are not eligible for separate reimbursement: 
+• Anesthesia provided in conjunction with non-covered services 
+• Administration of anesthesia by the surgeon or assistant surgeon 
+• Moderate sedation 
+• Local anesthesia 
+• Standby anesthesia 
+Anesthesia time starts when the physician or anesthetist begins to prepare the patient for anesthesia care in the 
+operating room or equivalent area and ends when the anesthesiologist is no longer in personal attendance, i.e., 
+when the patient may be safely placed under postoperative supervision. 
+• Payment for the administration of anesthesia is based on the base unit value assigned to the procedure code, 
+plus time units, multiplied by Base Rate. 
+o Base unit: values have been assigned to each anesthesia procedure code and reflect the difficulty of the 
+anesthesia service, including the usual preoperative and postoperative care and evaluation. 
+o Time Units: Anesthesia time involves the continuous actual presence of the anesthesiologist. Time units 
+are determined on the basis of one time unit for each 15 minutes of anesthesia, and provider’s reports the 
+total anesthesia time in minutes on the claim. 
+Note: Time units are not recognized for code 01996 (daily management of epidural or sub-arachnoid drug 
+administration). 
+• Base Rate: the fee schedule anesthesia conversion factor; 1 Unit = AED 66. 
+• Example of anesthesia reimbursement calculation: 
+o Surgery Repair of Cleft Palate, Anesthesia time = 2 hours. 
+▪ Code 00102 (Anesthesia Repair of Cleft Palate) base units = 6. 
+▪ Time units = 8 = (120 anesthesia minutes /15 minutes Time Conversion) 
+▪ Base Rate = AED 66 = (Mandatory Tariff X 1) 
+o Total Reimbursement of Anesthesia = (6+8)*66 = AED 924. 
+• Anesthesia for Multiple Surgical Procedures: Payment can be made for anesthesia associated with multiple 
+surgical procedures. Reimbursement is determined by the base unit of the anesthesia procedure with the 
+highest base unit value and the total time units for the total operative session. Claiming should report the 
+anesthesia procedure code with the highest base unit value and indicate the total time for all procedures. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     14 
+• Aborted Anesthesia Procedure: When surgery is aborted after general anesthesia induction has taken place, 
+payment may be made based on three base units plus time. Anesthesia must be reported using unlisted 
+Procedure code 01999, in addition to the relevant anesthesia code. Refer to section 1.2 for claiming unlisted 
+services. 
+4.2.1.6 Contrast and Radiopharmaceuticals Materials 
+When an imaging or therapeutic nuclear medicine procedure is performed, separate reimbursement for 
+Radiopharmaceutical materials shall be permitted if reported on the same date of service with a CPT code that 
+requires Contrast or Radiopharmaceutical materials. 
+The Imaging codes eligible for separate contrast reimbursement are those that have mention of "with contrast" 
+within their code description; Or codes in which clinical review determined contrast or radiopharmaceutical 
+materials were required in order to perform the service. 
+HCPCS radiopharmaceutical codes ranging from A9500 to A9699 and A4641, A4642 shall be used for billing 
+Contrast and Radiopharmaceuticals Materials  
+INR monitoring device & supplies: HCPCS code G 0429 should be used to bill Home INR monitoring device & 
+supplies.  
+4.2.1.7 Venipuncture and Injection Procedures 
+Venipuncture (36415) is denied or paid based on the circumstances in which it is provided. Payment for 
+venipuncture is only permitted when the analysis of the sample drawn is performed at an external laboratory 
+outside the healthcare facility or healthcare facility group.  
+Neither an injection procedure (96372-96379) nor a venipuncture (36415) should be reported with any diagnostic 
+procedure code that involves the use of an intravenous contrast medium (e.g., do not report venipuncture code 
+36415 with 74400 for intravenous urography). These are considered incidental to the primary procedure. 
+4.2.1.8 Blood and blood products 
+In pursuant of Decree # 154 for 2017 of the UAE cabinet, Blood and Blood Products prices are fixed, therefore are 
+NOT subject to 1-3 times the Mandatory Tariff range for all products, but rather reimbursable at the rate set in the 
+Mandatory Tariff pricelist. 
+Blood and Blood Products prices are inclusive of Blood Unit cost, Cross Match, Antibodies Screening and 
+Administration and handling cost. 
+4.2.1.9 Ophthalmology / Diagnostic eye exams 
+Ophthalmologist has the choice to utilize the following E&M codes for eye care provided: 
+• 99202 - 99205 Office or other outpatient services New patient  
+• 99211 - 99215 Office or other outpatient services Established patient  
+• 99241 - 99245 office consultations 
+• 99281 - 99288 emergency department services 
+• 92002 - 92014 General ophthalmological services 
+The physician should select the code that represents the service needed based on the patents presenting 
+problem. The documentation should reflect the examination billed, which shall be in compliance with the criteria 
+set by the AMA Guidelines and the Coding Manual. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     15 
+4.2.1.10 Wound Care 
+When service provided is only a non-surgical cleansing of a wound without sharp debridement, with or without the 
+application of a surgical dressing, the appropriate Evaluation and Management (E&M) codes should be used. 
+The selection of the E&M service should be supported by the documentation of the appropriate components; and 
+the non-surgical cleansing of a wound will be considered bundled in the E&M reimbursements, and has no 
+entitlement for separate payment. 
+If performed in the “Follow up within one week” period, non-surgical cleansing of a wound without sharp 
+debridement might be separately reimbursable using the appropriate service codes (51-01, 51-02 and 51-03); for 
+the following services appropriate CPT codes must be used: wound debridement, dressing for burns, and dressing 
+change under anesthesia. 
+4.2.1.11 Telemedicine Services  
+As per the new payment model for telemedicine services CPT codes provided in section 6.2.3 will be utilized for 
+telemedicine services provided by healthcare facilities. Please refer to section 6.2.3 for detailed description of the 
+codes.  
+1. The telemedicine services shall be reported using Encounter Type = 10 Tele-Medicine. 
+2. For Encounter Type = 10, It is mandatory to report the outcome of telemedicine services by using the 
+appropriate code in the EncounterEndType as follows: 
+8 = Tele-Medicine resulting in Emergency Management 
+9 = Tele-Medicine resulting in Prescription 
+10 = Tele-Medicine resulting in Referral 
+11 = Tele-Medicine resulting in Follow up  
+12 = Tele-Medicine resulting in Self Care  
+3. Report only one of the above EncounterEndType elements when more than one outcome applies. This can be 
+the “most complex” or highest code order with EncounterEndType= 8 being the highest code order 
+representing the most complex outcome or EncounterEndType 12 = “Tele-Medicine resulting in Self Care” 
+being the least complex outcome. 
+4. Eligibility check is required for all telemedicine services. 
+5. Except for the tele-counseling services (CPT Code 99446–99448), all telemedicine services must be patient 
+initiated. Calls initiated by the provider to discuss test results and pharmacological counselling are not 
+billable.  
+6. The use of the codes for telemedicine services for new patients is restricted to Family Physicians, 
+Psychiatrists, and General Practitioners. The remaining specialties may only offer telemedicine services for 
+established patients. For Thiqa members, Pediatric and Obstetrics & Gynecology Physicians will also be 
+eligible to use the codes for telemedicine services for new patients. 
+7. Multiple tele-consultation services provided on the same day by the same facility to the same patient will only 
+be paid once. 
+8. The time-based codes (CPT codes 99441-99443, 98966–98968, 99091, 99446–99448, 90832-90834, 90836-
+90838) shall be reported and billed based on the total time spent during a telemedicine service. It is required 
+for the performing clinician to document the start and end time of the service. The total time spent should not 
+include any waiting time or time spent due to technical issues. 
+9. The CPT codes 90791 & 90792 are only billed for initial assessments - lasting more than 30 minutes - of an 
+illness or suspected illness. It is required for the performing clinician to document the start and end time of the 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     16 
+service. The total time spent should not include any waiting time or time spent due to technical issues. 
+10. For tele-psychiatry (psychotherapy) encounters with consultation, the performing physician is required to:  
+o Document only the time spent for the actual psychotherapy session. Time spent during the consultation 
+shall be excluded from the calculation / reporting of the total time spent during the psychotherapy session. 
+o The consultation element of these encounters will be coded using CPT codes 99441– 99443 based on the 
+total time spent for the consultation and will be used for reporting purposes only, billed charge = Zero. 
+11. Telemedicine services are not separately reimbursable if billed by the same facility for the same diagnosis and 
+same specialty for below circumstances: 
+o The service ends with a decision to see the patient face-to-face within 7 days. 
+o Provided within 7 days from the initial office visit or telemedicine service. 
+12. The rate set shall include all relevant materials used to provide the telemedicine encounter. No separate 
+payment shall be made for any other material including but not limited to hardware/equipment/videotapes 
+and transmissions. 
+13. Preauthorization is required for all covered services ordered/prescribed as a result of the telemedicine service 
+such as DMEs, medications, etc. according to the member's schedule of benefits. 
+14. All telemedicine providers are not eligible to separately bill for venipuncture when laboratory services are 
+ordered as a result of the telemedicine service. 
+4.2.1.12 IPC Teleconsultation Program 
+International Patient Care Teleconsultation services should be reported with services codes 01-11-01 to 01-11-04 
+(please refer to section 6.2.1 for a detailed description of the codes)  
+• A Medical Board Approval is to be attached to the patient’s file in order to confirm the eligibility. 
+• The time-based codes should be reported and billed based on the total time spent during an IPC 
+teleconsultation. It is required for the performing physician to document either the start/end time of the 
+service or the total time spent for the service. The total time spent should not include any waiting time or time 
+spent due to technical issues. 
+• For a multidisciplinary IPC teleconsultation, a minimum of 2 codes is expected to be reported. The service of 
+the primary provider will be reported using service code 01-11-02 and services performed by each additional 
+provider will be reported with service code 01-11-03. Service code 01-11-03 should never be reported as a 
+stand-alone code. 
+• The IPC teleconsultation encounter shall be reported with EncounterType = 1 = No Bed + No emergency room 
+4.2.1.13 National Biobank services 
+• The service codes for biobank services are 54-01, 54-02, 54-03, 54-04. Please refer to section 6.2.1 for a 
+complete description of these service codes. 
+• These service codes shall be reported using EncounterType = 1 No Bed + No emergency room. 
+• The samples/specimens collected and processed shall be stored in the National Biobank for a 
+• period stated as per rules and regulations. 
+• The rate set shall include all activities mentioned in the code descriptions as well as the kits and consumables 
+used in sample/specimen collection.  
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     17 
+4.2.1.14 Ambulance transportation  
+4.2.1.14.1 Emergency Ambulance Transportation 
+Definition: Emergency ambulance transportation involves the transport of a patient in an emergency medical 
+condition.  The emergency ambulance service transports patients to the nearest appropriate healthcare facility 
+and provides advanced medical care at the scene of the accident or medical emergency and during transport. An 
+emergency medical condition is defined according to DoH Standard for Emergency Departments And Urgent Care 
+Centers. 5 
+4.2.1.14.1.1 Emergency transportation from an accident scene or medical emergency location to the hospital  
+When a patient is transported from an accident scene or any other medical emergency location, Ambulance providers 
+can claim emergency transport services using the appropriate ambulance HCPCS codes, based on the most updated 
+Mandatory Tariff and the relevant ambulance encounter type. 
+Healthcare providers who offer emergency ambulance transport services to transfer their inpatients or outpatients to 
+another facility for continued care can claim the service by reporting it using the appropriate emergency ambulance 
+HCPCS codes, in accordance with the most updated Mandatory Tariff. 
+4.2.1.14.2 Non-emergency Ambulance transportation 
+Definition: Non-emergency ambulance transportation involves transporting a patient who requires medical care or 
+monitoring during transit but does not face an emergency medical condition as defined by the DoH Standard for 
+Emergency Departments And Urgent Care Centers. This service is typically used for patients who need to be transported 
+to or from medical appointments, hospital discharges, or transfers between facilities when their condition prevents 
+them from traveling by other means and meets the eligibility criteria for the non-emergency ambulance transfer. Refer 
+to section 6.1.1 for the Ambulance transfer diagram.  
+ 
+4.2.1.14.2.1 Eligibility Criteria for non-emergency Ambulance transfer: 
+The patient's health condition during the ground transport is such that use of any other method of transportation is 
+contraindicated. The patient being transported is bed confined before and after the ambulance transportation. “Bed-
+confined” means the patient must meet all of the following three criteria: 
+ • Unable to get up from bed without assistance. 
+• Unable to ambulate. 
+• Unable to sit in a chair (including a wheelchair) and could be moved only by stretcher 
+ 
+4.2.1.14.2.2 Documentation 
+All relevant patient records must appropriately document the necessity for ambulance transport. This includes 
+records from the healthcare provider which must clearly justify why other forms of transportation would be unsafe 
+or inadequate. 
+4.2.1.14.2.3 Patient transport to home after discharge: 
+When a patient needs to be transferred back to home after treatment is completed, the transport should meet the 
+medical necessity requirement for non-emergency ambulance transfer.  
+ 
+This ambulance transport should be reported using HCPCS code A0428.  
+ 
+4.2.1.14.2.4 Interfacility transfer for continuation of treatment: (refer to the transfer policy)  
+When a patient meeting the eligibility criteria for non-emergency ambulance transfer is being transferred from one 
+ 
+5 DoH Standard For Emergency Departments And Urgent Care Centers  
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     18 
+healthcare provider to another for the continuation of treatment, the transferring facility should report this 
+outbound transportation in the per diem claim with the HCPCS code A0428 with zero amount. This applies to all 
+interfacility transfers under any setting. 
+ 
+4.2.1.14.2.5 Transport from home to hospital and back  
+If a patient meeting the eligibility criteria for non-emergency ambulance transfer needs to be transported by 
+ambulance to receive outpatient hospital services like dialysis, blood transfusion, etc., and back to his/her home, 
+the patient needs to contact the treating facility.  
+This ambulance transport is reported using the HCPCS code A0428. 
+4.3 Per diem 
+Codes that are defined as Per diem are: 
+• Subcategory 2.1: Room and Board 
+• Subcategory 2.2: Intensive Care. 
+• Subcategory 2.3: Nursery 
+• Subcategory 2.4: Special Care 
+• Subcategory 2.5: Long Term Stay 
+• Subcategory 2.6: Observation, Day Stay and other rooms 
+• Subcategory 2.7: Dialysis 
+Unless otherwise specified, all per Diem are daily all-inclusive and shall be inclusive of: 
+• Room and Board Charge, care equipment, and systems specific to the special room type. 
+• Evaluation and Management. 
+• Routine Nursing and medical supervision charges. 
+• All therapies (including respiratory therapy, all physiotherapy, nutritional therapy etc). 
+• Radiology tests excluding MRI, CAT Scans, and PET Scans. 
+• Laboratory tests. 
+• Anesthetist and anesthesia charges. 
+• Operation Room. 
+• Recovery Room. 
+• Drug/pharmaceuticals: 
+o For other than long-term care: cost of a single drug that doesn’t exceed AED 1000 in accumulative cost 
+during the entire length of stay.  
+o For Long Term Care: all drugs regardless of their cost. 
+• Products or supplies: 
+o For other than long term care: Please see Special Rules under section 4.3.2 
+o For Long Term Care: all consumables, products, and supplies regardless of their cost. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     19 
+• For the Basic Product: all items which do not have a valid and covered code in the Mandatory Tariff pricelist. 
+• NICU, PICU, ICU, SCU, and SCBU are inclusive of all the above but are exclusive of radiology tests, laboratory 
+tests, and all drugs. 
+• When reporting using Per Diem, providers can claim only the rate designated for the corresponding per diem 
+code and any excluded services.  
+• Regarding services included within the per diem code, providers are obligated to accurately report the 
+appropriate codes as activity lines, while maintaining charges at a value of zero as a prerequisite for 
+reimbursement. 
+• Encounters containing per diem codes must include observations as delineated in the Routine Reporting 
+Requirements published on Reporting - Shafafiya | Department of Health Abu Dhabi 
+The mandatory use of the per diem service code for the Basic Product, shall be limited to: 
+• Ambulatory Services (medical and surgical): Codes 25-01 and 25-02 for the patient medically expected to 
+remain confined for 6 to 12 hours. 
+• Outpatient assessment, examination, monitoring, treatment or therapy purposes: Service code 24 for 
+patients medically expected to remain confined for less than 6 hours. 
+• Long Term Care (LTC): Codes 17-13, 17-14, 17-15 and 17-16 – as defined. LTC Service Codes must be used in 
+accordance to the DoH Standard for Provision of Long-Term Care.6 
+• Inpatient Dental Care: Limited to emergency cases only. Using the appropriate code of per diems with Sub-
+Category 2.1. Dental services not included in the per diem, must be billed as Fee-for-Service. 
+4.3.1 Transferred Cases 
+A transfer between acute inpatient hospitals occurs when a patient is admitted to a hospital and is subsequently 
+transferred to another for continued treatment. Transfer Case definition doesn’t apply to patients transferred to 
+facilities or inter-hospital for Long Term Care. 
+Payment for transferred cases shall be in accordance with the following rules: 
+• The transferring facility should bill and receive payment for Per diem, using the designated Service Codes. 
+• The receiving facility shall receive payment IR-DRG payment.7 
+• Payment to the transferring hospital shall not exceed the DRG allowed amount that would have been paid for 
+the claim based on the billed activity lines and diagnosis.  
+• If a transfer case qualifies as an outlier, the Insurance Company shall apply outlier payment method to the 
+billed activity lines and payment to the transferring hospital shall not exceed the total amount of equivalent 
+DRG and the calculated outlier. 
+For transferred patient encounters, data elements must be reported in accordance with the rules defined in DoH 
+Data Standard for transferred cases, which include but are not limited to: “EncounterStartType,” 
+“EncounterTransferSource,” “EncounterTransferDestination,” and “EncounterEndType.” 
+ 
+6 For reference see the Long Term Care Standard at www.doh.gov.ae 
+7 Refer to IR-DRG claiming methodology, for details. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     20 
+4.3.2 Special Rules on HCPCS for Per diems other than long term care 
+4.3.2.1 General Rules: 
+• Per diems other than long term care shall be eligible for separate reimbursement of medically indicated 
+supplies and devices represented by HCPCS codes. 
+• To be eligible for a separate reimbursement, the approved HCPCS code should represent a single item costing 
+more than AED 1,500 and only the amount in excess of AED 1,500 shall be reimbursed separately. 
+• If applicable, all items eligible for separate reimbursement shall require preauthorization as per the existing 
+Schedule of Benefits. 
+• For pre-assembled kits, reporting and billing of the individual items within the kit using the appropriate HCPCS 
+codes is required. 
+• Providers are required to report as an observation note the details of the items for which any of the HCPCS 
+codes are used for, such as description of the item, manufacturer name, product name, and gross price. 
+• Providers are required to submit the invoice of items to be reimbursed separately at claim level. 
+4.3.2.2 Rules for A4649: 
+A4649 shall only be used when no HCPCS code exists to accurately describe the item eligible for reimbursement. 
+If A4649 is used, the above general rules shall apply for reimbursement. 
+An item billed using A4649 should meet all below requirements: 
+• The item is determined to be medically justified for the diagnosis or treatment of an illness or injury or to 
+improve the functioning of a malformed body part. 
+• The item is an integral and subordinate part of the service furnished, is used for one patient only, comes in 
+contact with human tissue or is surgically implanted or inserted via introduction into the human body though a 
+surgically created incision. 
+• The item is not a pre-assembled kit comprising of items with specific HCPCS code. 
+4.4 IR-DRGs 
+4.4.1 DRG Rules 
+• IR-DRGs are mandated for all inpatient encounters, for all products. 
+• The DRG Relative Weights, incorporated into the most updated Mandatory tariff, apply solely to the current 
+version of IR DRG. Therefore, they should not be utilized with any previous versions of the grouper.  
+• DoH Standard establishing the Diagnosis Related Groupings System is available at DoH website 
+www.doh.gov.ae, Policies and Circulars Section: Reference HSF/DRG/1.0, Approval Date Jun/2010.8 
+• In the IR-DRG system, payment is fully inclusive of all procedures, services, consumables, and devices utilized 
+during service delivery by the provider in a single inpatient encounter.  
+• For e-claim submission under the IR-DRG prospective payment system: 
+o All activities (services and procedures) shall be reported using the “Fee for Service” claiming methodology, 
+as explained in section 4.2. 
+o Activity.Net must be set to “zero” value for all Activities except for the IR-DRG code, and service code 99 
+ 
+8 Reference: Circular 48: Schedule for Implementation of Payment System Updates. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     21 
+for the outlier payment. 
+o Inpatient encounters, must have observations as defined in Routine reporting requirements published on 
+https://www.doh.gov.ae/en/Shafafiya/reporting under Standards / Reporting requirements / Routine 
+reporting / Reference = “ActivityCost”.9 
+o For inpatient encounters, all Activities with “zero” value in the Activity.Net, and NOT claimed to insurance 
+must have observations as defined in Routine reporting requirements published on 
+https://www.doh.gov.ae/en/Shafafiya/reporting under Standards / Reporting requirements / Routine 
+reporting / Reference = “DRG-NotCovered.”10 
+• Member Share (Co-pays and deductibles) are not affected by the DRG payment system and should be 
+collected as normal. 
+• IR-DRGs are dependent on principal diagnosis and procedures performed; IR-DRG severity might be affected 
+by the secondary diagnosis. 
+• In the event of several procedures being performed in the same encounter, the principal procedure shall 
+be select based on the following hierarchy: 
+o Select the procedure(s) contained in the IR-DRG(s) with the lowest PCAT value for the IR-DRG type. 
+o If there is more than one procedure contained in the IR-DRG(s) with the lowest PCAT value, 
+select the procedure contained in the IR-DRG with the same MDC as the MDC of the principal diagnosis. 
+o If more than one of the procedures contained in the IR-DRGs with the lowest PCAT value have the 
+same MDC as the principal diagnosis (or if none of them do), select the procedure that is contained 
+in the IR-DRG that is listed first in the ordered list of IR-DRGs contained in the Procedure Hierarchy. 
+o The PCATs (procedure category) within each IR-DRG type are ordered in terms of relative resource 
+consumption, with a lower PCAT value indicating higher resource consumption. 
+• Adjudication of claims payable using the IR-DRGs prospective payment system shall be in compliance with the 
+Claims Adjudication and Pre-Authorization rules set in section 5 of this document, and DoH Adjudication 
+Standard. With the following DRG specific adjudication rule: 
+o If the principal diagnosis is not covered condition under the insurance plan, Insurance companies shall 
+have the right to deny the entire claim. 
+o If the principal procedure is not covered, insurance companies could exclude the Service, procedure or 
+item, and pay using the recalculated DRG. 
+o Secondary diagnosis coding shall follow the following published rules. Accordingly: 
+▪ Secondary diagnosis(es) if related to an uncovered condition but has a bearing on the current hospital 
+stay shall not be excluded from the DRG payment.  
+▪ Providers shall refrain from coding a secondary diagnosis (es) that refer to an earlier episode that has 
+no bearing on the current hospital stay, unless for chronic conditions and co-morbidities. 
+▪ Diagnosis (es) not supported by coded services shall NOT be excluded by the Insurance companies 
+during adjudication, as such diagnosis(es) might have an influence on the length of hospital stay, or 
+increased nursing care and/or monitoring. However, if these diagnoses are identified as inaccurately 
+coded during an audit, they may be subject to recovery. 
+ 
+9 Providers can start including the observations in the e-claim on voluntary basis prior to Oct 15th, however all healthcare entities are 
+mandated to utilize the observation for billing and payment purposes as of Oct 15th 2012. 
+10 Providers can start including the observations in the e-claim on voluntary basis prior to Oct 15th, however all healthcare entities are 
+mandated to utilize the observation for billing and payment purposes as of Oct 15th 2012. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     22 
+4.4.2 Payment Calculations 
+Price For Basic Product, the Base Rate is AED 8,500; the Gap is AED 25,000 and the Marginal is 60%.  
+For all other products, Base Rate, Gap and Marginal must be negotiated in accordance with the terms of the 
+Standard Provider Contract. 
+• Payers are liable to pay the complete DRG Base payment unless the case is eligible for outlier payment or 
+qualifies for the split DRG payment rules.  
+4.4.2.1 Base Payment 
+• The Final Mandatory Tariff lists the relative weights. The exact base payment can be calculated by multiplying 
+the base rate [x]by the relative weight of the DRG (rounded off to 4 decimals) and rounded off to the full AED 
+(no decimals) using the following formula: 
+ 
+ 
+4.4.2.2 Outlier Payment 
+• Outlier payment acts as a “stop-loss” measure to protect providers from incurring losses while managing 
+complex cases and is calculated as follows: 
+ 
+ 
+• Cost for outlier will be established by using the Mandatory Tariff prices regardless of the product, and the cost 
+of the HCPCS as previously defined. 
+• Services that can be excluded from the DRG / DRG outlier payment shall be limited to: 
+o Claiming Errors and duplicate charges, using simple and complex edits as defined in the DoH adjudication 
+standard. 
+o “Medically impossible” charges: services that couldn’t have been provided due to: 
+▪ Patient gender restriction. 
+▪ Patient age restriction. 
+▪ Patient previous medical history. 
+o Not-covered item under the insurance plan. 
+4.4.2.3 Split of DRG payment for encounters involving more than one payer 
+Rules included in this section shall apply in the event of: 
+1. Inpatient encounters extending beyond the policy's expiry date and more than one payer is involved in 
+reimbursement for a single inpatient encounter. Reimbursement for such encounter shall be per the following 
+rules; 
+a. Medical Cases (IM):  
+▪ Irrespective of the Length of Stay (LOS) of the encounter, Payer 1 will be responsible for the total DRG 
+Payment 
+b. Surgical Cases (IP): 
+▪ If the surgery leading to the surgical DRG, was performed within the Payer 1 coverage period and no 
+Outlier payment = (Cost – (Base Payment + Gap)) * Marginal. 
+Base payment = Base Rate * Relative Weight + (HCPCS) Add-on Payment 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     23 
+subsequent surgeries took place post Member’s Insurance Policy Expiry Date; Payer 1 will be 
+responsible for the Total DRG Payment. 
+▪ If the surgery leading to the surgical DRG, was performed after the Member’s Insurance Policy Expiry 
+Date, the payment split of such encounter shall be determined as follows; 
+ 
+Payer 1 Responsibility Total DRG Payment*(X/Y)+ (((1-X/Y))* Total DRG Payment)*30%) 
+Payer 2 Responsibility Total DRG Payment- Payer 1 Responsibility 
+▪ Total DRG payment = DRG base payment + Outlier 
+X = No: of days covered by Payor 1 
+Y = Total no: of days of the encounter (admission)  
+2. Newborn inpatient encounter that extends beyond one month coverage period through the mother’s insurance 
+o The cost of the Newborn treatment is to be billed separately from the mother’s bill but using the mother’s 
+insurance coverage. 
+o Claiming for the mother treatment will be using the mother’s insurance details and mother member ID. 
+o Claiming for the newborn treatment will be using the mother’s insurance details; insurance carrier and 
+insurance benefits, BUT using the newborn’s unique member ID. Newborn’s member IDs (temporary or 
+permanent) are to be made available by the payers in a reasonable timeframe from the time the request for 
+the member ID is initiated, by the healthcare provider.  
+4.5 Bundled Payment Methodology  
+4.5.1 ART Related services  
+A. Service codes 70-01, 70-02, 70-03, 70-04, 70-05, 70-06, 70-07, 70-08, 70-09, 70-10, 70-11 are used for 
+bundled reimbursement for successful IVF cycle (please refer to section 6.2.1 for detailed description, 
+inclusions and exclusions of these codes). 
+4.5.1.1 Benefit-Related Billing Rules 
+Number of genetic testing – one test per cycle as per the eligibility mentioned in the DOH Policy on THIQA 
+Coverage for Assisted Reproductive Treatment and Services. 
+4.5.1.2 Pricing-Related Billing Rules 
+• The service codes are reported with EncounterType = 1 (No Bed + No emergency room). 
+• Pre-authorization - Required for all the above service codes at the start of the cycle. 
+• All activities (services and procedures) shall be reported using the Per diem claiming methodology, as 
+explained in section 4.3. of the DOH Claims and Adjudication Rules document. 
+• Providers shall only claim the rate set for the respective IVF service code and any excluded services. For the 
+services that are included in the service code providers are required to report the proper codes as activity 
+line but keep charges at a value of zero as a prerequisite for reimbursement. 
+• Transfer in between providers – Patient have the right to change the provider if not satisfied. However, the 
+transfer should be encouraged after the completion of an entire package rather than interrupting the cycle of 
+the treatment under the same package and the provider will be reimbursed as incomplete cycle and paid for 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     24 
+the successfully completed step(s) as per the service code specified for each step of the ART bundle. 
+• Reimbursement for transfer of frozen embryos to another provider – Provider completing the embryo transfer 
+will be paid for the respective package and the provider that initiated the IVF cycle will be reimbursed as 
+incomplete cycle and paid for the successfully completed step(s) as per the service code specified for each 
+step of the ART bundle. 
+• Missing services/benefits - Reporting activity items included in each bundle is a prerequisite for payment. The 
+claim has to be submitted after completing the cycle to allow reporting all expected and performed services. 
+• Pre-authorization will be revised when the cycle is incomplete and the claim shall be submitted billed with 
+service codes as defined in section 3. 
+• Reimbursement of Successful Embryo Thawing and Egg Thawing of an incomplete cycle, will be paid using the 
+related CPT codes and should be medically reasonable and clearly documented for reimbursement. 
+• Bundle package of frozen embryo cycle (07-02) should have prerequisite of availability of frozen embryos. 
+• Bundle package of frozen egg cycle (07-04) should have prerequisite of stored eggs. 
+• Bundle packages (70-01, 70-02, 70-03, 70-04, and 70-05) cannot be billed together. Each bundle must be 
+authorized as per the rules above. 
+• Bundle package (70-11) can be added to bundle package (70-03) – frozen Embryo cycle and package (70-05) – 
+frozen egg cycle, if the bundle is requested 6 months from the initial stimulation. 
+• Please refer to the Appendix 1 Diagram1 for the pictorial representation of Bundle 1 to Bundle 5  
+B. Service codes 70-12, 70-13, 70-14, 70-15, 70-16 & 70-17 and CPT codes 55899,54505, 54500, 55899 & 
+S4028 are to be used for ART related services outside the IVF bundles (please refer to section 6.2.1 for a 
+detailed description of these codes). 
+• The above codes shall be reported using the appropriate Encounter Type as per clinical criteria. 
+• Pre-authorization is required for all codes mentioned within this adjudication. 
+• For the purpose of ART services, codes 55899, 54505, 54500 shall be reported with mandatory observation 
+fields using the procedure name of the codes as indicated above. Missing mandatory observation fields or 
+deviation from the procedure name shall result to non-payment of the service. 
+• For the purpose of ART services, codes 55899, 54505, 54500 and S4028 are not bundled codes and shall be 
+reported and billed using the appropriate billing methodology for the procedures indicated above. 
+• Service codes 70-13, 70-15 and 70-17 are considered as add-on codes for each additional embryo and shall 
+only be reported and billed after the maximum number of embryos required for the respective parent codes 
+70-12, 70-14, 70-16 (up to 5 embryos) are fulfilled. 
+4.5.2 Bone Marrow transplant  
+• Service codes 22-01 to 22-08 should be used to bill a value-based bundle for Bone marrow transplants. For a 
+detailed description of service codes, please refer to section 6.2.1. 
+• The service codes for Bundle codes 22-01, 22-04, 22-05 and 22-08 are reported with Encounter type = 1. 
+• Bundle codes 22-02, 22-03, 22-06 and 22-07 are reported with Encounter type = 3. 
+• Pre-authorization – Required for all service codes and excluded medication mentioned within this adjudication 
+at the start of the treatment. 
+• Providers shall only claim the rate set for the respective service code and any excluded services.  
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     25 
+• For the services that are included in the service code providers are required to report the proper codes as 
+activity line but keep charges at a value of zero as a prerequisite for reimbursement. 
+• Missing services/benefits – Reporting activity items included in each bundle is a prerequisite for payment. The 
+claim has to be submitted after completing the bundle to allow reporting of all expected and performed 
+services.  
+4.5.3 Comprehensive screening Codes:  
+The IFHAS packages for comprehensive screening should be reported using service codes 52-21 to 52-33. Please 
+refer to section 6.2.1 for detailed description of the service codes. The screening program codes 52-21 to 52-33 
+must be only reported with Encounter Type 7 =Nationals Screening. Refer to the table at the end of this section for 
+the list of appropriate screening codes for each age group and gender. 
+• An observation must be reported in the eClaim with the use of Codes 52-21 to 52-33 as defined in Routine 
+Reporting Requirements published on https://www.doh.gov.ae/en/Shafafiya/reporting. 
+• For the services that are included in the service codes, providers are required to report the codes as activity 
+line at claims level but keep charges at a value of zero as a prerequisite for reimbursement. 
+• All activities within each screening package are required in order to bill for a comprehensive screening 
+package service code, missing activities due to medical reasons would be accepted for payment purposes 
+based on proper documentation. 
+• Reimbursement for codes 52-21 to 52-33 shall not be allowed with CPTs 99202-99215, 99401– 99412, 96160 
+and 99381-99387; if billed by the same facility, for the same patient, same principal diagnosis (Comprehensive 
+Screening) on the same date of service. 
+• “E&M Follow up within one week” rule shall not be applicable to service codes 52-21 to 52- 33. Hence, 
+reimbursement shall be allowed for subsequent Evaluation and Management office visit, if deemed medically 
+necessary. 
+• Coding and reimbursement of subsequent services (as below) shall be based on the medical necessity 
+determined by the initial screening outcomes or services prescribed by DOH comprehensive screening 
+program standard. Whereby; 
+o Preventive medicine counseling CPT codes (99401 – 99412, 96160) shall be allowed for patients with 
+established medium to high risk factors and/or further investigation or diagnostic services on any 
+abnormal finding detected from the screening services. 
+o In the absence of established risk factor or for subsequent encounter after counseling was commenced, 
+and where abnormal finding were detected; such encounters shall be billed and reimbursed using the E&M 
+codes as a medical condition and not a preventive service. 
+• In case of duplication of tests between IFHAS and other screening programs under Thiqa within a period of 90 
+days, the cost of that test will be subject to recovery.  
+• Eligibility of the above codes will be as per the DOH Comprehensive Screening Program standard. 
+ 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     26 
+ 
+5 Adjudication and Pre-authorizations Rules 
+5.1 General Rules 
+• DoH Health Insurance Adjudication Standard has established and mandates the Claims Adjudication Process 
+and Rules for health insurance reimbursement in the emirate of Abu Dhabi. And applies to all Payers and 
+Providers (together: “Healthcare Entities”) approved by DoH to participate in the Health insurance scheme of 
+Abu Dhabi. 
+• DoH Health Insurance Adjudication Standard is available at DoH website www.doh.gov.ae, Policies and 
+Circulars Section: Reference HSF/CA/1.0, Approval Date Dec/2010. 
+ 
+ 
+5.2 Medically Unlikely Edit (MUE) 
+• Medically Unlikely Edit (MUE), defines the maximum units of service that can be provided to a single 
+beneficiary on a single date of service for a given HCPCS or CPT code, many of which are based on medical 
+and anatomical limitations. 
+• The following table illustrates how MUEs are described. In this example, CPT 44970, laparoscopic surgical 
+appendectomy, has an MUE of 1, indicating this service may only be billed for a single patient once on a single 
+date of service. 
+ 
+CPT Code Descriptor MUE Edit (maximum frequency of delivery 
+in a single day) 
+44970 laproscopic, surgical, appendectomy 1 
+• Not all HCPCS or CPT codes have an MUE, and thus, the publicly available MUEs may not necessarily be 
+comprehensive. 
+• A table of MUEs is included as a supplemental list in addition to the Mandatory Tariff Pricelist / Tab MUE based 
+
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     27 
+on the current code set version used. 
+• Insurance companies and Providers opt to utilize the MUE for determination of inappropriate utilization / 
+adjudication purposes; in such case, a clear indication of utilization of MUE will have to be stated in the 
+Provider Manual section of the Standard Provider Contract. 
+5.3 Abu Dhabi Insurers Simple Edits. 
+• Simple Edits are required to be shared electronically with DoH and contracted providers on an ongoing basis. 
+To respect the commercial confidentiality of these edits vis-a-vis other payers, DoH undertakes not to share 
+these Edits with other Payers/Providers in their native attributed form. 
+• Following is the listing of the most commonly used simple edits used in the Emirate of Abu Dhabi: 
+(Reserved for Future Use) 
+5.4 Modifiers 
+5.4.1 Modifier (25) 
+Description: Significant, Separately Identifiable Evaluation and Management Service by the Same Physician or 
+Other Qualified Health Care Professional on the Same Day of the Procedure or Other Service 
+• E&M services rendered on the same date of service by the same facility, same clinician as that of a minor 
+procedure, for the same principle diagnosis / chief complaint shall not be reimbursed separately. However: 
+o A significant and separately identifiable E&M service unrelated to the decision to perform the minor 
+procedure shall be separately reimbursable by reporting the E&M service with Modifier 25 if provided by the 
+same physician on the same day as the minor procedure or service. 
+o The physician must appropriately and sufficiently document both the E&M service and the minor 
+o procedure in the patient’s medical record to support the claim for these services. 
+o Modifier 25 shall only be appended to E&M services and may be applicable with multiple E&M services. 
+o Modifier 25 shall be reported as an observation field as defined in Routine Reporting requirements 
+published at www.doh.gov.ae/shafafiya/reporting. 
+• Modifier 25 is applicable with the procedures listed in “modifier 25 relevant CPTs” sheet in the Routine 
+reporting requirements published at www.doh.gov.ae/shafafiya/reporting  
+5.4.2 Modifier (52) 
+Description: Reduced Services 
+• It is intended to be used in Abu Dhabi when billing E&M CPT codes for follow up E&M visits occurring between 
+day 8 to 14 of the initial E&M visit. The first E&M visit during this period will be paid at 50% of the contractual 
+price. Any subsequent E&M visit during the same period will be paid at “0” value. 
+• This rule is applicable to all E&M visits for the same patient, for the same specialty at the same facility or the 
+same facility group. 
+• In case the patient visits a clinician of different specialty but with privileges for the specialty of initial E&M visit, 
+this shall be adjudicated as a subsequent E&M visit to a physician of same specialty. 
+• Modifier 52 must be reported as an observation field to E&M CPT codes as defined in Routine Reporting 
+requirements published at www.doh.gov.ae/shafafiya/reporting  to be eligible for the 50% reimbursement. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     28 
+• Below groups and conditions are excluded from the applications of day 8 to 14 day follow up rules: 
+o E&M visits for pediatric patients under 18 years. 
+o E&M visits for senior patients above 60 years. 
+o E&M visits for People of Determination. 
+o E&M visits related or following IFHAS, other preventive screenings, and vaccination services. 
+o E&M visit for Psychiatric conditions as performed by Psychiatrist only. 
+o E&M visit for Pregnancy and Maternity related conditions. 
+o Emergency E&M visits. 
+5.4.3 Modifier (24) 
+Description: Unrelated Evaluation and Management Service by the Same Physician during a Postoperative Period. 
+Modifier 24 is intended to be used in Abu Dhabi as per below rules: 
+• modifier 24 may be used for 100% reimbursement of unrelated E&M visits provided for the same patient, for 
+the same specialty, at the same facility or the same facility group occurring within day 1 to 14 follow up period. 
+• The following are eligible for a 100% E&M payment while occurring within day 1 to 14 follow up period: 
+o The subsequent E&M visit cannot be reasonably related or detected as part of the initial E&M visit, 
+documentation of evidence and justification should be provided to avail reimbursement. 
+o Referral to a subspecialist consultant in the same specialty for a second opinion (99241 99245). 
+o E&M visits occurring within day 8 to 14 follow up period of an initial Emergency E&M visit. 
+• Modifier 24 must be reported as an observation field to E&M CPT code as defined in Routine Reporting 
+requirements published at www.doh.gov.ae/shafafiya/reporting to be eligible for 100% reimbursement. 
+5.4.4 Modifier (50) 
+Description: Bilateral Procedure. 
+• Modifier 50 for bilateral surgical procedures to be used with procedures that occur on identical, opposing 
+structures (e.g., eyes, shoulder joints, breasts). 
+• Modifier 50 is applicable with the procedures listed in “modifier 50 relevant CPTs” sheet in the Routine 
+reporting requirements published at www.doh.gov.ae/shafafiya/reporting. 
+• Modifier 50 must be reported as an observation field to applicable procedure CPT codes listed in Appendix 1 
+as defined in Routine Reporting requirements published at www.doh.gov.ae/shafafiya/reporting  to avail the 
+adjusted reimbursement. 
+If a procedure is eligible for the 150 % adjusted reimbursement for bilateral procedures, the procedure should 
+be reported with modifier 50 and one service unit. 
+5.5 Hospital-Acquired Conditions (HACs) 
+Adjudication rules of IR-DRG claims with reported Hospital Acquired Conditions (HACs) which are not Present On 
+Admission (POA) following the current codeset.  
+5.5.1 List of HACs 
+1. Foreign Object Retained After Surgery 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     29 
+2. In-Hospital Fall and Trauma 
+3. Air Embolism 
+4. Blood Incompatibility 
+5. Stage III and IV Pressure Ulcers 
+6. Manifestations of Poor Glycemic Control 
+7. Catheter -Associated Urinary tract infection/UTI 
+8. Vascular Catheter-Associated Infection 
+9. SSI, Mediastinitis following Coronary Bypass Graft (CABG) 
+10. SSI following Bariatric Surgery for Obesity 
+11. SSI following Certain Orthopedic Procedures of Spine, Shoulder and Elbow 
+12. SSI following Cardiac Implantable Electronic Device (CIED) Procedures 
+13. DVT/PE following Total Knee or Hip Replacement 
+14. Iatrogenic Pneumothorax with Venous Catheterization 
+15. MRSA (Methicillin resistant Staphylococcus aureus) 
+16. Clostridium difficile (C.Diff) 
+• All diagnoses including the HACs shall be reported with the appropriate POA indicator in accordance with the 
+Data Elements and as set out in the DoH Data Standards and Procedures 
+(www.doh.gov.ae/shafafiya/dictionary). Please refer to section 6.2.4 for the full HAC list and POA (present on 
+admission) Indicators. 
+• Providers shall not receive the higher payment for cases when one or a combination of the listed conditions is 
+acquired during the hospitalization and has an impact on the IR-DRG severity. 
+• If IR-DRG severity level is affected by the listed HACs (higher severity), IR-DRG shall be grouped excluding 
+HACs and claimed accordingly. 
+• Procedures related to the management of HACs shall be reported in the same claim as activity lines with Zero 
+value but excluded from IR-DRG grouper calculation and payment. 
+• DRG outlier payment shall exclude activities (services, procedures, drugs, consumables etc.) related to the 
+management of HACs.  
+ 
+ 
+  
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     30 
+6 Appendices 
+6.1 Appendix 1: Diagrams  
+ 
+6.1.1 Diagram 1 Ambulance transfer 
+ 
+ 
+ 
+  
+
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     31 
+6.1.2 Diagram 2 DOH Claims & Adjudication Rules for bundle package for IVF services 
+ 
+ANNEXURE – I 
+(DOH Claims & Adjudication Rules for bundle package for IVF services) 
+Bundle 1- Fresh Cycle 
+ 
+Bundle 2- Embryo Storage 
+ 
+Bundle 3- Frozen Embryo Cycle 
+ 
+Bundle 4- Egg Storage 
+ 
+Bundle 5- Frozen Egg Cycle 
+ 
+ 
+ 
+ 
+
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     32 
+6.2 Appendix 2: Tables  
+ 
+6.2.1 Table 1: Service Codes 
+ 
+Code Code Short Description Code Long Description 
+1. Accommodation 
+Service Codes under the accommodation section are: 
+Inclusive of room charge, routine nursing and medical supervision, care equipment and systems specific to a special room 
+type, and all items which do not have a valid CPT or code. And  
+Exclusive of Evaluation and Management, non-routine nursing and medical charges, operation room, all therapies (including 
+respiratory therapy, all physiotherapy, nutritional therapy etc),drugs, diagnostic test, surgeon and anesthetist charges, and  
+medical supplies unless specified otherwise. 
+1.1 Room and Board 
+17-01 Suite Daily Room and Board charges for a single room (for the patient) plus one 
+hall (for entertaining guests), each provided with a separate and fully 
+accessible bathroom and inclusive of TV, fridge and seating’s for visitors. 
+Patient room is inclusive of a fully automated electric bed, adequate 
+storage space for patient's personal belongings, special table for patient 
+food, medical gases, vacuum, air and suction as well as other features 
+associated with bedside and/or mobile charting, nurse server amenities, 
+access to a private phone and medical specialty based comfort.  
+17-02 VIP Room Daily Room and Board charges for a single room with a single fully 
+accessible bathroom accompanied with exclusive measurements for 
+minimal disturbances. Inclusive of a fully automated electric bed, adequate 
+storage space for patient personal belongings, special  table for patient 
+food, medical gases, vacuum, air and suction as well as other features 
+associated with bedside and/or mobile charting, nurse server amenities, 
+access to a private phone, TV, fridge and saloon chairs for visitors.  
+17-03 First Class Room Daily Room and Board charges for a single room with a single fully 
+accessible bathroom accompanied with exclusive measurements for 
+minimal disturbances. Inclusive of a fully automated electric bed, adequate 
+storage space for patient personal belongings, special table for patient 
+food, medical gases, vacuum, air and suction as well as other features 
+associated with bedside and/or mobile charting, nurse server amenities, 
+access to a private phone, TV, fridge and normal chairs seating 
+arrangement for visitors. 
+17-04 Shared Room Daily Room and Board charges for a single room with a single fully 
+accessible bathroom and accommodating 2 single patient beds. Privacy of 
+each bed area is maintained by a segregating screen or curtain and is 
+inclusive of a fully automated electric bed, adequate storage space for the 
+patient’s personal belongings, special table for patient food, medical gase s, 
+vacuum, air and suction as well as other features associated with bedside 
+and/or mobile charting, nurse server amenities and access to a private 
+phone, TV fridge and seating arrangement for visitors.  
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     33 
+17-05 Ward Daily Room and Board charges for a single bed in a room accommodating 
+three patients or more. Privacy of each bed area is maintained by a 
+segregating screen or curtain and is inclusive of adequate storage space for 
+the patient’s personal belongings, special table for patient food, medical 
+gases, vacuum, air and suction as well as other features associated with 
+bedside and/or mobile charting, nurse server amenities and access to a 
+private phone and seating arrangement for visitors. 
+17-06 Royal Suite Daily Room and Board charges for a single room (for the patient) plus 1 or 
+more rooms (for guests), provided with 2 or more separate bathrooms. 
+Inclusive of all possible items for luxury and all possible measurements 
+taken for privacy and exclusivity. 
+Patient room is inclusive of a fully automated electric bed, adequate 
+storage space for personal belongings, special table for patient food, 
+medical gases, vacuum, air and suction as well as other features 
+associated with bedside and/or mobile charting, nu rse server amenities 
+and access to a private phone. 
+17-10 Isolation Room Daily Room and Board charges for a single bed in a room accommodating 
+one patient or more. Fully equipped to prevent the spread of an infectious 
+agent from an infected or colonized patient to susceptible persons. 
+Inclusive of all of protective barriers and mechanical measurements taken 
+for maintaining isolation. 
+17-08 Private Room Deluxe Retired 
+17-09 Private Room Standard Suite Retired 
+1.2. Special Care 
+29 Special Care Unit (SCU) or Adult 
+Special-Care Unit (ASCU) 
+Daily Room and Board charges for the bed occupied by registered adult 
+patient with a need for extra help but not critically ill.  
+30 Special Care Baby Unit (SCBU) Daily Room and Board charges for the bed occupied by registered neonate 
+patient (0 to 30 days of age) who is not premature or critically ill but with a 
+need for extra help. 
+1.3. Nursery 
+32 Nursery - General Classification Daily Room and Board charges for a registered healthy neonate (0 to 30 
+days of age), who incurs overnight stay for daily room and board in a 
+hospital nursery. 
+1.4. Intensive Care 
+27 Intensive Care Unit (ICU) Daily Room and Board charges for the bed occupied by a registered patient 
+requiring intensive medical care in an Intensive care unit.  
+27-01 Coronary Care Unit (CCU) Daily Room and Board charges for the bed occupied by a registered patient 
+requiring intensive cardiac medical care in a coronary care unit. 
+28 Neonatal Intensive Care Unit 
+(NICU) 
+Daily Room and Board charges for the bed occupied by registered 
+premature and/or critically ill neonate patient (0 to 30 days) requiring 
+intensive medical care in an Intensive care unit. 
+31 Pediatric intensive care Unit 
+(PICU) 
+Daily Room and Board charges for the bed occupied by registered pediatric 
+patient (1 month to 15 years of age) requiring intensive medical care in an 
+Intensive care unit. 
+1.5 Other Rooms 
+17-21 Emergency Room - Hourly Rate Hourly rate for the bed / room occupied by registered patient in a hospital or 
+clinic, staffed and equipped to provide emergency care to patient requiring 
+immediate medical treatment. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     34 
+17-22 Short Stay Room - Hourly Rate Hourly rate for the bed / room occupied by registered patient who is 
+medically expected to remain confined for less than 6 hours, and equipped 
+with one or more beds; in a patient care unit for the purpose of : 
+Assessment, examination, monitoring purposes. 
+For treatments or therapy requiring special equipment, such as removing 
+sutures, draining a hematoma, packing a wound, or performing an 
+examination. 
+17-23 Recovery Room - Hourly Rate Hourly rate for the bed / room occupied by registered patient equipped with 
+one or more beds; in a patient care unit which is designated for monitoring 
+post-surgery or post anesthesia patients. 
+17-24 Short Stay - Daily Rate Daily rate for the bed / room occupied by registered patient for assessment, 
+examination, monitoring, therapy or Non-invasivE&Minor procedure for a 
+registered patient: 
+Medically expected to remain confined for less than 6 hours;  
+In a Day Care / Day Stay section of the facility, or a patient care unit 
+equipped with one or more beds; 
+Regardless of the hour of admission, and even if the patient remains in the 
+facility past midnight. 
+17-25 Day Stay (Day care) - Daily Rate Daily rate for the bed / room occupied by registered patient for assessment, 
+examination, monitoring, therapy, procedure or surgery (major or minor) for 
+a registered patient: 
+Medically expected to remain confined for 6 to 12 hours;  
+In a Day Care / Day Stay section of the facility, or a patient care unit 
+equipped with one or more beds; 
+Regardless of the hour of admission, and even if the patient remains in the 
+facility past midnight. 
+2 Per-diems 
+Refer to section 4.4 of the Claims and Adjudication Rules for the service included in the Per diem codes.  
+2.1 Room and Board 
+1 Ward or Shared Room - Daily Rate 
+(Day 1 to 3) 
+Daily all inclusive (as defined in section 4.4) rate for three days or less of 
+hospital confinement in Ward or Shared Room. Ward or Shared Room 
+specifications are as defined accommodation section, Service code 17 -04 
+and 17-05. 
+2 Ward or Shared Room - Daily Rate 
+(Day 4 to 8) 
+Daily all inclusive (as defined in section 4.4) rate for four to eight days of 
+hospital confinement in Ward or Shared Room. Ward or Shared Room 
+specifications are as defined accommodation section, Service code 17 -04 
+and 17-05. 
+3 Ward or Shared Room - Daily Rate 
+(Day 8 and more) 
+Daily all inclusive (as defined in section 4.4) rate for eight or more days of 
+hospital confinement in Ward or Shared Room. Ward or Shared Room 
+specifications are as defined accommodation section, Service code 17 -04 
+and 17-05. 
+3-01 Per Diem Room Rate difference - 
+Daily Rate - Suite 
+Daily room rate difference between Ward or Shared Room, and Suite room.  
+Situational code: only billable with Service Codes 1,2 and 3.  
+Code is inclusive only of the Room and Board charge difference for a Suite 
+Room, as defined in Accommodation section, Service code 17 -01. 
+3-02 Per Diem Room Rate difference - 
+Daily Rate - VIP Room 
+Daily room rate difference between Ward or Shared Room and VIP Room.  
+Situational code: only billable with Service Codes 1,2 and 3.  
+Code is inclusive only of the Room and Board charge difference for a VIP 
+Room, as defined in Accommodation section, Service code 17 -02. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     35 
+3-03 Per Diem Room Rate difference - 
+Daily Rate - First Class Room 
+Daily room rate difference between Ward or Shared Room and First Class 
+Room. 
+Situational code: only billable with Service Codes 1,2 and 3.  
+Code is inclusive only of the Room and Board charge difference for a First 
+Class Room, as defined in Accommodation section, Service code 17 -03. 
+3-06 Per Diem Room Rate difference - 
+Daily Rate - Royal Suite 
+Daily room rate difference between Ward or Shared Room and Royal Room.  
+Situational code: only billable with Service Codes 1,2 and 3.  
+Code is inclusive only of the Room and Board charge difference for a Royal 
+Room, as defined in Accommodation section, Service code 17 -06. 
+3-10 Per Diem Room Rate difference - 
+Daily Rate - Isolation Room 
+Daily room rate difference between Ward or Shared Room and an Isolation 
+Room. 
+Situational code: only billable with Service Codes 1,2 and 3.  
+Code is inclusive only of the Room and Board charge difference for a Royal 
+Room, as defined in Accommodation section, Service code 17 -10. 
+17-17 Per Diem - Category 17 Retired Code 
+17-18 Per Diem - Category 18 Retired Code 
+17-19 Per Diem - Category 19 Retired Code 
+17-20 Per Diem - Category 20 Retired Code 
+2.2 Intensive Care 
+5 NICU - Daily Rate (Day 1 to 7) Daily all inclusive (as defined in section 4.4) rate for day one to seven of 
+hospital confinement of registered premature and/or critically ill 
+neonate patient (0 to 30 days of age) in Neonatal Intensive Care Unit 
+(NICU). NICU specifications are as defined in accommodation section, 
+Service code 28. 
+6 NICU - Daily Rate (Day 8 to 14) Daily all inclusive (as defined in section 4.4) rate for day eight to 
+fourteen of hospital confinement of registered premature and/or 
+critically ill neonate patient (0 to 30 days of age) in Neonatal Intensive 
+Care Unit (NICU). NICU specifications are as defined in 
+accommodation section, Service code 28. 
+7 NICU - Daily Rate (Day 15 to 21) Daily all inclusive (as defined in section 4.4) rate for day fifteen to twenty 
+one of hospital confinement of registered premature and/or critically ill 
+neonate patient (0 to 30 days of age) in Neonatal Intensive Care Unit (NICU). 
+NICU specifications accommodation section, Service code 28.  
+8 NICU - Daily Rate (Day 22 and 
+more) 
+Daily all inclusive (as defined in section 4.4) rate for day twenty two to 
+discharge of hospital confinement of registered premature and/or critically 
+ill neonate patient (0 to 30 days of age) in Neonatal Intensive Care Unit 
+(NICU). NICU specifications are as defined in accommodation section, 
+Service code 28. 
+17-07 PICU - Daily Rate (Day 1 to 7) Daily all inclusive (as defined in section 4.4) rate for day one to seven of 
+hospital confinement of registered premature and/or critically ill pediatric 
+patient (1 month to 15 years of age) in Special Pediatric Intensive Care Unit 
+(PICU). PICU specifications are as defined in accommodation section, 
+Service code 31. 
+17-07-01 PICU - Daily Rate (Day 8 to 14) Daily all inclusive (as defined in section 4.4) rate for day eight to fourteen of 
+hospital confinement of registered and critically ill pediatric patient (1 
+month to 15 years of age) in Special Pediatric Intensive Care Unit (PICU). 
+PICU specifications are as defined in accommodation section, Service 
+code 31. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     36 
+17-07-02 PICU - Daily Rate (Day 15 to 21) Daily all inclusive (as defined in section 4.4) rate for day fifteen to twenty 
+one of hospital confinement of registered and critically ill pediatric patient 
+(1 month to 15 years of age) in Special Pediatric Intensive Care Unit (NICU). 
+NICU specifications are as defined in accommodation section, Service 
+code 31. 
+17-07-03 PICU - Daily Rate (Day 22 and 
+more) 
+Daily all inclusive (as defined in section 4.4) rate for day twenty two and 
+more of hospital confinement of registered and critically ill pediatric patient 
+(1 month to 15 years of age) in Special Pediatric Intensive Care Unit (PICU). 
+PICU specifications are as defined in accommodation section, Service 
+code 31. 
+4 ICU/CCU - Daily Rate (Day 1 to 7) Daily all inclusive (as defined in section 4.4) rate for day one to seven of 
+hospital confinement of registered and critically ill patient (more than 15 
+years of age) in Intensive Care Unit (ICU). ICU specifications are as defined 
+in accommodation section, Service code 27. 
+4-01 ICU/CCU - Daily Rate (Day 8 to 14) Daily all inclusive (as defined in section 4.4) rate for day eight to fourteen of 
+hospital confinement of registered premature and/or critically ill patient 
+(more than 15 years of age ) in Intensive Care Unit (ICU). ICU specifications 
+are as defined in accommodation section, Service code 27. 
+4-02 ICU/CCU - Daily Rate (Day 15 to 21) Daily all inclusive (as defined in section 4.4) rate for day fifteen to twenty 
+one of hospital confinement of registered and critically ill pediatric patient 
+(more than 15 years of age) in Intensive Care Unit (ICU). ICU specifications 
+are as defined in accommodation section, Service code 27. 
+4-03 ICU/CCU - Daily Rate (Day 22 and 
+more) 
+Daily all inclusive (as defined in section 4.4) rate for day twenty two and 
+more of hospital confinement of registered and critically ill pediatric patient 
+(more than 15 years of age) in Intensive Care Unit (ICU). ICU specifications 
+are as defined in accommodation section, Service code 27. 
+2.3 Nursery 
+17-12 Newborn Nursery (Day 1 to 3) Daily all inclusive (as defined in section 4.4) rate for day one and three of 
+hospital confinement of registered healthy neonate patient (0 to 30 days of 
+age) in a hospital nursery. Hospital nursery specifications are as defined in 
+accommodation section, Service code 32. 
+17-12-01 Newborn Nursery (Day 4 to 8) Daily all inclusive (as defined in section 4.4) rate for day four and eight of 
+hospital confinement of registered healthy neonate patient (0 to 30 days of 
+age) in a hospital nursery. Hospital nursery specifications are as defined in 
+accommodation section, Service code 32. 
+17-12 -02 Newborn Nursery (Day 9 and 
+more) 
+Daily all inclusive (as defined in section 4.4) rate for day nine and more of 
+hospital confinement of registered healthy neonate patient (0 to 30 days of 
+age) in a hospital nursery. Hospital nursery specifications are as defined in 
+accommodation section, Service code 32. 
+2.4 Special Care 
+18 SCU (Day 1 to 3) Daily all inclusive (as defined in section 4.4) rate for day one and three of 
+hospital confinement of registered adult patient who is not critically ill but 
+is requiring of special medical attention in a Special Care Unit. Special 
+Care Unit specifications are as defined in accommodation section, Service 
+code 29. 
+18-01 SCU (Day 4 to 8) Daily all inclusive (as defined in section 4.4) rate for day four and eight of 
+hospital confinement of registered adult patient who is not critically ill but 
+is requiring of special medical attention in a Special Care Unit. Special 
+Care Unit specifications are as defined in accommodation section, Service 
+code 29. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     37 
+18-02 SCU (Day 9 and more) Daily all inclusive (as defined in section 4.4) rate for day nine and more of 
+hospital confinement of registered adult patient who is not critically ill but 
+is requiring of special medical attention in a Special Care Unit. Special 
+Care Unit specifications are as defined in accommodation section, Service 
+code 29. 
+19 SCBU (Day 1 to 3) Daily all inclusive (as defined in section 4.4) rate for day one and three of 
+hospital confinement of registered neonate patient (0 to 30 days of age) 
+who is not critically ill but is requiring of special medical attention in a 
+Special Care Baby. Special Care Baby Unit specifications are as defined in 
+accommodation section, Service code 30. 
+19-01 SCBU (Day 4 to 8) Daily all inclusive (as defined in section 4.4) rate for day four and eight of 
+hospital confinement of registered neonate patient (0 to 30 days of age) 
+who is not critically ill but is requiring of special medical attention in a 
+Special Care Baby. Special Care Baby Unit specifications are as defined in 
+accommodation section, Service code 30. 
+19-02 SCBU (Day 9 and more) Daily all inclusive (as defined in section 4.4) rate for day nine and more of 
+hospital confinement of registered neonate patient (0 to 30 days of age) 
+who is not critically ill but is requiring of special medical attention in a 
+Special Care Baby. Special Care Baby Unit specifications are as defined in 
+accommodation section, Service code 30. 
+2.5 Long Term Stay 
+17-13 Long Term Stay (Simple Cases) Daily all inclusive (as defined in section 4.4) rate of hospital/nursing home 
+confinement of registered patient who fall under the category of simple 
+cases as defined by the DoH Long Term Care Standard.  
+17-14 Long Term Stay (Intermediate 
+Cases) 
+Daily all inclusive (as defined in section 4.4) rate of hospital/nursing home 
+confinement of registered patient who fall under the category of 
+Intermediate cases as defined by the DoH Long Term Care Standard.  
+17-15 Long Term Stay (Intensive Cases) Daily all inclusive (as defined in section 4.4) rate of hospital/nursing home 
+confinement of registered patient who fall under the category of Intensive 
+cases as defined by the DoH Long Term Care Standard.  
+17-16 Long Term Stay (Severe Cases) Daily all inclusive (as defined in section 4.4) rate of hospital/nursing home 
+confinement of registered patient who fall under the category of Severe 
+cases as defined by the DoH Long Term Care Standard.  
+2.6 Short Stay, Day Stay and other rooms 
+15 Perdiem - Treatment or Observation Room - NOT inclusive of Laboratory and Radiology Retired Code 
+16 Perdiem - Day Stay (Day Care) Room – NOT inclusive of Laboratory and Radiology Retired Code 
+24 Perdiem - Short Stay Daily all inclusive (as defined in section 4.4) rate for services provided for 
+assessment, examination, monitoring, treatment or therapy purposes for a 
+registered patient: 
+Medically expected to remain confined for less than 6 hours;  
+In a patient care unit equipped with one or more beds. 
+Regardless of the hour of admission, and even if the patient remains in the 
+facility past midnight. 
+25 Perdiem - Day Stay (Day care) - Inclusive. Retired Code 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     38 
+25-01 Perdiem-Day Stay - Medical Case Daily all inclusive (as defined in section 4.4) rate for assessment, 
+examination, monitoring, therapy or Non-invasivE&Minor procedure for a 
+registered patient: 
+Medically expected to remain confined for 6 to 12 hours;  
+In a Day Care / Day Stay section of the facility, or a patient care unit 
+equipped with one or more beds; 
+Regardless of the hour of admission, and even if the patient remains in the 
+facility past midnight. 
+25-02 Perdiem-Day Stay - Surgical Case Daily all inclusive (as defined in section 4.4) rate for assessment, 
+examination, monitoring, therapy; including pre-, intra and post- operative 
+care-provided in the same day- of major procedures or surgical 
+interventions provided for a registered patient: 
+Medically expected to remain confined for 6 to 12 hours;.  
+In a Day Care / Day Stay section of the facility, or a patient care unit 
+equipped with one or more beds. 
+Regardless of the hour of admission, and even if the patient remains in the 
+facility past midnight. 
+2.7         Dialysis 
+14-01 Per Diem- Hemodialysis (HD). Daily all inclusive rate for out-patient hemodialysis in a dialysis center 
+provided for a registered patient. Inclusive of: 
+• In-center initial and routine patient assessment by a clinician 
+(doctor, nurse or qualified technician) prior to, during or after 
+dialysis treatment. 
+• Professional charge for performance of hemodialysis.  
+• Patient and family education and support concerning renal 
+disease, dialysis treatment, diet, lifestyle and social aspects.  
+• Usage of equipment required for the performance of the 
+Hemodialysis. 
+• All disposable products and supplies required for the 
+performance of the Hemodialysis. 
+• Medical supervision (on-site or remote) of the dialysis by qualified 
+physician 
+• Pharmaceuticals routinely required in the performance of the 
+dialysis treatment 
+• Routine investigations and diagnostic tests recommended for 
+patient on hemodialysis treatment. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     39 
+14-02 Per Diem- Automated 
+Peritoneal Dialysis (APD). 
+An all-inclusive monthly rate, triggered by an individual out-patient 
+“Automated Peritoneal Dialysis” encounter, provided in a dialysis center 
+for a registered patient. Inclusive of: 
+• In-center initial and routine patient assessment by a clinician 
+(doctor, nurse or qualified technician) prior to, during or after 
+treatment, and/or Patient training, retraining and family 
+education for self-administration of Automated Ambulatory 
+Peritoneal Dialysis, as well as education and support concerning 
+renal disease, dialysis treatment, diet, lifestyle and social aspects  
+• Rental of equipment required for the performance of the 
+Automated Peritoneal Dialysis, for a full month. 
+• All disposable products and supplies required for the 
+performance of the Automated Peritoneal Dialysis, for a full 
+month. 
+• Medical supervision (on-site or remote) of the dialysis by qualified 
+clinicians. 
+• Pharmaceuticals routinely required in the performance of the 
+Automated Peritoneal Dialysis treatment, for a full month. 
+• Routine investigations and diagnostic tests recommended for 
+patient on Automated Peritoneal Dialysis treatment. 
+14-03 Per Diem-Continuous Ambulatory 
+Peritoneal Dialysis (CAPD). 
+An all-inclusive monthly rate, triggered by an individual out-patient 
+“Continuous Ambulatory Peritoneal Dialysis” encounter, provided in a 
+dialysis center for a registered patient. Inclusive of: 
+• In-center initial and routine patient assessment by a clinician 
+(doctor, nurse or qualified technician) prior to, during or after 
+treatment, and/or 
+• Patient training, retraining and family education for self - 
+administration of Continuous Ambulatory Peritoneal Dialysis, as 
+well as education and support concerning renal disease, dialysis 
+treatment, diet, lifestyle and social aspects 
+• All disposable products and supplies required for the 
+performance of the dialysis treatment, for a full month. 
+• Medical supervision (on-site or remote) of the dialysis by qualified 
+clinicians. 
+• Pharmaceuticals routinely required in the performance of the 
+Continuous Ambulatory Peritoneal Dialysis treatment, for a full 
+month 
+• Routine investigations and diagnostic tests recommended for 
+patient on Continuous Ambulatory Peritoneal Dialysis treatment  
+3.         Consultations 
+9 Consultation GP Code Retired 
+9.1 Consultation GP – Follow up Code Retired 
+10 Consultation Specialist Code Retired 
+10.1 Consultation Specialist – Follow up Code Retired 
+11 Consultation Consultant Code Retired 
+11.1 Consultation Consultant – Follow up Code Retired 
+21 Home visit - G.P consultation Code Retired 
+22 Home visit - Specialist consultation Code Retired 
+23 Home visit - Consultant consultation Code Retired 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     40 
+4.         Operating Room Services 
+20 Operating Room Services – 
+General Classification 
+Operating room inclusive of the Pre-medication room, Operating block, 
+Anesthesia substance (consumables, gases etc), sterilization, respiratory 
+and cardiac support, and emergency resuscitative devices, patient 
+monitors, diagnostic tools, all consumables and drugs. Not inclusive of 
+the anesthetist Doctor charge. 
+20-01 Operating Room - Minor Surgery Operating room for a simple or minor procedure inclusive of the Pre - 
+medication room, Operating block, Anesthesia substance (consumables, 
+gases etc), sterilization, respiratory and cardiac support, and emergency 
+resuscitative devices, patient monitors, diagnostic tools, all consumables, 
+operation room’s devices and drugs utilized in the operation room. Not 
+inclusive of the anesthetist Doctor charge. 
+20-02 Operating Room - First Hour Operating room for complex procedure or surgery, first hour rate.  
+• Inclusive of the Pre-medication room, Operating block, 
+Anesthesia substance (consumables, gases etc), sterilization, 
+respiratory and cardiac support, and emergency resuscitative 
+devices, patient monitors, diagnostic tools, all consumables, 
+operation room’s devices and drugs utilized in the operation 
+room. 
+• Not inclusive of the anesthetist Doctor charge. 
+20-03 Operating Room - Every Additional 
+1/2 hour 
+Operating room for complex procedure or surgery, every additional ½ hour.  
+• Can only be billed with code 20.02. 
+• Inclusive of the Pre-medication room, Operating block, 
+Anesthesia substance (consumables, gases etc), sterilization, 
+respiratory and cardiac support, and emergency resuscitative 
+devices, patient monitors, diagnostic tools, all consumables, 
+operation room’s devices and drugs utilized in the operation 
+room. 
+• Not inclusive of the anesthetist Doctor charge. 
+20-04 Catheterization Lab Catheterization Lab room for complex cardiac procedure or surgery.  
+• Inclusive of the Pre-medication room, Operating block, 
+Anesthesia substance (consumables, gases etc), sterilization, 
+respiratory and cardiac support, and emergency resuscitative 
+devices, patient monitors, diagnostic tools, all consumables, 
+operation room’s devices and drugs utilized in the operation 
+room. 
+• Not inclusive of the anesthetist Doctor charge. 
+20-05 Delivery Room Hospital room equipped for childbirth; inclusive of all the birthing devices 
+including but not limited to Fetal/Patient monitors, Forceps, Curettes, 
+Surgical equipment, Sterilization, Emergency devices all consumables and 
+drugs. 
+5.         Other Services 
+17-11 Per Diem - Non-Medical Escort 
+accommodation  
+Daily Rate. Accommodation stays in hospital or outside hospital (at 
+reasonable and customary charges) for a single escort accompanying the 
+patient outside Abu Dhabi. Exclusive of food and telephone charges. 
+Charged per day. See Mandatory price list & Rules. 
+17-11-1 Per Diem - Medical Escort 
+accommodation - Daily Rate 
+Daily Rate. Accommodation stays in hospital or outside hospital (at 
+reasonable and customary charges) for a single medical professional 
+accompanying the patient outside Abu Dhabi. Exclusive of food and 
+telephone charges. Charged per day. See Mandatory pric e list & Rules. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     41 
+17-11-2 Per Diem - International 
+Assistance in case of Emergency 
+Daily Rate. Costs for providing emergency assistance during critical 
+illness, & accident outside UAE. Including travel, security, medical 
+assistance & local expertise in the country of treatment. See Mandatory 
+price list & Rules. 
+12 Undefined services Undefined service. 
+26 Per Diem - Companion 
+Accommodation 
+Daily Rate. Per day room and board charges in hospital / treating facility for 
+(1) a person accompanying a registered inpatient insured, of any age that 
+is critically ill, or (2) parent accompanying a child under 10 years of age.  
+50-01 Comprehensive screening evaluation and management by clinician of an individual, including an age and 
+gender appropriate history, questionnaire filling, examination, and ordering of laboratory/diagnostic 
+procedures, new or established patient; 30-40 minutes. 
+51-01 Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the 
+application of a surgical dressing: 16 sq inches / 100 sq centimeters or less.  
+51-02 Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the 
+application of a surgical dressing: between 16 sq inches / 100 sq centimeters and 48 sq inches / 300 sq 
+centimeters. 
+51-03 Non-surgical cleansing of a wound without debridement, with or without local anesthesia, with or without the 
+application of a surgical dressing: more than 48 sq inches / 300 sq centimeters.  
+99 Outlier Payment Outlier Payment for IR-DRG 
+ 
+Home Healthcare Services codes 
+17-26-1 Per Diem- Bundled Base Payment of home care (Level 1- SIMPLE ) 
+A bundled payment that includes all 
+• medical services and transportation 
+• Supportive services: includes Physiotherapy, Speech Therapy, Occupational Therapy, Respiratory 
+Therapy 
+• bundled payment excludes medication, consumables and equipment which will be paid separately  
+17-26-2 Per Diem- Bundled Base Payment of home care (Level 2- Intermediate ) 
+A bundled payment that includes all 
+• medical services and transportation 
+• Supportive services: includes Physiotherapy, Speech Therapy, Occupational Therapy, Respiratory 
+Therapy 
+• bundled payment excludes medication, consumables and equipment which will be paid separately  
+17-26-3 Per Diem- Bundled Base Payment of home care (Level 3- Intensive ) 
+A bundled payment that includes all 
+• medical services and transportation 
+• Supportive services: includes Physiotherapy, Speech Therapy, Occupational Therapy, Respiratory 
+Therapy 
+• bundled payment excludes medication, consumables and equipment which will be paid separately  
+17-26-4 Per Diem- Bundled Base Payment of home care (Level 4- Complex ) 
+A bundled payment that includes all 
+• medical services and transportation 
+• Supportive services: includes Physiotherapy, Speech Therapy, Occupational Therapy, Respiratory 
+Therapy 
+• bundled payment excludes medication, consumables and equipment which will be paid separately  
+88 Outlier Payment "See Home care Standard version1.4 – Appendix 5” 
+ 
+ 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     42 
+Population At Risk Program Service code 
+17-27-3 Tele consultation – Nurse assessment – Population at risk program to provide care at home 
+Assisted Reproductive Therapy service codes   
+Code Code Short Description Code Long Description 
+70-01 Bundled reimbursement for 
+completed regular ART cycle 
+Completed fresh ART cycle is reimbursed on a bundled payment, including all 
+services provided to the patient from ovarian stimulation to transfer of 
+embryo(s). 
+Activities included 
+• All activities required for a complete ART cycle are included except for 
+those mentioned in excluded activities column. 
+Activities excluded 
+• All take home medications. 
+• Genetic tests (PGD, PGS Karyotyping). 
+• Embryo storage beyond the first year. 
+70-02 Bundled reimbursement for 
+embryo(s) storage 
+Storage of embryo(s) is reimbursed on a bundled payment, including all 
+services provided to the patient from stimulation of ovaries, to freezing and 
+storage of embryo up to 1 year. 
+Activities included 
+• All activities required for a complete ART cycle are included except for 
+those mentioned in excluded activities column. 
+Activities excluded 
+• All take home medications. 
+• Genetic tests (PGD, PGS Karyotyping). 
+• Embryo storage beyond the first year. 
+70-03 Bundled reimbursement for 
+completed ART cycle from 
+frozen embryo(s) 
+Completed ART cycle is reimbursed on a bundled payment, including all 
+services provided to the patient from thawing of embryo(s) to transfer of 
+embryo. 
+Activities included 
+• All activities required for a complete ART cycle are included except for 
+those mentioned in excluded activities column. 
+Activities excluded 
+• All take home medications. 
+• Embryo storage beyond the first year. 
+70-04 Bundled reimbursement for 
+egg(s) storage 
+Storage of egg(s) is reimbursed on a bundled payment, including all services 
+provided to the patient from stimulation of ovaries to freezing and storage of 
+egg(s) up to 1 year. 
+Activities included 
+• All activities required for a complete ART cycle are included except for 
+those mentioned in excluded activities column. 
+Activities excluded 
+• All take home medications.  
+• Embryo storage beyond the first year. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     43 
+70-05 Bundled reimbursement for 
+completed ART cycle from 
+frozen egg(s) 
+Completed ART cycle is reimbursed on a bundled payment, including all 
+services provided to the patient from thawing of egg(s) to transfer of embryo(s).  
+Activities included 
+• All activities required for a complete ART cycle are included except for 
+those mentioned in excluded activities column. 
+Activities excluded 
+• All take home medications. 
+• Genetic tests (PGD, PGS Karyotyping).  
+• Embryo storage beyond the first year. 
+70-06 Stimulation of ovaries Completed attempt of ovaries stimulation of an incomplete ART cycle. 
+Activities included 
+• All activities required are included except for taking home medication. 
+Activities excluded 
+• All take home medication. 
+70-07 Egg retrieval Completed attempt of Egg retrieval of an incomplete ART cycle. 
+Activities included 
+• All activities required are included. 
+Activities excluded 
+• N/A 
+70-08 Egg freezing Completed Egg freezing of an incomplete ART cycle. 
+Activities included 
+• All activities required are included. 
+Activities excluded 
+• N/A 
+70-09 Fertilization of eggs Completed attempt of Fertilization of eggs of an incomplete ART cycle. 
+Activities included 
+• All the services are included except for Genetic tests PGD, PGS and 
+karyotyping. 
+Activities excluded 
+• Genetic tests PGD, PGS and karyotyping. 
+70-10 Embryo freezing Completed Embryo freezing of an incomplete ART cycle. 
+Activities included 
+• All the services are included except for Genetic tests PGD, PGS  and 
+karyotyping. 
+Activities excluded 
+• Genetic tests PGD, PGS and karyotyping. 
+70-11 Add-on Fertility Investigation Special add-on investigation package to be added to bundle package 3 – frozen 
+Embryo cycle and package 5 – frozen egg cycle, if the bundle is requested 6 
+months from the initial stimulation. 
+Activities included 
+• All activities required for preparing patient and for oocyte/ embryo 
+thawing. 
+Activities excluded 
+• N/A 
+Assisted Reproductive therapy Services outside IVF bundle  
+Code Code Short Description Code Long Description 
+70-12 Pre-implantation genetic 
+testing for aneuploidy (PGT-
+A) 
+Pre-implantation genetic testing for aneuploidy (PGT-A), includes genetic 
+consultation and counselling, embryo biopsy and all other necessary steps 
+required to perform PGT-A test, for up to 5 embryos 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     44 
+70-13 PGT-A for each additional 
+embryo 
+Pre-implantation genetic testing for aneuploidy (PGT-A) as an add-on for SRVC 
+code 70-12, includes genetic consultation and counselling, embryo biopsy and 
+all other necessary steps required to perform PGT-A test, for each additional 
+embryo 
+70-14 Pre-implantation genetic 
+testing for monogenic gene 
+disorders (PGT-M) 
+Pre-implantation genetic testing for monogenic gene disorders (PGT -M) as an 
+add- on for PGT-A (SRVC code 70-12), includes genetic consultation and 
+counselling, review of the genetic testing report of parents from G42, custom 
+test development (probe preparation) and all other necessary steps required to 
+perform PGT-M test, for up to 5 embryos 
+70-15 PGT-M for each additional 
+embryo 
+Pre-implantation genetic testing for monogenic gene disorders (PGT -M) as an 
+add- on for SRVC code 70-14, includes genetic consultation and counselling, 
+review of the genetic testing report of parents from G42, custom test 
+development (probe preparation) and all other necessary steps required to 
+perform PGT-M test, for each additional embryo 
+70-16 Pre-implantation genetic for 
+structural chromosomal 
+rearrangements (PGT-SR) 
+Pre-implantation genetic testing for structural chromosomal rearrangements 
+(PGT-SR) as an add-on for PGT-A (SRVC code 70-12), includes genetic 
+consultation and counselling, review of the genetic testing report of parents 
+from G42, custom test development (probe preparation) and all other 
+necessary steps required to perform PGT-SR test, for up to 5 embryos 
+70-17 PGT-SR for each additional 
+embryo 
+Pre-implantation genetic testing for structural chromosomal rearrangements 
+(PGT-SR) as an add-on for SRVC code 70-16, includes genetic consultation and 
+counselling, review of the genetic testing report of parents from G42, custom 
+test development (probe preparation) and all other necessary steps required to 
+perform PGT-SR test, for each additional embryo 
+Code Code Description Procedure Name 
+55899 Unlisted procedure, male genital system Microsurgical Testicular Sperm Extraction 
+54505 Biopsy of testis, incisional (separate procedure) Testicular Sperm Extraction 
+54500 Biopsy of testis, needle (separate procedure) Testicular Sperm Aspiration 
+55899 Unlisted procedure, male genital system Percutaneous Epididymal Sperm Aspiration 
+S4028 Microsurgical epididymal sperm aspiration (mesa) Microsurgical Epididymal Sperm Aspiration 
+Dental Capitation program service codes 
+Code Code Description 
+08-01 Dental Capitation package for children age 0 – 6 years for initial visit 
+08-02 Dental Capitation package for children age 0 – 6 years for minimum requirement of dental services for 
+Quarter 1 to Quarter 3 from initiation (each quarter) 
+08-03 Dental Capitation package for children age 0 – 6 years for minimum requirement of dental services for 
+Quarter 4 from initiation 
+08-04 Dental Capitation package for children age 7 – 12 years for initial visit 
+08-05 Dental Capitation package for children age 7 – 12 years for minimum requirement of dental services for 
+Quarter 1 to Quarter 3 from initiation (each quarter) 
+08-06 Dental Capitation package for children age 7 – 12 years for minimum requirement of dental services for 
+Quarter 4 from initiation 
+08-07 Dental Capitation package for children age 13 – 17 years for initial visit 
+08-08 Dental Capitation package for children age 13 – 17 years for minimum requirement of dental services for 
+Quarter 1 to Quarter 3 from initiation (each quarter) 
+08-09 Dental Capitation package for children age 13 – 17 years for minimum requirement of dental services for 
+Quarter 4 from initiation 
+ 
+ 
+ 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     45 
+Genetic testing for Premarital Screening 
+Code Code Short 
+Description 
+Code Long Description Price 
+53 –01 Genetic testing for 
+Pre – Marital 
+Screening, 
+includes analysis 
+and reporting of 
+569 genes 
+Genetic testing for Pre – Marital Screening, includes analysis and reporting of 569 genes: AAAS, ABCA4, ABCB11, 
+ABCC6, ABCC8, ABCC9, ABCD4, ACAD9, ACADM, ACADS, ACADSB, ACADVL, ACAT1, ACOX1, ADA, ADAMTS2, 
+ADAR, ADAT3, ADGRG1, ADGRG1 (GPR56), ADGRV1, ADK, AGA, AGL,  AGPS, AGXT, AIRE, AK2, ALB, ALDH3A2, 
+ALDH3A2 (FALDH), ALDH7A1, ALDOB, ALG6, ALMS1, ALOX12B, ALPL, AMT, AP1S1, AP3B1, APOB, ARG1, ARSA, 
+ARSB, ASL, ASNS, ASPA, ASPM, ASS1, ATM, ATP13A2, ATP6V1B1, ATP7B, B3GAT3, BBS1, BBS10, BBS12, BBS2, 
+BBS4, BBS7, BBS9, BCKDHA, BCKDHB, BCS1L, BLM, BRIP1, BSND, BTD, CA2, CA5A, CAD, CANT1, CAPN3, CASQ2, 
+CBLIF (GIF), CBS, CC2D2A, CCDC103, CCDC39, CCDC40, CCDC65, CCN6 (WISP3), CCNO, CD3D, CD3E, CDH23, 
+CDK5RAP2, CDKN2A, CEP290, CERKL, CFAP298 (C21ORF59), CFTR, CHAT, CHRNE, CIB2,  CISD2, CLCNKB, 
+CLDN14, CLN3, CLN5, CLN6, CLN8, CLPP, CLRN1, CNGA3, CNGB3, COA6, COL11A1, COL11A2, COL3A1, COL4A3, 
+COL4A4, COL7A1, COLQ, COQ5, COQ6, COQ8A, CORO1A, COX6A1, CPS1, CPT1A, CPT2, CRB1, CRPPA, CSRP3, 
+CTNS, CTSD, CTSF, CTSK, CUL7, CYP11B1, CYP11B 2, CYP17A1, CYP1B1, CYP21A2, CYP27A1, CYP27B1, CYP2U1, 
+DBT, DCLRE1C, DDC, DES, DGUOK, DHCR7, DHDDS, DHFR, DLD, DNAAF1, DNAAF11 (LRRC6), DNAAF2, DNAAF3, 
+DNAAF4 (DYX1C1), DNAAF5, DNAH11, DNAH5, DNAI1, DNAI2, DNAJB13, DNAJC12, DNAL1, DNMT3B, DOCK8, 
+DOK7, DPYD, DRC1, DSC2, DSG2, DSP, DUOX2, DUOXA2, DYSF, EDAR, EDN3, EDNRB, EIF2B5, ELN, ELP1, ENG, 
+ERCC2, ESPN, ESRRB, ETFA, ETFB, ETFDH, ETHE1, EXOSC3, EYS, F10, F11, F12, F13A1, F13B, F2, F5, F7, FAH, 
+FAM161A, FANCA, FANCC, FANCD2, FANCE, FANCF, FANCG, FANCI, FANC L, FBP1, FBXL4, FCGR3A, FGF3, FGFR3, 
+FH, FKRP, FKTN, FOLR1, FOXE1, FTO, FUCA1, G6PC, G6PC1 (G6PC), GAA, GALC, GALE, GALK1, GALNS, GALNT3, 
+GALT, GAMT, GAS8, GATM, GBA1 (GBA), GBE1, GCDH, GCH1, GCSH, GDF5, GFPT1, GGCX, GH1, GIPC3, GJB2, 
+GJB6, GLB1, GLDC, GMPPA, GNE, GNPAT, GNPTAB, GNPTG, GNS, GORAB, GOT2, GP1BB, GP6, GP9, GPSM2, 
+GRHPR, GRXCR1, GSS, GUCY2D, GUSB, GYS2, HADH, HADHA, HADHB, HAMP, HAX1,  HBA1, HBA2, HBB, HBG2, 
+HEPACAM, HEXA, HEXB, HGD, HGF, HGSNAT, HJV, HJV (HFE2), HLCS, HMGCL, HMGCS2, HOGA1, HPS1 , HPS3, 
+HPS4, HPS5, HPS6, HSD11B2, HSD17B3, HSD17B4, HSD3B2, HSD3B7,  HYDIN, IDUA, IL2RA, IL7R, ILDR1, INPP5E, 
+INPPL1, INS, ITGA2B, ITK, IVD, IYD, JAK3, JUP, KARS1 (KARS), KCNE1, KCNQ1, KCTD7, LAMA3, LAMB2, LAMB3, 
+LAMC2, LARGE1, LARS2, LCA5, LDLR, LDLRAP1, LHCGR, LHX3, LIFR, LIPA, LMBRD1, LOXHD1, LPL, LRP2, LRPPRC, 
+LRTOMT, LYST, MAN2B1, MARVELD2, MCCC1, MCCC2, MCIDAS, MCOLN1, MED17, MEFV, MEGF10, MFSD8,  MIF 
+(GIF), MKKS, MKS1, MLC1, MMAA, MMAB, MMACHC, MMADHC, MMUT (MUT), MOCS1, MOCS2, MPI, MPL, MPV17, 
+MRAP, MRE11, MSRB3, MT3 (GIF), MTHFR, MTHFS, MTR, MTRR, MTTP, MUT, MYO15A, MYO6,  MYO7A, NAGLU, NAGS, 
+NBEAL2, NBN, NDUFAF6, NEB, NEK2, NPC1, NPC2, NPHP1, NPHS1, NPHS2,  NSUN2, NTRK1, OAT, ODAD1 
+(CCDC114), ODAD2 (ARMC4), ODAD3 (CCDC151), ODAD4 (TTC25), OPA3, OTOA, OTOF, OTOG, OTOGL, P3H1 
+(LEPRE1), PAH, PC, PCCA, PCCB, PCDH15, PCSK1, PDHB, PDX1, PEPD, PET100,  PEX1, PEX10, PEX12, PEX16, PEX2, 
+PEX26, PEX6, PEX7, PFKM, PHGDH, PHKG2, PIK3CD, PJVK (DFNB59), PKHD1, PLA2G6, PLAU, PLOD1, PLPBP, PMM2, 
+PNPLA6, PNPO, POLG, POMGNT1, POMT1, PPT1, PRF1, PROC, PROP1, PROS1, PSAP, PSAT1, PSPH, PTEN, PTPRC, 
+PTS, PUS1, PYCR1, PYGL, PYGM, QDPR, RAB23, RAG1, RAG2, RAPSN , RARS2, RBP3, RDH12, RDX, RECQL4, RMRP , 
+RNASEH2A, RNASEH2B, RNASEH2C, RPE65, RSPH1, RSPH3, RTEL1, S1PR2, SACS, S AMHD1, SARS1, SBDS, SCN1B, 
+SCN4A, SCN5A, SCNN1A, SCNN1B, SCNN1G, SDHB, SDHD, SEPSECS, SERPINA1, SERPINC1, SGCA, SGCB, SGCG, 
+SGSH, SLC12A3, SLC12A6, SLC17A5, SLC18A2, SLC22A5, SLC25A13, SLC25A15, SLC25A19, SLC25A20, SLC26A2, 
+SLC26A3, SLC26A4, SLC2A1, SLC2A10, SLC2A9, SLC35A3, SLC37A4, SLC39A4, SLC4A11, SLC7A7, SLITRK6, 
+SMN1*, SMPD1, SNAI2, SNAP29, SNX10, SPAG1, SPINK5, SPR, SRD5A3, ST3GAL5, STRC, SUMF1, SUOX, TALDO1, 
+TAT, TBC1D24, TBX19, TCAP, TCIRG1, TCN2, TECPR2, TECTA, TFR2, TG, TGM1, TH, TMC1, TMEM138, T MEM216, 
+TMIE, TMPRSS3, TNNI3, TPI1, TPK1, TPO, TPP1, TPRN, TRAPPC11, TRDN, TREX1, TRIM37, TRIOBP, TSEN2, TSEN34, 
+TSEN54, TTC8, TTN, TTPA, UBR1, UGT1A1, UNC13D, UROS, USH1C, USH1G, USH2A, VPS13A, VPS13B, VPS13B 
+(COH1), VPS53, VRK1, WHRN, WWOX, XPA, XPC, XYL T1, ZAP70, ZFYVE26, ZMYND10, ZNF513 
+NA 
+IPC Teleconsultation codes 
+Code Code Short Description Code Long Description 
+01-11-01 Teleconsultation for International patient 
+care (IPC) including medical doctor to 
+medical doctor & patient, each 20 
+minutes 
+Teleconsultation for International patient care including 
+consultation by a local medical doctor to international medical 
+doctor & patient as initiated by the local teleconsultation team,  
+each 20 minutes 
+01-11-02 Teleconsultation for International patient 
+care (IPC), multidisciplinary team & 
+patient, primary provider, each 20 minutes 
+Teleconsultation for International patient care including 
+consultation by a multidisciplinary team to patient as initiated by 
+the local teleconsultation team, primary local provider,  each 20 
+minutes 
+01-11-03 Teleconsultation for International patient 
+care (IPC), multidisciplinary team & 
+patient, each additional provider, each 20 
+minutes 
+Teleconsultation for International patient care including 
+consultation by a multidisciplinary team to patient as initiated by 
+the local teleconsultation team, each additional local  provider, 
+each 20 minutes 
+01-11-04 Teleconsultation for International patient 
+care (IPC), medical doctor to medical 
+doctor 
+Teleconsultation for International patient care including 
+consultation by a local medical doctor to an international medical 
+doctor as initiated by the local teleconsultation team 
+ 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     46 
+Comprehensive screening Program Service codes IFHAS packages  
+Code Short Code Description Long Code Description 
+52-21 Comprehensive Screening Major Package 
+for male & female (age 18-39 years) 
+Comprehensive Screening Major Package for male & female (age 
+18-39 years) for consultation & Labs including the following 
+services every 3 years: 99211, 96127, 36415, 82947, 83036, 80061, 
+82565 
+52-22 Comprehensive Screening Major Package 
+for male & female (age 40-64 years) 
+Comprehensive Screening Major Package for male & female (age 
+40-64 years) for consultation & Labs including the following 
+services every 3 years: 99211, 96127, 36415, 82947, 83036, 80061, 
+82565 
+52-23 Comprehensive Screening Major Package 
+for male & female (age 65-75 years) 
+Comprehensive Screening Major Package for male & female (age 
+65-75 years) for consultation & Labs including the following 
+services every 3 years: 99211, 96127, 36415, 82947, 83036, 80061, 
+82565 
+52-24 Comprehensive Screening Minor Package 
+for male & female (age 65-75 years) 
+Comprehensive Screening Minor Package for male & female (age 
+65-75 years) for vision & hearing including the following services 
+annually: 92551, 99173,  
+52-25 Comprehensive Screening Oral Health 
+Package for male & female (age 18-75 
+years) 
+Comprehensive Screening Oral Health Package for male & female 
+(age 18-75 years) for oral examination & oral hygiene including the 
+following services annually: 01103, 13211  
+52-26 Colon Cancer Screening male & female 
+(age 40-75 years) 
+Colon Cancer Screening Package for male and female (age 40 -75 
+Years) including the following services every 10 years:  99211, 
+G0105 
+52-27 Cervical Cancer Screening for female (age 
+25-29 years) 
+Cervical Cancer Screening Package for female (25-29 Years) 
+including the following services every 3 years: 99211, 88142 
+52-28 Cervical Cancer Screening for female (age 
+30-65 years) for eligible groups based on 
+PCSP standard 
+Cervical Cancer Screening Package for female (30-65 Years) 
+including the following services every 5 years: 99211, 88142, 87623 
+or 87624 or 87625 
+52-29 Lung Cancer Screening for (High Risk) 
+male & female (age 55-75 years) 
+Lung Cancer Screening Package for male & female (age 55 -75 
+Years) for (high risk only, heavy smokers) including the following 
+services annually: 99211, 71271 
+52-30 Standalone Screening Mammography for 
+female for eligible groups based on PCSP 
+standard 
+Standalone Screening Mammography for female every 2 years 
+(77067) for eligible groups based on PCSP standard 
+52-31 Standalone Screening Fecal 
+immunochemical test (FIT) for eligible 
+groups based on PCSP standard 
+Standalone Screening Fecal immunochemical test (FIT) annually 
+(82274) for eligible groups based on PCSP standard 
+52-32 Standalone Screening Abdominal Aortic 
+Aneurysm for eligible groups based on 
+PCSP standard  
+Standalone Screening Abdominal Aortic Aneurysm once in a 
+lifetime (76706) for eligible groups based on PCSP standard  
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     47 
+52-33 Standalone Screening DEXA scan for 
+eligible groups based on PCSP standard  
+Standalone Screening DEXA scan every 3 years (77080) for eligible 
+groups based on PCSP standard  
+Service codes for Bone marrow transplants  
+Code Code Short Description Code Long Description 
+22-01 Bundled reimbursement 
+for Bone Marrow Pre-
+transplantation work- up 
+(Autologous) 
+The bundle reimbursement for Bone Marrow pre- transplantation work-up includes 
+all procedures necessary for the pre-transplant work-up, extensive examination, 
+Laboratory testing, Radiological and imaging analysis, Multidisciplinary team 
+consultation. 
+Excluded Services from this bundle payment are: 
+• Medications plerixafor and defibrotide, or an equivalent, will be reimbursed 
+in accordance with FDA label indication and require prior authorization.  
+• Any additional cost pertaining to complications (excluding  Potentially 
+Preventable Complications of BMT transplant procedure). 
+• List of CPT codes in table 4 BMT CPT codes for Advanced Lab 
+Tests/Services, will be reimbursed outside the bundle based on medical 
+necessity 
+22-02 Bundled reimbursement 
+for Bone Marrow 
+Preparation (Autologous) 
+The bundle reimbursement for Bone Marrow preparation includes all procedures 
+necessary for the preparation, Evaluation and Management, laboratory testing and 
+radiological analysis, Mobilization and Apheresis procedures and patient specific 
+conditioning protocol. 
+Excluded Activities: 
+• Medications plerixafor and defibrotide, or an equivalent, will be reimbursed 
+in accordance with FDA label indication and require prior authorization. 
+• Any additional cost pertaining to complications (excluding  Potentially 
+Preventable Complications of BMT transplant procedure). 
+• List of CPT codes in table 4 BMT CPT codes for Advanced Lab 
+Tests/Services, will be reimbursed outside the bundle based on medical 
+necessity 
+22-03 Bundled reimbursement 
+for Bone Marrow 
+Transplantation 
+(Autologous) 
+The bundle reimbursement for Bone Marrow transplantation includes all inpatient 
+procedures necessary for the Bone Marrow Transplantation to the day of discharge.  
+Excluded Activities: 
+• Medications plerixafor and defibrotide, or an equivalent, will be reimbursed 
+in accordance with FDA label indication and require prior authorization.  
+• Any additional cost pertaining to complications (excluding  Potentially 
+Preventable Complications of BMT transplant procedure). 
+• List of CPT codes in table 4 BMT CPT codes for Advanced Lab 
+Tests/Services, will be reimbursed outside the bundle based on medical 
+necessity 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     48 
+22-04 Bundled 
+reimbursement for 
+Bone Marrow Post-
+transplantation follow- 
+up (Autologous) 
+The bundle reimbursement for Bone Marrow post- transplant follow-up includes all 
+procedures necessary for the Post-transplant follow-up (Per month from discharge 
+date and up to four months), Evaluation and Management, laboratory testing and 
+radiological analysis, medication up to 7 days, vaccination cost and 
+cryopreservation for 6 months. 
+Excluded Activities: 
+• Medications plerixafor and defibrotide, or an equivalent, will be reimbursed 
+in accordance with FDA label indication and require prior  authorization. 
+• Any additional cost pertaining to complications (excluding  Potentially 
+Preventable Complications of BMT transplant procedure). 
+• List of CPT codes in table 4 BMT CPT codes for Advanced Lab 
+Tests/Services, will be reimbursed outside the bundle based on medical 
+necessity 
+22-05 Bundled 
+reimbursement for 
+Bone Marrow Pre-
+transplantation work- 
+up (Allogenic) 
+The bundle reimbursement for Bone Marrow Pre-transplant work-up includes all 
+procedures necessary for the pre-transplant work-up (Donor and recipient), 
+extensive examination prior to transplantation, laboratory testing, radiological 
+analysis, and multidisciplinary team consultation. 
+Excluded Activities: 
+• Medications plerixafor and defibrotide, or an equivalent, will be reimbursed 
+in accordance with FDA label indication and require prior authorization.  
+• Any additional cost pertaining to complications (excluding  Potentially 
+Preventable Complications of BMT transplant procedure). 
+• List of CPT codes in table 4 BMT CPT codes for Advanced Lab 
+Tests/Services, will be reimbursed outside the bundle based on medical 
+necessity 
+22-06 Bundled 
+reimbursement for 
+Bone Marrow 
+Preparation (Allogenic) 
+The bundle reimbursement for Bone Marrow preparation includes all procedures 
+necessary for the preparation, Evaluation and Management, laboratory testing and 
+radiological analysis, Mobilization and Apheresis procedures and patient specific 
+conditioning protocol. 
+Excluded Activities: 
+• Medications plerixafor and defibrotide, or an equivalent, will be reimbursed 
+in accordance with FDA label indication and require prior  authorization. 
+• Any additional cost pertaining to complications (excluding  Potentially 
+Preventable Complications of BMT transplant procedure). 
+• List of CPT codes in table 4 BMT CPT codes for Advanced Lab 
+Tests/Services, will be reimbursed outside the bundle based on medical 
+necessity 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     49 
+22-07 Bundled reimbursement 
+for Bone Marrow 
+Transplantation 
+(Allogenic) 
+The bundle reimbursement for Bone Marrow transplantation includes all inpatient 
+procedures necessary for the Bone Marrow Transplantation to the day of discharge.  
+Excluded Activities: 
+• Medications plerixafor and defibrotide, or an equivalent, will be reimbursed in 
+accordance with FDA label indication and require prior authorization.  
+• Any additional cost pertaining to complications (excluding  Potentially 
+Preventable Complications of BMT transplant procedure). 
+• List of CPT codes in table 4 BMT CPT codes for Advanced Lab 
+Tests/Services, will be reimbursed outside the bundle based on medical 
+necessity. 
+22-08 Bundled reimbursement 
+for Bone Marrow Post-
+transplantation follow-
+up (Allogenic) 
+The bundle reimbursement for Bone Marrow post- transplant includes all procedures 
+necessary for the Post-transplant follow-up (Per month from discharge date and up to 
+four months from discharge date), Evaluation and Management, laboratory testing 
+and radiological analysis, discharge medication up to 7 days, vaccination cost and 
+cryopreservation for 6 months. 
+Excluded Activities: 
+• Medications plerixafor and defibrotide, or an equivalent, will be reimbursed in 
+accordance with FDA label indication and require prior  authorization 
+• Any additional cost pertaining to complications (excluding Potentially 
+Preventable Complications of BMT transplant procedure). 
+• List of CPT codes in table 4 BMT CPT codes for Advanced Lab 
+Tests/Services, will be reimbursed outside the bundle based on medical 
+necessity. 
+National Biobank Service codes 
+Code Code Short 
+Description 
+Code Long Description 
+54-01 Biobanking; Umbilical 
+Cord Blood 
+Biobanking; sourced from Umbilical Cord Blood, includes collection, transportation, 
+processing of the baby cord blood by checking stem cells (CD34) enumeration count, 
+full blood count (CBC) and testing of the maternal samples for infectious diseases, 
+HLA typing, cryopreservation and storage of the stem cells from the umbilical cord 
+blood for future use 
+54-02 Biobanking; Body Fluids Biobanking; sourced from Body Fluids, includes collection of different types of body 
+fluids, transportation and long-term storage for future use, each sample 
+54-03 Biobanking; Human 
+Tissue 
+Biobanking; sourced from Human Tissue, includes collection, transportation, 
+processing of tissue using histopathological procedures and long -term storage of 
+human tissue for future use, each sample 
+54-04 Biobanking; Human 
+DNA 
+Biobanking; Human DNA, includes collection, transportation, extraction of DNA from 
+blood and buccal samples and long- term storage for future use, each sample 
+Teleconsultation service codes for COVID-19 Home isolation program  
+Code Description 
+17-27-1 Tele consultation – Consultant / specialist - Home isolation for asymptomatic COVID-19 patients or with 
+mild symptoms out of healthcare facilities and provide care for them at home  
+17-27-2 Tele consultation – Nurse assessment - Home isolation for asymptomatic COVID-19 patients or with mild 
+symptoms out of healthcare facilities and provide care for them at home  
+Home visit Service codes for COVID-19 Home Isolation/ quarantine programs 
+Code Code Short Description Code Long Description 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     50 
+17-26-5 COVID-19 Home Isolation & 
+Home quarantine programs 
+Home visit  
+Home visit for a patient enrolled in COVID-19 Home Isolation & Home 
+quarantine programs following the program criteria. Services included in the 
+visit includes the following:   
+• Nurse/Physician visit 
+• Nurse/Physician assessment as per programs protocol set by 
+ADPHC including visual assessment of stability, Vital signs: BP and 
+HR, and Oxygen saturation (oximeter) 
+• Trackers application / removal 
+• Transportation and administration cost 
+• Other services associated with the home isolation/ quarantine visit 
+such as placing a poster, updating ESTIJABA platform.  
+Frequency:  As per HIP & HQP testing protocol. 
+Teleconsultation for COVID-19 Vaccine administration 
+Code Code Short Description Code Long Description 
+01-10 Physician teleconsultation 
+during Coronavirus disease 
+(COVID-19) vaccine 
+administration 
+Physician teleconsultation for a patient during (COVID -19) vaccine 
+administration outside healthcare facilities (labor camps, malls, home visits, 
+etc.). 
+Pfizer COVID-19 Vaccination 
+Code  Code Short Description  Code Long Description  
+96 Nurse lead Pfizer COVID-19 
+Vaccine administration  
+Nurse lead Pfizer COVID-19 Vaccine administration including all vaccine 
+administration activities such as vaccine preparation and logistics expenses  
+Ambulance service codes 
+Code Short Code 
+Description 
+Long Code Description 
+55-01 Ambulance 
+service, Non-
+Critical 
+transport, 
+(BLS) 
+Patient is clinically stable; however, the required service is not available at the current location, 
+and transfer to another facility is needed.  
+The average Response time: following DoH Scheme & guidelines.  
+Clinicians/response team on Board: as per DoH guidelines.  
+Inter facility Ambulance Transportation, Round trip  
+This code represents the nonemergency transport of a patient in an basic life support 
+ambulance and provision of a BLS assessment and BLS interventions by ambulance staff 
+including the necessary supplies and services. 
+Basic life support, or a BLS ambulance transport provides transport for a patient to travel from 
+one location to another due to a medical condition. The patient’s condition is usually stable 
+and the patient requires basic life support services like adminis tration of oxygen, wound 
+management, splinting of broken bones and or bleeding control. The ambulance staffs are 
+qualified emergency professional and the ambulance has specialized instruments.  
+Use this code when the ambulance staff performs a basic life support assessment such as 
+checking the patient’s vital signs and they provide basic life support procedures during a 
+patient transport for a nonemergency purpose. The ambulance staff uses minima l supplies. 
+This code will not be covered if the ambulance transports the patient for a service that could 
+have been provided safely and effectively at the point of origin, such as the patient’s home.  
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     51 
+55-02 Ambulance 
+service, 
+advanced life 
+support, 
+Critical 
+transport, 
+(ALS) 
+Patient is not clinically stable, requires immediate transfer.  
+Response time: immediate up to 6 hours.  
+Response Team: following DoH Scheme & guidelines 
+Inter facility Ambulance Transportation, Round trip 
+This code represents the nonemergency transport of a patient in an advanced life support, 
+or ALS ambulance and provision of level one prehospital services such as an ALS assessment 
+and or at least one ALS intervention by the ambulance staff including all t he necessary supplies 
+and services. 
+Advanced life support, or an ALS ambulance typically provides transport for a patient to travel 
+from one location to another due to an emergency medical condition. The patient is usually 
+critical and requires advanced life support for sustaining life such as cardiac pacing, or 
+defibrillation. The ambulance staffs are qualified emergency professional and the ambulance 
+has specialized instruments. 
+This code will not be covered if the ambulance transports the patient for a service that could 
+have been provided safely and effectively at the point of origin, such as the patient’s home.  
+55-03 Specialty 
+Care 
+Transport 
+For critically ill patient, who requires specialist team, (for example; bariatric overweight patient 
+who requires special equipment for transfer/movement. Type III ambulance is usually used. Ex. 
+Intubated patients, multiple infusions.  
+Response time & Response team: as per to DoH guidelines.  
+Inter facility Ambulance Transportation, Round trip  
+This code represents the interfacility transportation of a critically ill (A patient with impairment 
+of one or more vital organs systems leading to a life-threatening decline in condition) or injured 
+patient by a ground ambulance, including the delivery of  all medically necessary services and 
+supplies. 
+55-04 Neonatal 
+Transport 
+Ambulance 
+Patient is clinically stable, but the medical condition is deteriorating.   
+Example; Ambulance specifically designed for neonates 
+Response time & Response team: as per DoH guidelines 
+Round trip 
+This code represents the transport of a neonate, typically defined as an infant less than a 
+month old, using an ambulance as a mode of transport.  
+patient is clinically stable, but the medical condition is deteriorating  
+55-05 Ground 
+mileage, per 
+Kilometer 
+Inter facility Ambulance Transportation, Ground mileage, per Kilometer, Round trip  
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     52 
+56-01 Ambulance 
+service, Non- 
+Critical 
+Transport, 
+(BLS) 
+Patient is clinically stable; however, the transfer to health care entity is needed via an 
+ambulance (for example: dialysis patient, radiation therapy patient).  
+Response time & Response team: as per DoH Guidelines.  
+Home Transportation, Round trip 
+The indications are same as 55-01 
+56-02 Specialty 
+care 
+Transport   
+For critically ill patient, who requires specialist team, (for example; bariatric overweight patient 
+who requires special equipment for transfer/movement. Type III ambulance is usually used. Ex. 
+Intubated patients, multiple infusions.  
+Response time & Response team: as per to DoH guidelines.  
+Home Transportation, Round trip 
+The indications are same as 55-03 
+56-03 Ground 
+mileage, per 
+Kilometer 
+Home Transportation, Ground mileage, per Kilometer Round trip 
+ 
+ 
+ 
+6.2.2 Table 2 : CPT Code Ranges 
+Note: refer back to section 2.4.2 “Multipliers Application Rules” for the use of the CPT Codes Ranges 
+ 
+Service Category Codes Range 
+from to 
+Evaluation And Management: 99202 - 99499, 99091 
+Psychiatry 90785 90899 
+Dialysis 90935 90999 
+Gastroenterology 91010 91304 
+Ophthalmology 92002 92499 
+Special Otorhinolaryngologic Services 92502 92700 
+Cardiovascular 92920 93799 
+Noninvasive Vascular Diagnostic Studies 93880 93998 
+Pulmonary 94002 94799 
+Allergy & Clinical Immunology 95004 95199 
+Endocrinology 95249 95251 
+Neurology & Neuromuscular Procedures 95700 96020 
+Medical Genetics and Genetic Counseling Services 96040 
+Central Nervous System Assessments/Tests 96105 96146 
+Health & Behaviour Assessment/Intervention 96156 96171 
+Hydration, Therapeutic, Prophylactic, injections & Infusions, and Chemotherapy 
+and other Administration 
+96360 96549 
+Photodynamic Therapy 96567 96574 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     53 
+Special Dermatological Procedures 96900 96999 
+Physical Medicine & Rehabilitation 97010 97799 
+Medical Nutrition Therapy 97802 97804 
+Acupuncture 97810 97814 
+Osteopathic Manipulative Treatment 98925 98929 
+Chiropractic Manipulative Treatment 98940 98943 
+Education & Training For Patient Self-Management 98960 98962 
+Non-Face-to-Face Nonphysician Services 98966 98972 
+Special Services, Procedures And Reports 99000 99091 
+Qualifying Circumstances For Anesthesia 99100 99140 
+Moderate (Conscious) Sedation 99151 99157 
+Other Services & Procedures 99170 99199 
+Home Health Procedures/Services 99500 99602 
+Medication Therapy Management Services 99605 99607 
+Immunization Administration For Vaccines/Toxoids 90460 0072A 
+Biofeedback 90901 90913 
+Anaesthesia: 00100-01999; 99100-99140 
+Surgery: 10004-69990 
+General 10004 10012 
+Integumentary System 10030 19499 
+Musculoskeletal System 20100 29999 
+Respiratory System 30000 32999 
+Cardiovascular System 33016 37799 
+Hemic & Lymphatic Systems 38100 38999 
+Mediastinum & Diaphragm 39000 39599 
+Digestive System 40490 49999 
+Urinary System 50010 53899 
+Male Genital System 54000 55899 
+Reproductive System & Intersex 55920 55980 
+Female Genital System 56405 58999 
+Maternity Care & Delivery 59000 59899 
+Endocrine System 60000 60699 
+Nervous System 61000 64999 
+Eye & Ocular Adnexa 65091 68899 
+Auditory System 69000 69979 
+Operating microscope 69990 
+Radiology: 70010-79999 
+Diagnostic Imaging 70010 76499 
+Diagnostic Ultrasound 76506 76999 
+Radiologic Guidance 77001 77022 
+Breast Mammography 77046 77067 
+Bone/Joint Studies 77071 77086 
+Radiation Oncology 77261 77799 
+Nuclear Medicine 78012 79999 
+Pathology & Laboratory: 80047-0326U 
+Organ Or Disease-Oriented Panels 80047 80081 
+Therapeutic Drug Assays 80143 80299 
+Drug Assay  80305-80377, 83992 
+Evocative/Suppression Testing 80400 80439 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     54 
+Consultations (Clinical Pathology) 80500 80502 
+Urinalysis 
+Molecular pathology 
+Genomic Sequencing Procedures and Other Molecular Multianalyte Assays  
+Multianalyte Assays with Algorithmic Analyses 
+81000 
+81105 
+81410 
+81490 
+81099 
+81479 
+81471 
+81599 
+Chemistry 82009 84999 
+Hematology & Coagulation 85002 85999 
+Immunology 86000 86849 
+Transfusion Medicine 86850 86999 
+Microbiology 87003 87999 
+Anatomic Pathology (Postmortem) 88000 88099 
+Cytopathology 88104 88199 
+Cytogenetic Studies 88230 88299 
+Surgical Pathology 88300 88399 
+In Vivo (Transcutaneous) Lab Procedures 88720 88749 
+Other Procedures 89049 89240 
+Reproductive Medicine Procedures 
+Proprietary Laboratory Analyses 
+89250 
+0001U 
+89398 
+0326U 
+ 
+ 
+6.2.3 Table 3 : Telemedicine Services 
+The below CPT codes will be utilized for telemedicine services provided by All healthcare facilities:  
+All specialties (excluding Psychiatry/ Psychology) 
+Code Code Description 
+99441 Telephone evaluation and management service by a physician or other qualified health care 
+professional who may report evaluation and management services provided to an established patient, 
+parent, or guardian not originating from a related E&M service provided within the previous 7 days nor 
+leading to an E&M service or procedure within the next 24 hours or soonest available appointment; 5 -10 
+minutes of medical discussion 
+99442 Telephone evaluation and management service by a physician or other qualified health care 
+professional who may report evaluation and management services provided to an established patient, 
+parent, or guardian not originating from a related E&M service provided within the previous 7 days nor 
+leading to an E&M service or procedure within the next 24 hours or soonest available appointment; 11 -20 
+minutes of medical discussion 
+99443 Telephone evaluation and management service by a physician or other qualified health care 
+professional who may report evaluation and management services provided to an established patient, 
+parent, or guardian not originating from a related E&M service provided within the previous 7 days nor 
+leading to an E&M service or procedure within the next 24 hours or soonest available appointment; 21 -30 
+minutes of medical discussion 
+99091 Collection and interpretation of physiologic data (eg, ECG, blood pressure, glucose monitoring) digitally 
+stored and/or transmitted by the patient and/or caregiver to the physician or other qualified health care 
+professional, qualified by education, training, licensure/regulation (when applicable) requiring a 
+minimum of 30 minutes of time 
+99446 Interprofessional telephone/Internet assessment and management service provided by a consultative 
+physician including a verbal and written report to the patient's treating/requesting physician or other 
+qualified health care professional; 5-10 minutes of medical consultative discussion and review 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     55 
+99447 Interprofessional telephone/Internet assessment and management service provided by a consultative 
+physician including a verbal and written report to the patient's treating/requesting physician or other 
+qualified health care professional; 11-20 minutes of medical consultative discussion and review 
+99448 Interprofessional telephone/Internet assessment and management service provided by a consultative 
+physician including a verbal and written report to the patient's treating/requesting physician or other 
+qualified health care professional; 21-30 minutes of medical consultative discussion and review  
+98966 Telephone assessment and management service provided by a qualified nonphysician health care 
+professional to an established patient, parent, or guardian not originating from a related assessment 
+and management service provided within the previous 7 days no r leading to an assessment and 
+management service or procedure within the next 24 hours or soonest available appointment; 5 -10 
+minutes of medical discussion 
+98967 Telephone assessment and management service provided by a qualified nonphysician health care 
+professional to an established patient, parent, or guardian not originating from a related assessment 
+and management service provided within the previous 7 days no r leading to an assessment and 
+management service or procedure within the next 24 hours or soonest available appointment; 11 -20 
+minutes of medical discussion 
+98968 Telephone assessment and management service provided by a qualified nonphysician health care 
+professional to an established patient, parent, or guardian not originating from a related assessment 
+and management service provided within the previous 7 days no r leading to an assessment and 
+management service or procedure within the next 24 hours or soonest available appointment; 21 -30 
+minutes of medical discussion 
+99441** Telephone evaluation and management service by a physician or other qualified health care 
+professional who may report evaluation and management services provided to an established patient, 
+parent, or guardian not originating from a related E&M service provided within the previous 7 days nor 
+leading to an E&M service or procedure within the next 24 hours or soonest available appointment; 5 -10 
+minutes of medical discussion 
+99442** Telephone evaluation and management service by a physician or other qualified health care 
+professional who may report evaluation and management services provided to an established patient, 
+parent, or guardian not originating from a related E&M service provided within the previous 7 days nor 
+leading to an E&M service or procedure within the next 24 hours or soonest available appointment; 11 -20 
+minutes of medical discussion 
+99443** Telephone evaluation and management service by a physician or other qualified health care 
+professional who may report evaluation and management services provided to an established patient, 
+parent, or guardian not originating from a related E&M service provided within the previous 7 days nor 
+leading to an E&M service or procedure within the next 24 hours or soonest available appointment; 21 -30 
+minutes of medical discussion 
+90791 Psychiatric diagnostic evaluation 
+90792 Psychiatric diagnostic evaluation with medical services  
+98966 Telephone assessment and management service provided by a qualified nonphysician health care 
+professional to an established patient, parent, or guardian not originating from a related assessment 
+and management service provided within the previous 7 days no r leading to an assessment and 
+management service or procedure within the next 24 hours or soonest available appointment; 5 -10 
+minutes of medical discussion 
+98967 Telephone assessment and management service provided by a qualified nonphysician health care 
+professional to an established patient, parent, or guardian not originating from a related assessment 
+and management service provided within the previous 7 days no r leading to an assessment and 
+management service or procedure within the next 24 hours or soonest available appointment; 11 -20 
+minutes of medical discussion 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     56 
+98968 Telephone assessment and management service provided by a qualified nonphysician health care 
+professional to an established patient, parent, or guardian not originating from a related assessment 
+and management service provided within the previous 7 days no r leading to an assessment and 
+management service or procedure within the next 24 hours or soonest available appointment; 21 -30 
+minutes of medical discussion 
+90833* Psychotherapy, 30 minutes with patient when performed with an evaluation and management service 
+(List separately in addition to the code for primary procedure)  
+90836* Psychotherapy, 45 minutes with patient when performed with an evaluation and management service 
+(List separately in addition to the code for primary procedure)  
+90838* Psychotherapy, 60 minutes with patient when performed with an evaluation and management service 
+(List separately in addition to the code for primary procedure)  
+90832 Psychotherapy, 30 minutes with patient 
+90834 Psychotherapy, 45 minutes with patient 
+90837 Psychotherapy, 60 minutes with patient 
+ 
+*To report with code 99441 - 99443, see details at point 4.2.1.11.10 
+**For reporting purposes only in relation to details at point 4.2.1.11.10 
+ 
+ 
+6.2.4 Table 4: BMT CPT codes for Advanced Lab Tests/Services 
+ 
+A. CPT codes for Advanced Lab Tests/Services 
+Advanced Lab 
+Tests/Services 
+Code Description 
+ 
+ 
+FLOW CYTOMETRY 
+IMMUNOPROFILE 
+88182 Flow cytometry, cell cycle or DNA analysis 
+88184 Flow cytometry, cell surface, cytoplasmic, or nuclear marker, technical 
+component only; first marker 
+88185 Flow cytometry, cell surface, cytoplasmic, or nuclear marker, technical 
+component only; each additional marker (List separately in addition to 
+code for first marker) 
+88187 Flow cytometry, interpretation; 2 to 8 markers 
+88188 Flow cytometry, interpretation; 9 to 15 markers 
+88189 Flow cytometry, interpretation; 16 or more markers 
+ 
+DURACLONE T REG 
+88184 Flow cytometry, cell surface, cytoplasmic, or nuclear marker, technical 
+component only; first marker 
+88185 x7 Flow cytometry, cell surface, cytoplasmic, or nuclear marker, technical  
+component only; each additional marker (List separately in addition to 
+code for first marker) 
+88187 Flow cytometry, interpretation; 2 to 8 markers 
+ 
+MAXPAR DIRECT IMMUNO 
+PROFILING ASSAY 
+88184 Flow cytometry, cell surface, cytoplasmic, or nuclear marker, technical 
+component only; first marker 
+88185 x29 Flow cytometry, cell surface, cytoplasmic, or nuclear marker, technical  
+component only; each additional marker (List separately in addition to 
+code for first marker) 
+88189 Flow cytometry, interpretation; 16 or more markers 
+MINIMAL RESIDUAL DESEASE Code will depend on target gene and methodology used. 
+STEM CELL KIT 86367 Stem cells (ie, CD34), total count 
+TCR ALFA/BETA 86356 x2 Mononuclear cell antigen, quantitative (eg, flow cytometry), not otherwise 
+specified, each antigen 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     57 
+ 
+CD 19 SELECTION 
+86152 Cell enumeration using immunologic selection and identification in fluid 
+specimen (eg, circulating tumor cells in blood); 
+86153 Cell enumeration using immunologic selection and identification in fluid 
+specimen (eg, circulating tumor cells in blood); physician interpretation 
+and report, when required 
+ 
+CD 34+ SELECTION 
+86152 Cell enumeration using immunologic selection and identification in fluid 
+specimen (eg, circulating tumor cells in blood); 
+86153 Cell enumeration using immunologic selection and identification in fluid 
+specimen (eg, circulating tumor cells in blood); physician interpretation 
+and report, when required 
+BUSULFAN TEST 80375 Drug(s) or substance(s), definitive, qualitative or quantitative, not 
+otherwise specified; 1-3 
+ 
+ 
+CHIMERISM 
+81267 Chimerism (engraftment) analysis, post transplantation specimen (eg, 
+hematopoietic stem cell), includes comparison to previously performed 
+baseline analyses; without cell selection 
+81268 Chimerism (engraftment) analysis, post transplantation specimen (eg, 
+hematopoietic stem cell), includes comparison to previously performed 
+baseline analyses; with cell selection (eg, CD3, CD33), each cell type 
+B. Paediatric BMT Services and codes 
+Service Name Code Description 
+Whole Genome Sequencing 
+for Recipient 
+81425 Genome (eg, unexplained constitutional or heritable disorder or 
+syndrome); sequence analysis 
+Whole Genome Sequencing 
+for Donor 
+81425 Genome (eg, unexplained constitutional or heritable disorder or 
+syndrome); sequence analysis 
+Tests for donor-recipient 
+compatibility apart from HLA 
+Panel-Reactive Antibodies 
+(PRA) 
+86830 Antibody to human leukocyte antigens (HLA), solid phase assays (eg, 
+microspheres or beads, ELISA, Flow cytometry); antibody identification by 
+qualitative panel using complete HLA phenotypes, HLA Class I  
+86831 Antibody to human leukocyte antigens (HLA), solid phase assays (eg, 
+microspheres or beads, ELISA, Flow cytometry); antibody identification by 
+qualitative panel using complete HLA phenotypes, HLA Class II 
+Tests for donor-recipient 
+compatibility apart from HLA 
+Donor-Specific Antibodies 
+(DSA) 
+86832 Antibody to human leukocyte antigens (HLA), solid phase assays (eg, 
+microspheres or beads, ELISA, Flow cytometry); semi-quantitative panel 
+(eg, titer), HLA Class I 
+86833 Antibody to human leukocyte antigens (HLA), solid phase assays (eg, 
+microspheres or beads, ELISA, Flow cytometry); semi-quantitative panel 
+(eg, titer), HLA Class II 
+ 
+ 
+MRI T2* for Liver and Heart in 
+patients with iron overload 
+74181 Magnetic resonance (eg, proton) imaging, abdomen; without contrast 
+material(s) 
+75557 Cardiac magnetic resonance imaging for morphology and function without 
+contrast material; 
+76377 3D rendering with interpretation and reporting of computed tomography, 
+magnetic resonance imaging, ultrasound, or other tomographic  modality 
+with image postprocessing under concurrent supervision; requiring image 
+postprocessing on an independent workstation 
+RBC Genotyping in selected 
+patients 
+81403 Molecular pathology procedure, Level 4 (refer to CPT code book for full 
+description) 
+Caregiver's Stay Service 
+Code 26 
+Perdiem - Companion Accommodation 
+Daily Rate. Per day room and board charges in hospital / treating facility  
+for (1) a person accompanying a registered inpatient insured, of any age 
+that is critically ill, or (2) parent accompanying a child under 10 years of 
+age. 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     58 
+ 
+ 
+Table 5: DOH HAC list  
+ 
+SI.No Hospital Acquired 
+Conditions (HAC) 
+Diagnosis Codes Codes for Medical Procedures 
+1 Foreign Object 
+Retained After 
+Surgery 
+T81.500A, T81.501A, T81.502A, 
+T81.503A, T81.504A, T81.505A, 
+T81.506A, T81.507A, T81.508A, 
+T81.509A, T81.510A, T81.511A, 
+T81.512A, T81.513A, T81.514A, 
+T81.515A, T81.516A, T81.517A, 
+T81.518A, T81.519A, T81.520A, 
+T81.521A, T81.522A, T81.523A, 
+T81.524A, T81.525A, T81.526A, 
+T81.527A, T81.528A, T81.529A, 
+T81.530A, T81.531A, T81.532A, 
+T81.533A, T81.534A, T81.535A, 
+T81.536A, T81.537A, T81.538A, 
+T81.539A, T81.590A, T81.591A, 
+T81.592A, T81.593A, T81.594A, 
+T81.595A, T81.596A, T81.597A, 
+T81.598A, T81.599A, T81.60XA, 
+T81.61XA, T81.69XA 
+All Medical and Surgical discharges 
+2 In-Hospital Fall and 
+Trauma 
+Any injury caused by the following 
+external cause codes during the hospital 
+stay:  
+W01.0XXA, W01.10XA, W01.110A, 
+W01.111A, W01.118A, W01.119A, 
+W01.190A, W01.198A, W04.XXXA, 
+W05.0XXA, W06.XXXA, W07.XXXA, 
+W08.XXXA, W17.89XA, W18.11XA, 
+W18.12XA, W18.2XXA, W18.30XA, 
+W18.31XA, W18.39XA 
+All Medical and Surgical discharges 
+3 Air Embolism T80.0XXA All Medical and Surgical discharges 
+4 Blood Incompatibility T80.30XA, T80.310A, T80.311A, 
+T80.319A, T80.39XA 
+All Medical and Surgical discharges 
+5 Stage III and IV 
+Pressure Ulcers 
+L89.003, L89.004, L89.013, L89.014, 
+L89.023, L89.024, L89.103, L89.104, 
+L89.113, L89.114, L89.123, L89.124, 
+L89.133, L89.134, L89.143, L89.144, 
+L89.153, L89.154, L89.203, L89.204, 
+L89.213, L89.214, L89.223, L89.224, 
+L89.303, L89.304, L89.313, L89.314, 
+L89.323, L89.324, L89.43, L89.44, 
+L89.503, L89.504, L89.513, L89.514, 
+L89.523, L89.524, L89.603, L89.604, 
+L89.613, L89.614, L89.623, L89.624, 
+L89.813, L89.814, L89.893, L89.894, 
+L89.93, L89.94 
+All Medical and Surgical discharges 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     59 
+6 Manifestations of 
+Poor Glycemic 
+Control 
+E08.00, E08.01, E08.10, E08.11, E09.00, 
+E09.01, E09.10, E09.11, E10.10, E10.11, 
+E11.00, E11.01, E11.10, E11.11, E13.00, 
+E13.01, E13.10, E13.11, E15 
+All Medical and Surgical discharges 
+7 Catheter - 
+Associated Urinary 
+tract infection/UTI 
+T83.510A, T83.511A, T83.512A, 
+T83.518A 
+51701, 51702, 51703 
+8 Vascular Catheter- 
+Associated Infection 
+T80.211A, T80.212A, T80.218A, 
+T80.219A, T85.71XA, T85.735A 
+All Medical and Surgical discharges 
+9 SSI, Mediastinitis 
+following Coronary 
+Bypass Graft (CABG) 
+T82.7XXA, J98.51 33510, 33511, 33512, 33513, 33514, 33516, 
+33517, 33518, 33519, 33521, 33522, 33523, 
+33530, 33533, 33534, 33535, 33536, 33572, 
+35500, 35600, 92937, 92938, 92941, 92943 
+10 SSI following 
+Bariatric Surgery for 
+Obesity 
+K68.11, K95.01, K95.09, K95.81, K95.89, 
+T81.40XA, T81.41XA, T81.42XA, 
+T81.43XA, T81.44XA, T81.49XA 
+43631, 43632, 43633, 43644, 43645, 43770, 
+43771, 43772, 43773, 43774, 43775, 43842, 
+43843, 43845, 43846, 43847, 43848, 43886, 
+43887, 43888, 43999 
+ 
+ 
+ 
+ 
+ 
+ 
+11 
+ 
+ 
+ 
+ 
+ 
+ 
+SSI following Certain 
+Orthopedic 
+Procedures of Spine, 
+Shoulder and Elbow 
+ 
+ 
+ 
+ 
+ 
+ 
+T81.40XA, T81.41XA, T81.42XA, 
+T81.43XA, T81.44XA, T81.49XA, 
+T84.60XA, T84.610A, T84.611A, 
+T84.612A, T84.613A, T84.614A, 
+T84.615A, T84.619A, T84.63XA, 
+T84.69XA, T84.7XXA, K68.11 
+Spine 
+20930, 20931, 20932, 20933, 20934, 20936, 
+20937, 20938, 20939, 22010, 22015, 22206, 
+22207, 22208, 22210, 22212, 22214, 22216, 
+22220, 22222, 22224, 22226, 22505, 22818, 
+22819 
+Elbow 
+20605, 20606, 20802, 23930, 23931, 24065, 
+24066, 24071, 24073, 24075, 24076, 24077, 
+24079, 24155, 24200, 24201, 24220, 24310, 
+24320, 24330, 24331, 24340, 24370, 24371, 
+24586, 24587, 24600, 24605, 24615, 24620, 
+24635, 24800, 24802 
+Shoulder 
+20610, 20611, 23030, 23031, 23035, 23065, 
+23066, 23071, 23073, 23075, 23076, 23077, 
+23078, 23330, 23333, 23334, 23335, 23350, 
+23395, 23397, 23405, 23406, 23420, 23472, 
+23473, 23474, 23575, 23650, 23655, 23660, 
+23665, 23670, 23675, 23680, 23700, 23920, 
+23921, 23929, 24310, 24320, 29035, 29040, 
+29044, 29046, 29055, 29065, 29105, 29240, 
+29710, 29805, 29806, 29807, 29819, 29820, 
+29821, 29822, 29823, 29824, 29825, 29826, 
+29827, 29828 
+12 SSI following Cardiac 
+Implantable 
+Electronic Device 
+(CIED) Procedures 
+K68.11, T81.40XA, T81.41XA, T81.42XA, 
+T81.43XA, T81.44XA, T81.49XA, 
+T82.6XXA, T82.7XXA 
+33206, 33207, 33208, 33210, 33211, 33212, 
+33213, 33214, 33215, 33216, 33217, 33218, 
+33220, 33221, 33222, 33223, 33224, 33225, 
+33226, 33227, 33228, 33229, 33230, 33231, 
+33233, 33234, 33235, 33236, 33237, 33238, 
+33240, 33241, 33243, 33244, 33249, 33262, 
+33263, 33264, 33270, 33271, 33272, 33273, 
+33274, 33275, 33285, 33286, 33289 
+ 
+ 
+DoH Claims and Adjudication Rules  
+ 
+Healthcare Payer Sector – Standards & Pricing     60 
+13 DVT/PE following 
+Total Knee or Hip 
+Replacement 
+I26.93, I26.94, I26.99, I26.02, I26.09, 
+I26.92, I82.401 , I82.402, I82.403, 
+I82.409, I82.411, I82.412, I82.413, 
+I82.419, I82.421, I82.422, I82.423, 
+I82.429, I82.431, I82.432, I82.433, 
+I82.439, I82.441, I82.442, I82.443, 
+I82.449, I82.451, I82.452, I82.453, 
+I82.459, I82.461, I82.462, I82.463, 
+I82.469, I82.491, I82.492, I82.493, 
+I82.499, I82.4Y1, I82.4Y2, I82.4Y3, 
+I82.4Y9, I82.4Z1, I82.4Z2, I82.4Z3, 
+I82.4Z9, I82.621, I82.622, I82.623, 
+T81.72XA, T84.81XA, T84.86XA 
+27120, 27122, 27125, 27130, 27132, 27134, 
+27137, 27138, 27447, 27486, 27487, 27488 
+14 Iatrogenic 
+Pneumothorax with 
+Venous 
+Catheterization 
+J95.811 36555, 36556, 36557, 36558, 36560, 36561, 
+36563, 36565, 36566, 36568, 36569, 36570, 
+36571, 36572, 36573, 36578, 36580, 36581, 
+36582, 36583, 36584, 36585, 36589, 36590, 
+36597 
+15 MRSA (Methicillin 
+resistant 
+Staphylococcus 
+aureus) 
+A41.01, A41.02, A49.01, A49.02, B95.61, 
+B95.62, J15.211, J15.212 
+All Medical and Surgical discharges 
+16 Clostridium difficile 
+(C.Diff) 
+A04.71, A04.72, B96.7 All Medical and Surgical discharges 
+HAC Appendix 2: Present on Admission Indicator  
+POA 
+Indicator 
+Description Payment 
+Y Diagnosis was present at time of inpatient admission. Not Applicable. Payment is made for 
+condition when a HAC is present. 
+N Diagnosis was not present at time of inpatient admission.  Applicable. No payment is made for 
+condition when a HAC is present. 
+U Documentation insufficient to determine if condition was 
+present at the time of inpatient admission. 
+Applicable. No payment is made for 
+condition when a HAC is present. 
+W Clinically undetermined. Provider unable to clinically 
+determine whether the condition was present at the time of 
+inpatient admission. 
+Not Applicable. Payment is made for 
+condition when a HAC is present. 
+1 Diagnosis exempt from POA Indicator reporting. Usually no effect on DRG or payment. 
+ 
+ 
