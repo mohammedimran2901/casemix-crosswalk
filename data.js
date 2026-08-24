@@ -117,6 +117,105 @@ const PROCEDURES = [
       { code: "HC64B", tier: "CC 2–3", price: 4435 },
       { code: "HC64A", tier: "CC 4+", price: 5987 } ] }
   },
+  {
+    name: "Elbow replacement (elective)",
+    us: { family: "MS-DRG 507 / 508", tiers: [
+      { code: "508", tier: "w/o CC/MCC", price: 11020, alos: 3.8 },
+      { code: "507", tier: "w CC/MCC", price: 13145, alos: 6.4 } ] },
+    uk: { family: "HRG HN62A–B (Very Major Elbow)", tiers: [
+      { code: "HN62B", tier: "CC 0–1", price: 6323 },
+      { code: "HN62A", tier: "CC 2+", price: 6771 } ] }
+  },
+  {
+    name: "Complex spinal deformity correction",
+    us: { family: "MS-DRG 456 / 457 / 458", tiers: [
+      { code: "458", tier: "w/o CC/MCC", price: 30363, alos: 2.8 },
+      { code: "457", tier: "w CC", price: 43392, alos: 5.9 },
+      { code: "456", tier: "w MCC", price: 61150, alos: 11.5 } ] },
+    uk: { family: "HRG HC50 / HC51 (Instrumented Correction of Spinal Deformity)", tiers: [
+      { code: "HC51C", tier: "Complex, CC 0–2", price: 29742 },
+      { code: "HC51B", tier: "Complex, CC 3–5", price: 31601 },
+      { code: "HC51A", tier: "Complex, CC 6+", price: 42012 },
+      { code: "HC50A", tier: "Very complex, 19+", price: 39403 } ] }
+  },
+  {
+    name: "Multi-level lumbar spinal fusion",
+    us: { family: "MS-DRG 447 / 448", tiers: [
+      { code: "448", tier: "w/o MCC", price: 30859, alos: 4.1 },
+      { code: "447", tier: "w MCC", price: 48620, alos: 9.7 } ] },
+    uk: { family: "HRG HC53A–C (Very Major Spinal Reconstructive)", tiers: [
+      { code: "HC53C", tier: "CC 0–1", price: 9704 },
+      { code: "HC53B", tier: "CC 2–3", price: 11649 },
+      { code: "HC53A", tier: "CC 4+", price: 15075 } ] }
+  },
+  {
+    name: "Major foot / ankle reconstruction (elective)",
+    us: { family: "MS-DRG 503 / 504 / 505", tiers: [
+      { code: "505", tier: "w/o CC/MCC", price: 13046, alos: 3.2 },
+      { code: "504", tier: "w CC", price: 13602, alos: 5.5 },
+      { code: "503", tier: "w MCC", price: 20310, alos: 8.9 } ] },
+    uk: { family: "HRG HN32A–C (Very Major Foot)", tiers: [
+      { code: "HN32C", tier: "CC 0–1", price: 6317 },
+      { code: "HN32B", tier: "CC 2–3", price: 6767 },
+      { code: "HN32A", tier: "CC 4+", price: 7670 } ] }
+  },
+  {
+    name: "Bunion correction / minor foot surgery",
+    us: { family: "MS-DRG 504 / 505", tiers: [
+      { code: "505", tier: "w/o CC/MCC", price: 13046, alos: 3.2 },
+      { code: "504", tier: "w CC", price: 13602, alos: 5.5 } ] },
+    uk: { family: "HRG HN35A (Minor Foot)", tiers: [
+      { code: "HN35A", tier: "19+ years", price: 1304 } ] }
+  },
+  {
+    name: "Carpal tunnel release / minor hand surgery",
+    us: { family: "MS-DRG 501 / 502", tiers: [
+      { code: "502", tier: "w/o CC/MCC", price: 9794, alos: 3.0 },
+      { code: "501", tier: "w CC", price: 12721, alos: 5.2 } ] },
+    uk: { family: "HRG HN45A (Minor Hand)", tiers: [
+      { code: "HN45A", tier: "19+ years", price: 1304 } ] }
+  },
+  {
+    name: "Major hand surgery (e.g. Dupuytren's contracture)",
+    us: { family: "MS-DRG 513 / 514", tiers: [
+      { code: "514", tier: "w/o CC/MCC", price: 7439, alos: 2.6 },
+      { code: "513", tier: "w CC/MCC", price: 11456, alos: 5.2 } ] },
+    uk: { family: "HRG HN43A–B (Major Hand)", tiers: [
+      { code: "HN43B", tier: "CC 0–1", price: 3384 },
+      { code: "HN43A", tier: "CC 2+", price: 3835 } ] }
+  },
+  {
+    name: "Shoulder arthroscopy / intermediate shoulder surgery",
+    us: { family: "MS-DRG 510 / 511 / 512", tiers: [
+      { code: "512", tier: "w/o CC/MCC", price: 12046, alos: 2.7 },
+      { code: "511", tier: "w CC", price: 15131, alos: 4.4 },
+      { code: "510", tier: "w MCC", price: 21979, alos: 6.9 } ] },
+    uk: { family: "HRG HN54A–C (Intermediate Shoulder)", tiers: [
+      { code: "HN54C", tier: "CC 0–1", price: 2731 },
+      { code: "HN54B", tier: "CC 2–3", price: 2820 },
+      { code: "HN54A", tier: "CC 4+", price: 3158 } ] }
+  },
+  {
+    name: "Other hip surgery, non-joint (elective)",
+    us: { family: "MS-DRG 481 / 482", tiers: [
+      { code: "482", tier: "w/o CC/MCC", price: 11868, alos: 3.5 },
+      { code: "481", tier: "w CC", price: 15241, alos: 4.8 } ] },
+    uk: { family: "HRG HN14A–E (Intermediate Hip)", tiers: [
+      { code: "HN14E", tier: "CC 0–1", price: 2375 },
+      { code: "HN14D", tier: "CC 2–3", price: 3383 },
+      { code: "HN14C", tier: "CC 4–5", price: 4060 },
+      { code: "HN14B", tier: "CC 6–7", price: 5639 },
+      { code: "HN14A", tier: "CC 8+", price: 7896 } ] }
+  },
+  {
+    name: "Soft tissue / tendon procedures (musculoskeletal)",
+    us: { family: "MS-DRG 500 / 501 / 502", tiers: [
+      { code: "502", tier: "w/o CC/MCC", price: 9794, alos: 3.0 },
+      { code: "501", tier: "w CC", price: 12721, alos: 5.2 },
+      { code: "500", tier: "w MCC", price: 23029, alos: 9.9 } ] },
+    uk: { family: "HRG HN93Z (Other Muscle/Tendon/Fascia/Ligament)", tiers: [
+      { code: "HN93Z", tier: "All", price: 1718 } ] }
+  },
 ];
 
 // Example code-only lookup entries (so users searching raw codes get hits too)

@@ -1,4 +1,4 @@
-const FREE_LOOKUPS = 3;
+const FREE_LOOKUPS = 10;
 const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/YOUR_LINK_HERE"; // TODO: replace with your real Stripe Payment Link
 
 let freeUsed = parseInt(localStorage.getItem("cc_free_used") || "0", 10);
