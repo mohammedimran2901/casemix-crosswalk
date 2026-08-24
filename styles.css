@@ -94,6 +94,14 @@ td strong { color:var(--dark); font-weight:700; }
 .cm-alos { margin-top:12px; padding-top:10px; border-top:1px solid var(--line); font-size:.8rem; color:var(--muted); }
 .cm-alos strong { color:#0891b2; }
 
+/* ---------- Export bar ---------- */
+.export-bar { display:flex; align-items:center; gap:12px; margin-top:14px; }
+.export-bar.hidden { display:none; }
+.btn-ghost-dark { background:#fff; border:1.5px solid var(--line); color:var(--dark); font-family:inherit; font-weight:700; font-size:.9rem; padding:9px 18px; border-radius:10px; cursor:pointer; transition:all .15s; }
+.btn-ghost-dark:hover:not(:disabled) { border-color:var(--accent); color:var(--accent-dark); }
+.btn-ghost-dark:disabled { opacity:.6; cursor:not-allowed; }
+.export-note { font-size:.78rem; color:var(--muted); }
+
 /* ---------- Paywall ---------- */
 .paywall { text-align:center; padding:44px 34px; background:linear-gradient(180deg,#fff, #f0fdfa); }
 .paywall.hidden { display:none; }

@@ -77,7 +77,9 @@ function search(qRaw) {
       );
     }
   }
+  currentMatches = matches;
   resultCount.textContent = q ? `${matches.length} match(es) for "${qRaw.trim()}"` : "";
+  updateExportBar(matches);
   if (!matches.length) return;
 
   if (unlocked || freeUsed < FREE_LOOKUPS) {
@@ -97,7 +99,54 @@ function search(qRaw) {
   }
 }
 
+let currentMatches = [];
+
+function updateExportBar(matches) {
+  const bar = document.getElementById("exportBar");
+  if (!bar) return;
+  bar.classList.toggle("hidden", !matches.length);
+  const btn = document.getElementById("exportBtn");
+  if (unlocked) {
+    btn.disabled = false;
+    btn.textContent = "⬇ Export results as CSV";
+  } else {
+    btn.disabled = true;
+    btn.textContent = "🔒 CSV export — full access only";
+  }
+}
+
+function csvEscape(s) { return `"${String(s).replace(/"/g, '""')}"`; }
+
+function exportCSV() {
+  if (!unlocked || !currentMatches.length) return;
+  const head = ["Procedure",
+    "US code","US rate (USD)","US ALOS (days)",
+    "UK code","UK rate (GBP)","UK ALOS (days)",
+    "DE code","DE rate (EUR)","DE ALOS (days)",
+    "AU code","AU rate (AUD)","AU ALOS (days)",
+    "US complexity split","UK complexity split","DE complexity split","AU complexity split"];
+  const lines = [head.join(",")];
+  currentMatches.forEach(p => {
+    const cm = CASEMIX[p.name] || {};
+    const alos = k => cm.alos ? cm.alos[k] : "";
+    const split = k => cm.complexity ? cm.complexity[k].map(([l, pc]) => `${l}: ${pc}%`).join("; ") : "";
+    lines.push([p.name,
+      p.us[0], p.us[2], alos("us"),
+      p.uk[0], p.uk[2], alos("uk"),
+      p.de[0], p.de[2], alos("de"),
+      p.au[0], p.au[2], alos("au"),
+      split("us"), split("uk"), split("de"), split("au")].map(csvEscape).join(","));
+  });
+  const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "casemix-crosswalk.csv";
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
 searchBox.addEventListener("input", e => search(e.target.value));
+document.getElementById("exportBtn").addEventListener("click", exportCSV);
 
 if (new URLSearchParams(location.search).get("success") === "1") {
   unlocked = true;
