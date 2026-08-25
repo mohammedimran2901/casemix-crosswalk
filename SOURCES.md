@@ -30,6 +30,18 @@ All prices shown in CasemixCrosswalk are compiled directly from the following of
 - **Important vintage note:** the *current* Mandatory Tariff weights require free registration on the Shafafiya portal (https://shafafiyaportal.doh.gov.ae). The weights shown are from the older public publication and may differ from current weights.
 - **Downloaded:** 2026-08-24
 
+## 🇩🇪 Germany — G-DRG (aG-DRG 2025)
+- **Publication:** InEK Fallpauschalen-Katalog 2025 (aG-DRG-Version 2025), published 14 Oct 2024.
+    https://www.g-drg.de/content/download/14156/file/Fallpauschalenkatalog%202025_2024-09-26.xlsx (sheet "Hauptabteilungen")
+- **Values shown:** Bewertungsrelation (relative weight) and mittlere Verweildauer (official mean LOS). Payment = weight × Landesbasisfallwert (state base rate, negotiated annually; ~€4,000–4,600 for 2025).
+- **Downloaded:** 2026-08-25
+
+## 🇬🇧 UK activity shares (real % of cases per complexity tier)
+- **Publication:** NHS England, National Cost Collection 2024/25 — National Schedule of NHS costs, "Admitted Patient Care" sheet (suppressed publication).
+    https://www.england.nhs.uk/wp-content/uploads/2025/11/NCC_National-Schedule_2024_25.zip
+- **Values shown:** finished consultant episodes (FCEs) per HRG code, aggregated across day case / elective / non-elective sectors. Percentages = code FCEs ÷ family FCEs. These are REAL activity distributions, not estimates.
+- **Downloaded:** 2026-08-25
+
 ## Procedure-to-HRG/DRG family mapping
 Mappings were made at the procedure-family level (e.g., "primary hip replacement → Very Major Hip Procedures HN12"; "revision hip/knee → HN80/HN81"; "single-level lumbar fusion → HC54"). Exact HRG assignment for an individual patient depends on the OPCS/ICD-10 coding and the NHS grouper; exact MS-DRG assignment depends on the CMS Grouper. Users should verify individual case mappings.
 

@@ -1,0 +1,1058 @@
+[
+ {
+  "drg": "I01Z",
+  "desc": "Beidseitige Eingriffe oder mehrere große Eingriffe an Gelenken der unteren Extremität mit komplexer Diagnose",
+  "weight": 4.627,
+  "alos": 29.6
+ },
+ {
+  "drg": "I02A",
+  "desc": "Großflächige Gewebe- / Hauttransplantation außer an der Hand, mit komplizierender Konstellation, Eingriff an mehreren Lokalisationen oder mit schwerem Weichteilschaden, mit äußerst schweren CC und komplexer OR-Prozedur",
+  "weight": 12.663,
+  "alos": 52.4
+ },
+ {
+  "drg": "I02B",
+  "desc": "Großfl. Gewebe- / Hauttransplantation m. kompliz. Konst., Eingr. an mehr. Lokal. od. schw. Weichteilsch., m. äuß. schw. CC od. kompl. OR-Proz. od. mit hochkompl. Gewebe-Tx od. Vakuumbeh. od. BNB u. kompl. OR-Proz. od. kompl. Gewebe-Tx m. äuß. schw. CC",
+  "weight": 8.676,
+  "alos": 43.8
+ },
+ {
+  "drg": "I02C",
+  "desc": "Großfl. Gewebe- / Hauttransplantation außer an der Hand, mit kompliz. Konst., Eingriff an mehreren Lokalisationen oder schw. Weichteilschaden, bei BNB und kompl. OR-Proz. m. äußerst schweren oder schweren CC od. komplexer Gewebe-Tx m. äußerst schweren CC",
+  "weight": 5.806,
+  "alos": 34.4
+ },
+ {
+  "drg": "I02D",
+  "desc": "Kleinflächige oder großflächige Gewebe- / Hauttransplantation außer an der Hand, mit äußerst schweren CC",
+  "weight": 4.748,
+  "alos": 30.0
+ },
+ {
+  "drg": "I03A",
+  "desc": "Revision oder Ersatz des Hüftgelenkes mit kompl. Diagnose od. Arthrodese od. Alter < 16 Jahre oder beidseitige od. mehrere gr. Eingr. an Gelenken der unt. Extr. mit kompl. Eingriff, mit äuß. schw. CC oder mehrzeitigem Wechsel oder Eingr. an mehr. Lok.",
+  "weight": 5.642,
+  "alos": 35.2
+ },
+ {
+  "drg": "I03B",
+  "desc": "Revision oder Ersatz des Hüftgelenkes mit kompl. Diagnose od. Arthrodese od. Alter < 16 Jahre oder beidseitige od. mehrere gr. Eingr. an Gelenken der unt. Extr. mit kompl. Eingriff, ohne äuß. schw. CC, ohne mehrzeit. Wechsel, ohne Eingr. an mehr. Lok.",
+  "weight": 2.806,
+  "alos": 16.6
+ },
+ {
+  "drg": "I04Z",
+  "desc": "Implantation, Wechsel oder Entfernung einer Endoprothese am Kniegelenk mit komplizierender Diagnose oder Arthrodese oder Implantation einer Endoprothese nach vorheriger Explantation oder periprothetische Fraktur an der Schulter oder am Knie",
+  "weight": 2.997,
+  "alos": 15.6
+ },
+ {
+  "drg": "I05A",
+  "desc": "Revision oder Ersatz des Hüftgelenkes ohne komplizierende Diagnose, ohne Arthrodese, ohne komplexen Eingriff, mit äußerst schweren CC",
+  "weight": 3.581,
+  "alos": 22.8
+ },
+ {
+  "drg": "I05B",
+  "desc": "Implantation oder Wechsel einer inversen Endoprothese am Schultergelenk oder Implantation einer Sprunggelenkendoprothese",
+  "weight": 2.01,
+  "alos": 6.9
+ },
+ {
+  "drg": "I05C",
+  "desc": "Anderer großer Gelenkersatz ohne Implantation oder Wechsel einer inversen Endoprothese am Schultergelenk, ohne Implantation einer Sprunggelenkendoprothese",
+  "weight": 1.679,
+  "alos": 5.5
+ },
+ {
+  "drg": "I06A",
+  "desc": "Komplexe Eingriffe an der Wirbelsäule mit hochkomplexem Korrektureingriff oder bestimmtem mehrzeitigen Eingriff oder mit Eingriff an mehreren Lokalisationen oder mit komplizierender Konstellation oder bei Para- / Tetraplegie mit äußerst schweren CC",
+  "weight": 6.959,
+  "alos": 26.2
+ },
+ {
+  "drg": "I06B",
+  "desc": "Komplexe Eingriffe an Wirbelsäule, Kopf und Hals mit sehr komplexem Eingriff bei schwerer entzündlicher Erkrankung oder bestimmte bösartige Neubildung am Knochen oder Alter < 19 Jahre",
+  "weight": 4.394,
+  "alos": 11.0
+ },
+ {
+  "drg": "I06C",
+  "desc": "Komplexe Eingriffe an Wirbelsäule, Kopf und Hals, Alter > 18 Jahre, ohne Para- / Tetraplegie oder ohne äußerst schwere CC, ohne bösartige Neubildung am Knochen, mit bestimmtem Eingriff ohne schwere entzündliche Erkrankung oder ohne bestimmten Eingriff",
+  "weight": 3.844,
+  "alos": 12.7
+ },
+ {
+  "drg": "I07A",
+  "desc": "Amputation bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe",
+  "weight": 2.143,
+  "alos": 15.6
+ },
+ {
+  "drg": "I07B",
+  "desc": "Bestimmte Amputation am Fuß",
+  "weight": 1.663,
+  "alos": 13.6
+ },
+ {
+  "drg": "I08A",
+  "desc": "Andere Eingriffe an Hüftgelenk und Femur mit hochkomplexem Eingriff bei Beckenfraktur, mit bösartiger Neubildung, mit äußerst schweren CC oder mit weiteren komplizierenden Faktoren",
+  "weight": 4.915,
+  "alos": 25.3
+ },
+ {
+  "drg": "I08B",
+  "desc": "Andere Eingriffe an Hüftgelenk und Femur mit sehr komplexem Eingriff oder äußerst schweren CC oder bei komplexer Diagnose oder Ersatz des Hüftgelenkes mit Eingriff an oberer Extremität oder Wirbelsäule mit bestimmten komplizierenden Faktoren",
+  "weight": 4.186,
+  "alos": 25.2
+ },
+ {
+  "drg": "I08C",
+  "desc": "Andere Eingriffe an Hüftgelenk und Femur mit Einbringen von Abstandshaltern od. and. komplexen Eingriffen od. äuß. schw. CC od. bei kompl. Diagnose od. Ersatz des Hüftgelenks mit Eingriff an oberer Extremität od. Wirbelsäule ohne best. kompliz. Faktoren",
+  "weight": 3.07,
+  "alos": 17.5
+ },
+ {
+  "drg": "I08D",
+  "desc": "Andere Eingriffe an Hüftgelenk und Femur mit komplexer Diagnose oder Prozedur oder äußerst schweren CC",
+  "weight": 2.596,
+  "alos": 13.8
+ },
+ {
+  "drg": "I08E",
+  "desc": "Andere Eingriffe an Hüftgelenk und Femur ohne komplexe Diagnose oder Prozedur, ohne äußerst schwere CC, mit bestimmten Eingriffen an Becken und Femur oder mit bestimmten komplizierenden Diagnosen",
+  "weight": 2.138,
+  "alos": 10.8
+ },
+ {
+  "drg": "I08F",
+  "desc": "Andere Eingriffe an Hüftgelenk und Femur ohne komplexe Diagnose oder Prozedur, ohne äußerst schwere CC, mehr als ein Belegungstag, mit bestimmten anderen Eingriffen an Hüftgelenk und Femur",
+  "weight": 1.514,
+  "alos": 8.7
+ },
+ {
+  "drg": "I08G",
+  "desc": "Andere Eingriffe an Hüftgelenk und Femur ohne komplexe Diagnose oder Prozedur, ohne äußerst schwere CC, mehr als ein Belegungstag, mit mäßig komplexem Eingriff",
+  "weight": 1.117,
+  "alos": 4.8
+ },
+ {
+  "drg": "I08H",
+  "desc": "Andere Eingriffe an Hüftgelenk und Femur, ein Belegungstag oder ohne mäßig komplexen Eingriff, mit bestimmtem anderen Eingriff oder Alter < 12 Jahre oder Eingriff an der unteren Extremität",
+  "weight": 0.868,
+  "alos": 3.0
+ },
+ {
+  "drg": "I08I",
+  "desc": "Andere Eingriffe an Hüftgelenk und Femur, ein Belegungstag oder ohne mäßig komplexen Eingriff, ohne bestimmten anderen Eingriff, Alter > 11 Jahre, ohne Eingriff an der unteren Extremität",
+  "weight": 0.818,
+  "alos": 2.7
+ },
+ {
+  "drg": "I09A",
+  "desc": "Bestimmte Eingriffe an der Wirbelsäule mit sehr komplexer Osteosynthese und äußerst schweren CC oder bestimmter Spondylodese ab 10 Segmenten oder aufwendiger intensivmedizinischer Komplexbehandlung ab 369 Punkten",
+  "weight": 5.838,
+  "alos": 26.4
+ },
+ {
+  "drg": "I09B",
+  "desc": "Bestimmte Eingriffe an der Wirbelsäule mit bestimmten expandierbaren Implantaten oder bestimmter langstreckigen Spondylodese oder mehrzeitigen komplexen Eingriffen",
+  "weight": 5.611,
+  "alos": 20.7
+ },
+ {
+  "drg": "I09C",
+  "desc": "Bestimmte Eingriffe an der Wirbelsäule mit best. kompl. Faktoren, mit Wirbelkörperersatz oder komplexer Spondylodese oder andere mehrzeitige komplexe Eingriffe an der Wirbelsäule mit aufwendiger intensmed. Komplexbehandlung ab 185 Aufwandspunkten",
+  "weight": 4.669,
+  "alos": 18.2
+ },
+ {
+  "drg": "I09D",
+  "desc": "Bestimmte Eingriffe an der Wirbelsäule mit best. kompl. Faktoren, bei Frakturen der Halswirbelsäule oder sek. bösartiger Neub. des Knochens oder mit anderen mehrz. kompl. Eingriffen ohne aufwendige intensmed. Komplexbehandlung ab 185 Aufwandspunkten",
+  "weight": 4.395,
+  "alos": 20.8
+ },
+ {
+  "drg": "I09E",
+  "desc": "Bestimmte Eingriffe an der Wirbelsäule und best. komplizierende Faktoren oder best. Eingriffe an der WS mit best. anderen kompl. Faktoren und Eingriffe ZNS oder transpleuraler Zugang BWS oder best. langstreckige Spondylodese/Osteosynthese oder Diszitis",
+  "weight": 3.267,
+  "alos": 13.3
+ },
+ {
+  "drg": "I09F",
+  "desc": "Best. Eingriffe an der Wirbelsäule, best. kompliz. Faktoren od. Alter < 16 Jahre oder knöcherne Dekompression Spinalkanal / best. Osteosynthese > 3 Segm. oder Impl. eines Schrauben-Band-Systems oder Schrauben-Stab-Systems, 1 Segment bei Diszitis",
+  "weight": 2.601,
+  "alos": 11.1
+ },
+ {
+  "drg": "I09G",
+  "desc": "Bestimmte Eingriffe an der Wirbelsäule mit bestimmten anderen kompliz. Faktoren oder mit anderen kompl. Faktoren und Frakturen Halswirbelsäule oder BNB der Wirbelsäule mit Kyphoplastie, mit Radiofrequenzablation oder komplexer Eingriff an der Wirbelsäule",
+  "weight": 2.298,
+  "alos": 8.0
+ },
+ {
+  "drg": "I09H",
+  "desc": "Bestimmte Eingriffe an der Wirbelsäule mit bestimmten anderen kompliz. Faktoren oder mit anderen kompliz. Faktoren, ohne Frakturen HWS, ohne BNB der Wirbelsäule oder ohne Kyphoplastie od. ohne Radiofrequenzabl., ohne komplexen Eingriff an der Wirbelsäule",
+  "weight": 1.581,
+  "alos": 6.6
+ },
+ {
+  "drg": "I09I",
+  "desc": "Bestimmte Eingriffe an der Wirbelsäule ohne komplizierende Faktoren",
+  "weight": 1.358,
+  "alos": 7.8
+ },
+ {
+  "drg": "I10A",
+  "desc": "Andere Eingriffe an der Wirbelsäule mit bestimmtem Eingriff an Rückenmark, Spinalkanal, Wirbelsäule, Rumpf mit äußerst schweren CC",
+  "weight": 4.05,
+  "alos": 21.5
+ },
+ {
+  "drg": "I10B",
+  "desc": "Andere Eingriffe WS m. best. kompl. Eingriffen od. Para- / Tetrapl. od. Wirbelfraktur m. best. Eingriffen oh. äuß. schw. CC od. best. andere Operationen WS m. äuß. schw. CC u. > 1 BT od. mäßig kompl. Eingriffe u. Diszitis od. Exzision spin. Tumorgewebe",
+  "weight": 2.273,
+  "alos": 11.1
+ },
+ {
+  "drg": "I10C",
+  "desc": "Andere Eingriffe an der Wirbelsäule bei Bandscheibeninfektion oder mit bestimmtem Eingriff an der Wirbelsäule",
+  "weight": 1.488,
+  "alos": 5.6
+ },
+ {
+  "drg": "I10D",
+  "desc": "Andere Eingriffe an der Wirbelsäule mit komplexem Eingriff an der Wirbelsäule oder mit äußerst schweren oder schweren CC ohne Bandscheibeninfektion, ohne Diszitis, ohne bestimmten anderen Eingriff an der Wirbelsäule",
+  "weight": 1.166,
+  "alos": 5.0
+ },
+ {
+  "drg": "I10E",
+  "desc": "Andere Eingriffe an der Wirbelsäule mit mäßig komplexem Eingriff, mit bestimmtem kleinen Eingriff oder wenig komplexer Eingriff, mehr als 1 Belegungstag, Alter < 18 Jahre oder mit bestimmtem anderen kleinen Eingriff ohne äußerst schwere oder schwere CC",
+  "weight": 1.032,
+  "alos": 4.9
+ },
+ {
+  "drg": "I10F",
+  "desc": "Andere Eingriffe an der Wirbelsäule ohne mäßig komplexen Eingriff an der Wirbelsäule mit bestimmtem kleinen Eingriff oder wenig komplexer Eingriff, mehr als ein Belegungstag oder ohne bestimmten anderen kleinen Eingriff, Alter > 17 Jahre",
+  "weight": 0.938,
+  "alos": 4.6
+ },
+ {
+  "drg": "I10G",
+  "desc": "Andere Eingriffe an der Wirbelsäule ohne mäßig komplexen Eingriff an der Wirbelsäule, ohne bestimmten kleinen Eingriff, ohne wenig komplexen Eingriff oder ein Belegungstag, mit anderem kleinen Eingriff",
+  "weight": 0.726,
+  "alos": 4.8
+ },
+ {
+  "drg": "I10H",
+  "desc": "Andere Eingriffe an der Wirbelsäule ohne mäßig komplexen Eingriff, ohne bestimmten kleinen Eingriff, ohne anderen kleinen Eingriff",
+  "weight": 0.61,
+  "alos": 2.6
+ },
+ {
+  "drg": "I11Z",
+  "desc": "Eingriffe zur Verlängerung einer Extremität",
+  "weight": 2.275,
+  "alos": 6.4
+ },
+ {
+  "drg": "I12A",
+  "desc": "Knochen- und Gelenkinfektion / -entzündung mit verschiedenen Eingriffen am Muskel-Skelett-System und Bindegewebe mit äußerst schweren CC",
+  "weight": 4.183,
+  "alos": 26.1
+ },
+ {
+  "drg": "I12B",
+  "desc": "Knochen- und Gelenkinfektion / -entzündung mit verschiedenen Eingriffen am Muskel-Skelett-System und Bindegewebe mit schweren CC, mit Revision des Kniegelenkes, mit Einbringen oder Wechsel von Abstandshaltern oder Osteomyelitis, Alter < 16 Jahre",
+  "weight": 2.446,
+  "alos": 16.9
+ },
+ {
+  "drg": "I12C",
+  "desc": "Knochen- und Gelenkinfektion / -entzündung mit verschiedenen Eingriffen am Muskel-Skelett-System und Bindegewebe mit schweren CC, ohne Revision des Kniegelenkes, ohne Einbringen oder Wechsel von Abstandshaltern, ohne Osteomyelitis, Alter > 15 Jahre",
+  "weight": 1.401,
+  "alos": 10.1
+ },
+ {
+  "drg": "I13A",
+  "desc": "Bestimmte Eingriffe an den Extremitäten mit komplexem Mehrfacheingriff, mit komplizierendem Eingriff an der unteren Extremität oder aufwendiger Osteosynthese",
+  "weight": 2.772,
+  "alos": 15.0
+ },
+ {
+  "drg": "I13B",
+  "desc": "Bestimmte Eingriffe an den Extremitäten mit best. Mehrfacheingriff oder kompliz. Diagnose oder bei Endoprothese der oberen Extremität oder mit Fixateur ext., mit best. BNB od. mit Einbringen von Abstandshalt od. Alter < 18 J. mit äuß. schw. od. schw. CC",
+  "weight": 2.425,
+  "alos": 11.9
+ },
+ {
+  "drg": "I13C",
+  "desc": "Bestimmte Eingriffe an den Extremitäten mit best. Mehrfacheingr. od. kompliz Diag. od. bei Endopr. der oberen Extrem. od. m. Fix. ext., m. kompl. Eingr. od. schw. Weichteilsch., m. best. kompl. Osteot. od. BNB od. Alter < 18 J. m. äuß. schw. od. schw. CC",
+  "weight": 1.846,
+  "alos": 8.2
+ },
+ {
+  "drg": "I13D",
+  "desc": "Bestimmte Eingriffe an den Extremitäten mit bestimmtem anderen Mehrfacheingriff oder komplizierender Diagnose oder bei endoprothetischem Eingriff an der oberen Extremität od. mit Fixateur externe oder mit and. kompl. Eingr. od. bei sek. BNB Knochen/-mark",
+  "weight": 1.579,
+  "alos": 6.9
+ },
+ {
+  "drg": "I13E",
+  "desc": "Bestimmte Eingriffe an den Extremitäten od. bei Endoproth. am Knie m. kompl. Eingr. od. schw. Weichteilsch. od. Pseudarthrose od. best. Osteotom. od. best. Eingr. Knieproth. od. Epiphyseodese od. bei BNB od. Alter > 17 J. od. ohne äuß. schw. od. schw. CC",
+  "weight": 1.254,
+  "alos": 5.3
+ },
+ {
+  "drg": "I13F",
+  "desc": "Bestimmte Eingriffe an den Extremitäten mit bestimmtem anderen Eingriff an den Extremitäten oder bei bösartiger Neubildung oder kleiner Eingriff bei Knochen- und Gelenkinfektion oder Alter < 18 Jahre mit äußerst schweren oder schweren CC",
+  "weight": 1.028,
+  "alos": 4.4
+ },
+ {
+  "drg": "I13G",
+  "desc": "Bestimmte Eingriffe an den Extremitäten ohne bestimmten anderen Eingriff an den Extremitäten, außer bei bösartiger Neubildung, ohne kleinen Eingriff bei Knochen- und Gelenkinfektion oder Alter > 17 Jahre oder ohne äußerst schwere oder schwere CC",
+  "weight": 0.913,
+  "alos": 3.8
+ },
+ {
+  "drg": "I14Z",
+  "desc": "Revision eines Amputationsstumpfes",
+  "weight": 1.123,
+  "alos": 9.3
+ },
+ {
+  "drg": "I15A",
+  "desc": "Operationen am Hirn- und Gesichtsschädel, mit bestimmtem intrakraniellen Eingriff oder komplexem Eingriff an der Mandibula, Alter < 16 Jahre",
+  "weight": 2.246,
+  "alos": 6.1
+ },
+ {
+  "drg": "I15B",
+  "desc": "Operationen am Hirn- und Gesichtsschädel, ohne bestimmten intrakraniellen Eingriff, ohne bestimmten Eingriff an der Mandibula oder Alter > 15 Jahre",
+  "weight": 1.509,
+  "alos": 5.5
+ },
+ {
+  "drg": "I16A",
+  "desc": "Andere Eingriffe an der Schulter und bestimmte Eingriffe an der oberen Extremität mit bestimmtem Eingriff an Schulter, Oberarm und Ellenbogen",
+  "weight": 0.836,
+  "alos": 2.3
+ },
+ {
+  "drg": "I16B",
+  "desc": "Andere Eingriffe an der Schulter und bestimmte Eingriffe an der oberen Extremität ohne bestimmten Eingriff an Schulter, Oberarm und Ellenbogen, mit bestimmtem anderem Eingriff an Klavikula, Schulter und Ellenbogen",
+  "weight": 0.793,
+  "alos": 2.7
+ },
+ {
+  "drg": "I16C",
+  "desc": "Andere Eingriffe an der Schulter und bestimmte Eingriffe an der oberen Extremität ohne bestimmten Eingriff an Schulter, Oberarm und Ellenbogen, ohne bestimmten anderen Eingriff an Klavikula, Schulter und Oberarm",
+  "weight": 0.692,
+  "alos": 2.4
+ },
+ {
+  "drg": "I17A",
+  "desc": "Aufwendige Operationen am Gesichtsschädel oder Alter < 16 Jahre",
+  "weight": 1.734,
+  "alos": 6.2
+ },
+ {
+  "drg": "I17B",
+  "desc": "Operationen am Gesichtsschädel ohne aufwendige Operationen, Alter > 15 Jahre",
+  "weight": 0.851,
+  "alos": 4.1
+ },
+ {
+  "drg": "I18A",
+  "desc": "Wenig komplexe Eingriffe an Kniegelenk, Ellenbogengelenk und Unterarm, Alter < 16 Jahre oder mit mäßig komplexem Eingriff oder mit beidseitigem Eingriff am Kniegelenk",
+  "weight": 0.799,
+  "alos": 3.3
+ },
+ {
+  "drg": "I18B",
+  "desc": "Wenig komplexe Eingriffe an Kniegelenk, Ellenbogengelenk und Unterarm, Alter > 15 Jahre, ohne mäßig komplexen Eingriff, ohne beidseitigen Eingriff am Kniegelenk",
+  "weight": 0.742,
+  "alos": 3.2
+ },
+ {
+  "drg": "I19A",
+  "desc": "Implantation und Wechsel von Neurostimulatoren und Neurostimulationselektroden bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe ohne Implantation oder Wechsel eines permanenten Elektrodensystems",
+  "weight": 0.934,
+  "alos": 3.3
+ },
+ {
+  "drg": "I19B",
+  "desc": "Implantation und Wechsel von Neurostimulatoren und Neurostimulationselektroden bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe mit Implantation oder Wechsel eines permanenten Elektrodensystems",
+  "weight": 1.665,
+  "alos": 3.4
+ },
+ {
+  "drg": "I20A",
+  "desc": "Eingriffe am Fuß mit mehreren hochkomplexen Eingriffen oder Teilwechsel Endoprothese des unteren Sprunggelenks, mit hochkomplexem Eingriff und komplexer Diagnose oder bestimmter Arthrodese",
+  "weight": 1.972,
+  "alos": 9.3
+ },
+ {
+  "drg": "I20B",
+  "desc": "Eingriffe am Fuß mit mehreren komplexen Eingriffen od. hochkompl. Eingriff od. Teilwechsel Endoprothese d. unteren Sprunggelenks od. bei Zerebralparese od. mit kompl. Eingriff und kompl. Diagnose od. mit Eingriff an Sehnen des Rückfußes, Alter < 12 Jahre",
+  "weight": 1.581,
+  "alos": 7.8
+ },
+ {
+  "drg": "I20C",
+  "desc": "Eingriffe am Fuß ohne mehrere komplexe Eingriffe, ohne hochkomplexen Eingriff, mit bestimmten komplizierenden Faktoren oder Alter > 11 Jahre",
+  "weight": 1.126,
+  "alos": 5.8
+ },
+ {
+  "drg": "I20D",
+  "desc": "Eingriffe am Fuß ohne bestimmte komplizierende Faktoren, mit Knochentransplantation oder schwerem Weichteilschaden oder bestimmtem Eingriff am Fuß oder Kalkaneusfraktur",
+  "weight": 0.995,
+  "alos": 3.1
+ },
+ {
+  "drg": "I20E",
+  "desc": "Andere Eingriffe am Fuß oder chronische Polyarthritis oder Diabetes Mellitus mit Komplikationen oder Alter < 16 Jahre",
+  "weight": 0.835,
+  "alos": 3.0
+ },
+ {
+  "drg": "I20F",
+  "desc": "Eingriffe am Fuß ohne komplexe Eingriffe oder komplizierende Faktoren, Alter > 15 Jahre",
+  "weight": 0.681,
+  "alos": 2.7
+ },
+ {
+  "drg": "I21Z",
+  "desc": "Lokale Exzision und Entfernung von Osteosynthesematerial an Hüftgelenk, Femur und Wirbelsäule oder komplexe Eingriffe an Ellenbogengelenk und Unterarm oder bestimmte Eingriffe an der Klavikula",
+  "weight": 0.849,
+  "alos": 2.8
+ },
+ {
+  "drg": "I22A",
+  "desc": "Gewebe- / Hauttransplantation, außer an der Hand, mit großfläch. Gewebetransplantation, mit komplizierender Konstellation, Eingriff an mehreren Lokalisationen, schwerem Weichteilschaden oder komplexer Gewebetransplantation mit schweren CC",
+  "weight": 4.204,
+  "alos": 24.6
+ },
+ {
+  "drg": "I22B",
+  "desc": "Gewebe- / Hauttransplantation, außer an der Hand, mit kleinflächiger Gewebetransplantation od. mit großflächiger Gewebetransplantation ohne kompliz. Konst., oh. Eingr. an mehreren Lokal., oh. schw. Weichteilschaden, oh. kompl. Gewebetranspl. m. schw. CC",
+  "weight": 3.244,
+  "alos": 23.0
+ },
+ {
+  "drg": "I23A",
+  "desc": "Andere kleine Eingriffe an Knochen und Weichteilen mit bestimmten kleinen Eingriffen am Knochen oder Revision mit Osteosynthese an der oberen Extremität oder Alter < 18 Jahre mit äußerst schweren oder schweren CC",
+  "weight": 0.927,
+  "alos": 3.5
+ },
+ {
+  "drg": "I23B",
+  "desc": "Andere kleine Eingriffe an Knochen und Weichteilen mit bestimmten kleinen Eigriffen an Knochen und Weichteilen, Alter > 17 Jahre oder ohne äußerst schwere oder schwere CC",
+  "weight": 0.782,
+  "alos": 2.7
+ },
+ {
+  "drg": "I23C",
+  "desc": "Andere kleine Eingriffe an Knochen und Weichteilen ohne bestimmte kleine Eingriffe an Knochen und Weichteilen, Alter > 17 Jahre oder ohne äußerst schwere oder schwere CC",
+  "weight": 0.587,
+  "alos": 2.8
+ },
+ {
+  "drg": "I24A",
+  "desc": "Arthroskopie oder andere Eingriffe an den Extremitäten oder Eingriffe am Weichteilgewebe oder Alter < 18 Jahre",
+  "weight": 0.645,
+  "alos": 2.8
+ },
+ {
+  "drg": "I24B",
+  "desc": "Arthroskopie oder andere Eingriffe an den Extremitäten oder Eingriffe am Weichteilgewebe ohne komplexen Eingriff, Alter > 17 Jahre",
+  "weight": 0.576,
+  "alos": 2.4
+ },
+ {
+  "drg": "I26A",
+  "desc": "Intensivmedizinische Komplexbehandlung > 785 / 829 / - Aufwandspunkte bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe",
+  "weight": 9.17,
+  "alos": 31.3
+ },
+ {
+  "drg": "I26B",
+  "desc": "Intensivmedizinische Komplexbehandlung > 588 / 552 / 552 Aufwandspunkte bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe oder bestimmte hochaufwendige Implantate",
+  "weight": 7.368,
+  "alos": 27.9
+ },
+ {
+  "drg": "I27A",
+  "desc": "Eingriffe am Weichteilgew. od. kleinfl. Gewebe-Tx m. best. Diagn. u. best. Eingr. od. m. äuß. schw. CC od. b. BNB m. schw. CC, m. best. Diagn. u. kompl. Eingr. od. Nephrekt. od. best. BNB m. best. Eingr. Abdomen od. Thorax od. Tx e. Zehe als Fingerersatz",
+  "weight": 3.527,
+  "alos": 12.8
+ },
+ {
+  "drg": "I27B",
+  "desc": "Eingriffe am Weichteilgewebe oder kleinflächige Gewebe-Tx mit äußerst schweren CC oder bei BNB mit schweren CC oder mit kompliz. Faktoren, mit schweren CC oder bei BNB oder mit best. Eingr. am Weichteilgewebe, > 1 Belegungstag oder best. Eingriff",
+  "weight": 3.031,
+  "alos": 16.9
+ },
+ {
+  "drg": "I27C",
+  "desc": "Eingriffe am Weichteilgewebe oder kleinflächige Gewebetransplantationen mit schweren CC oder bei BNB oder mit bestimmtem Eingriff am Weichteilgewebe, mehr als ein Belegungstag oder bestimmter Eingriff ohne komplizierende Faktoren",
+  "weight": 1.57,
+  "alos": 8.5
+ },
+ {
+  "drg": "I27D",
+  "desc": "Bestimmte andere Eingriffe am Weichteilgewebe oder ein Belegungstag",
+  "weight": 0.977,
+  "alos": 4.0
+ },
+ {
+  "drg": "I27E",
+  "desc": "Bestimmte kleine Eingriffe am Weichteilgewebe oder ein Belegungstag",
+  "weight": 0.75,
+  "alos": 3.6
+ },
+ {
+  "drg": "I28A",
+  "desc": "Andere Eingriffe an Muskel-Skelett-System und Bindegewebe mit bestimmter offen chirurgischer Stabilisierung der Thoraxwand oder bestimmtem Eingriff am Zwerchfell oder Alter < 18 Jahre bei bösartiger Neubildung",
+  "weight": 2.083,
+  "alos": 6.8
+ },
+ {
+  "drg": "I28B",
+  "desc": "Andere Eingriffe an Muskel-Skelett-System und Bindegewebe mit komplexem Eingriff an Thorax und Abdomen oder Implantation/Wechsel best. Medikamentenpumpen oder Eingriff bei bösartiger Neubildung an Knochen und Gelenken, mehr als ein Belegungstag",
+  "weight": 1.632,
+  "alos": 7.9
+ },
+ {
+  "drg": "I28C",
+  "desc": "Andere Eingriffe an Muskel-Skelett-System und Bindegewebe mit bestimmtem Eingriff an Knochen, Weichteilen oder Bindegewebe, mehr als ein Belegungstag oder Alter < 10 Jahre",
+  "weight": 1.496,
+  "alos": 10.1
+ },
+ {
+  "drg": "I28D",
+  "desc": "Andere Eingriffe an Muskel-Skelett-System und Bindegewebe mit mäßig komplexem Eingriff, mehr als ein Belegungstag, Alter > 9 Jahre",
+  "weight": 1.081,
+  "alos": 7.8
+ },
+ {
+  "drg": "I28E",
+  "desc": "Andere Eingriffe an Muskel-Skelett-System und Bindegewebe, ohne bestimmte, mäßig komplexe und komplexe Eingriffe, Alter > 9 Jahre oder ein Belegungstag",
+  "weight": 0.895,
+  "alos": 4.9
+ },
+ {
+  "drg": "I29A",
+  "desc": "Komplexe Eingriffe am Schultergelenk oder bestimmte Osteosynthesen an der Klavikula, bei komplizierender Diagnose oder Eingriff an mehreren Lokalisationen",
+  "weight": 1.221,
+  "alos": 3.5
+ },
+ {
+  "drg": "I29B",
+  "desc": "Komplexe Eingriffe am Schultergelenk oder best. Osteosynthesen an der Klavikula ohne kompliz. Diagnose, ohne Eingriff an mehreren Lokalisationen oder sonst. arthroskopische Rekonstruktion der Rotatorenmanschette mit bestimmten Eingriffen an der Schulter",
+  "weight": 0.981,
+  "alos": 2.5
+ },
+ {
+  "drg": "I29C",
+  "desc": "Sonstige arthroskopische Rekonstruktion der Rotatorenmanschette ohne bestimmte Eingriffe an der Schulter",
+  "weight": 0.854,
+  "alos": 2.5
+ },
+ {
+  "drg": "I30A",
+  "desc": "Arthroskopischer Eingriff am Hüftgelenk, Alter < 16 Jahre oder komplexe Eingriffe am Kniegelenk mit sehr komplexem Eingriff oder bestimmte komplexe Eingriffe am Kniegelenk, Alter < 18 Jahre, mit äußerst schweren oder schweren CC",
+  "weight": 1.276,
+  "alos": 4.8
+ },
+ {
+  "drg": "I30B",
+  "desc": "Arthroskopischer Eingriff am Hüftgelenk, Alter > 15 Jahre oder bestimmte komplexe Eingriffe am Kniegelenk, Alter > 17 Jahre oder ohne äußerst schwere oder schwere CC",
+  "weight": 0.973,
+  "alos": 2.7
+ },
+ {
+  "drg": "I30C",
+  "desc": "Komplexe Eingriffe am Kniegelenk ohne bestimmte komplexe Eingriffe am Kniegelenk, Alter > 17 Jahre oder ohne äußerst schwere oder schwere CC oder bestimmte arthroskopische Eingriffe am Hüftgelenk, Alter > 15 Jahre",
+  "weight": 0.772,
+  "alos": 2.9
+ },
+ {
+  "drg": "I31A",
+  "desc": "Mehrere komplexe Eingriffe an Ellenbogengelenk und Unterarm oder gelenkübergreifende Weichteildistraktion bei angeborenen Anomalien der Hand, mit aufwendigen Eingriffen am Unterarm",
+  "weight": 2.098,
+  "alos": 8.5
+ },
+ {
+  "drg": "I31B",
+  "desc": "Mehrere komplexe Eingriffe an Ellenbogengelenk und Unterarm oder gelenkübergreifende Weichteildistraktion bei angeborenen Anomalien der Hand oder bestimmte Eingriffe bei Mehrfragmentfraktur der Patella, mit bestimmten komplexen Eingriffen am Unterarm",
+  "weight": 1.346,
+  "alos": 5.0
+ },
+ {
+  "drg": "I31C",
+  "desc": "Mehrere komplexe Eingriffe an Ellenbogengelenk und Unterarm ohne gelenkübergreifende Weichteildistraktion bei angeborenen Anomalien der Hand, ohne bestimmte Eingriffe bei Mehrfragmentfraktur der Patella, ohne bestimmte komplexe Eingriffe am Unterarm",
+  "weight": 1.11,
+  "alos": 3.6
+ },
+ {
+  "drg": "I32A",
+  "desc": "Eingr. an Handgelenk u. Hand mit mehrzeitigem kompl. od. mäßig kompl. Eingr. od. mit Komplexbehandl. Hand od. mit aufwendigem rekonstruktivem Eingr. bei angeborener Fehlbildung der Hand oder mit best. gefäßgestielten Knochentx. bei Pseudarthrose der Hand",
+  "weight": 1.776,
+  "alos": 9.8
+ },
+ {
+  "drg": "I32B",
+  "desc": "Eingriffe an Handgelenk und Hand mit komplexem Eingriff oder bei angeborener Anomalie der Hand oder Pseudarthrose, Alter < 6 Jahre oder bei schweren Weichteilschäden oder mit komplexen Eingriffen bei angeborener Fehlbildung der Hand, Alter < 16 Jahre",
+  "weight": 1.074,
+  "alos": 3.1
+ },
+ {
+  "drg": "I32C",
+  "desc": "Eingriffe an Handgelenk und Hand mit komplexem Eingriff oder bei angeborener Anomalie der Hand oder Pseudarthrose, Alter > 5 Jahre oder mit hochkomplexem Eingriff bei angeb. Fehlbildung der Hand, Alter < 16 Jahre oder mit best. Eingr. od. kompl. Diagnose",
+  "weight": 1.456,
+  "alos": 5.9
+ },
+ {
+  "drg": "I32D",
+  "desc": "Eingriffe an Handgelenk und Hand mit komplexem Eingriff, ohne komplexe Diagnose oder ohne sehr komplexen Eingriff oder mit komplexer Diagnose oder mit bestimmtem oder beidseitigem Eingriff",
+  "weight": 0.992,
+  "alos": 2.9
+ },
+ {
+  "drg": "I32E",
+  "desc": "Bestimmte mäßig komplexe Eingriffe an Handgelenk und Hand, mehr als ein Belegungstag oder Alter < 6 Jahre",
+  "weight": 0.787,
+  "alos": 3.1
+ },
+ {
+  "drg": "I32F",
+  "desc": "Eingriffe an Handgelenk und Hand ohne komplexe oder mäßig komplexe Eingriffe oder ohne bestimmtem mäßig komplexen Eingriff, Alter > 5 Jahre, ein Belegungstag",
+  "weight": 0.615,
+  "alos": 2.6
+ },
+ {
+  "drg": "I33Z",
+  "desc": "Rekonstruktion von Extremitätenfehlbildungen",
+  "weight": 1.359,
+  "alos": 4.3
+ },
+ {
+  "drg": "I34Z",
+  "desc": "Geriatrische frührehabilitative Komplexbehandlung mit bestimmter OR-Prozedur bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe",
+  "weight": 2.629,
+  "alos": 22.9
+ },
+ {
+  "drg": "I36Z",
+  "desc": "Beidseitige oder kombinierte Implantation oder Wechsel einer Endoprothese an Hüft-, Kniegelenk und/oder an der oberen Extremität",
+  "weight": 2.393,
+  "alos": 8.1
+ },
+ {
+  "drg": "I39Z",
+  "desc": "Strahlentherapie bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe, Bestrahlungen an mindestens 8 Tagen",
+  "weight": 2.675,
+  "alos": 18.8
+ },
+ {
+  "drg": "I41Z",
+  "desc": "Geriatrische frührehabilitative Komplexbehandlung bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe",
+  "weight": 1.429,
+  "alos": 19.3
+ },
+ {
+  "drg": "I42A",
+  "desc": "Multimodale Schmerztherapie bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe, mindestens 14 Tage",
+  "weight": 1.228,
+  "alos": 15.6
+ },
+ {
+  "drg": "I42B",
+  "desc": "Multimodale Schmerztherapie bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe, weniger als 14 Tage",
+  "weight": 0.925,
+  "alos": 10.6
+ },
+ {
+  "drg": "I43A",
+  "desc": "Implantation oder Wechsel bestimmter Endoprothesen am Knie- oder am Ellenbogengelenk oder Prothesenwechsel am Schulter- oder am Sprunggelenk oder Entfernung bestimmter Endoprothesen am Kniegelenk, mit äußerst schweren CC",
+  "weight": 5.402,
+  "alos": 31.3
+ },
+ {
+  "drg": "I43B",
+  "desc": "Implantation oder Wechsel bestimmter Endoprothesen am Knie- oder am Ellenbogengelenk oder Prothesenwechsel am Schulter- oder am Sprunggelenk oder Entfernung bestimmter Endoprothesen am Kniegelenk, ohne äußerst schwere CC",
+  "weight": 2.367,
+  "alos": 8.3
+ },
+ {
+  "drg": "I44A",
+  "desc": "Bestimmte Endoprotheseneingriffe am Kniegelenk mit äußerst schweren CC oder Implantation bestimmter schaftverankerten Prothese am Knie oder Korrektur einer Brustkorbdeformität",
+  "weight": 2.266,
+  "alos": 9.2
+ },
+ {
+  "drg": "I44B",
+  "desc": "Bestimmte Endoprotheseneingriffe am Kniegelenk ohne äußerst schwere CC, mit bestimmtem Wechsel von Endoprothesen oder Implantation einer patientenindividuell angefertigten Endoprothese am Kniegelenk oder Einbringen oder Wechsel von Abstandshaltern",
+  "weight": 2.229,
+  "alos": 10.6
+ },
+ {
+  "drg": "I44C",
+  "desc": "Bestimmte Endoprotheseneingriffe am Kniegelenk ohne äußerst schwere CC, ohne bestimmten Wechsel von Endoprothesen oder Prothesenkomponenten, ohne Impl. e. patientenindiv. angefertigten Endoprothese am Knie, ohne Einbringen od. Wechsel von Abstandshaltern",
+  "weight": 1.584,
+  "alos": 6.9
+ },
+ {
+  "drg": "I44D",
+  "desc": "Bestimmte Endoprotheseneingriffe am Kniegelenk oder Einbringen einer Entlastungsfeder am Kniegelenk",
+  "weight": 1.447,
+  "alos": 5.7
+ },
+ {
+  "drg": "I44E",
+  "desc": "Andere Endoprotheseneingriffe am Kniegelenk",
+  "weight": 1.209,
+  "alos": 6.3
+ },
+ {
+  "drg": "I45A",
+  "desc": "Implantation und Ersatz einer Bandscheibenendoprothese, mehr als ein Segment",
+  "weight": 1.976,
+  "alos": 3.6
+ },
+ {
+  "drg": "I45B",
+  "desc": "Implantation und Ersatz einer Bandscheibenendoprothese, weniger als 2 Segmente",
+  "weight": 1.48,
+  "alos": 3.6
+ },
+ {
+  "drg": "I46A",
+  "desc": "Prothesenwechsel am Hüftgelenk mit äußerst schweren CC oder Eingriff an mehreren Lokalisationen",
+  "weight": 4.143,
+  "alos": 24.2
+ },
+ {
+  "drg": "I46B",
+  "desc": "Prothesenwechsel am Hüftgelenk ohne äußerst schwere CC, ohne Eingriff an mehreren Lokalisationen, mit periprothetischer Fraktur",
+  "weight": 3.167,
+  "alos": 16.9
+ },
+ {
+  "drg": "I46C",
+  "desc": "Prothesenwechsel am Hüftgelenk ohne äußerst schwere CC, ohne Eingriff an mehreren Lokalisationen, ohne periprothetische Fraktur",
+  "weight": 2.303,
+  "alos": 10.1
+ },
+ {
+  "drg": "I47A",
+  "desc": "Revision oder Ersatz des Hüftgelenkes ohne komplizierende Diagnose, ohne Arthrodese, ohne äußerst schwere CC, Alter > 15 Jahre, mit komplizierendem Eingriff",
+  "weight": 2.166,
+  "alos": 10.6
+ },
+ {
+  "drg": "I47B",
+  "desc": "Revision oder Ersatz des Hüftgelenkes ohne best. kompliz. Faktoren, mit kompl. Diagnose an Becken/Oberschenkel, mit best. endoproth. oder gelenkplast. Eingr. od. m. Impl. od. Wechsel Radiuskopfproth. od. m. kompl. Erstimpl. od. m. Entf. Osteosynthesemat.",
+  "weight": 1.769,
+  "alos": 9.5
+ },
+ {
+  "drg": "I47C",
+  "desc": "Revision oder Ersatz des Hüftgelenkes ohne best. kompliz. Faktoren, ohne komplexe Diagnose an Becken/OS, ohne best. endoproth. Eingriff, ohne gelenkpl. Eingriff am Hüftgelenk, ohne Impl. oder Wechsel einer Radiuskopfprothese, ohne Entf. Osteosynthesemat.",
+  "weight": 1.389,
+  "alos": 6.5
+ },
+ {
+  "drg": "I50A",
+  "desc": "Gewebe- / Haut-Transplantation außer an der Hand, ohne bestimmte komplizierende Faktoren, mit bestimmtem Eingriff oder bestimmter Vakuumbehandlung mit kontinuierlicher Sogbehandlung ab 8 Tagen",
+  "weight": 2.528,
+  "alos": 17.1
+ },
+ {
+  "drg": "I50B",
+  "desc": "Gewebe- / Haut-Transplantation außer an der Hand, ohne bestimmte komplizierende Faktoren, ohne bestimmten Eingriff, mit bestimmter Vakuumbehandlung oder Alter < 16 Jahre",
+  "weight": 1.419,
+  "alos": 9.7
+ },
+ {
+  "drg": "I50C",
+  "desc": "Gewebe- / Haut-Transplantation außer an der Hand, ohne bestimmte komplizierende Faktoren, ohne bestimmten Eingriff, ohne bestimmte Vakuumbehandlung, Alter > 15 Jahre",
+  "weight": 0.681,
+  "alos": 4.4
+ },
+ {
+  "drg": "I54A",
+  "desc": "Strahlentherapie bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe, bei bösartiger Neubildung, Bestrahlungen an mindestens 5 Tagen oder Alter < 18 Jahre",
+  "weight": 1.298,
+  "alos": 9.0
+ },
+ {
+  "drg": "I54B",
+  "desc": "Strahlentherapie bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe, bei bösartiger Neubildung, Bestrahlungen an weniger als 5 Tagen, Alter > 17 Jahre",
+  "weight": 1.012,
+  "alos": 7.7
+ },
+ {
+  "drg": "I59Z",
+  "desc": "Andere Eingriffe an den Extremitäten oder am Gesichtsschädel",
+  "weight": 0.71,
+  "alos": 2.5
+ },
+ {
+  "drg": "I64A",
+  "desc": "Osteomyelitis, Alter < 16 Jahre",
+  "weight": 0.836,
+  "alos": 7.1
+ },
+ {
+  "drg": "I64B",
+  "desc": "Osteomyelitis, Alter > 15 Jahre, mit äußerst schweren oder schweren CC oder Tuberkulose der Knochen und Gelenke",
+  "weight": 1.201,
+  "alos": 12.4
+ },
+ {
+  "drg": "I64C",
+  "desc": "Osteomyelitis, Alter > 15 Jahre, ohne äußerst schwere oder schwere CC",
+  "weight": 0.658,
+  "alos": 7.1
+ },
+ {
+  "drg": "I65A",
+  "desc": "Bösartige Neubildung des Bindegewebes einschließlich pathologischer Fraktur, Alter < 17 Jahre oder mit äußerst schweren CC oder Alter < 16 Jahre mit äußerst schweren oder schweren CC",
+  "weight": 1.322,
+  "alos": 8.4
+ },
+ {
+  "drg": "I65B",
+  "desc": "Bösartige Neubildung des Bindegewebes einschließlich pathologischer Fraktur, Alter < 17 Jahre oder mit äußerst schweren CC, Alter > 15 Jahre oder ohne äußerst schwere oder schwere CC",
+  "weight": 0.787,
+  "alos": 5.0
+ },
+ {
+  "drg": "I65C",
+  "desc": "Bösartige Neubildung des Bindegewebes einschließlich pathologischer Fraktur, Alter > 16 Jahre, ohne äußerst schwere CC",
+  "weight": 0.626,
+  "alos": 5.3
+ },
+ {
+  "drg": "I66A",
+  "desc": "Andere Erkrankungen des Bindegewebes oder Frakturen an Becken und Schenkelhals, mit komplizierender Konstellation oder intensivmedizinischer Komplexbehandlung > 392 / 368 / 368 Aufwandspunkte",
+  "weight": 3.241,
+  "alos": 20.9
+ },
+ {
+  "drg": "I66B",
+  "desc": "Andere Erkrankungen des Bindegewebes, mit äußerst schweren CC oder intensivmedizinischer Komplexbehandlung > 196 / 184 / - Aufwandspunkte oder anderen komplizierenden Konstellationen",
+  "weight": 2.047,
+  "alos": 17.4
+ },
+ {
+  "drg": "I66C",
+  "desc": "Frakturen an Becken und Schenkelhals, mit äußerst schweren CC oder bestimmte kinder-/jugendrheumatologische Behandlung, Alter < 1 Jahr oder multisystemisches Entzündungssyndrom bei COVID-19 mit intensivmedizinischer Komplexbehandlung im Kindesalter",
+  "weight": 1.584,
+  "alos": 15.1
+ },
+ {
+  "drg": "I66D",
+  "desc": "Kinder-/jugendrheum. Komplexbeh. 7 bis 13 Behandlungstage, Alter > 0 Jahre od. Amyloidose, adulte Form des Morbus Still, best. Vaskulitiden od. syst. rheum. Erkrankungen, Alter < 16 Jahre od. m. multisystem. Entzündungssyndrom bei COVID-19, mehr als 1 BT",
+  "weight": 0.936,
+  "alos": 7.8
+ },
+ {
+  "drg": "I66E",
+  "desc": "Amyloidose, bestimmte Vaskulitiden oder adulte Form des Morbus Still, Alter > 15 Jahre",
+  "weight": 0.769,
+  "alos": 6.6
+ },
+ {
+  "drg": "I66F",
+  "desc": "Frakturen an Becken und Schenkelhals oder bestimmte Systemkrankheiten des Bindegewebes",
+  "weight": 0.629,
+  "alos": 6.5
+ },
+ {
+  "drg": "I66G",
+  "desc": "Andere Erkrankungen des Bindegewebes, mehr als ein Belegungstag, ohne bestimmte Erkrankungen, ohne äußerst schwere CC, ohne intensivmed. Komplexbeh. > 196 / 184 / - Aufwandsp. od. multisystemisches Entzündungssyndrom bei COVID-19 od. Alter < 6 J., 1 BT",
+  "weight": 0.558,
+  "alos": 5.7
+ },
+ {
+  "drg": "I66H",
+  "desc": "Andere Erkrankungen des Bindegewebes oder Frakturen an Becken und Schenkelhals, Alter > 5 Jahre, ein Belegungstag",
+  "weight": 0.156,
+  "alos": 1.0
+ },
+ {
+  "drg": "I68A",
+  "desc": "Nicht operativ behandelte Erkrankungen und Verletzungen im Wirbelsäulenbereich, mehr als 1 BT, mit äußerst schw. oder schw. CC od. intensivmed. Komplexbeh. > 196 / 184 / - P. od. bei Para- / Tetraplegie, bei Diszitis od. infektiöser Spondylopathie",
+  "weight": 2.501,
+  "alos": 24.2
+ },
+ {
+  "drg": "I68B",
+  "desc": "Nicht operativ behandelte Erkrankungen und Verletzungen im Wirbelsäulenbereich, mehr als 1 BT, mit äuß. schw. oder schw. CC od. bei Para- / Tetraplegie, mit kompl. Diagn. oder ohne äuß. schw. oder schw. CC, ohne Para- / Tetraplegie bei Diszitis",
+  "weight": 1.362,
+  "alos": 14.5
+ },
+ {
+  "drg": "I68C",
+  "desc": "Nicht operativ behandelte Erkrankungen und Verletzungen WS, > 1 BT od. and. Femurfraktur, bei Para- / Tetraplegie od. mit äuß. schw. CC od. schw. CC od. Alter > 65 J., oh. kompl. Diagn. od. Kreuzbeinfraktur od. best. mäßig aufw., aufw. od. hochaufw. Beh.",
+  "weight": 0.781,
+  "alos": 8.5
+ },
+ {
+  "drg": "I68D",
+  "desc": "Nicht operativ behandelte Erkrankungen und Verletzungen WS, > 1 Belegungstag oder andere Femurfraktur, außer bei Diszitis oder infektiöser Spondylopathie, ohne Kreuzbeinfraktur, ohne best. mäßig aufw., aufw. od. hochaufw. Beh., mit Wirbelsäulenfraktur",
+  "weight": 0.577,
+  "alos": 5.5
+ },
+ {
+  "drg": "I68E",
+  "desc": "Nicht operativ behandelte Erkrankungen und Verletzungen WS, > 1 Belegungstag oder andere Femurfraktur, außer bei Diszitis oder infektiöser Spondylopathie, ohne Kreuzbeinfraktur, ohne best. mäßig aufw., aufw. od. hochaufw. Beh., oh. Wirbelsäulenfraktur",
+  "weight": 0.472,
+  "alos": 4.6
+ },
+ {
+  "drg": "I68F",
+  "desc": "Nicht operativ behandelte Erkrankungen und Verletzungen im Wirbelsäulenbereich, ein Belegungstag oder Prellung am Oberschenkel",
+  "weight": 0.196,
+  "alos": 1.0
+ },
+ {
+  "drg": "I69A",
+  "desc": "Knochenkrankheiten und spezifische Arthropathie mit bestimmter Arthropathie oder Muskel- / Sehnenerkrankung bei Para- /Tetraplegie",
+  "weight": 0.63,
+  "alos": 7.0
+ },
+ {
+  "drg": "I69B",
+  "desc": "Knochenkrankheiten und spezifische Arthropathie ohne bestimmte Arthropathie, ohne Muskel- / Sehnenerkrankung bei Para- /Tetraplegie",
+  "weight": 0.514,
+  "alos": 5.6
+ },
+ {
+  "drg": "I71A",
+  "desc": "Muskel- und Sehnenerkrankungen außer bei Para- / Tetraplegie oder Verstauchung, Zerrung, Luxation an Hüftgelenk, Becken und Oberschenkel, mit Zerebralparese oder Kontraktur",
+  "weight": 0.801,
+  "alos": 9.1
+ },
+ {
+  "drg": "I71B",
+  "desc": "Muskel- und Sehnenerkrankungen außer bei Para- / Tetraplegie oder Verstauchung, Zerrung, Luxation an Hüftgelenk, Becken und Oberschenkel, ohne Zerebralparese, ohne Kontraktur",
+  "weight": 0.459,
+  "alos": 4.2
+ },
+ {
+  "drg": "I72Z",
+  "desc": "Entzündung von Sehnen, Muskeln und Schleimbeuteln mit äußerst schweren oder schweren CC oder Frakturen am Femurschaft",
+  "weight": 1.067,
+  "alos": 10.3
+ },
+ {
+  "drg": "I73Z",
+  "desc": "Nachbehandlung bei Erkrankungen des Bindegewebes",
+  "weight": 0.621,
+  "alos": 7.2
+ },
+ {
+  "drg": "I74A",
+  "desc": "Verletzungen an Unterarm, Handgelenk, Hand oder Fuß oder leichte bis moderate Verletzungen von Schulter, Arm, Ellenbogen, Knie, Bein und Sprunggelenk mit unspezifischen Arthropathien, mit äußerst schweren oder schweren CC",
+  "weight": 0.935,
+  "alos": 9.5
+ },
+ {
+  "drg": "I74B",
+  "desc": "Verletzungen an Unterarm, Handgelenk, Hand oder Fuß oder leichte bis moderate Verletzungen von Schulter, Arm, Ellenbogen, Knie, Bein und Sprunggelenk mit unspezifischen Arthropathien ohne äußerst schwere oder schwere CC",
+  "weight": 0.566,
+  "alos": 5.8
+ },
+ {
+  "drg": "I74C",
+  "desc": "Verletzungen an Unterarm, Handgelenk, Hand oder Fuß oder leichte bis moderate Verletzungen von Schulter, Arm, Ellenbogen, Knie, Bein und Sprunggelenk ohne äußerst schwere oder schwere CC, Alter < 10 Jahre",
+  "weight": 0.489,
+  "alos": 2.2
+ },
+ {
+  "drg": "I74D",
+  "desc": "Verletzungen an Unterarm, Handgelenk, Hand oder Fuß oder leichte bis moderate Verletzungen von Schulter, Arm, Ellenbogen, Knie, Bein und Sprunggelenk ohne äußerst schwere oder schwere CC, Alter > 9 Jahre",
+  "weight": 0.421,
+  "alos": 3.5
+ },
+ {
+  "drg": "I75A",
+  "desc": "Schwere Verletzungen von Schulter, Arm, Ellenbogen, Knie, Bein und Sprunggelenk mit CC",
+  "weight": 0.999,
+  "alos": 10.1
+ },
+ {
+  "drg": "I75B",
+  "desc": "Schwere Verletzungen von Schulter, Arm, Ellenbogen, Knie, Bein und Sprunggelenk ohne CC oder Entzündungen von Sehnen, Muskeln und Schleimbeuteln ohne äußerst schwere oder schwere CC",
+  "weight": 0.504,
+  "alos": 5.0
+ },
+ {
+  "drg": "I76A",
+  "desc": "Andere Erkrankungen des Bindegewebes mit komplizierender Diagnose oder äußerst schweren CC oder Alter < 16 Jahre mit septischer Arthritis",
+  "weight": 1.438,
+  "alos": 12.0
+ },
+ {
+  "drg": "I76B",
+  "desc": "Andere Erkrankungen des Bindegewebes ohne komplizierende Diagnose, ohne äußerst schwere CC, ohne septische Arthritis oder Alter > 15 Jahre",
+  "weight": 0.551,
+  "alos": 5.1
+ },
+ {
+  "drg": "I77Z",
+  "desc": "Mäßig schwere Verletzungen von Schulter, Arm, Ellenbogen, Knie, Bein und Sprunggelenk",
+  "weight": 0.459,
+  "alos": 4.3
+ },
+ {
+  "drg": "I79Z",
+  "desc": "Fibromyalgie",
+  "weight": 0.672,
+  "alos": 8.6
+ },
+ {
+  "drg": "I87A",
+  "desc": "Komplexbehandlung bei isolationspflichtigen Erregern bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe, COVID-19, Virus nachgewiesen",
+  "weight": 2.069,
+  "alos": 25.4
+ },
+ {
+  "drg": "I87B",
+  "desc": "Komplexbehandlung bei isolationspflichtigen Erregern bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe",
+  "weight": 1.545,
+  "alos": 16.2
+ },
+ {
+  "drg": "I95A",
+  "desc": "Implantation einer Tumorendoprothese mit Implantation oder Wechsel einer bestimmten Endoprothese oder Knochentotalersatz am Femur oder resezierende Eingriffe am Becken bei bösartiger Neubildung oder Alter < 18 Jahre",
+  "weight": 4.36,
+  "alos": 14.8
+ },
+ {
+  "drg": "I95B",
+  "desc": "Implantation einer Tumorendoprothese ohne Implantation oder Wechsel einer bestimmten Endoprothese, ohne Knochentotalersatz am Femur, ohne resezierende Eingriffe am Becken bei bösartiger Neubildung, Alter > 17 Jahre",
+  "weight": 3.18,
+  "alos": 12.6
+ },
+ {
+  "drg": "I97Z",
+  "desc": "Rheumatologische Komplexbehandlung bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe",
+  "weight": 1.142,
+  "alos": 15.0
+ },
+ {
+  "drg": "I98Z",
+  "desc": "Komplexe Vakuumbehandlung bei Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe",
+  "weight": 5.168,
+  "alos": 34.4
+ }
+]

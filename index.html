@@ -33,12 +33,12 @@
       <a href="#pricing" class="btn btn-ghost btn-lg">See pricing</a>
     </div>
     <div class="stats">
-      <div class="stat"><strong>3</strong><span>casemix systems</span></div>
+      <div class="stat"><strong>4</strong><span>casemix systems</span></div>
       <div class="stat"><strong>19</strong><span>procedure families</span></div>
       <div class="stat"><strong>100%</strong><span>source-verified prices</span></div>
-      <div class="stat"><strong>100+</strong><span>official complexity tiers</span></div>
+      <div class="stat"><strong>Real</strong><span>UK activity shares</span></div>
     </div>
-    <p class="hero-note">US MS-DRG (CMS FY2026) · UK NHS HRG (Payment Scheme 2025/26) · UAE IR-DRG (DoH Abu Dhabi) · Saudi &amp; more coming soon</p>
+    <p class="hero-note">US MS-DRG · UK NHS HRG · Germany G-DRG · UAE IR-DRG · Saudi &amp; more coming soon</p>
   </div>
 </section>
 
@@ -51,6 +51,10 @@
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
       <input type="text" id="searchBox" placeholder='Try "hip replacement", "spinal fusion", "470", "HN22C"...' autocomplete="off">
+    </div>
+    <div id="browseAll" class="browse-all">
+      <h3>📋 Browse all procedure families (A–Z)</h3>
+      <div id="browseList" class="browse-list"></div>
     </div>
     <p id="resultCount" class="result-count"></p>
     <div class="export-bar hidden" id="exportBar">
@@ -65,6 +69,7 @@
             <th>Procedure</th>
             <th><span class="flag">🇺🇸</span> US MS-DRG <span class="src-tag">FY2026 verified</span></th>
             <th><span class="flag">🇬🇧</span> UK HRG <span class="src-tag">2025/26 verified</span></th>
+            <th><span class="flag">🇩🇪</span> Germany G-DRG <span class="src-tag">2025 verified</span></th>
             <th><span class="flag">🇦🇪</span> UAE IR-DRG <span class="src-tag">DoH weights</span></th>
           </tr>
         </thead>

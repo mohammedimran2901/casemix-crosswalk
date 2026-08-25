@@ -1,4 +1,4 @@
-const FREE_LOOKUPS = 10;
+const FREE_LOOKUPS = 100;
 const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/YOUR_LINK_HERE"; // TODO: replace with your real Stripe Payment Link
 
 let freeUsed = parseInt(localStorage.getItem("cc_free_used") || "0", 10);
@@ -14,9 +14,10 @@ const money = (v, c) => CURR[c] + v.toLocaleString();
 
 function renderRow(p, blur) {
   const ae = typeof AE !== "undefined" ? AE[p.name] : null;
+  const de = typeof DE !== "undefined" ? DE[p.name] : null;
   const tr = document.createElement("tr");
   if (blur) tr.classList.add("blurred");
-  tr.innerHTML = `<td><strong>${p.name}</strong></td>` + cell(p.us, "us") + cell(p.uk, "uk") + aeCell(ae);
+  tr.innerHTML = `<td><strong>${p.name}</strong></td>` + cell(p.us, "us") + cell(p.uk, "uk") + deCell(de) + aeCell(ae);
   tbody.appendChild(tr);
 }
 
@@ -35,6 +36,16 @@ function aeCell(ae) {
   const min = Math.min(...w), max = Math.max(...w);
   const rangeHtml = min !== max ? `<span class="desc">×${min.toFixed(2)} – ×${max.toFixed(2)} by severity</span>` : "";
   return `<td><span class="code">${ae.family}</span><span class="rate">×${w[0].toFixed(2)} weight</span>${rangeHtml}<span class="desc">× negotiated base rate (AED)</span></td>`;
+}
+
+function deCell(de) {
+  if (!de) return `<td><span class="desc">G-DRG mapping pending</span></td>`;
+  const w = de.tiers.map(t => t.weight);
+  const min = Math.min(...w), max = Math.max(...w);
+  const std = de.tiers[0];
+  const rangeHtml = min !== max ? `<span class="desc">×${min.toFixed(2)} – ×${max.toFixed(2)} by complexity</span>` : "";
+  const alosHtml = std.alos != null ? `<span class="alos">🏥 ${std.alos.toFixed(1)} days avg stay</span>` : "";
+  return `<td><span class="code">${de.family}</span><span class="rate">×${std.weight.toFixed(2)} weight</span>${alosHtml}${rangeHtml}<span class="desc">× state base rate (€)</span></td>`;
 }
 
 function renderComplexity(p, blur) {
@@ -65,7 +76,35 @@ function renderComplexity(p, blur) {
     });
     html += `<div class="cm-alos">Payment = weight × facility base rate (AED)</div></div>`;
   }
-  html += `</div><p class="fineprint">US: national average = DRG weight × $7,276.76 (FY2026 operating + capital standardized amounts), before geographic adjustment. UK: 2025/26 elective unit price, before Market Forces Factor. UAE: DoH Abu Dhabi IR-DRG relative weights (v2012-Q2 era publication); current weights via Shafafiya portal. Sources: ${SOURCES.us}; ${SOURCES.uk}; ${SOURCES.ae}.</p>`;
+  const de = typeof DE !== "undefined" ? DE[p.name] : null;
+  if (de) {
+    const maxW = Math.max(...de.tiers.map(t => t.weight));
+    html += `<div class="cm-card${blur ? " blurred" : ""}"><div class="cm-title">🇩🇪 Germany G-DRG (Bewertungsrelation)</div>`;
+    de.tiers.forEach(t => {
+      html += `<div class="cm-row"><span class="cm-label">${t.code} · ${t.tier}</span>
+        <div class="cm-bar"><div class="cm-fill" style="width:${Math.round(t.weight / maxW * 100)}%"></div></div>
+        <span class="cm-pct">×${t.weight.toFixed(2)}</span></div>`;
+    });
+    html += `<div class="cm-alos">Avg. stay: <strong>${de.tiers[0].alos.toFixed(1)} days</strong> (InEK) · × state base rate (€)</div></div>`;
+  }
+  // Real UK activity shares (% of NHS cases per tier)
+  const actFam = typeof UK_ACT_FAMILY !== "undefined" ? UK_ACT_FAMILY[p.name] : null;
+  const act = actFam && typeof UK_ACTIVITY !== "undefined" ? UK_ACTIVITY[actFam] : null;
+  if (act) {
+    const total = Object.values(act).reduce((a, b) => a + b, 0);
+    if (total > 0) {
+      html += `<div class="cm-card${blur ? " blurred" : ""}"><div class="cm-title">🇬🇧 UK — % of actual NHS cases (2024/25)</div>`;
+      p.uk.tiers.forEach(t => {
+        const n = act[t.code] || 0;
+        const pct = Math.round(100 * n / total);
+        html += `<div class="cm-row"><span class="cm-label">${t.code} · ${t.tier}</span>
+          <div class="cm-bar"><div class="cm-fill act-fill" style="width:${pct}%"></div></div>
+          <span class="cm-pct">${pct}%</span></div>`;
+      });
+      html += `<div class="cm-alos">Real activity: <strong>${total.toLocaleString()} NHS cases</strong> (FCEs, 2024/25)</div></div>`;
+    }
+  }
+  html += `</div><p class="fineprint">US: national average = DRG weight × $7,276.76 (FY2026), before geographic adjustment. UK: 2025/26 elective unit price, before MFF; activity shares from National Cost Collection 2024/25 (real counts). Germany: aG-DRG 2025 Bewertungsrelation × state base rate (€); official mean LOS. UAE: DoH Abu Dhabi IR-DRG weights (v2012-Q2 era publication). Sources: ${SOURCES.us}; ${SOURCES.uk}; ${SOURCES.de}; ${SOURCES.ae}; ${SOURCES.ukAct}.</p>`;
   panel.innerHTML = html;
 }
 
@@ -88,7 +127,8 @@ function search(qRaw) {
       p.name.toLowerCase().includes(q) ||
       p.us.tiers.some(t => t.code.toLowerCase() === q) ||
       p.uk.tiers.some(t => t.code.toLowerCase() === q) ||
-      (typeof AE !== "undefined" && AE[p.name] && AE[p.name].tiers.some(t => t.code.toLowerCase() === q))
+      (typeof AE !== "undefined" && AE[p.name] && AE[p.name].tiers.some(t => t.code.toLowerCase() === q)) ||
+      (typeof DE !== "undefined" && DE[p.name] && DE[p.name].tiers.some(t => t.code.toLowerCase() === q))
     );
   }
   currentMatches = matches;
@@ -133,13 +173,23 @@ function exportCSV() {
   const head = ["Procedure",
     "US DRG family", "US tier", "US code", "US payment (USD)", "US avg LOS (days)",
     "UK HRG family", "UK tier", "UK code", "UK price (GBP, elective)",
-    "UAE IR-DRG family", "UAE tier", "UAE code", "UAE relative weight"];
+    "UAE IR-DRG family", "UAE tier", "UAE code", "UAE relative weight",
+    "DE G-DRG family", "DE tier", "DE code", "DE weight", "DE avg LOS (days)",
+    "UK activity % (2024/25)"];
   const lines = [head.join(",")];
   currentMatches.forEach(p => {
-    p.us.tiers.forEach(t => lines.push([p.name, p.us.family, t.tier, t.code, t.price, t.alos ?? "", "", "", "", "", "", "", "", ""].map(csvEscape).join(",")));
-    p.uk.tiers.forEach(t => lines.push([p.name, "", "", "", "", "", p.uk.family, t.tier, t.code, t.price, "", "", "", ""].map(csvEscape).join(",")));
+    const actFam = typeof UK_ACT_FAMILY !== "undefined" ? UK_ACT_FAMILY[p.name] : null;
+    const act = actFam && typeof UK_ACTIVITY !== "undefined" ? UK_ACTIVITY[actFam] : null;
+    const actTotal = act ? Object.values(act).reduce((a, b) => a + b, 0) : 0;
+    p.us.tiers.forEach(t => lines.push([p.name, p.us.family, t.tier, t.code, t.price, t.alos ?? "", "", "", "", "", "", "", "", "", "", "", "", "", ""].map(csvEscape).join(",")));
+    p.uk.tiers.forEach(t => {
+      const pct = act && actTotal ? Math.round(100 * (act[t.code] || 0) / actTotal) + "%" : "";
+      lines.push([p.name, "", "", "", "", "", p.uk.family, t.tier, t.code, t.price, "", "", "", "", "", "", "", "", pct].map(csvEscape).join(","));
+    });
     const ae = typeof AE !== "undefined" ? AE[p.name] : null;
-    if (ae) ae.tiers.forEach(t => lines.push([p.name, "", "", "", "", "", "", "", "", "", ae.family, t.tier, t.code, t.weight].map(csvEscape).join(",")));
+    if (ae) ae.tiers.forEach(t => lines.push([p.name, "", "", "", "", "", "", "", "", "", ae.family, t.tier, t.code, t.weight, "", "", "", "", ""].map(csvEscape).join(",")));
+    const de = typeof DE !== "undefined" ? DE[p.name] : null;
+    if (de) de.tiers.forEach(t => lines.push([p.name, "", "", "", "", "", "", "", "", "", "", "", "", "", de.family, t.tier, t.code, t.weight, ""].map(csvEscape).join(",")));
   });
   const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" });
   const a = document.createElement("a");
@@ -147,6 +197,22 @@ function exportCSV() {
   a.download = "casemix-crosswalk-verified.csv";
   a.click();
   URL.revokeObjectURL(a.href);
+}
+
+// A–Z browse list: every family, click to search
+const browseList = document.getElementById("browseList");
+if (browseList) {
+  [...PROCEDURES].map(p => p.name).sort((a, b) => a.localeCompare(b)).forEach(name => {
+    const b = document.createElement("button");
+    b.className = "browse-item";
+    b.textContent = name;
+    b.addEventListener("click", () => {
+      searchBox.value = name;
+      search(name);
+      document.getElementById("resultsTable").scrollIntoView({ behavior: "smooth" });
+    });
+    browseList.appendChild(b);
+  });
 }
 
 searchBox.addEventListener("input", e => search(e.target.value));

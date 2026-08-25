@@ -10,7 +10,9 @@
 const SOURCES = {
   us: "CMS FY2026 IPPS Final Rule (CMS-1833-F), Tables 1A/1D & 5",
   uk: "NHS Payment Scheme 2025/26 Annex A (pay award, 27 Jun 2025)",
-  ae: "DoH Abu Dhabi IR-DRG relative weights (v2012-Q2 era, DoH-published weight update file)"
+  ae: "DoH Abu Dhabi IR-DRG relative weights (v2012-Q2 era, DoH-published weight update file)",
+  de: "InEK Fallpauschalen-Katalog 2025 (aG-DRG-Version 2025, published 14 Oct 2024)",
+  ukAct: "NHS National Cost Collection 2024/25, Admitted Patient Care (real FCE activity)"
 };
 
 // 🇦🇪 UAE: Abu Dhabi Department of Health IR-DRG system.
@@ -298,4 +300,124 @@ const PROCEDURES = [
 // Example code-only lookup entries (so users searching raw codes get hits too)
 const CODE_ALIASES = {
   "IN020K": 0, "IJ414": 0, "HNZ11": 0, "HNZ20": 1, "I47C": 0, "I47B": 1,
+};
+
+// 🇩🇪 Germany: G-DRG (aG-DRG 2025) relative weights (Bewertungsrelation) with
+// official mean LOS (mittlere Verweildauer). Payment = weight × Landesbasis-
+// fallwert (state base rate, negotiated ~€4,000–4,600 for 2025).
+const DE = {
+  "Primary hip replacement (elective)": { family: "G-DRG I47B–C", tiers: [
+    { code: "I47C", tier: "ohne kompliz. Faktoren", weight: 1.389, alos: 6.5 },
+    { code: "I47B", tier: "mit kompl. Faktoren", weight: 1.769, alos: 9.5 } ] },
+  "Primary knee replacement (elective)": { family: "G-DRG I44B–E", tiers: [
+    { code: "I44E", tier: "andere EP-Eingriffe", weight: 1.209, alos: 6.3 },
+    { code: "I44D", tier: "oder Einbringen EP-Spacer", weight: 1.447, alos: 5.7 },
+    { code: "I44C", tier: "ohne äußerst schwere CC (b)", weight: 1.584, alos: 6.9 },
+    { code: "I44B", tier: "ohne äußerst schwere CC (a)", weight: 2.229, alos: 10.6 } ] },
+  "Revision of hip or knee replacement": { family: "G-DRG I46A–C (Prothesenwechsel Hüfte)", tiers: [
+    { code: "I46C", tier: "ohne äußerst schwere CC (b)", weight: 2.303, alos: 10.1 },
+    { code: "I46B", tier: "ohne äußerst schwere CC (a)", weight: 3.167, alos: 16.9 },
+    { code: "I46A", tier: "mit äußerst schweren CC", weight: 4.143, alos: 24.2 } ] },
+  "Shoulder replacement (elective)": { family: "G-DRG I05B–C", tiers: [
+    { code: "I05C", tier: "anderer großer Gelenkersatz", weight: 1.679, alos: 5.5 },
+    { code: "I05B", tier: "inverse Endoprothese Schulter", weight: 2.01, alos: 6.9 } ] },
+  "Elbow replacement (elective)": { family: "G-DRG I43A–B (EP Knie/Ellbogen)", tiers: [
+    { code: "I43B", tier: "ohne äußerst schwere CC", weight: 2.367, alos: 8.3 },
+    { code: "I43A", tier: "mit äußerst schweren CC", weight: 5.402, alos: 31.3 } ] },
+  "Knee arthroscopy (e.g. meniscectomy)": { family: "G-DRG I24A–B (Arthroskopie)", tiers: [
+    { code: "I24B", tier: "ohne kompl. Faktoren (b)", weight: 0.576, alos: 2.4 },
+    { code: "I24A", tier: "mit kompl. Faktoren (a)", weight: 0.645, alos: 2.8 } ] },
+  "ACL / major knee ligament reconstruction": { family: "G-DRG I30A–C (Komplexe Eingriffe Knie)", tiers: [
+    { code: "I30C", tier: "ohne best. komplexe Eingriffe", weight: 0.772, alos: 2.9 },
+    { code: "I30B", tier: "Alter > 15 / best. kompl. Eingr.", weight: 0.973, alos: 2.7 },
+    { code: "I30A", tier: "komplexe Eingriffe, < 16 J.", weight: 1.276, alos: 4.8 } ] },
+  "Lumbar spinal fusion, single level (elective)": { family: "G-DRG I09G–I (Eingriffe WS)", tiers: [
+    { code: "I09I", tier: "ohne komplizierende Faktoren", weight: 1.358, alos: 7.8 },
+    { code: "I09H", tier: "mit anderen kompliz. Faktoren", weight: 1.581, alos: 6.6 },
+    { code: "I09G", tier: "mit bestimmten anderen kompl.", weight: 2.298, alos: 8.0 } ] },
+  "Multi-level lumbar spinal fusion": { family: "G-DRG I09C–E (Eingriffe WS)", tiers: [
+    { code: "I09E", tier: "mit best. kompl. Faktoren (c)", weight: 3.267, alos: 13.3 },
+    { code: "I09D", tier: "mit best. kompl. Faktoren (b)", weight: 4.395, alos: 20.8 },
+    { code: "I09C", tier: "mit best. kompl. Faktoren + Fixierung", weight: 4.669, alos: 18.2 } ] },
+  "Cervical spinal fusion (elective)": { family: "G-DRG I09E–G (Eingriffe WS)", tiers: [
+    { code: "I09G", tier: "mit bestimmten anderen kompl.", weight: 2.298, alos: 8.0 },
+    { code: "I09F", tier: "best. kompl. Faktoren od. Alter", weight: 2.601, alos: 11.1 },
+    { code: "I09E", tier: "mit best. kompl. Faktoren (c)", weight: 3.267, alos: 13.3 } ] },
+  "Complex spinal deformity correction": { family: "G-DRG I06A–C (komplexe WS-Korrektur)", tiers: [
+    { code: "I06C", tier: "ohne hochkomplexen Eingriff, > 18 J.", weight: 3.844, alos: 12.7 },
+    { code: "I06B", tier: "mit sehr komplexem Eingriff", weight: 4.394, alos: 11.0 },
+    { code: "I06A", tier: "mit hochkomplexem Korrektureingriff", weight: 6.959, alos: 26.2 } ] },
+  "Lumbar discectomy / decompression": { family: "G-DRG I10F–H (andere Eingriffe WS)", tiers: [
+    { code: "I10H", tier: "ohne mäßig komplexen Eingriff (c)", weight: 0.61, alos: 2.6 },
+    { code: "I10G", tier: "ohne mäßig komplexen Eingriff (b)", weight: 0.726, alos: 4.8 },
+    { code: "I10F", tier: "ohne mäßig komplexen Eingriff (a)", weight: 0.938, alos: 4.6 } ] },
+  "Major foot / ankle reconstruction (elective)": { family: "G-DRG I20A–C (Eingriffe am Fuß)", tiers: [
+    { code: "I20C", tier: "ohne mehrere komplexe Eingriffe", weight: 1.126, alos: 5.8 },
+    { code: "I20B", tier: "mit mehreren komplexen Eingriffen", weight: 1.581, alos: 7.8 },
+    { code: "I20A", tier: "mit mehreren hochkomplexen Eingriffen", weight: 1.972, alos: 9.3 } ] },
+  "Bunion correction / minor foot surgery": { family: "G-DRG I20E–F (Eingriffe am Fuß)", tiers: [
+    { code: "I20F", tier: "ohne komplexe Eingriffe", weight: 0.681, alos: 2.7 },
+    { code: "I20E", tier: "andere Eingr. / Rheuma / Diabetes", weight: 0.835, alos: 3.0 } ] },
+  "Carpal tunnel release / minor hand surgery": { family: "G-DRG I32E–F (Handgelenk/Hand)", tiers: [
+    { code: "I32F", tier: "ohne komplexe Eingriffe", weight: 0.615, alos: 2.6 },
+    { code: "I32E", tier: "mäßigig komplexe Eingriffe", weight: 0.787, alos: 3.1 } ] },
+  "Major hand surgery (e.g. Dupuytren's contracture)": { family: "G-DRG I32B/D (Handgelenk/Hand)", tiers: [
+    { code: "I32D", tier: "komplexer Eingriff ohne komplexe Diag.", weight: 0.992, alos: 2.9 },
+    { code: "I32B", tier: "mit komplexem Eingriff", weight: 1.074, alos: 3.1 } ] },
+  "Shoulder arthroscopy / intermediate shoulder surgery": { family: "G-DRG I16A–C (Eingriffe Schulter)", tiers: [
+    { code: "I16C", tier: "obere Extremität (c)", weight: 0.692, alos: 2.4 },
+    { code: "I16B", tier: "obere Extremität (b)", weight: 0.793, alos: 2.7 },
+    { code: "I16A", tier: "obere Extremität (a)", weight: 0.836, alos: 2.3 } ] },
+  "Other hip surgery, non-joint (elective)": { family: "G-DRG I08E–H (Hüfte/Femur)", tiers: [
+    { code: "I08H", tier: "ein Belegungstag (b)", weight: 0.868, alos: 3.0 },
+    { code: "I08G", tier: "ein Belegungstag (a)", weight: 1.117, alos: 4.8 },
+    { code: "I08F", tier: "ohne komplexe Diagnose (b)", weight: 1.514, alos: 8.7 },
+    { code: "I08E", tier: "ohne komplexe Diagnose (a)", weight: 2.138, alos: 10.8 } ] },
+  "Soft tissue / tendon procedures (musculoskeletal)": { family: "G-DRG I23A–C (kleine Eingriffe)", tiers: [
+    { code: "I23C", tier: "ohne bestimmte kleine Eingriffe", weight: 0.587, alos: 2.8 },
+    { code: "I23B", tier: "mit bestimmten kleinen Eingriffen (b)", weight: 0.782, alos: 2.7 },
+    { code: "I23A", tier: "mit bestimmten kleinen Eingriffen (a)", weight: 0.927, alos: 3.5 } ] },
+};
+
+// 🇬🇧 Real activity shares: NHS National Cost Collection 2024/25 — actual FCE
+// counts per HRG code (all sectors combined).
+const UK_ACTIVITY = {
+  "HN12": { "HN12A": 1693, "HN12B": 1996, "HN12C": 4144, "HN12D": 8338, "HN12E": 17617, "HN12F": 20782 },
+  "HN22": { "HN22A": 2674, "HN22B": 4520, "HN22C": 10766, "HN22D": 24412, "HN22E": 25811 },
+  "HN81": { "HN81A": 1401, "HN81B": 1648, "HN81C": 2261, "HN81D": 3695, "HN81E": 3608 },
+  "HN80": { "HN80A": 419, "HN80B": 456, "HN80C": 737, "HN80D": 472 },
+  "HN52": { "HN52A": 2016, "HN52B": 3248, "HN52C": 4944 },
+  "HN62": { "HN62A": 389, "HN62B": 541 },
+  "HN24": { "HN24A": 1550, "HN24B": 3331, "HN24C": 13255, "HN24D": 558, "HN24E": 2242, "HN24F": 180 },
+  "HN23": { "HN23A": 2055, "HN23B": 2425, "HN23C": 11223, "HN23D": 547, "HN23E": 1983 },
+  "HC54": { "HC54A": 671, "HC54B": 597, "HC54C": 751 },
+  "HC63": { "HC63A": 2593, "HC63B": 3169, "HC63C": 3755 },
+  "HC64": { "HC64A": 1930, "HC64B": 3212, "HC64C": 5525 },
+  "HC51": { "HC51A": 36, "HC51B": 78, "HC51C": 235, "HC51D": 346, "HC51E": 1280 },
+  "HC50": { "HC50A": 39, "HC50B": 60 },
+  "HC53": { "HC53A": 423, "HC53B": 267, "HC53C": 334 },
+  "HN32": { "HN32A": 1150, "HN32B": 2462, "HN32C": 6647 },
+  "HN35": { "HN35A": 6506, "HN35B": 810 },
+  "HN45": { "HN45A": 38823, "HN45B": 828, "HN45C": 495 },
+  "HN43": { "HN43A": 4422, "HN43B": 8645, "HN43C": 1077 },
+  "HN54": { "HN54A": 712, "HN54B": 1235, "HN54C": 3635, "HN54D": 297 }
+};
+const UK_ACT_FAMILY = {
+  "Primary hip replacement (elective)": "HN12",
+  "Primary knee replacement (elective)": "HN22",
+  "Revision of hip or knee replacement": "HN81",
+  "Shoulder replacement (elective)": "HN52",
+  "Elbow replacement (elective)": "HN62",
+  "Knee arthroscopy (e.g. meniscectomy)": "HN24",
+  "ACL / major knee ligament reconstruction": "HN23",
+  "Lumbar spinal fusion, single level (elective)": "HC54",
+  "Multi-level lumbar spinal fusion": "HC53",
+  "Cervical spinal fusion (elective)": "HC63",
+  "Complex spinal deformity correction": "HC51",
+  "Lumbar discectomy / decompression": "HC64",
+  "Major foot / ankle reconstruction (elective)": "HN32",
+  "Bunion correction / minor foot surgery": "HN35",
+  "Carpal tunnel release / minor hand surgery": "HN45",
+  "Major hand surgery (e.g. Dupuytren's contracture)": "HN43",
+  "Shoulder arthroscopy / intermediate shoulder surgery": "HN54"
 };
