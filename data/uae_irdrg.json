@@ -1,0 +1,3947 @@
+{
+ "146131": {
+  "desc": "IM Vaginal Delivery",
+  "severity": 1,
+  "weight": 0.3839000014078841
+ },
+ "61131": {
+  "desc": "IP Appendiceal Procedures",
+  "severity": 1,
+  "weight": 0.9047999999999988
+ },
+ "61501": {
+  "desc": "IP Anal Procedures",
+  "severity": 1,
+  "weight": 0.6582000000000143
+ },
+ "61141": {
+  "desc": "IP Inguinal & Femoral Hernia Procedures",
+  "severity": 1,
+  "weight": 0.7430000000000199
+ },
+ "64171": {
+  "desc": "IM Other Gastroenteritis & Abdominal Pain",
+  "severity": 1,
+  "weight": 0.4408000000000142
+ },
+ "111401": {
+  "desc": "IP Urethral & Transurethral Procedures",
+  "severity": 1,
+  "weight": 0.7403999745330054
+ },
+ "146101": {
+  "desc": "IP Cesarean Delivery",
+  "severity": 1,
+  "weight": 0.6700999962919326
+ },
+ "31201": {
+  "desc": "IP Other Ear, Nose, Mouth & Throat Procedures",
+  "severity": 1,
+  "weight": 0.965599999999995
+ },
+ "81801": {
+  "desc": "IP Upper Extremity Procedures",
+  "severity": 1,
+  "weight": 0.9040999999999877
+ },
+ "54201": {
+  "desc": "IM Angina Pectoris & Chest Pain",
+  "severity": 1,
+  "weight": 0.529899999999998
+ },
+ "134161": {
+  "desc": "IM Antepartum Disorders",
+  "severity": 1,
+  "weight": 0.29710001384887413
+ },
+ "31151": {
+  "desc": "IP Tonsil & Adenoid Procedures",
+  "severity": 1,
+  "weight": 0.5471000000000003
+ },
+ "81701": {
+  "desc": "IP Knee & Lower Leg Procedures Except Foot",
+  "severity": 1,
+  "weight": 1.1074000000000384
+ },
+ "51401": {
+  "desc": "IP Percutaneous Cardiovascular Procedures",
+  "severity": 1,
+  "weight": 2.25
+ },
+ "91401": {
+  "desc": "IP Other Skin, Subcutaneous Tissue & Breast Procedures",
+  "severity": 1,
+  "weight": 1.246699999999979
+ },
+ "44161": {
+  "desc": "IM Simple Pneumonia & Whooping Cough",
+  "severity": 1,
+  "weight": 0.49199999999998145
+ },
+ "71141": {
+  "desc": "IP Laparoscopic Cholecystectomy",
+  "severity": 1,
+  "weight": 1.0587000000000244
+ },
+ "64181": {
+  "desc": "IM Other Digestive System Diagnoses",
+  "severity": 1,
+  "weight": 0.5026000000000048
+ },
+ "94121": {
+  "desc": "IM Cellulitis",
+  "severity": 1,
+  "weight": 0.4902999999999941
+ },
+ "146132": {
+  "desc": "IM Vaginal Delivery w/CC",
+  "severity": 2,
+  "weight": 0.42269999386296664
+ },
+ "158171": {
+  "desc": "IM Neonate, Birthwt >2499 Grams Without Major Procedure",
+  "severity": 1,
+  "weight": 0.1149000625398103
+ },
+ "131201": {
+  "desc": "IP Uterine & Adnexal Procedures",
+  "severity": 1,
+  "weight": 0.8546000297095874
+ },
+ "11301": {
+  "desc": "IP Spine Procedures",
+  "severity": 1,
+  "weight": 1.1123000000000027
+ },
+ "44181": {
+  "desc": "IM Asthma & Bronchiolitis",
+  "severity": 1,
+  "weight": 0.43089999999998513
+ },
+ "34131": {
+  "desc": "IM Epiglottitis, Otitis Media, Upper Respiratory Tract Infection & Laryngotracheitis",
+  "severity": 1,
+  "weight": 0.34239999999999793
+ },
+ "21301": {
+  "desc": "IP Intraocular & Lens Procedures",
+  "severity": 1,
+  "weight": 0.7983000000000132
+ },
+ "121121": {
+  "desc": "IP Moderately Complex Prostate & Scrotal Contents Procedures",
+  "severity": 1,
+  "weight": 0.6412999453188168
+ },
+ "111201": {
+  "desc": "IP Upper Urinary Tract Procedures",
+  "severity": 1,
+  "weight": 1.336899949960293
+ },
+ "131111": {
+  "desc": "IP Dilation & Curettage, Intrauterine & Cervical Procedures",
+  "severity": 1,
+  "weight": 0.5813000263148693
+ },
+ "64111": {
+  "desc": "IM Peptic Ulcer & Gastritis",
+  "severity": 1,
+  "weight": 0.5898000000000108
+ },
+ "54161": {
+  "desc": "IM Atherosclerosis",
+  "severity": 1,
+  "weight": 0.5514999999999985
+ },
+ "84121": {
+  "desc": "IM Fracture Or Dislocation Except Femur & Pelvis",
+  "severity": 1,
+  "weight": 0.49870000000000275
+ },
+ "111403": {
+  "desc": "IP Urethral & Transurethral Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.4244994930888897
+ },
+ "61121": {
+  "desc": "IP Hernia Procedures Except Inguinal & Femoral",
+  "severity": 1,
+  "weight": 0.9525999999999878
+ },
+ "146102": {
+  "desc": "IP Cesarean Delivery w/CC",
+  "severity": 2,
+  "weight": 0.7438999994786988
+ },
+ "54101": {
+  "desc": "IM Acute Myocardial Infarction",
+  "severity": 1,
+  "weight": 0.6887000000000025
+ },
+ "44151": {
+  "desc": "IM Respiratory Infections & Inflammations",
+  "severity": 1,
+  "weight": 0.8219000000000038
+ },
+ "164131": {
+  "desc": "IM Red Blood Cell Disorders Except Sickle Cell Anemia Crisis",
+  "severity": 1,
+  "weight": 0.5328999932867626
+ },
+ "81401": {
+  "desc": "IP Local Excision & Removal Of Internal Fixation Device",
+  "severity": 1,
+  "weight": 0.8983
+ },
+ "134131": {
+  "desc": "IM Abortion",
+  "severity": 1,
+  "weight": 0.36939998170616795
+ },
+ "81501": {
+  "desc": "IP Soft Tissue Procedures",
+  "severity": 1,
+  "weight": 0.8460999999999975
+ },
+ "81601": {
+  "desc": "IP Other Musculoskeletel System & Connective Tissue Procedures",
+  "severity": 1,
+  "weight": 0.9596000000000118
+ },
+ "51171": {
+  "desc": "IP Vein Ligation & Stripping",
+  "severity": 1,
+  "weight": 0.8094000000000031
+ },
+ "31121": {
+  "desc": "IP Sinus & Mastoid Procedures",
+  "severity": 1,
+  "weight": 1.0765999999999984
+ },
+ "104101": {
+  "desc": "IM Diabetes And Nutritional & Misc Metabolic Disorders",
+  "severity": 1,
+  "weight": 0.4815000510158078
+ },
+ "184141": {
+  "desc": "IM Other Bacterial & Parasitic Diseases",
+  "severity": 1,
+  "weight": 0.5280999163909591
+ },
+ "44211": {
+  "desc": "IM Respiratory System Signs, Symptoms & Other Diagnoses",
+  "severity": 1,
+  "weight": 0.4841999999999907
+ },
+ "111402": {
+  "desc": "IP Urethral & Transurethral Procedures w/CC",
+  "severity": 2,
+  "weight": 1.050199990919703
+ },
+ "134162": {
+  "desc": "IM Antepartum Disorders w/CC",
+  "severity": 2,
+  "weight": 0.42569999346846704
+ },
+ "51402": {
+  "desc": "IP Percutaneous Cardiovascular Procedures w/CC",
+  "severity": 2,
+  "weight": 2.4184000000000125
+ },
+ "21201": {
+  "desc": "IP Orbital & Extraocular Procedures",
+  "severity": 1,
+  "weight": 1.0726999999999998
+ },
+ "94131": {
+  "desc": "IM Trauma To The Skin, Subcutaneous Tissue & Breast",
+  "severity": 1,
+  "weight": 0.6136000000000021
+ },
+ "54191": {
+  "desc": "IM Cardiac Arrhythmia & Conduction Disorders",
+  "severity": 1,
+  "weight": 0.5336000000000052
+ },
+ "14221": {
+  "desc": "IM Seizure",
+  "severity": 1,
+  "weight": 0.6091999999999911
+ },
+ "84211": {
+  "desc": "IM Other Musculoskeletal System & Connective Tissue Diagnoses",
+  "severity": 1,
+  "weight": 0.5569999999999955
+ },
+ "101201": {
+  "desc": "IP Thyroid, Parathyroid & Thyroglossal Duct Procedures",
+  "severity": 1,
+  "weight": 0.821699875201557
+ },
+ "91501": {
+  "desc": "IP Breast Procedures",
+  "severity": 1,
+  "weight": 1.009200000000007
+ },
+ "54241": {
+  "desc": "IM Other Circulatory System Diagnoses",
+  "severity": 1,
+  "weight": 0.5745000000000003
+ },
+ "131301": {
+  "desc": "IP Vagina, Cervix & Vulva Procedures",
+  "severity": 1,
+  "weight": 0.7060999958746881
+ },
+ "54162": {
+  "desc": "IM Atherosclerosis w/CC",
+  "severity": 2,
+  "weight": 0.6306999999999969
+ },
+ "64172": {
+  "desc": "IM Other Gastroenteritis & Abdominal Pain w/CC",
+  "severity": 2,
+  "weight": 0.6262000000000001
+ },
+ "134141": {
+  "desc": "IM Threatened Abortion",
+  "severity": 1,
+  "weight": 0.3479000566492968
+ },
+ "54171": {
+  "desc": "IM Hypertension",
+  "severity": 1,
+  "weight": 0.5560000000000013
+ },
+ "44163": {
+  "desc": "IM Simple Pneumonia & Whooping Cough w/MCC",
+  "severity": 3,
+  "weight": 1.3901000000000046
+ },
+ "44162": {
+  "desc": "IM Simple Pneumonia & Whooping Cough w/CC",
+  "severity": 2,
+  "weight": 0.8467000000000138
+ },
+ "51151": {
+  "desc": "IP Cardiac Catheterization",
+  "severity": 1,
+  "weight": 1.1211999999999913
+ },
+ "146103": {
+  "desc": "IP Cesarean Delivery w/MCC",
+  "severity": 3,
+  "weight": 0.9803999664629528
+ },
+ "114131": {
+  "desc": "IM Urinary Stones",
+  "severity": 1,
+  "weight": 0.4438999131557283
+ },
+ "54123": {
+  "desc": "IM Heart Failure w/MCC",
+  "severity": 3,
+  "weight": 1.3999000000000017
+ },
+ "54202": {
+  "desc": "IM Angina Pectoris & Chest Pain w/CC",
+  "severity": 2,
+  "weight": 0.6105000000000017
+ },
+ "146133": {
+  "desc": "IM Vaginal Delivery w/MCC",
+  "severity": 3,
+  "weight": 0.5852000545465433
+ },
+ "64182": {
+  "desc": "IM Other Digestive System Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.7862000000000046
+ },
+ "34151": {
+  "desc": "IM Other Ear, Nose, Mouth & Throat Diagnoses",
+  "severity": 1,
+  "weight": 0.5041999999999979
+ },
+ "184121": {
+  "desc": "IM Fever",
+  "severity": 1,
+  "weight": 0.41520002266881584
+ },
+ "114121": {
+  "desc": "IM Kidney & Urinary Tract Infections",
+  "severity": 1,
+  "weight": 0.48859996903073616
+ },
+ "44183": {
+  "desc": "IM Asthma & Bronchiolitis w/MCC",
+  "severity": 3,
+  "weight": 0.6911000000000047
+ },
+ "84171": {
+  "desc": "IM Medical Back Problems",
+  "severity": 1,
+  "weight": 0.5817000000000043
+ },
+ "174132": {
+  "desc": "IM Chemotherapy w/CC",
+  "severity": 2,
+  "weight": 1.328500096544397
+ },
+ "94122": {
+  "desc": "IM Cellulitis w/CC",
+  "severity": 2,
+  "weight": 0.7704999999999986
+ },
+ "14241": {
+  "desc": "IM Head Trauma",
+  "severity": 1,
+  "weight": 0.711399999999998
+ },
+ "14261": {
+  "desc": "IM Other Nervous System Disorders",
+  "severity": 1,
+  "weight": 0.7430999999999985
+ },
+ "14142": {
+  "desc": "IM Cerebrovascular ACCident With Infarct w/CC",
+  "severity": 2,
+  "weight": 1.165799999999995
+ },
+ "74121": {
+  "desc": "IM Pancreas Disorders Except Malignancy",
+  "severity": 1,
+  "weight": 0.675700000000003
+ },
+ "91301": {
+  "desc": "IP Skin Graft Without Burns",
+  "severity": 1,
+  "weight": 1.3803000000000027
+ },
+ "74141": {
+  "desc": "IM Other Biliary Tract Disorders",
+  "severity": 1,
+  "weight": 0.6246999999999967
+ },
+ "64173": {
+  "desc": "IM Other Gastroenteritis & Abdominal Pain w/MCC",
+  "severity": 3,
+  "weight": 0.9302999999999988
+ },
+ "54122": {
+  "desc": "IM Heart Failure w/CC",
+  "severity": 2,
+  "weight": 0.8711999999999919
+ },
+ "121131": {
+  "desc": "IP Non-Complex Prostate & Scrotal Contents Procedures",
+  "severity": 1,
+  "weight": 0.798900059982578
+ },
+ "134121": {
+  "desc": "IM Menstrual & Other Female Reproductive System Disorders",
+  "severity": 1,
+  "weight": 0.5048000126753492
+ },
+ "104102": {
+  "desc": "IM Diabetes And Nutritional & Misc Metabolic Disorders w/CC",
+  "severity": 2,
+  "weight": 0.7137999603182758
+ },
+ "51403": {
+  "desc": "IP Percutaneous Cardiovascular Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.336800000000002
+ },
+ "54163": {
+  "desc": "IM Atherosclerosis w/MCC",
+  "severity": 3,
+  "weight": 0.9776999999999992
+ },
+ "81071": {
+  "desc": "IP Spinal Fusion Procedures Except For Curvature Of The Spine",
+  "severity": 1,
+  "weight": 2.339200000000004
+ },
+ "111203": {
+  "desc": "IP Upper Urinary Tract Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.479801011077778
+ },
+ "44212": {
+  "desc": "IM Respiratory System Signs, Symptoms & Other Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.6904999999999918
+ },
+ "51152": {
+  "desc": "IP Cardiac Catheterization w/CC",
+  "severity": 2,
+  "weight": 1.4058999999999968
+ },
+ "54103": {
+  "desc": "IM Acute Myocardial Infarction w/MCC",
+  "severity": 3,
+  "weight": 1.5687999999999993
+ },
+ "81201": {
+  "desc": "IP Hip & Femur Procedures Except Major Joint",
+  "severity": 1,
+  "weight": 1.3620999999999988
+ },
+ "74131": {
+  "desc": "IM Liver Disorders Except Malignancy, Cirrhosis Or Alcoholic Hepatitis",
+  "severity": 1,
+  "weight": 0.6317999999999985
+ },
+ "214121": {
+  "desc": "IM Poisoning & Toxic Effects Of Drugs",
+  "severity": 1,
+  "weight": 0.3913999943876906
+ },
+ "114133": {
+  "desc": "IM Urinary Stones w/MCC",
+  "severity": 3,
+  "weight": 1.1208990473000002
+ },
+ "61201": {
+  "desc": "IP Complex Intestinal Procedures",
+  "severity": 1,
+  "weight": 1.6458000000000064
+ },
+ "41203": {
+  "desc": "IP Non-Complex Respiratory System Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.4627000000000017
+ },
+ "61132": {
+  "desc": "IP Appendiceal Procedures w/CC",
+  "severity": 2,
+  "weight": 1.0030999999999484
+ },
+ "21302": {
+  "desc": "IP Intraocular & Lens Procedures w/CC",
+  "severity": 2,
+  "weight": 0.9114999999999999
+ },
+ "34132": {
+  "desc": "IM Epiglottitis, Otitis Media, Upper Respiratory Tract Infection & Laryngotracheitis w/CC",
+  "severity": 2,
+  "weight": 0.5104000000000031
+ },
+ "54121": {
+  "desc": "IM Heart Failure",
+  "severity": 1,
+  "weight": 0.6285000000000018
+ },
+ "104111": {
+  "desc": "IM Hypovolemia & Electrolyte Disorders",
+  "severity": 1,
+  "weight": 0.326599935740043
+ },
+ "44213": {
+  "desc": "IM Respiratory System Signs, Symptoms & Other Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.058600000000001
+ },
+ "134151": {
+  "desc": "IM False Labor",
+  "severity": 1,
+  "weight": 0.21639993222375573
+ },
+ "111202": {
+  "desc": "IP Upper Urinary Tract Procedures w/CC",
+  "severity": 2,
+  "weight": 1.704900093931823
+ },
+ "94141": {
+  "desc": "IM Other Skin & Breast Disorders",
+  "severity": 1,
+  "weight": 0.41009999999999996
+ },
+ "64112": {
+  "desc": "IM Peptic Ulcer & Gastritis w/CC",
+  "severity": 2,
+  "weight": 0.8668000000000071
+ },
+ "184131": {
+  "desc": "IM Non-Bacterial Infections",
+  "severity": 1,
+  "weight": 0.40970001088172836
+ },
+ "161201": {
+  "desc": "IP Other Procedures Of Blood & Blood Forming Organs",
+  "severity": 1,
+  "weight": 1.0380998370570407
+ },
+ "81041": {
+  "desc": "IP Major Lower Extremity Joint & Limb Reattachment Procedures",
+  "severity": 1,
+  "weight": 1.9843000000000057
+ },
+ "51153": {
+  "desc": "IP Cardiac Catheterization w/MCC",
+  "severity": 3,
+  "weight": 2.4008000000000003
+ },
+ "134171": {
+  "desc": "IM Postpartum Disorders",
+  "severity": 1,
+  "weight": 0.36210002953040077
+ },
+ "164132": {
+  "desc": "IM Red Blood Cell Disorders Except Sickle Cell Anemia Crisis w/CC",
+  "severity": 2,
+  "weight": 0.7526001039848305
+ },
+ "164111": {
+  "desc": "IM Coagulation Disorders",
+  "severity": 1,
+  "weight": 0.8423001354599972
+ },
+ "81301": {
+  "desc": "IP Foot Procedures",
+  "severity": 1,
+  "weight": 0.9693000000000016
+ },
+ "14141": {
+  "desc": "IM Cerebrovascular ACCident With Infarct",
+  "severity": 1,
+  "weight": 0.9103000000000033
+ },
+ "61502": {
+  "desc": "IP Anal Procedures w/CC",
+  "severity": 2,
+  "weight": 1.0407000000000008
+ },
+ "114122": {
+  "desc": "IM Kidney & Urinary Tract Infections w/CC",
+  "severity": 2,
+  "weight": 0.686699982960322
+ },
+ "124111": {
+  "desc": "IM Male Reproductive System Diagnoses Except Malignancy",
+  "severity": 1,
+  "weight": 0.45319985367105226
+ },
+ "64183": {
+  "desc": "IM Other Digestive System Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.3817999999999986
+ },
+ "184103": {
+  "desc": "IM Septicemia w/MCC",
+  "severity": 3,
+  "weight": 1.8293000679628335
+ },
+ "224121": {
+  "desc": "IM Other Factors Influencing Health Status",
+  "severity": 1,
+  "weight": 0.26490005095479174
+ },
+ "184143": {
+  "desc": "IM Other Bacterial & Parasitic Diseases w/MCC",
+  "severity": 3,
+  "weight": 1.9674000371754705
+ },
+ "54203": {
+  "desc": "IM Angina Pectoris & Chest Pain w/MCC",
+  "severity": 3,
+  "weight": 0.8102000000000006
+ },
+ "54172": {
+  "desc": "IM Hypertension w/CC",
+  "severity": 2,
+  "weight": 0.6848999999999992
+ },
+ "34141": {
+  "desc": "IM Dental & Oral Disease",
+  "severity": 1,
+  "weight": 0.5418999999999985
+ },
+ "64151": {
+  "desc": "IM Gastrointestinal Obstruction",
+  "severity": 1,
+  "weight": 0.5464999999999999
+ },
+ "54173": {
+  "desc": "IM Hypertension w/MCC",
+  "severity": 3,
+  "weight": 1.0683999999999982
+ },
+ "104103": {
+  "desc": "IM Diabetes And Nutritional & Misc Metabolic Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.2511001461260853
+ },
+ "24121": {
+  "desc": "IM Other Eye Disorders",
+  "severity": 1,
+  "weight": 0.5353999999999989
+ },
+ "174131": {
+  "desc": "IM Chemotherapy",
+  "severity": 1,
+  "weight": 1.016799986203408
+ },
+ "114161": {
+  "desc": "IM Other Kidney & Urinary Tract Diagnoses",
+  "severity": 1,
+  "weight": 0.5745000028048652
+ },
+ "64121": {
+  "desc": "IM Esophageal Disorders",
+  "severity": 1,
+  "weight": 0.5109999999999993
+ },
+ "174133": {
+  "desc": "IM Chemotherapy w/MCC",
+  "severity": 3,
+  "weight": 2.270100177349742
+ },
+ "61401": {
+  "desc": "IP Other Digestive System Procedures",
+  "severity": 1,
+  "weight": 1.0542999999999996
+ },
+ "34111": {
+  "desc": "IM Dysequilibrium",
+  "severity": 1,
+  "weight": 0.5464999999999994
+ },
+ "114103": {
+  "desc": "IM Kidney & Urinary Tract Malignancy & Renal Failure w/MCC",
+  "severity": 3,
+  "weight": 1.7690994115957728
+ },
+ "44201": {
+  "desc": "IM Pneumothorax & Pleural Effusion",
+  "severity": 1,
+  "weight": 0.5925000000000007
+ },
+ "44173": {
+  "desc": "IM Chronic Obstructive Pulmonary Disease w/MCC",
+  "severity": 3,
+  "weight": 1.2391999999999979
+ },
+ "111301": {
+  "desc": "IP Bladder & Lower Urinary Tract Procedures",
+  "severity": 1,
+  "weight": 0.7925000430939658
+ },
+ "54192": {
+  "desc": "IM Cardiac Arrhythmia & Conduction Disorders w/CC",
+  "severity": 2,
+  "weight": 0.7290000000000018
+ },
+ "114162": {
+  "desc": "IM Other Kidney & Urinary Tract Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.8617000406301526
+ },
+ "81602": {
+  "desc": "IP Other Musculoskeletel System & Connective Tissue Procedures w/CC",
+  "severity": 2,
+  "weight": 1.644299999999995
+ },
+ "54102": {
+  "desc": "IM Acute Myocardial Infarction w/CC",
+  "severity": 2,
+  "weight": 0.9706000000000018
+ },
+ "114163": {
+  "desc": "IM Other Kidney & Urinary Tract Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.4786996083305577
+ },
+ "54151": {
+  "desc": "IM Peripheral & Other Vascular Disorders",
+  "severity": 1,
+  "weight": 0.5534999999999998
+ },
+ "214162": {
+  "desc": "IM Burns w/CC",
+  "severity": 2,
+  "weight": 0.6549002739915879
+ },
+ "91403": {
+  "desc": "IP Other Skin, Subcutaneous Tissue & Breast Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.411
+ },
+ "114132": {
+  "desc": "IM Urinary Stones w/CC",
+  "severity": 2,
+  "weight": 0.6379997908221128
+ },
+ "54183": {
+  "desc": "IM Cardiac Congenital & Valvular Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.2879999999999991
+ },
+ "54193": {
+  "desc": "IM Cardiac Arrhythmia & Conduction Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.1912999999999991
+ },
+ "61203": {
+  "desc": "IP Complex Intestinal Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.906599999999998
+ },
+ "11302": {
+  "desc": "IP Spine Procedures w/CC",
+  "severity": 2,
+  "weight": 1.4809000000000014
+ },
+ "34133": {
+  "desc": "IM Epiglottitis, Otitis Media, Upper Respiratory Tract Infection & Laryngotracheitis w/MCC",
+  "severity": 3,
+  "weight": 0.7576999999999999
+ },
+ "131202": {
+  "desc": "IP Uterine & Adnexal Procedures w/CC",
+  "severity": 2,
+  "weight": 1.032200059848415
+ },
+ "54243": {
+  "desc": "IM Other Circulatory System Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.2721999999999996
+ },
+ "11201": {
+  "desc": "IP Cranial & Peripheral Nerve Procedures",
+  "severity": 1,
+  "weight": 1.3011000000000013
+ },
+ "64131": {
+  "desc": "IM Diverticulitis, Diverticulosis & Inflammatory Bowel Disease",
+  "severity": 1,
+  "weight": 0.6778000000000013
+ },
+ "134163": {
+  "desc": "IM Antepartum Disorders w/MCC",
+  "severity": 3,
+  "weight": 0.5987001970947988
+ },
+ "44171": {
+  "desc": "IM Chronic Obstructive Pulmonary Disease",
+  "severity": 1,
+  "weight": 0.6328000000000021
+ },
+ "71143": {
+  "desc": "IP Laparoscopic Cholecystectomy w/MCC",
+  "severity": 3,
+  "weight": 2.3226000000000004
+ },
+ "164141": {
+  "desc": "IM Other Blood & Blood Forming Organs Disorders",
+  "severity": 1,
+  "weight": 0.6165997169360551
+ },
+ "34121": {
+  "desc": "IM Epistaxis",
+  "severity": 1,
+  "weight": 0.4547999999999997
+ },
+ "14161": {
+  "desc": "IM Transient Ischemia",
+  "severity": 1,
+  "weight": 0.6801999999999995
+ },
+ "64113": {
+  "desc": "IM Peptic Ulcer & Gastritis w/MCC",
+  "severity": 3,
+  "weight": 1.4175000000000006
+ },
+ "44153": {
+  "desc": "IM Respiratory Infections & Inflammations w/MCC",
+  "severity": 3,
+  "weight": 2.039800000000009
+ },
+ "104113": {
+  "desc": "IM Hypovolemia & Electrolyte Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.0188000029114277
+ },
+ "121141": {
+  "desc": "IP Transurethral Prostatectomy",
+  "severity": 1,
+  "weight": 0.6624003153969383
+ },
+ "44182": {
+  "desc": "IM Asthma & Bronchiolitis w/CC",
+  "severity": 2,
+  "weight": 0.6630999999999916
+ },
+ "41301": {
+  "desc": "IP Moderately Complex Respiratory System Procedures",
+  "severity": 1,
+  "weight": 1.4467000000000034
+ },
+ "114102": {
+  "desc": "IM Kidney & Urinary Tract Malignancy & Renal Failure w/CC",
+  "severity": 2,
+  "weight": 1.0173001166334943
+ },
+ "61403": {
+  "desc": "IP Other Digestive System Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.2527999999999975
+ },
+ "71142": {
+  "desc": "IP Laparoscopic Cholecystectomy w/CC",
+  "severity": 2,
+  "weight": 1.4847000000000015
+ },
+ "14251": {
+  "desc": "IM Concussion",
+  "severity": 1,
+  "weight": 0.7687000000000007
+ },
+ "74132": {
+  "desc": "IM Liver Disorders Except Malignancy, Cirrhosis Or Alcoholic Hepatitis w/CC",
+  "severity": 2,
+  "weight": 0.9245999999999988
+ },
+ "54242": {
+  "desc": "IM Other Circulatory System Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.7894000000000004
+ },
+ "14143": {
+  "desc": "IM Cerebrovascular ACCident With Infarct w/MCC",
+  "severity": 3,
+  "weight": 1.874399999999998
+ },
+ "74143": {
+  "desc": "IM Other Biliary Tract Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.4581000000000013
+ },
+ "54211": {
+  "desc": "IM Syncope & Collapse",
+  "severity": 1,
+  "weight": 0.5936999999999989
+ },
+ "84201": {
+  "desc": "IM Musculoskeletal Signs, Symptoms, Sprains & Minor Inflammations",
+  "severity": 1,
+  "weight": 0.488999999999999
+ },
+ "51071": {
+  "desc": "IP Coronary Bypass Without Cardiac Catheterization",
+  "severity": 1,
+  "weight": 3.2199999999999993
+ },
+ "104112": {
+  "desc": "IM Hypovolemia & Electrolyte Disorders w/CC",
+  "severity": 2,
+  "weight": 0.6178000382871356
+ },
+ "184142": {
+  "desc": "IM Other Bacterial & Parasitic Diseases w/CC",
+  "severity": 2,
+  "weight": 0.9957001077790317
+ },
+ "54153": {
+  "desc": "IM Peripheral & Other Vascular Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.3388000000000004
+ },
+ "214163": {
+  "desc": "IM Burns w/MCC",
+  "severity": 3,
+  "weight": 1.169499740843529
+ },
+ "51201": {
+  "desc": "IP Other Circulatory System Procedures",
+  "severity": 1,
+  "weight": 1.705399999999998
+ },
+ "74142": {
+  "desc": "IM Other Biliary Tract Disorders w/CC",
+  "severity": 2,
+  "weight": 0.9449000000000007
+ },
+ "44152": {
+  "desc": "IM Respiratory Infections & Inflammations w/CC",
+  "severity": 2,
+  "weight": 1.1999000000000066
+ },
+ "14243": {
+  "desc": "IM Head Trauma w/MCC",
+  "severity": 3,
+  "weight": 1.9956999999999998
+ },
+ "91402": {
+  "desc": "IP Other Skin, Subcutaneous Tissue & Breast Procedures w/CC",
+  "severity": 2,
+  "weight": 1.815600000000002
+ },
+ "14262": {
+  "desc": "IM Other Nervous System Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8417000000000019
+ },
+ "114101": {
+  "desc": "IM Kidney & Urinary Tract Malignancy & Renal Failure",
+  "severity": 1,
+  "weight": 0.613499983520214
+ },
+ "14223": {
+  "desc": "IM Seizure w/MCC",
+  "severity": 3,
+  "weight": 1.1773000000000013
+ },
+ "214131": {
+  "desc": "IM Complications Of Treatment",
+  "severity": 1,
+  "weight": 0.4788004023594592
+ },
+ "114123": {
+  "desc": "IM Kidney & Urinary Tract Infections w/MCC",
+  "severity": 3,
+  "weight": 1.0792999604972224
+ },
+ "11131": {
+  "desc": "IP Carpal Tunnel Release",
+  "severity": 1,
+  "weight": 0.7437999999999981
+ },
+ "14222": {
+  "desc": "IM Seizure w/CC",
+  "severity": 2,
+  "weight": 0.7817000000000006
+ },
+ "54182": {
+  "desc": "IM Cardiac Congenital & Valvular Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8098999999999992
+ },
+ "114111": {
+  "desc": "IM Nephritis",
+  "severity": 1,
+  "weight": 0.5354001512304354
+ },
+ "91302": {
+  "desc": "IP Skin Graft Without Burns w/CC",
+  "severity": 2,
+  "weight": 2.4924000000000026
+ },
+ "74133": {
+  "desc": "IM Liver Disorders Except Malignancy, Cirrhosis Or Alcoholic Hepatitis w/MCC",
+  "severity": 3,
+  "weight": 1.5304
+ },
+ "61111": {
+  "desc": "IP Peritoneal Adhesiolysis",
+  "severity": 1,
+  "weight": 0.9702000000000011
+ },
+ "24101": {
+  "desc": "IM Acute Major Eye Infections",
+  "severity": 1,
+  "weight": 0.44170000000000054
+ },
+ "184122": {
+  "desc": "IM Fever w/CC",
+  "severity": 2,
+  "weight": 0.694799688545891
+ },
+ "134122": {
+  "desc": "IM Menstrual & Other Female Reproductive System Disorders w/CC",
+  "severity": 2,
+  "weight": 0.5769003214672417
+ },
+ "164133": {
+  "desc": "IM Red Blood Cell Disorders Except Sickle Cell Anemia Crisis w/MCC",
+  "severity": 3,
+  "weight": 1.2737002263257153
+ },
+ "74122": {
+  "desc": "IM Pancreas Disorders Except Malignancy w/CC",
+  "severity": 2,
+  "weight": 0.9579999999999987
+ },
+ "61133": {
+  "desc": "IP Appendiceal Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.4332999999999985
+ },
+ "81702": {
+  "desc": "IP Knee & Lower Leg Procedures Except Foot w/CC",
+  "severity": 2,
+  "weight": 1.6204999999999978
+ },
+ "158083": {
+  "desc": "IP Neonate, Birthwt >2499 Grams With Respiratory Distress Syndrome w/MCC",
+  "severity": 3,
+  "weight": 3.9573999950635654
+ },
+ "104121": {
+  "desc": "IM Inborn Errors Of Metabolism",
+  "severity": 1,
+  "weight": 0.4941999763406069
+ },
+ "184111": {
+  "desc": "IM Post-Operative & Post-Traumatic Infections",
+  "severity": 1,
+  "weight": 0.6152006737523817
+ },
+ "84181": {
+  "desc": "IM Other Bone & Joint Diseases",
+  "severity": 1,
+  "weight": 0.6107000000000009
+ },
+ "164121": {
+  "desc": "IM Sickle Cell Anemia Crisis",
+  "severity": 1,
+  "weight": 0.7657998229775032
+ },
+ "81802": {
+  "desc": "IP Upper Extremity Procedures w/CC",
+  "severity": 2,
+  "weight": 1.3694999999999973
+ },
+ "14133": {
+  "desc": "IM Non-Traumatic Intracranial Hemorrhage w/MCC",
+  "severity": 3,
+  "weight": 2.139799999999998
+ },
+ "214161": {
+  "desc": "IM Burns",
+  "severity": 1,
+  "weight": 0.37640023306744214
+ },
+ "64102": {
+  "desc": "IM Digestive Malignancy w/CC",
+  "severity": 2,
+  "weight": 1.1182000000000014
+ },
+ "84161": {
+  "desc": "IM Connective Tissue Disorders",
+  "severity": 1,
+  "weight": 0.7125999999999988
+ },
+ "131112": {
+  "desc": "IP Dilation & Curettage, Intrauterine & Cervical Procedures w/CC",
+  "severity": 2,
+  "weight": 0.798299796266955
+ },
+ "44172": {
+  "desc": "IM Chronic Obstructive Pulmonary Disease w/CC",
+  "severity": 2,
+  "weight": 0.8560999999999986
+ },
+ "31301": {
+  "desc": "IP Mouth Procedures",
+  "severity": 1,
+  "weight": 0.8449000000000002
+ },
+ "104131": {
+  "desc": "IM Other Endocrine Disorders",
+  "severity": 1,
+  "weight": 0.5174003954619054
+ },
+ "134132": {
+  "desc": "IM Abortion w/CC",
+  "severity": 2,
+  "weight": 0.426300228155769
+ },
+ "14132": {
+  "desc": "IM Non-Traumatic Intracranial Hemorrhage w/CC",
+  "severity": 2,
+  "weight": 1.3233000000000017
+ },
+ "81402": {
+  "desc": "IP Local Excision & Removal Of Internal Fixation Device w/CC",
+  "severity": 2,
+  "weight": 1.478499999999998
+ },
+ "84212": {
+  "desc": "IM Other Musculoskeletal System & Connective Tissue Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.7998999999999995
+ },
+ "84172": {
+  "desc": "IM Medical Back Problems w/CC",
+  "severity": 2,
+  "weight": 0.8110999999999997
+ },
+ "224122": {
+  "desc": "IM Other Factors Influencing Health Status w/CC",
+  "severity": 2,
+  "weight": 0.7960999143731322
+ },
+ "54223": {
+  "desc": "IM Cardiomyopathy w/MCC",
+  "severity": 3,
+  "weight": 1.2372000000000005
+ },
+ "104132": {
+  "desc": "IM Other Endocrine Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8884995729170728
+ },
+ "24122": {
+  "desc": "IM Other Eye Disorders w/CC",
+  "severity": 2,
+  "weight": 0.7252000000000003
+ },
+ "51203": {
+  "desc": "IP Other Circulatory System Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.188000000000001
+ },
+ "84122": {
+  "desc": "IM Fracture Or Dislocation Except Femur & Pelvis w/CC",
+  "severity": 2,
+  "weight": 0.7102000000000003
+ },
+ "84173": {
+  "desc": "IM Medical Back Problems w/MCC",
+  "severity": 3,
+  "weight": 1.3477000000000001
+ },
+ "41202": {
+  "desc": "IP Non-Complex Respiratory System Procedures w/CC",
+  "severity": 2,
+  "weight": 1.645799999999999
+ },
+ "31152": {
+  "desc": "IP Tonsil & Adenoid Procedures w/CC",
+  "severity": 2,
+  "weight": 0.7703999999999996
+ },
+ "184123": {
+  "desc": "IM Fever w/MCC",
+  "severity": 3,
+  "weight": 1.005000141265882
+ },
+ "84123": {
+  "desc": "IM Fracture Or Dislocation Except Femur & Pelvis w/MCC",
+  "severity": 3,
+  "weight": 1.1986
+ },
+ "174103": {
+  "desc": "IM Acute Leukemia w/MCC",
+  "severity": 3,
+  "weight": 5.8959007020775545
+ },
+ "11101": {
+  "desc": "IP Craniotomy",
+  "severity": 1,
+  "weight": 2.3231
+ },
+ "54181": {
+  "desc": "IM Cardiac Congenital & Valvular Disorders",
+  "severity": 1,
+  "weight": 0.5754999999999997
+ },
+ "91202": {
+  "desc": "IP Skin Graft With Burns w/CC",
+  "severity": 2,
+  "weight": 2.5173000000000014
+ },
+ "31131": {
+  "desc": "IP Salivary Gland Procedures",
+  "severity": 1,
+  "weight": 0.8699999999999997
+ },
+ "14162": {
+  "desc": "IM Transient Ischemia w/CC",
+  "severity": 2,
+  "weight": 0.7871000000000001
+ },
+ "74123": {
+  "desc": "IM Pancreas Disorders Except Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.8207000000000004
+ },
+ "44203": {
+  "desc": "IM Pneumothorax & Pleural Effusion w/MCC",
+  "severity": 3,
+  "weight": 1.5656000000000012
+ },
+ "84111": {
+  "desc": "IM Fracture Of Pelvis Or Dislocation Of Hip",
+  "severity": 1,
+  "weight": 0.5335
+ },
+ "94123": {
+  "desc": "IM Cellulitis w/MCC",
+  "severity": 3,
+  "weight": 1.2479000000000007
+ },
+ "174111": {
+  "desc": "IM Lymphoma & Non-Acute Leukemia",
+  "severity": 1,
+  "weight": 1.0221997435296597
+ },
+ "134142": {
+  "desc": "IM Threatened Abortion w/CC",
+  "severity": 2,
+  "weight": 0.45370019740045114
+ },
+ "14151": {
+  "desc": "IM Non-Specific Cva & Pre-Cerebral OCClusion Without Infarct",
+  "severity": 1,
+  "weight": 0.772599999999999
+ },
+ "61202": {
+  "desc": "IP Complex Intestinal Procedures w/CC",
+  "severity": 2,
+  "weight": 2.281599999999998
+ },
+ "54152": {
+  "desc": "IM Peripheral & Other Vascular Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8346999999999987
+ },
+ "81603": {
+  "desc": "IP Other Musculoskeletel System & Connective Tissue Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.3434999999999993
+ },
+ "224123": {
+  "desc": "IM Other Factors Influencing Health Status w/MCC",
+  "severity": 3,
+  "weight": 1.5859004468086018
+ },
+ "84101": {
+  "desc": "IM Fractures Of Femur",
+  "severity": 1,
+  "weight": 0.5596999999999996
+ },
+ "121151": {
+  "desc": "IP Circumcision",
+  "severity": 1,
+  "weight": 0.6405999663404907
+ },
+ "44202": {
+  "desc": "IM Pneumothorax & Pleural Effusion w/CC",
+  "severity": 2,
+  "weight": 0.9902999999999991
+ },
+ "174101": {
+  "desc": "IM Acute Leukemia",
+  "severity": 1,
+  "weight": 1.1037998552494162
+ },
+ "184112": {
+  "desc": "IM Post-Operative & Post-Traumatic Infections w/CC",
+  "severity": 2,
+  "weight": 0.950499647339344
+ },
+ "11103": {
+  "desc": "IP Craniotomy w/MCC",
+  "severity": 3,
+  "weight": 7.016499999999999
+ },
+ "51072": {
+  "desc": "IP Coronary Bypass Without Cardiac Catheterization w/CC",
+  "severity": 2,
+  "weight": 3.6559000000000017
+ },
+ "184102": {
+  "desc": "IM Septicemia w/CC",
+  "severity": 2,
+  "weight": 1.0391003463414639
+ },
+ "41303": {
+  "desc": "IP Moderately Complex Respiratory System Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.0990999999999875
+ },
+ "41201": {
+  "desc": "IP Non-Complex Respiratory System Procedures",
+  "severity": 1,
+  "weight": 1.1259999999999997
+ },
+ "164103": {
+  "desc": "IM Agranulocytosis w/MCC",
+  "severity": 3,
+  "weight": 1.6045002069720014
+ },
+ "64101": {
+  "desc": "IM Digestive Malignancy",
+  "severity": 1,
+  "weight": 0.7875999999999984
+ },
+ "131101": {
+  "desc": "IP Abortion Procedures",
+  "severity": 1,
+  "weight": 0.5813998422506955
+ },
+ "121142": {
+  "desc": "IP Transurethral Prostatectomy w/CC",
+  "severity": 2,
+  "weight": 0.8181999557633338
+ },
+ "61101": {
+  "desc": "IP Non-Complex Small & Large Bowel Procedures",
+  "severity": 1,
+  "weight": 1.2060000000000008
+ },
+ "134172": {
+  "desc": "IM Postpartum Disorders w/CC",
+  "severity": 2,
+  "weight": 0.5799002403318189
+ },
+ "94132": {
+  "desc": "IM Trauma To The Skin, Subcutaneous Tissue & Breast w/CC",
+  "severity": 2,
+  "weight": 0.7075000000000006
+ },
+ "81202": {
+  "desc": "IP Hip & Femur Procedures Except Major Joint w/CC",
+  "severity": 2,
+  "weight": 1.7529999999999981
+ },
+ "14242": {
+  "desc": "IM Head Trauma w/CC",
+  "severity": 2,
+  "weight": 1.0942000000000005
+ },
+ "61402": {
+  "desc": "IP Other Digestive System Procedures w/CC",
+  "severity": 2,
+  "weight": 1.6274
+ },
+ "81203": {
+  "desc": "IP Hip & Femur Procedures Except Major Joint w/MCC",
+  "severity": 3,
+  "weight": 3.027999999999999
+ },
+ "74113": {
+  "desc": "IM Malignancy Of Hepatobiliary System & Pancreas w/MCC",
+  "severity": 3,
+  "weight": 1.8302999999999991
+ },
+ "14131": {
+  "desc": "IM Non-Traumatic Intracranial Hemorrhage",
+  "severity": 1,
+  "weight": 1.0001999999999998
+ },
+ "214171": {
+  "desc": "IM Other Injury, Poisoning & Toxic Effect Diagnoses",
+  "severity": 1,
+  "weight": 0.5875997246602275
+ },
+ "94101": {
+  "desc": "IM Major Skin Disorders",
+  "severity": 1,
+  "weight": 0.6229000000000009
+ },
+ "54212": {
+  "desc": "IM Syncope & Collapse w/CC",
+  "severity": 2,
+  "weight": 0.7407
+ },
+ "81502": {
+  "desc": "IP Soft Tissue Procedures w/CC",
+  "severity": 2,
+  "weight": 1.4164999999999994
+ },
+ "51202": {
+  "desc": "IP Other Circulatory System Procedures w/CC",
+  "severity": 2,
+  "weight": 2.2898000000000094
+ },
+ "44123": {
+  "desc": "IM Pulmonary Embolism w/MCC",
+  "severity": 3,
+  "weight": 1.5814999999999997
+ },
+ "121111": {
+  "desc": "IP Penis Procedures",
+  "severity": 1,
+  "weight": 1.3537994552155868
+ },
+ "91203": {
+  "desc": "IP Skin Graft With Burns w/MCC",
+  "severity": 3,
+  "weight": 7.7826
+ },
+ "74103": {
+  "desc": "IM Cirrhosis & Alcoholic Hepatitis w/MCC",
+  "severity": 3,
+  "weight": 1.5199
+ },
+ "61142": {
+  "desc": "IP Inguinal & Femoral Hernia Procedures w/CC",
+  "severity": 2,
+  "weight": 1.0406000000000004
+ },
+ "14263": {
+  "desc": "IM Other Nervous System Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.359199999999999
+ },
+ "164102": {
+  "desc": "IM Agranulocytosis w/CC",
+  "severity": 2,
+  "weight": 1.01989922438125
+ },
+ "64122": {
+  "desc": "IM Esophageal Disorders w/CC",
+  "severity": 2,
+  "weight": 0.7475000000000008
+ },
+ "146122": {
+  "desc": "IP Vaginal Delivery With Procedure Except Sterilization &/Or Dilation & Curettage w/CC",
+  "severity": 2,
+  "weight": 0.4180000377761488
+ },
+ "146121": {
+  "desc": "IP Vaginal Delivery With Procedure Except Sterilization &/Or Dilation & Curettage",
+  "severity": 1,
+  "weight": 0.3807000032347918
+ },
+ "158121": {
+  "desc": "IM Neonate, Birthwt 1500-1999 Grams Without Major Procedure",
+  "severity": 1,
+  "weight": 0.6705995488526317
+ },
+ "184113": {
+  "desc": "IM Post-Operative & Post-Traumatic Infections w/MCC",
+  "severity": 3,
+  "weight": 1.5547994079190477
+ },
+ "111303": {
+  "desc": "IP Bladder & Lower Urinary Tract Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.7167938725000003
+ },
+ "44121": {
+  "desc": "IM Pulmonary Embolism",
+  "severity": 1,
+  "weight": 0.9145000000000002
+ },
+ "71121": {
+  "desc": "IP Cholecystectomy Except Laparoscopic",
+  "severity": 1,
+  "weight": 1.3648000000000011
+ },
+ "84163": {
+  "desc": "IM Connective Tissue Disorders w/MCC",
+  "severity": 3,
+  "weight": 2.1580999999999992
+ },
+ "214122": {
+  "desc": "IM Poisoning & Toxic Effects Of Drugs w/CC",
+  "severity": 2,
+  "weight": 0.5353004908218747
+ },
+ "164113": {
+  "desc": "IM Coagulation Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.6295005196666663
+ },
+ "14111": {
+  "desc": "IM Nervous System Malignancy & Degenerative Disorders",
+  "severity": 1,
+  "weight": 0.8487999999999984
+ },
+ "51113": {
+  "desc": "IP Cardiac Defibrillator & Heart Assist System Insertion w/MCC",
+  "severity": 3,
+  "weight": 8.9943
+ },
+ "51041": {
+  "desc": "IP Cardiac Valve Procedures Without Cardiac Catheterization",
+  "severity": 1,
+  "weight": 4.1488999999999985
+ },
+ "64103": {
+  "desc": "IM Digestive Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.8701999999999983
+ },
+ "14231": {
+  "desc": "IM Migraine & Other Headaches",
+  "severity": 1,
+  "weight": 0.5563000000000001
+ },
+ "61122": {
+  "desc": "IP Hernia Procedures Except Inguinal & Femoral w/CC",
+  "severity": 2,
+  "weight": 1.2415000000000007
+ },
+ "164143": {
+  "desc": "IM Other Blood & Blood Forming Organs Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.965098822388235
+ },
+ "64132": {
+  "desc": "IM Diverticulitis, Diverticulosis & Inflammatory Bowel Disease w/CC",
+  "severity": 2,
+  "weight": 0.8693999999999993
+ },
+ "31202": {
+  "desc": "IP Other Ear, Nose, Mouth & Throat Procedures w/CC",
+  "severity": 2,
+  "weight": 1.7206000000000001
+ },
+ "41302": {
+  "desc": "IP Moderately Complex Respiratory System Procedures w/CC",
+  "severity": 2,
+  "weight": 2.063599999999996
+ },
+ "81803": {
+  "desc": "IP Upper Extremity Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.6223999999999994
+ },
+ "51073": {
+  "desc": "IP Coronary Bypass Without Cardiac Catheterization w/MCC",
+  "severity": 3,
+  "weight": 5.247100000000001
+ },
+ "21303": {
+  "desc": "IP Intraocular & Lens Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.1884
+ },
+ "44193": {
+  "desc": "IM Interstitial Lung Disease w/MCC",
+  "severity": 3,
+  "weight": 1.6060999999999999
+ },
+ "114151": {
+  "desc": "IM Kidney & Urinary Tract Signs & Symptoms",
+  "severity": 1,
+  "weight": 0.435900488014444
+ },
+ "184132": {
+  "desc": "IM Non-Bacterial Infections w/CC",
+  "severity": 2,
+  "weight": 0.5986993603038968
+ },
+ "14171": {
+  "desc": "IM Cranial & Peripheral Nerve Disorders",
+  "severity": 1,
+  "weight": 0.6980000000000003
+ },
+ "224111": {
+  "desc": "IM Signs & Symptoms",
+  "severity": 1,
+  "weight": 0.4905007003468756
+ },
+ "164112": {
+  "desc": "IM Coagulation Disorders w/CC",
+  "severity": 2,
+  "weight": 1.0029004102031236
+ },
+ "11102": {
+  "desc": "IP Craniotomy w/CC",
+  "severity": 2,
+  "weight": 3.2324000000000006
+ },
+ "81072": {
+  "desc": "IP Spinal Fusion Procedures Except For Curvature Of The Spine w/CC",
+  "severity": 2,
+  "weight": 3.1337999999999995
+ },
+ "81073": {
+  "desc": "IP Spinal Fusion Procedures Except For Curvature Of The Spine w/MCC",
+  "severity": 3,
+  "weight": 6.3839
+ },
+ "44113": {
+  "desc": "IM Respiratory Failure w/MCC",
+  "severity": 3,
+  "weight": 1.5885999999999998
+ },
+ "14112": {
+  "desc": "IM Nervous System Malignancy & Degenerative Disorders w/CC",
+  "severity": 2,
+  "weight": 0.9849999999999997
+ },
+ "44191": {
+  "desc": "IM Interstitial Lung Disease",
+  "severity": 1,
+  "weight": 0.8254000000000001
+ },
+ "51063": {
+  "desc": "IP Other Cardiothoracic Procedures w/MCC",
+  "severity": 3,
+  "weight": 5.982100000000002
+ },
+ "81302": {
+  "desc": "IP Foot Procedures w/CC",
+  "severity": 2,
+  "weight": 1.428199999999999
+ },
+ "41023": {
+  "desc": "IP Long Term Mechanical Ventilation Without Tracheostomy w/MCC",
+  "severity": 3,
+  "weight": 7.6127585398
+ },
+ "31203": {
+  "desc": "IP Other Ear, Nose, Mouth & Throat Procedures w/MCC",
+  "severity": 3,
+  "weight": 9.977399999999992
+ },
+ "174141": {
+  "desc": "IM Other Myeloprolif Disorders & Poorly Differentiated Neoplasm Diagnosis",
+  "severity": 1,
+  "weight": 0.7941998151853659
+ },
+ "184101": {
+  "desc": "IM Septicemia",
+  "severity": 1,
+  "weight": 0.6233995336946657
+ },
+ "14191": {
+  "desc": "IM Non-Bacterial Infections Of Nervous System Except Viral Meningitis",
+  "severity": 1,
+  "weight": 1.2224000000000002
+ },
+ "64162": {
+  "desc": "IM Major Gastrointestinal Infections w/CC",
+  "severity": 2,
+  "weight": 1.2087
+ },
+ "64152": {
+  "desc": "IM Gastrointestinal Obstruction w/CC",
+  "severity": 2,
+  "weight": 0.7762
+ },
+ "84112": {
+  "desc": "IM Fracture Of Pelvis Or Dislocation Of Hip w/CC",
+  "severity": 2,
+  "weight": 0.7344000000000006
+ },
+ "131302": {
+  "desc": "IP Vagina, Cervix & Vulva Procedures w/CC",
+  "severity": 2,
+  "weight": 0.8982000191155886
+ },
+ "44141": {
+  "desc": "IM Respiratory Malignancy",
+  "severity": 1,
+  "weight": 0.8667000000000008
+ },
+ "158131": {
+  "desc": "IM Neonate, Birthwt 2000-2499 Grams Without Major Procedure",
+  "severity": 1,
+  "weight": 0.15989970653809518
+ },
+ "224112": {
+  "desc": "IM Signs & Symptoms w/CC",
+  "severity": 2,
+  "weight": 0.6136004953875007
+ },
+ "44142": {
+  "desc": "IM Respiratory Malignancy w/CC",
+  "severity": 2,
+  "weight": 1.2533999999999994
+ },
+ "134111": {
+  "desc": "IM Female Reproductive System Infections",
+  "severity": 1,
+  "weight": 0.5808002156639342
+ },
+ "34112": {
+  "desc": "IM Dysequilibrium w/CC",
+  "severity": 2,
+  "weight": 0.6472000000000007
+ },
+ "14192": {
+  "desc": "IM Non-Bacterial Infections Of Nervous System Except Viral Meningitis w/CC",
+  "severity": 2,
+  "weight": 1.7708999999999993
+ },
+ "164142": {
+  "desc": "IM Other Blood & Blood Forming Organs Disorders w/CC",
+  "severity": 2,
+  "weight": 0.9993997516666675
+ },
+ "34142": {
+  "desc": "IM Dental & Oral Disease w/CC",
+  "severity": 2,
+  "weight": 0.7845000000000009
+ },
+ "131203": {
+  "desc": "IP Uterine & Adnexal Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.518699795551724
+ },
+ "94142": {
+  "desc": "IM Other Skin & Breast Disorders w/CC",
+  "severity": 2,
+  "weight": 0.6095
+ },
+ "74112": {
+  "desc": "IM Malignancy Of Hepatobiliary System & Pancreas w/CC",
+  "severity": 2,
+  "weight": 1.246899999999998
+ },
+ "44143": {
+  "desc": "IM Respiratory Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.7700000000000005
+ },
+ "84103": {
+  "desc": "IM Fractures Of Femur w/MCC",
+  "severity": 3,
+  "weight": 1.2796
+ },
+ "64133": {
+  "desc": "IM Diverticulitis, Diverticulosis & Inflammatory Bowel Disease w/MCC",
+  "severity": 3,
+  "weight": 1.4036
+ },
+ "121122": {
+  "desc": "IP Moderately Complex Prostate & Scrotal Contents Procedures w/CC",
+  "severity": 2,
+  "weight": 1.2209017852250001
+ },
+ "101202": {
+  "desc": "IP Thyroid, Parathyroid & Thyroglossal Duct Procedures w/CC",
+  "severity": 2,
+  "weight": 1.0782997250781245
+ },
+ "14121": {
+  "desc": "IM Multiple Sclerosis & Cerebellar Ataxia",
+  "severity": 1,
+  "weight": 0.7496000000000007
+ },
+ "124112": {
+  "desc": "IM Male Reproductive System Diagnoses Except Malignancy w/CC",
+  "severity": 2,
+  "weight": 0.6661004713482759
+ },
+ "64123": {
+  "desc": "IM Esophageal Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.2854000000000005
+ },
+ "214172": {
+  "desc": "IM Other Injury, Poisoning & Toxic Effect Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.6842995322250002
+ },
+ "94102": {
+  "desc": "IM Major Skin Disorders w/CC",
+  "severity": 2,
+  "weight": 1.0148000000000004
+ },
+ "84182": {
+  "desc": "IM Other Bone & Joint Diseases w/CC",
+  "severity": 2,
+  "weight": 0.7520999999999993
+ },
+ "184133": {
+  "desc": "IM Non-Bacterial Infections w/MCC",
+  "severity": 3,
+  "weight": 1.0126994475594593
+ },
+ "84162": {
+  "desc": "IM Connective Tissue Disorders w/CC",
+  "severity": 2,
+  "weight": 1.0414000000000008
+ },
+ "81042": {
+  "desc": "IP Major Lower Extremity Joint & Limb Reattachment Procedures w/CC",
+  "severity": 2,
+  "weight": 2.165300000000001
+ },
+ "81303": {
+  "desc": "IP Foot Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.1306
+ },
+ "34143": {
+  "desc": "IM Dental & Oral Disease w/MCC",
+  "severity": 3,
+  "weight": 1.398
+ },
+ "214173": {
+  "desc": "IM Other Injury, Poisoning & Toxic Effect Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.05709778928
+ },
+ "44133": {
+  "desc": "IM Major Chest Trauma w/MCC",
+  "severity": 3,
+  "weight": 1.5186
+ },
+ "51061": {
+  "desc": "IP Other Cardiothoracic Procedures",
+  "severity": 1,
+  "weight": 2.6802999999999977
+ },
+ "214133": {
+  "desc": "IM Complications Of Treatment w/MCC",
+  "severity": 3,
+  "weight": 1.5283004561562503
+ },
+ "91502": {
+  "desc": "IP Breast Procedures w/CC",
+  "severity": 2,
+  "weight": 1.1061000000000003
+ },
+ "164101": {
+  "desc": "IM Agranulocytosis",
+  "severity": 1,
+  "weight": 0.6851996014886088
+ },
+ "14181": {
+  "desc": "IM Bacterial & Tuberculous Infections Of Nervous System",
+  "severity": 1,
+  "weight": 1.3053999999999997
+ },
+ "214111": {
+  "desc": "IM Allergic Reactions",
+  "severity": 1,
+  "weight": 0.3095007070304347
+ },
+ "84132": {
+  "desc": "IM Musculoskeletal & Connective Tissue Malignancy & Pathological Fractures w/CC",
+  "severity": 2,
+  "weight": 0.9665
+ },
+ "14201": {
+  "desc": "IM Viral Meningitis",
+  "severity": 1,
+  "weight": 0.5835000000000002
+ },
+ "194151": {
+  "desc": "IM Neuroses Except Depression",
+  "severity": 1,
+  "weight": 0.4039999696588235
+ },
+ "114112": {
+  "desc": "IM Nephritis w/CC",
+  "severity": 2,
+  "weight": 0.9566999322393944
+ },
+ "158143": {
+  "desc": "IM Neonate, Birthwt >2499 Grams With Major Anomaly Or Hereditary Condition w/MCC",
+  "severity": 3,
+  "weight": 4.617801562168751
+ },
+ "174112": {
+  "desc": "IM Lymphoma & Non-Acute Leukemia w/CC",
+  "severity": 2,
+  "weight": 1.3851985202969692
+ },
+ "134102": {
+  "desc": "IM Female Reproductive System Malignancy w/CC",
+  "severity": 2,
+  "weight": 0.9988006940088231
+ },
+ "111302": {
+  "desc": "IP Bladder & Lower Urinary Tract Procedures w/CC",
+  "severity": 2,
+  "weight": 1.2043001853109105
+ },
+ "14172": {
+  "desc": "IM Cranial & Peripheral Nerve Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8662999999999998
+ },
+ "84143": {
+  "desc": "IM Osteomyelitis w/MCC",
+  "severity": 3,
+  "weight": 2.1071999999999997
+ },
+ "84113": {
+  "desc": "IM Fracture Of Pelvis Or Dislocation Of Hip w/MCC",
+  "severity": 3,
+  "weight": 1.3035
+ },
+ "104133": {
+  "desc": "IM Other Endocrine Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.5372981648176476
+ },
+ "91201": {
+  "desc": "IP Skin Graft With Burns",
+  "severity": 1,
+  "weight": 1.1475000000000004
+ },
+ "71103": {
+  "desc": "IP Pancreas & Liver Procedures w/MCC",
+  "severity": 3,
+  "weight": 7.605899999999999
+ },
+ "94133": {
+  "desc": "IM Trauma To The Skin, Subcutaneous Tissue & Breast w/MCC",
+  "severity": 3,
+  "weight": 1.0613
+ },
+ "161202": {
+  "desc": "IP Other Procedures Of Blood & Blood Forming Organs w/CC",
+  "severity": 2,
+  "weight": 1.7357973360312502
+ },
+ "94103": {
+  "desc": "IM Major Skin Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.7847000000000006
+ },
+ "61503": {
+  "desc": "IP Anal Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.9641
+ },
+ "34101": {
+  "desc": "IM Ear, Nose, Mouth & Throat Malignancy",
+  "severity": 1,
+  "weight": 0.8581000000000002
+ },
+ "84151": {
+  "desc": "IM Septic Arthritis",
+  "severity": 1,
+  "weight": 0.6466999999999995
+ },
+ "124102": {
+  "desc": "IM Male Reproductive System Malignancy w/CC",
+  "severity": 2,
+  "weight": 1.4229995294611115
+ },
+ "71101": {
+  "desc": "IP Pancreas & Liver Procedures",
+  "severity": 1,
+  "weight": 2.1862
+ },
+ "214132": {
+  "desc": "IM Complications Of Treatment w/CC",
+  "severity": 2,
+  "weight": 0.7888003090950821
+ },
+ "174113": {
+  "desc": "IM Lymphoma & Non-Acute Leukemia w/MCC",
+  "severity": 3,
+  "weight": 2.515700145538235
+ },
+ "51043": {
+  "desc": "IP Cardiac Valve Procedures Without Cardiac Catheterization w/MCC",
+  "severity": 3,
+  "weight": 8.589
+ },
+ "158163": {
+  "desc": "IM Neonate, Birthwt >2499 Grams With Congenital/Perinatal Infections w/MCC",
+  "severity": 3,
+  "weight": 1.5755043994181817
+ },
+ "84183": {
+  "desc": "IM Other Bone & Joint Diseases w/MCC",
+  "severity": 3,
+  "weight": 1.0358
+ },
+ "64161": {
+  "desc": "IM Major Gastrointestinal Infections",
+  "severity": 1,
+  "weight": 0.8770000000000002
+ },
+ "11121": {
+  "desc": "IP Extracranial Vascular Procedures",
+  "severity": 1,
+  "weight": 1.0814
+ },
+ "61301": {
+  "desc": "IP Non-Complex Stomach, Esophageal & Duodenal Procedures",
+  "severity": 1,
+  "weight": 0.8846999999999998
+ },
+ "94112": {
+  "desc": "IM Malignant Breast Disorders w/CC",
+  "severity": 2,
+  "weight": 1.014
+ },
+ "214112": {
+  "desc": "IM Allergic Reactions w/CC",
+  "severity": 2,
+  "weight": 0.4539007863000001
+ },
+ "54233": {
+  "desc": "IM Malfunction, Reaction & Complication Of Cardiaovascolar Device Or Procedure w/MCC",
+  "severity": 3,
+  "weight": 1.7635999999999985
+ },
+ "44131": {
+  "desc": "IM Major Chest Trauma",
+  "severity": 1,
+  "weight": 0.6350000000000011
+ },
+ "214123": {
+  "desc": "IM Poisoning & Toxic Effects Of Drugs w/MCC",
+  "severity": 3,
+  "weight": 1.024102164184211
+ },
+ "14211": {
+  "desc": "IM Non-Traumatic Stupor & Coma",
+  "severity": 1,
+  "weight": 0.6447000000000002
+ },
+ "134143": {
+  "desc": "IM Threatened Abortion w/MCC",
+  "severity": 3,
+  "weight": 0.5627004053871556
+ },
+ "74102": {
+  "desc": "IM Cirrhosis & Alcoholic Hepatitis w/CC",
+  "severity": 2,
+  "weight": 0.901699999999999
+ },
+ "14182": {
+  "desc": "IM Bacterial & Tuberculous Infections Of Nervous System w/CC",
+  "severity": 2,
+  "weight": 2.0335
+ },
+ "161203": {
+  "desc": "IP Other Procedures Of Blood & Blood Forming Organs w/MCC",
+  "severity": 3,
+  "weight": 3.3887988489999996
+ },
+ "84213": {
+  "desc": "IM Other Musculoskeletal System & Connective Tissue Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.3663999999999996
+ },
+ "61103": {
+  "desc": "IP Non-Complex Small & Large Bowel Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.1498
+ },
+ "174102": {
+  "desc": "IM Acute Leukemia w/CC",
+  "severity": 2,
+  "weight": 1.4396010554878782
+ },
+ "51062": {
+  "desc": "IP Other Cardiothoracic Procedures w/CC",
+  "severity": 2,
+  "weight": 3.7771999999999974
+ },
+ "158172": {
+  "desc": "IM Neonate, Birthwt >2499 Grams Without Major Procedure w/CC",
+  "severity": 2,
+  "weight": 0.24870044638061195
+ },
+ "158123": {
+  "desc": "IM Neonate, Birthwt 1500-1999 Grams Without Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 4.7829008313833326
+ },
+ "14113": {
+  "desc": "IM Nervous System Malignancy & Degenerative Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.4431999999999996
+ },
+ "14103": {
+  "desc": "IM Spinal Disorders & Injuries w/MCC",
+  "severity": 3,
+  "weight": 2.3787999999999987
+ },
+ "104123": {
+  "desc": "IM Inborn Errors Of Metabolism w/MCC",
+  "severity": 3,
+  "weight": 1.5209984710789477
+ },
+ "134101": {
+  "desc": "IM Female Reproductive System Malignancy",
+  "severity": 1,
+  "weight": 0.7956016391300001
+ },
+ "121132": {
+  "desc": "IP Non-Complex Prostate & Scrotal Contents Procedures w/CC",
+  "severity": 2,
+  "weight": 1.3191970788923078
+ },
+ "51051": {
+  "desc": "IP Coronary Bypass With Cardiac Catheterization",
+  "severity": 1,
+  "weight": 4.5643
+ },
+ "14152": {
+  "desc": "IM Non-Specific Cva & Pre-Cerebral OCClusion Without Infarct w/CC",
+  "severity": 2,
+  "weight": 0.9309000000000004
+ },
+ "114142": {
+  "desc": "IM Malfunction, Reaction Or Complication Of Urinary Tract Device, Graft Or Transplantation w/CC",
+  "severity": 2,
+  "weight": 0.796500802849124
+ },
+ "11202": {
+  "desc": "IP Cranial & Peripheral Nerve Procedures w/CC",
+  "severity": 2,
+  "weight": 1.6867000000000008
+ },
+ "44132": {
+  "desc": "IM Major Chest Trauma w/CC",
+  "severity": 2,
+  "weight": 0.9342000000000003
+ },
+ "41022": {
+  "desc": "IP Long Term Mechanical Ventilation Without Tracheostomy w/CC",
+  "severity": 2,
+  "weight": 5.1517093839
+ },
+ "158103": {
+  "desc": "IM Neonate, Died Or Transferred To Another Acute Care Facility w/MCC",
+  "severity": 3,
+  "weight": 2.0764970748272726
+ },
+ "51143": {
+  "desc": "IP Permanent Cardiac Pacemaker Insertion w/MCC",
+  "severity": 3,
+  "weight": 4.1558084557
+ },
+ "51303": {
+  "desc": "IP Cardiac Pacemaker & Defibrillator Device Replacement w/MCC",
+  "severity": 3,
+  "weight": 4.3356
+ },
+ "64153": {
+  "desc": "IM Gastrointestinal Obstruction w/MCC",
+  "severity": 3,
+  "weight": 1.3863
+ },
+ "81703": {
+  "desc": "IP Knee & Lower Leg Procedures Except Foot w/MCC",
+  "severity": 3,
+  "weight": 3.0761
+ },
+ "14213": {
+  "desc": "IM Non-Traumatic Stupor & Coma w/MCC",
+  "severity": 3,
+  "weight": 1.5754999999999988
+ },
+ "81403": {
+  "desc": "IP Local Excision & Removal Of Internal Fixation Device w/MCC",
+  "severity": 3,
+  "weight": 2.7074
+ },
+ "134123": {
+  "desc": "IM Menstrual & Other Female Reproductive System Disorders w/MCC",
+  "severity": 3,
+  "weight": 0.95209775266
+ },
+ "94143": {
+  "desc": "IM Other Skin & Breast Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.1210000000000002
+ },
+ "31141": {
+  "desc": "IP Cleft Lip & Palate Repair",
+  "severity": 1,
+  "weight": 0.7346000000000003
+ },
+ "41101": {
+  "desc": "IP Complex Respiratory System Procedures",
+  "severity": 1,
+  "weight": 2.0596
+ },
+ "74111": {
+  "desc": "IM Malignancy Of Hepatobiliary System & Pancreas",
+  "severity": 1,
+  "weight": 0.9166999999999995
+ },
+ "14193": {
+  "desc": "IM Non-Bacterial Infections Of Nervous System Except Viral Meningitis w/MCC",
+  "severity": 3,
+  "weight": 3.0805000000000002
+ },
+ "134152": {
+  "desc": "IM False Labor w/CC",
+  "severity": 2,
+  "weight": 0.23510021624861072
+ },
+ "104122": {
+  "desc": "IM Inborn Errors Of Metabolism w/CC",
+  "severity": 2,
+  "weight": 0.8585002182648144
+ },
+ "34152": {
+  "desc": "IM Other Ear, Nose, Mouth & Throat Diagnoses w/CC",
+  "severity": 2,
+  "weight": 0.7338999999999991
+ },
+ "131113": {
+  "desc": "IP Dilation & Curettage, Intrauterine & Cervical Procedures w/MCC",
+  "severity": 3,
+  "weight": 0.9704001591560977
+ },
+ "84133": {
+  "desc": "IM Musculoskeletal & Connective Tissue Malignancy & Pathological Fractures w/MCC",
+  "severity": 3,
+  "weight": 1.7418000000000002
+ },
+ "61112": {
+  "desc": "IP Peritoneal Adhesiolysis w/CC",
+  "severity": 2,
+  "weight": 1.3918
+ },
+ "84102": {
+  "desc": "IM Fractures Of Femur w/CC",
+  "severity": 2,
+  "weight": 0.7396999999999995
+ },
+ "51042": {
+  "desc": "IP Cardiac Valve Procedures Without Cardiac Catheterization w/CC",
+  "severity": 2,
+  "weight": 5.146500000000001
+ },
+ "51123": {
+  "desc": "IP Complex Thoracic Vascular Procedures w/MCC",
+  "severity": 3,
+  "weight": 8.8377
+ },
+ "51111": {
+  "desc": "IP Cardiac Defibrillator & Heart Assist System Insertion",
+  "severity": 1,
+  "weight": 6.078899999999999
+ },
+ "54113": {
+  "desc": "IM Acute & Subacute Endocarditis w/MCC",
+  "severity": 3,
+  "weight": 2.8232
+ },
+ "51141": {
+  "desc": "IP Permanent Cardiac Pacemaker Insertion",
+  "severity": 1,
+  "weight": 2.2315032939
+ },
+ "84153": {
+  "desc": "IM Septic Arthritis w/MCC",
+  "severity": 3,
+  "weight": 1.8451
+ },
+ "224113": {
+  "desc": "IM Signs & Symptoms w/MCC",
+  "severity": 3,
+  "weight": 0.9231981084499997
+ },
+ "134173": {
+  "desc": "IM Postpartum Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.112500267914286
+ },
+ "91303": {
+  "desc": "IP Skin Graft Without Burns w/MCC",
+  "severity": 3,
+  "weight": 5.7742
+ },
+ "44112": {
+  "desc": "IM Respiratory Failure w/CC",
+  "severity": 2,
+  "weight": 1.1084999999999998
+ },
+ "41103": {
+  "desc": "IP Complex Respiratory System Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.8152
+ },
+ "54221": {
+  "desc": "IM Cardiomyopathy",
+  "severity": 1,
+  "weight": 0.6933000000000002
+ },
+ "114113": {
+  "desc": "IM Nephritis w/MCC",
+  "severity": 3,
+  "weight": 1.6687969162000005
+ },
+ "84192": {
+  "desc": "IM Malfunction, Reaction Or Complication Of Orthopedic Device Or Procedure w/CC",
+  "severity": 2,
+  "weight": 0.8755000000000001
+ },
+ "24123": {
+  "desc": "IM Other Eye Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.2084
+ },
+ "11111": {
+  "desc": "IP Ventricular Shunt Procedures",
+  "severity": 1,
+  "weight": 1.2442999999999995
+ },
+ "81503": {
+  "desc": "IP Soft Tissue Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.0912
+ },
+ "64163": {
+  "desc": "IM Major Gastrointestinal Infections w/MCC",
+  "severity": 3,
+  "weight": 1.8073000000000004
+ },
+ "174121": {
+  "desc": "IM Radiotherapy",
+  "severity": 1,
+  "weight": 0.5736036630923077
+ },
+ "121101": {
+  "desc": "IP Complex Prostatectomy Procedures",
+  "severity": 1,
+  "weight": 1.2454010708
+ },
+ "114152": {
+  "desc": "IM Kidney & Urinary Tract Signs & Symptoms w/CC",
+  "severity": 2,
+  "weight": 0.5982979452875
+ },
+ "84152": {
+  "desc": "IM Septic Arthritis w/CC",
+  "severity": 2,
+  "weight": 0.9596
+ },
+ "14212": {
+  "desc": "IM Non-Traumatic Stupor & Coma w/CC",
+  "severity": 2,
+  "weight": 0.9009
+ },
+ "14173": {
+  "desc": "IM Cranial & Peripheral Nerve Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.452
+ },
+ "71131": {
+  "desc": "IP Other Hepatobiliary & Pancreas Procedures",
+  "severity": 1,
+  "weight": 1.1804
+ },
+ "84202": {
+  "desc": "IM Musculoskeletal Signs, Symptoms, Sprains & Minor Inflammations w/CC",
+  "severity": 2,
+  "weight": 0.6241000000000002
+ },
+ "61143": {
+  "desc": "IP Inguinal & Femoral Hernia Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.1489
+ },
+ "54232": {
+  "desc": "IM Malfunction, Reaction & Complication Of Cardiaovascolar Device Or Procedure w/CC",
+  "severity": 2,
+  "weight": 0.9025999999999997
+ },
+ "54222": {
+  "desc": "IM Cardiomyopathy w/CC",
+  "severity": 2,
+  "weight": 0.8149000000000008
+ },
+ "71102": {
+  "desc": "IP Pancreas & Liver Procedures w/CC",
+  "severity": 2,
+  "weight": 3.281300000000001
+ },
+ "158173": {
+  "desc": "IM Neonate, Birthwt >2499 Grams Without Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 0.7720006634218746
+ },
+ "158142": {
+  "desc": "IM Neonate, Birthwt >2499 Grams With Major Anomaly Or Hereditary Condition w/CC",
+  "severity": 2,
+  "weight": 0.858200510529166
+ },
+ "158113": {
+  "desc": "IM Neonate, Birthwt 1000-1499 Grams Without Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 10.295899883626472
+ },
+ "31111": {
+  "desc": "IP Other Complex Head & Neck Procedures",
+  "severity": 1,
+  "weight": 1.561599999999999
+ },
+ "81043": {
+  "desc": "IP Major Lower Extremity Joint & Limb Reattachment Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.1832
+ },
+ "51033": {
+  "desc": "IP Complex Cardiothoracic Repair Of Heart Anomaly w/MCC",
+  "severity": 3,
+  "weight": 8.9612
+ },
+ "51142": {
+  "desc": "IP Permanent Cardiac Pacemaker Insertion w/CC",
+  "severity": 2,
+  "weight": 2.7368
+ },
+ "61113": {
+  "desc": "IP Peritoneal Adhesiolysis w/MCC",
+  "severity": 3,
+  "weight": 3.2323999999999993
+ },
+ "24103": {
+  "desc": "IM Acute Major Eye Infections w/MCC",
+  "severity": 3,
+  "weight": 1.1291
+ },
+ "121102": {
+  "desc": "IP Complex Prostatectomy Procedures w/CC",
+  "severity": 2,
+  "weight": 1.430000623
+ },
+ "81101": {
+  "desc": "IP Cranial & Facial Bone Reconstructive Procedures",
+  "severity": 1,
+  "weight": 1.3783999999999994
+ },
+ "71111": {
+  "desc": "IP Complex Biliary Tract Procedures",
+  "severity": 1,
+  "weight": 1.7681999999999998
+ },
+ "54213": {
+  "desc": "IM Syncope & Collapse w/MCC",
+  "severity": 3,
+  "weight": 1.0104
+ },
+ "204112": {
+  "desc": "IM Alcohol, Opioid & Cocaine Abuse & Dependence w/CC",
+  "severity": 2,
+  "weight": 0.6379020877
+ },
+ "34102": {
+  "desc": "IM Ear, Nose, Mouth & Throat Malignancy w/CC",
+  "severity": 2,
+  "weight": 1.0564
+ },
+ "164123": {
+  "desc": "IM Sickle Cell Anemia Crisis w/MCC",
+  "severity": 3,
+  "weight": 1.6309992632035715
+ },
+ "174143": {
+  "desc": "IM Other Myeloprolif Disorders & Poorly Differentiated Neoplasm Diagnosis w/MCC",
+  "severity": 3,
+  "weight": 1.7691983039124999
+ },
+ "84142": {
+  "desc": "IM Osteomyelitis w/CC",
+  "severity": 2,
+  "weight": 1.239
+ },
+ "84203": {
+  "desc": "IM Musculoskeletal Signs, Symptoms, Sprains & Minor Inflammations w/MCC",
+  "severity": 3,
+  "weight": 0.9213000000000001
+ },
+ "74101": {
+  "desc": "IM Cirrhosis & Alcoholic Hepatitis",
+  "severity": 1,
+  "weight": 0.5739
+ },
+ "54131": {
+  "desc": "IM Deep Vein Thrombophlebitis",
+  "severity": 1,
+  "weight": 0.485
+ },
+ "51172": {
+  "desc": "IP Vein Ligation & Stripping w/CC",
+  "severity": 2,
+  "weight": 1.2249
+ },
+ "84141": {
+  "desc": "IM Osteomyelitis",
+  "severity": 1,
+  "weight": 0.8583999999999997
+ },
+ "158151": {
+  "desc": "IM Neonate, Birthwt >2499 Grams With Aspiration Syndrome",
+  "severity": 1,
+  "weight": 0.24299432318571426
+ },
+ "174142": {
+  "desc": "IM Other Myeloprolif Disorders & Poorly Differentiated Neoplasm Diagnosis w/CC",
+  "severity": 2,
+  "weight": 1.1605010773086955
+ },
+ "44192": {
+  "desc": "IM Interstitial Lung Disease w/CC",
+  "severity": 2,
+  "weight": 1.0793000000000006
+ },
+ "131303": {
+  "desc": "IP Vagina, Cervix & Vulva Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.2219000674434821
+ },
+ "41013": {
+  "desc": "IP Long Term Mechanical Ventilation With Tracheostomy w/MCC",
+  "severity": 3,
+  "weight": 17.1707034486
+ },
+ "51163": {
+  "desc": "IP Cardiac Pacemaker & Defibrillator Revision Except Device Replacement w/MCC",
+  "severity": 3,
+  "weight": 2.8216
+ },
+ "54143": {
+  "desc": "IM Cardiac Arrest, Unexplained w/MCC",
+  "severity": 3,
+  "weight": 0.8745
+ },
+ "14253": {
+  "desc": "IM Concussion w/MCC",
+  "severity": 3,
+  "weight": 1.4352
+ },
+ "134103": {
+  "desc": "IM Female Reproductive System Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.7764026623300002
+ },
+ "34153": {
+  "desc": "IM Other Ear, Nose, Mouth & Throat Diagnoses w/MCC",
+  "severity": 3,
+  "weight": 1.0561000000000003
+ },
+ "158141": {
+  "desc": "IM Neonate, Birthwt >2499 Grams With Major Anomaly Or Hereditary Condition",
+  "severity": 1,
+  "weight": 0.19730188609374996
+ },
+ "11112": {
+  "desc": "IP Ventricular Shunt Procedures w/CC",
+  "severity": 2,
+  "weight": 1.7384999999999995
+ },
+ "111112": {
+  "desc": "IP Complex Bladder Procedures w/CC",
+  "severity": 2,
+  "weight": 2.408995458271428
+ },
+ "81023": {
+  "desc": "IP Amputation w/MCC",
+  "severity": 3,
+  "weight": 3.4962
+ },
+ "34103": {
+  "desc": "IM Ear, Nose, Mouth & Throat Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.5907
+ },
+ "81051": {
+  "desc": "IP Major Upper Extremity Joint & Limb Reattachment Procedures",
+  "severity": 1,
+  "weight": 1.6932000000000005
+ },
+ "94111": {
+  "desc": "IM Malignant Breast Disorders",
+  "severity": 1,
+  "weight": 0.7400999999999984
+ },
+ "34123": {
+  "desc": "IM Epistaxis w/MCC",
+  "severity": 3,
+  "weight": 0.8844
+ },
+ "161111": {
+  "desc": "IP Spleen Procedures",
+  "severity": 1,
+  "weight": 1.5023960377375
+ },
+ "54111": {
+  "desc": "IM Acute & Subacute Endocarditis",
+  "severity": 1,
+  "weight": 0.9976
+ },
+ "14153": {
+  "desc": "IM Non-Specific Cva & Pre-Cerebral OCClusion Without Infarct w/MCC",
+  "severity": 3,
+  "weight": 1.4132
+ },
+ "194163": {
+  "desc": "IM Organic Disturbances & Mental Retardation w/MCC",
+  "severity": 3,
+  "weight": 1.1999014884875
+ },
+ "14232": {
+  "desc": "IM Migraine & Other Headaches w/CC",
+  "severity": 2,
+  "weight": 0.6807
+ },
+ "124101": {
+  "desc": "IM Male Reproductive System Malignancy",
+  "severity": 1,
+  "weight": 1.0473996621235293
+ },
+ "24112": {
+  "desc": "IM Neurological Eye Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8047000000000001
+ },
+ "64141": {
+  "desc": "IM Gastrointestinal Vascular Insufficiency",
+  "severity": 1,
+  "weight": 0.7706
+ },
+ "24102": {
+  "desc": "IM Acute Major Eye Infections w/CC",
+  "severity": 2,
+  "weight": 0.7191
+ },
+ "44111": {
+  "desc": "IM Respiratory Failure",
+  "severity": 1,
+  "weight": 0.7964000000000001
+ },
+ "194152": {
+  "desc": "IM Neuroses Except Depression w/CC",
+  "severity": 2,
+  "weight": 0.5687046222099998
+ },
+ "14252": {
+  "desc": "IM Concussion w/CC",
+  "severity": 2,
+  "weight": 0.9735000000000001
+ },
+ "21202": {
+  "desc": "IP Orbital & Extraocular Procedures w/CC",
+  "severity": 2,
+  "weight": 1.4263000000000003
+ },
+ "174122": {
+  "desc": "IM Radiotherapy w/CC",
+  "severity": 2,
+  "weight": 1.3137985598400004
+ },
+ "214113": {
+  "desc": "IM Allergic Reactions w/MCC",
+  "severity": 3,
+  "weight": 0.7757975979000001
+ },
+ "134133": {
+  "desc": "IM Abortion w/MCC",
+  "severity": 3,
+  "weight": 0.49370033720810846
+ },
+ "94113": {
+  "desc": "IM Malignant Breast Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.6072
+ },
+ "51032": {
+  "desc": "IP Complex Cardiothoracic Repair Of Heart Anomaly w/CC",
+  "severity": 2,
+  "weight": 5.381900000000001
+ },
+ "11303": {
+  "desc": "IP Spine Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.7413000000000003
+ },
+ "51161": {
+  "desc": "IP Cardiac Pacemaker & Defibrillator Revision Except Device Replacement",
+  "severity": 1,
+  "weight": 0.9407999999999997
+ },
+ "124113": {
+  "desc": "IM Male Reproductive System Diagnoses Except Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.0925008427999998
+ },
+ "61102": {
+  "desc": "IP Non-Complex Small & Large Bowel Procedures w/CC",
+  "severity": 2,
+  "weight": 1.7781999999999991
+ },
+ "14183": {
+  "desc": "IM Bacterial & Tuberculous Infections Of Nervous System w/MCC",
+  "severity": 3,
+  "weight": 2.8288000000000006
+ },
+ "71133": {
+  "desc": "IP Other Hepatobiliary & Pancreas Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.3606
+ },
+ "44122": {
+  "desc": "IM Pulmonary Embolism w/CC",
+  "severity": 2,
+  "weight": 1.1843000000000001
+ },
+ "51112": {
+  "desc": "IP Cardiac Defibrillator & Heart Assist System Insertion w/CC",
+  "severity": 2,
+  "weight": 6.759100000000003
+ },
+ "158033": {
+  "desc": "IP Neonate, Birthwt <1000 Grams Without Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 21.29769934360588
+ },
+ "158112": {
+  "desc": "IM Neonate, Birthwt 1000-1499 Grams Without Major Procedure w/CC",
+  "severity": 2,
+  "weight": 5.054095285799999
+ },
+ "71132": {
+  "desc": "IP Other Hepatobiliary & Pancreas Procedures w/CC",
+  "severity": 2,
+  "weight": 1.6012
+ },
+ "158133": {
+  "desc": "IM Neonate, Birthwt 2000-2499 Grams Without Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 2.5914080977166667
+ },
+ "84193": {
+  "desc": "IM Malfunction, Reaction Or Complication Of Orthopedic Device Or Procedure w/MCC",
+  "severity": 3,
+  "weight": 1.7100000000000006
+ },
+ "158153": {
+  "desc": "IM Neonate, Birthwt >2499 Grams With Aspiration Syndrome w/MCC",
+  "severity": 3,
+  "weight": 1.9321946462333333
+ },
+ "158081": {
+  "desc": "IP Neonate, Birthwt >2499 Grams With Respiratory Distress Syndrome",
+  "severity": 1,
+  "weight": 1.9746974986944439
+ },
+ "71123": {
+  "desc": "IP Cholecystectomy Except Laparoscopic w/MCC",
+  "severity": 3,
+  "weight": 3.56
+ },
+ "158161": {
+  "desc": "IM Neonate, Birthwt >2499 Grams With Congenital/Perinatal Infections",
+  "severity": 1,
+  "weight": 0.8374011384909089
+ },
+ "31123": {
+  "desc": "IP Sinus & Mastoid Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.0446141122
+ },
+ "121143": {
+  "desc": "IP Transurethral Prostatectomy w/MCC",
+  "severity": 3,
+  "weight": 1.9974837730666668
+ },
+ "14163": {
+  "desc": "IM Transient Ischemia w/MCC",
+  "severity": 3,
+  "weight": 1.1026
+ },
+ "114153": {
+  "desc": "IM Kidney & Urinary Tract Signs & Symptoms w/MCC",
+  "severity": 3,
+  "weight": 0.8915974762285714
+ },
+ "34113": {
+  "desc": "IM Dysequilibrium w/MCC",
+  "severity": 3,
+  "weight": 0.8296
+ },
+ "91503": {
+  "desc": "IP Breast Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.2463
+ },
+ "134112": {
+  "desc": "IM Female Reproductive System Infections w/CC",
+  "severity": 2,
+  "weight": 0.7912973037066665
+ },
+ "51173": {
+  "desc": "IP Vein Ligation & Stripping w/MCC",
+  "severity": 3,
+  "weight": 2.6604
+ },
+ "31132": {
+  "desc": "IP Salivary Gland Procedures w/CC",
+  "severity": 2,
+  "weight": 0.933
+ },
+ "24111": {
+  "desc": "IM Neurological Eye Disorders",
+  "severity": 1,
+  "weight": 0.7289999999999996
+ },
+ "81102": {
+  "desc": "IP Cranial & Facial Bone Reconstructive Procedures w/CC",
+  "severity": 2,
+  "weight": 1.8557
+ },
+ "54132": {
+  "desc": "IM Deep Vein Thrombophlebitis w/CC",
+  "severity": 2,
+  "weight": 0.7046
+ },
+ "131102": {
+  "desc": "IP Abortion Procedures w/CC",
+  "severity": 2,
+  "weight": 0.9355985274454547
+ },
+ "84131": {
+  "desc": "IM Musculoskeletal & Connective Tissue Malignancy & Pathological Fractures",
+  "severity": 1,
+  "weight": 0.6997999999999999
+ },
+ "31122": {
+  "desc": "IP Sinus & Mastoid Procedures w/CC",
+  "severity": 2,
+  "weight": 1.6007
+ },
+ "61123": {
+  "desc": "IP Hernia Procedures Except Inguinal & Femoral w/MCC",
+  "severity": 3,
+  "weight": 2.4696
+ },
+ "11011": {
+  "desc": "IP Intracranial Vascular Procedures",
+  "severity": 1,
+  "weight": 2.7696
+ },
+ "14101": {
+  "desc": "IM Spinal Disorders & Injuries",
+  "severity": 1,
+  "weight": 0.9532000000000004
+ },
+ "214101": {
+  "desc": "IM Injuries To Unspecified Or Multiple Sites",
+  "severity": 1,
+  "weight": 0.7850020233705883
+ },
+ "121123": {
+  "desc": "IP Moderately Complex Prostate & Scrotal Contents Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.86139803405
+ },
+ "14123": {
+  "desc": "IM Multiple Sclerosis & Cerebellar Ataxia w/MCC",
+  "severity": 3,
+  "weight": 1.3738
+ },
+ "51131": {
+  "desc": "IP Complex Abdominal Vascular Procedures",
+  "severity": 1,
+  "weight": 2.3197
+ },
+ "61302": {
+  "desc": "IP Non-Complex Stomach, Esophageal & Duodenal Procedures w/CC",
+  "severity": 2,
+  "weight": 1.7242
+ },
+ "84191": {
+  "desc": "IM Malfunction, Reaction Or Complication Of Orthopedic Device Or Procedure",
+  "severity": 1,
+  "weight": 0.5198
+ },
+ "161113": {
+  "desc": "IP Spleen Procedures w/MCC",
+  "severity": 3,
+  "weight": 5.391197568128571
+ },
+ "41102": {
+  "desc": "IP Complex Respiratory System Procedures w/CC",
+  "severity": 2,
+  "weight": 2.7195
+ },
+ "14102": {
+  "desc": "IM Spinal Disorders & Injuries w/CC",
+  "severity": 2,
+  "weight": 1.2607
+ },
+ "124103": {
+  "desc": "IM Male Reproductive System Malignancy w/MCC",
+  "severity": 3,
+  "weight": 1.5513003539874997
+ },
+ "71122": {
+  "desc": "IP Cholecystectomy Except Laparoscopic w/CC",
+  "severity": 2,
+  "weight": 1.9860000000000004
+ },
+ "11203": {
+  "desc": "IP Cranial & Peripheral Nerve Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.1297
+ },
+ "51122": {
+  "desc": "IP Complex Thoracic Vascular Procedures w/CC",
+  "severity": 2,
+  "weight": 3.7194999999999983
+ },
+ "146123": {
+  "desc": "IP Vaginal Delivery With Procedure Except Sterilization &/Or Dilation & Curettage w/MCC",
+  "severity": 3,
+  "weight": 0.5519997829387282
+ },
+ "158073": {
+  "desc": "IP Neonate, Birthwt >2499 Grams With Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 16.187698373385718
+ },
+ "158111": {
+  "desc": "IM Neonate, Birthwt 1000-1499 Grams Without Major Procedure",
+  "severity": 1,
+  "weight": 1.3157989218625001
+ },
+ "51023": {
+  "desc": "IP Cardiac Valve Procedures With Cardiac Catheterization w/MCC",
+  "severity": 3,
+  "weight": 11.1012940949
+ },
+ "81011": {
+  "desc": "IP Bilateral & Multiple Major Lower Extremity Joint Procedures",
+  "severity": 1,
+  "weight": 2.9115
+ },
+ "101013": {
+  "desc": "IP Pituitary & Pineal Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.94979324815
+ },
+ "41021": {
+  "desc": "IP Long Term Mechanical Ventilation Without Tracheostomy",
+  "severity": 1,
+  "weight": 4.8089897882
+ },
+ "121113": {
+  "desc": "IP Penis Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.95679579645
+ },
+ "121103": {
+  "desc": "IP Complex Prostatectomy Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.5548665638
+ },
+ "51121": {
+  "desc": "IP Complex Thoracic Vascular Procedures",
+  "severity": 1,
+  "weight": 2.2676
+ },
+ "51133": {
+  "desc": "IP Complex Abdominal Vascular Procedures w/MCC",
+  "severity": 3,
+  "weight": 5.6803
+ },
+ "204123": {
+  "desc": "IM Other Drug Abuse & Dependence w/MCC",
+  "severity": 3,
+  "weight": 1.0320200791
+ },
+ "51301": {
+  "desc": "IP Cardiac Pacemaker & Defibrillator Device Replacement",
+  "severity": 1,
+  "weight": 2.1239
+ },
+ "194183": {
+  "desc": "IM Compulsive Nutrition Disorders w/MCC",
+  "severity": 3,
+  "weight": 2.5658983893
+ },
+ "174123": {
+  "desc": "IM Radiotherapy w/MCC",
+  "severity": 3,
+  "weight": 2.6441911597
+ },
+ "111123": {
+  "desc": "IP Create, Revise, Remove Dialysis Device w/MCC",
+  "severity": 3,
+  "weight": 4.088196453933333
+ },
+ "11133": {
+  "desc": "IP Carpal Tunnel Release w/MCC",
+  "severity": 3,
+  "weight": 1.9819025351
+ },
+ "54133": {
+  "desc": "IM Deep Vein Thrombophlebitis w/MCC",
+  "severity": 3,
+  "weight": 1.1596225735
+ },
+ "51021": {
+  "desc": "IP Cardiac Valve Procedures With Cardiac Catheterization",
+  "severity": 1,
+  "weight": 5.4127
+ },
+ "21203": {
+  "desc": "IP Orbital & Extraocular Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.6638
+ },
+ "158082": {
+  "desc": "IP Neonate, Birthwt >2499 Grams With Respiratory Distress Syndrome w/CC",
+  "severity": 2,
+  "weight": 2.8033000946
+ },
+ "11113": {
+  "desc": "IP Ventricular Shunt Procedures w/MCC",
+  "severity": 3,
+  "weight": 5.3052
+ },
+ "31101": {
+  "desc": "IP Complex Larynx Procedures",
+  "severity": 1,
+  "weight": 2.0487
+ },
+ "81052": {
+  "desc": "IP Major Upper Extremity Joint & Limb Reattachment Procedures w/CC",
+  "severity": 2,
+  "weight": 1.9569
+ },
+ "54231": {
+  "desc": "IM Malfunction, Reaction & Complication Of Cardiaovascolar Device Or Procedure",
+  "severity": 1,
+  "weight": 0.7352
+ },
+ "194132": {
+  "desc": "IM Bipolar Disorders w/CC",
+  "severity": 2,
+  "weight": 0.9002978851727271
+ },
+ "14122": {
+  "desc": "IM Multiple Sclerosis & Cerebellar Ataxia w/CC",
+  "severity": 2,
+  "weight": 0.9427999999999999
+ },
+ "131011": {
+  "desc": "IP Pelvic Evisceration, Radical Hysterectectomy & Radical Vulvectomy",
+  "severity": 1,
+  "weight": 1.32789822195
+ },
+ "101011": {
+  "desc": "IP Pituitary & Pineal Procedures",
+  "severity": 1,
+  "weight": 1.9063836943
+ },
+ "101102": {
+  "desc": "IP Adrenal Procedures w/CC",
+  "severity": 2,
+  "weight": 1.7704836622
+ },
+ "214153": {
+  "desc": "IM Burns, Transferred To Another Acute Care Facility w/MCC",
+  "severity": 3,
+  "weight": 0.67270335795
+ },
+ "214141": {
+  "desc": "IM Child Or Adult Maltreatment Syndrome",
+  "severity": 1,
+  "weight": 0.36387933645000003
+ },
+ "194141": {
+  "desc": "IM Depression",
+  "severity": 1,
+  "weight": 0.4089010403068963
+ },
+ "111111": {
+  "desc": "IP Complex Bladder Procedures",
+  "severity": 1,
+  "weight": 1.7811920432833332
+ },
+ "194101": {
+  "desc": "IM Schizophrenia",
+  "severity": 1,
+  "weight": 0.9374999371933063
+ },
+ "146111": {
+  "desc": "IP Vaginal Delivery With Sterilization &/Or Dilation & Curettage",
+  "severity": 1,
+  "weight": 0.6174031958785714
+ },
+ "194102": {
+  "desc": "IM Schizophrenia w/CC",
+  "severity": 2,
+  "weight": 1.041099475395
+ },
+ "146113": {
+  "desc": "IP Vaginal Delivery With Sterilization &/Or Dilation & Curettage w/MCC",
+  "severity": 3,
+  "weight": 0.8312971079000001
+ },
+ "194191": {
+  "desc": "IM Other Mental Disorders",
+  "severity": 1,
+  "weight": 0.6960991399047619
+ },
+ "51132": {
+  "desc": "IP Complex Abdominal Vascular Procedures w/CC",
+  "severity": 2,
+  "weight": 2.998
+ },
+ "204111": {
+  "desc": "IM Alcohol, Opioid & Cocaine Abuse & Dependence",
+  "severity": 1,
+  "weight": 0.4053996032323531
+ },
+ "14202": {
+  "desc": "IM Viral Meningitis w/CC",
+  "severity": 2,
+  "weight": 0.8982
+ },
+ "31153": {
+  "desc": "IP Tonsil & Adenoid Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.5512
+ },
+ "31302": {
+  "desc": "IP Mouth Procedures w/CC",
+  "severity": 2,
+  "weight": 1.1425
+ },
+ "44102": {
+  "desc": "IM Cystic Fibrosis w/CC",
+  "severity": 2,
+  "weight": 1.9162
+ },
+ "24113": {
+  "desc": "IM Neurological Eye Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.0676879242
+ },
+ "51052": {
+  "desc": "IP Coronary Bypass With Cardiac Catheterization w/CC",
+  "severity": 2,
+  "weight": 5.1685
+ },
+ "194161": {
+  "desc": "IM Organic Disturbances & Mental Retardation",
+  "severity": 1,
+  "weight": 0.7732999526298943
+ },
+ "11132": {
+  "desc": "IP Carpal Tunnel Release w/CC",
+  "severity": 2,
+  "weight": 0.8783
+ },
+ "184153": {
+  "desc": "IM Human Immunodeficiency Virus Infection w/MCC",
+  "severity": 3,
+  "weight": 1.9603976580916667
+ },
+ "114143": {
+  "desc": "IM Malfunction, Reaction Or Complication Of Urinary Tract Device, Graft Or Transplantation w/MCC",
+  "severity": 3,
+  "weight": 1.2917024064055556
+ },
+ "61303": {
+  "desc": "IP Non-Complex Stomach, Esophageal & Duodenal Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.2352
+ },
+ "131103": {
+  "desc": "IP Abortion Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.53030365302
+ },
+ "34122": {
+  "desc": "IM Epistaxis w/CC",
+  "severity": 2,
+  "weight": 0.5617
+ },
+ "194162": {
+  "desc": "IM Organic Disturbances & Mental Retardation w/CC",
+  "severity": 2,
+  "weight": 0.8989007557095238
+ },
+ "101012": {
+  "desc": "IP Pituitary & Pineal Procedures w/CC",
+  "severity": 2,
+  "weight": 2.4971919790399997
+ },
+ "81022": {
+  "desc": "IP Amputation w/CC",
+  "severity": 2,
+  "weight": 1.9305999999999994
+ },
+ "158162": {
+  "desc": "IM Neonate, Birthwt >2499 Grams With Congenital/Perinatal Infections w/CC",
+  "severity": 2,
+  "weight": 1.0646993594384608
+ },
+ "51031": {
+  "desc": "IP Complex Cardiothoracic Repair Of Heart Anomaly",
+  "severity": 1,
+  "weight": 4.157
+ },
+ "54112": {
+  "desc": "IM Acute & Subacute Endocarditis w/CC",
+  "severity": 2,
+  "weight": 1.6404999999999998
+ },
+ "158102": {
+  "desc": "IM Neonate, Died Or Transferred To Another Acute Care Facility w/CC",
+  "severity": 2,
+  "weight": 0.32570193345
+ },
+ "158132": {
+  "desc": "IM Neonate, Birthwt 2000-2499 Grams Without Major Procedure w/CC",
+  "severity": 2,
+  "weight": 0.8964973449333331
+ },
+ "158032": {
+  "desc": "IP Neonate, Birthwt <1000 Grams Without Major Procedure w/CC",
+  "severity": 2,
+  "weight": 6.3158030874857145
+ },
+ "224102": {
+  "desc": "IM Rehabilitation w/CC",
+  "severity": 2,
+  "weight": 1.3601980785454544
+ },
+ "64143": {
+  "desc": "IM Gastrointestinal Vascular Insufficiency w/MCC",
+  "severity": 3,
+  "weight": 1.8161000000000003
+ },
+ "224103": {
+  "desc": "IM Rehabilitation w/MCC",
+  "severity": 3,
+  "weight": 1.9322037552666664
+ },
+ "111121": {
+  "desc": "IP Create, Revise, Remove Dialysis Device",
+  "severity": 1,
+  "weight": 1.00220131542
+ },
+ "54141": {
+  "desc": "IM Cardiac Arrest, Unexplained",
+  "severity": 1,
+  "weight": 0.48230000000000006
+ },
+ "184152": {
+  "desc": "IM Human Immunodeficiency Virus Infection w/CC",
+  "severity": 2,
+  "weight": 1.1674042567454548
+ },
+ "194153": {
+  "desc": "IM Neuroses Except Depression w/MCC",
+  "severity": 3,
+  "weight": 0.7103161407000002
+ },
+ "31112": {
+  "desc": "IP Other Complex Head & Neck Procedures w/CC",
+  "severity": 2,
+  "weight": 1.9881
+ },
+ "14233": {
+  "desc": "IM Migraine & Other Headaches w/MCC",
+  "severity": 3,
+  "weight": 0.9089
+ },
+ "204101": {
+  "desc": "IM Drug & Alcohol Abuse & Dependence, Left Against Medical Advice",
+  "severity": 1,
+  "weight": 0.25160592128000003
+ },
+ "114141": {
+  "desc": "IM Malfunction, Reaction Or Complication Of Urinary Tract Device, Graft Or Transplantation",
+  "severity": 1,
+  "weight": 0.51729887525
+ },
+ "194131": {
+  "desc": "IM Bipolar Disorders",
+  "severity": 1,
+  "weight": 0.6798002437937932
+ },
+ "194111": {
+  "desc": "IM Major Depression",
+  "severity": 1,
+  "weight": 0.554400207223256
+ },
+ "101101": {
+  "desc": "IP Adrenal Procedures",
+  "severity": 1,
+  "weight": 1.458689269475
+ },
+ "184151": {
+  "desc": "IM Human Immunodeficiency Virus Infection",
+  "severity": 1,
+  "weight": 0.7325047925666667
+ },
+ "111113": {
+  "desc": "IP Complex Bladder Procedures w/MCC",
+  "severity": 3,
+  "weight": 5.1077097612
+ },
+ "204102": {
+  "desc": "IM Drug & Alcohol Abuse & Dependence, Left Against Medical Advice w/CC",
+  "severity": 2,
+  "weight": 0.47959004772
+ },
+ "31303": {
+  "desc": "IP Mouth Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.4463432208
+ },
+ "44101": {
+  "desc": "IM Cystic Fibrosis",
+  "severity": 1,
+  "weight": 1.3400999999999998
+ },
+ "158101": {
+  "desc": "IM Neonate, Died Or Transferred To Another Acute Care Facility",
+  "severity": 1,
+  "weight": 0.1299931011
+ },
+ "44103": {
+  "desc": "IM Cystic Fibrosis w/MCC",
+  "severity": 3,
+  "weight": 2.8989000000000003
+ },
+ "204103": {
+  "desc": "IM Drug & Alcohol Abuse & Dependence, Left Against Medical Advice w/MCC",
+  "severity": 3,
+  "weight": 0.697135873
+ },
+ "111013": {
+  "desc": "IP Kidney Transplantation w/MCC",
+  "severity": 3,
+  "weight": 8.8512210528
+ },
+ "194133": {
+  "desc": "IM Bipolar Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.1607918781
+ },
+ "194171": {
+  "desc": "IM Childhood Mental Disorders",
+  "severity": 1,
+  "weight": 0.8286982094099997
+ },
+ "31142": {
+  "desc": "IP Cleft Lip & Palate Repair w/CC",
+  "severity": 2,
+  "weight": 0.8028999999999998
+ },
+ "214151": {
+  "desc": "IM Burns, Transferred To Another Acute Care Facility",
+  "severity": 1,
+  "weight": 0.2751896641
+ },
+ "194173": {
+  "desc": "IM Childhood Mental Disorders w/MCC",
+  "severity": 3,
+  "weight": 0.94620667552
+ },
+ "194172": {
+  "desc": "IM Childhood Mental Disorders w/CC",
+  "severity": 2,
+  "weight": 0.8868972264249999
+ },
+ "161101": {
+  "desc": "IP Bone Marrow Transplantation",
+  "severity": 1,
+  "weight": 6.3548410434
+ },
+ "214143": {
+  "desc": "IM Child Or Adult Maltreatment Syndrome w/MCC",
+  "severity": 3,
+  "weight": 1.46580175655
+ },
+ "81061": {
+  "desc": "IP Spinal Fusion Procedures For Curvature Of The Spine",
+  "severity": 1,
+  "weight": 4.4271
+ },
+ "51022": {
+  "desc": "IP Cardiac Valve Procedures With Cardiac Catheterization w/CC",
+  "severity": 2,
+  "weight": 6.9889
+ },
+ "71113": {
+  "desc": "IP Complex Biliary Tract Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.8209
+ },
+ "31102": {
+  "desc": "IP Complex Larynx Procedures w/CC",
+  "severity": 2,
+  "weight": 3.3346
+ },
+ "161102": {
+  "desc": "IP Bone Marrow Transplantation w/CC",
+  "severity": 2,
+  "weight": 9.67890518275
+ },
+ "81062": {
+  "desc": "IP Spinal Fusion Procedures For Curvature Of The Spine w/CC",
+  "severity": 2,
+  "weight": 5.3175
+ },
+ "214152": {
+  "desc": "IM Burns, Transferred To Another Acute Care Facility w/CC",
+  "severity": 2,
+  "weight": 0.5193883182
+ },
+ "11012": {
+  "desc": "IP Intracranial Vascular Procedures w/CC",
+  "severity": 2,
+  "weight": 4.688
+ },
+ "14203": {
+  "desc": "IM Viral Meningitis w/MCC",
+  "severity": 3,
+  "weight": 1.3262
+ },
+ "111011": {
+  "desc": "IP Kidney Transplantation",
+  "severity": 1,
+  "weight": 5.911777761350001
+ },
+ "194181": {
+  "desc": "IM Compulsive Nutrition Disorders",
+  "severity": 1,
+  "weight": 1.5127750413499998
+ },
+ "81053": {
+  "desc": "IP Major Upper Extremity Joint & Limb Reattachment Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.3331
+ },
+ "131012": {
+  "desc": "IP Pelvic Evisceration, Radical Hysterectectomy & Radical Vulvectomy w/CC",
+  "severity": 2,
+  "weight": 1.6901023181500001
+ },
+ "161103": {
+  "desc": "IP Bone Marrow Transplantation w/MCC",
+  "severity": 3,
+  "weight": 13.1175682512
+ },
+ "111012": {
+  "desc": "IP Kidney Transplantation w/CC",
+  "severity": 2,
+  "weight": 6.5382565966
+ },
+ "214142": {
+  "desc": "IM Child Or Adult Maltreatment Syndrome w/CC",
+  "severity": 2,
+  "weight": 0.7729578604
+ },
+ "214103": {
+  "desc": "IM Injuries To Unspecified Or Multiple Sites w/MCC",
+  "severity": 3,
+  "weight": 1.1980351217
+ },
+ "158052": {
+  "desc": "IP Neonate, Birthwt 1500-1999 Grams With Major Procedure w/CC",
+  "severity": 2,
+  "weight": 9.2173448635
+ },
+ "41011": {
+  "desc": "IP Long Term Mechanical Ventilation With Tracheostomy",
+  "severity": 1,
+  "weight": 9.4076219579
+ },
+ "51011": {
+  "desc": "IP Heart &/Or Lung Transplantation",
+  "severity": 1,
+  "weight": 12.883721995
+ },
+ "158051": {
+  "desc": "IP Neonate, Birthwt 1500-1999 Grams With Major Procedure",
+  "severity": 1,
+  "weight": 6.5031545384
+ },
+ "158021": {
+  "desc": "IP Neonate, Birthwt <1000 Grams With Major Procedure",
+  "severity": 1,
+  "weight": 24.2098094351
+ },
+ "131131": {
+  "desc": "IP Endoscopic Tubal Interruption",
+  "severity": 1,
+  "weight": 0.7048283544
+ },
+ "131122": {
+  "desc": "IP Open Tubal Interruption w/CC",
+  "severity": 2,
+  "weight": 0.7432943226
+ },
+ "201101": {
+  "desc": "IP Alcohol & Drug Rehabilitation &/Or Detoxification Therapy",
+  "severity": 1,
+  "weight": 0.4596324156
+ },
+ "158062": {
+  "desc": "IP Neonate, Birthwt 2000-2499 Grams With Major Procedure w/CC",
+  "severity": 2,
+  "weight": 6.8280031671
+ },
+ "158023": {
+  "desc": "IP Neonate, Birthwt <1000 Grams With Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 31.7305169887
+ },
+ "131133": {
+  "desc": "IP Endoscopic Tubal Interruption w/MCC",
+  "severity": 3,
+  "weight": 1.0278591522
+ },
+ "131132": {
+  "desc": "IP Endoscopic Tubal Interruption w/CC",
+  "severity": 2,
+  "weight": 0.7652404497
+ },
+ "71012": {
+  "desc": "IP Liver Transplantation w/CC",
+  "severity": 2,
+  "weight": 10.956792969
+ },
+ "51013": {
+  "desc": "IP Heart &/Or Lung Transplantation w/MCC",
+  "severity": 3,
+  "weight": 20.7842216451
+ },
+ "51012": {
+  "desc": "IP Heart &/Or Lung Transplantation w/CC",
+  "severity": 2,
+  "weight": 13.1672310534
+ },
+ "158043": {
+  "desc": "IP Neonate, Birthwt 1000-1499 Grams With Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 22.2528801609
+ },
+ "158041": {
+  "desc": "IP Neonate, Birthwt 1000-1499 Grams With Major Procedure",
+  "severity": 1,
+  "weight": 11.9594378767
+ },
+ "158022": {
+  "desc": "IP Neonate, Birthwt <1000 Grams With Major Procedure w/CC",
+  "severity": 2,
+  "weight": 27.771143405
+ },
+ "158012": {
+  "desc": "IP Neonate, W Organ Transplantation Or Extracorporeal Membrane Oxygenation w/CC",
+  "severity": 2,
+  "weight": 18.5663071336
+ },
+ "158011": {
+  "desc": "IP Neonate, W Organ Transplantation Or Extracorporeal Membrane Oxygenation",
+  "severity": 1,
+  "weight": 15.0049731637
+ },
+ "71011": {
+  "desc": "IP Liver Transplantation",
+  "severity": 1,
+  "weight": 9.9312219777
+ },
+ "158013": {
+  "desc": "IP Neonate, W Organ Transplantation Or Extracorporeal Membrane Oxygenation w/MCC",
+  "severity": 3,
+  "weight": 21.7916399274
+ },
+ "121133": {
+  "desc": "IP Non-Complex Prostate & Scrotal Contents Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.5947784336
+ },
+ "41012": {
+  "desc": "IP Long Term Mechanical Ventilation With Tracheostomy w/CC",
+  "severity": 2,
+  "weight": 10.0501283861
+ },
+ "201103": {
+  "desc": "IP Alcohol & Drug Rehabilitation &/Or Detoxification Therapy w/MCC",
+  "severity": 3,
+  "weight": 1.1229883181
+ },
+ "201102": {
+  "desc": "IP Alcohol & Drug Rehabilitation &/Or Detoxification Therapy w/CC",
+  "severity": 2,
+  "weight": 0.6172551521
+ },
+ "158063": {
+  "desc": "IP Neonate, Birthwt 2000-2499 Grams With Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 12.7008648732
+ },
+ "158061": {
+  "desc": "IP Neonate, Birthwt 2000-2499 Grams With Major Procedure",
+  "severity": 1,
+  "weight": 3.8444800567
+ },
+ "158053": {
+  "desc": "IP Neonate, Birthwt 1500-1999 Grams With Major Procedure w/MCC",
+  "severity": 3,
+  "weight": 13.5805202993
+ },
+ "158042": {
+  "desc": "IP Neonate, Birthwt 1000-1499 Grams With Major Procedure w/CC",
+  "severity": 2,
+  "weight": 15.5207718465
+ },
+ "131123": {
+  "desc": "IP Open Tubal Interruption w/MCC",
+  "severity": 3,
+  "weight": 0.8263921153
+ },
+ "131121": {
+  "desc": "IP Open Tubal Interruption",
+  "severity": 1,
+  "weight": 0.6537439312
+ },
+ "81063": {
+  "desc": "IP Spinal Fusion Procedures For Curvature Of The Spine w/MCC",
+  "severity": 3,
+  "weight": 7.8845227479
+ },
+ "71013": {
+  "desc": "IP Liver Transplantation w/MCC",
+  "severity": 3,
+  "weight": 19.2204695767
+ },
+ "51053": {
+  "desc": "IP Coronary Bypass With Cardiac Catheterization w/MCC",
+  "severity": 3,
+  "weight": 7.5364759533
+ },
+ "131013": {
+  "desc": "IP Pelvic Evisceration, Radical Hysterectectomy & Radical Vulvectomy w/MCC",
+  "severity": 3,
+  "weight": 3.4640169578
+ },
+ "194123": {
+  "desc": "IM Personality & Impulse Control Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.5277932793
+ },
+ "81013": {
+  "desc": "IP Bilateral & Multiple Major Lower Extremity Joint Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.5650306582
+ },
+ "194193": {
+  "desc": "IM Other Mental Disorders w/MCC",
+  "severity": 3,
+  "weight": 1.109743717
+ },
+ "31103": {
+  "desc": "IP Complex Larynx Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.9009879111
+ },
+ "31113": {
+  "desc": "IP Other Complex Head & Neck Procedures w/MCC",
+  "severity": 3,
+  "weight": 4.6974185
+ },
+ "11013": {
+  "desc": "IP Intracranial Vascular Procedures w/MCC",
+  "severity": 3,
+  "weight": 9.0754
+ },
+ "31143": {
+  "desc": "IP Cleft Lip & Palate Repair w/MCC",
+  "severity": 3,
+  "weight": 1.0315676879
+ },
+ "194113": {
+  "desc": "IM Major Depression w/MCC",
+  "severity": 3,
+  "weight": 1.0800184495
+ },
+ "101103": {
+  "desc": "IP Adrenal Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.7316239021
+ },
+ "11123": {
+  "desc": "IP Extracranial Vascular Procedures w/MCC",
+  "severity": 3,
+  "weight": 3.2046
+ },
+ "194122": {
+  "desc": "IM Personality & Impulse Control Disorders w/CC",
+  "severity": 2,
+  "weight": 0.779970127
+ },
+ "194112": {
+  "desc": "IM Major Depression w/CC",
+  "severity": 2,
+  "weight": 0.8422011427714285
+ },
+ "214102": {
+  "desc": "IM Injuries To Unspecified Or Multiple Sites w/CC",
+  "severity": 2,
+  "weight": 0.8716079351750001
+ },
+ "194143": {
+  "desc": "IM Depression w/MCC",
+  "severity": 3,
+  "weight": 0.70579727066
+ },
+ "64142": {
+  "desc": "IM Gastrointestinal Vascular Insufficiency w/CC",
+  "severity": 2,
+  "weight": 1.0344
+ },
+ "194142": {
+  "desc": "IM Depression w/CC",
+  "severity": 2,
+  "weight": 0.5245044777749999
+ },
+ "81103": {
+  "desc": "IP Cranial & Facial Bone Reconstructive Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.7898837409
+ },
+ "194103": {
+  "desc": "IM Schizophrenia w/MCC",
+  "severity": 3,
+  "weight": 1.28939938525
+ },
+ "204122": {
+  "desc": "IM Other Drug Abuse & Dependence w/CC",
+  "severity": 2,
+  "weight": 0.6701114275
+ },
+ "158031": {
+  "desc": "IP Neonate, Birthwt <1000 Grams Without Major Procedure",
+  "severity": 1,
+  "weight": 0.1284945556
+ },
+ "146112": {
+  "desc": "IP Vaginal Delivery With Sterilization &/Or Dilation & Curettage w/CC",
+  "severity": 2,
+  "weight": 0.641802060675
+ },
+ "11122": {
+  "desc": "IP Extracranial Vascular Procedures w/CC",
+  "severity": 2,
+  "weight": 1.455
+ },
+ "81021": {
+  "desc": "IP Amputation",
+  "severity": 1,
+  "weight": 1.1759
+ },
+ "194192": {
+  "desc": "IM Other Mental Disorders w/CC",
+  "severity": 2,
+  "weight": 0.891387711725
+ },
+ "121153": {
+  "desc": "IP Circumcision w/MCC",
+  "severity": 3,
+  "weight": 2.6740884319250005
+ },
+ "158071": {
+  "desc": "IP Neonate, Birthwt >2499 Grams With Major Procedure",
+  "severity": 1,
+  "weight": 3.63239964102
+ },
+ "134113": {
+  "desc": "IM Female Reproductive System Infections w/MCC",
+  "severity": 3,
+  "weight": 1.4974046378
+ },
+ "224101": {
+  "desc": "IM Rehabilitation",
+  "severity": 1,
+  "weight": 1.0247012356199998
+ },
+ "101203": {
+  "desc": "IP Thyroid, Parathyroid & Thyroglossal Duct Procedures w/MCC",
+  "severity": 3,
+  "weight": 2.4383151097
+ },
+ "194121": {
+  "desc": "IM Personality & Impulse Control Disorders",
+  "severity": 1,
+  "weight": 0.5883017353300002
+ },
+ "121152": {
+  "desc": "IP Circumcision w/CC",
+  "severity": 2,
+  "weight": 1.2201987835454544
+ },
+ "194182": {
+  "desc": "IM Compulsive Nutrition Disorders w/CC",
+  "severity": 2,
+  "weight": 1.6644841159
+ },
+ "164122": {
+  "desc": "IM Sickle Cell Anemia Crisis w/CC",
+  "severity": 2,
+  "weight": 1.0621994386676472
+ },
+ "111122": {
+  "desc": "IP Create, Revise, Remove Dialysis Device w/CC",
+  "severity": 2,
+  "weight": 1.9041007347292684
+ },
+ "134153": {
+  "desc": "IM False Labor w/MCC",
+  "severity": 3,
+  "weight": 0.45959640914166666
+ },
+ "204121": {
+  "desc": "IM Other Drug Abuse & Dependence",
+  "severity": 1,
+  "weight": 0.44979928707812483
+ },
+ "31133": {
+  "desc": "IP Salivary Gland Procedures w/MCC",
+  "severity": 3,
+  "weight": 1.8908962069
+ },
+ "121112": {
+  "desc": "IP Penis Procedures w/CC",
+  "severity": 2,
+  "weight": 1.5458858988
+ },
+ "204113": {
+  "desc": "IM Alcohol, Opioid & Cocaine Abuse & Dependence w/MCC",
+  "severity": 3,
+  "weight": 1.0275120859666667
+ },
+ "71112": {
+  "desc": "IP Complex Biliary Tract Procedures w/CC",
+  "severity": 2,
+  "weight": 2.6141
+ },
+ "54142": {
+  "desc": "IM Cardiac Arrest, Unexplained w/CC",
+  "severity": 2,
+  "weight": 0.5643
+ },
+ "161112": {
+  "desc": "IP Spleen Procedures w/CC",
+  "severity": 2,
+  "weight": 2.415095199828571
+ },
+ "81012": {
+  "desc": "IP Bilateral & Multiple Major Lower Extremity Joint Procedures w/CC",
+  "severity": 2,
+  "weight": 3.2498
+ },
+ "158072": {
+  "desc": "IP Neonate, Birthwt >2499 Grams With Major Procedure w/CC",
+  "severity": 2,
+  "weight": 6.822101891676924
+ },
+ "51302": {
+  "desc": "IP Cardiac Pacemaker & Defibrillator Device Replacement w/CC",
+  "severity": 2,
+  "weight": 2.3898
+ },
+ "158152": {
+  "desc": "IM Neonate, Birthwt >2499 Grams With Aspiration Syndrome w/CC",
+  "severity": 2,
+  "weight": 1.0156966281500002
+ },
+ "51162": {
+  "desc": "IP Cardiac Pacemaker & Defibrillator Revision Except Device Replacement w/CC",
+  "severity": 2,
+  "weight": 1.3177000000000003
+ },
+ "158122": {
+  "desc": "IM Neonate, Birthwt 1500-1999 Grams Without Major Procedure w/CC",
+  "severity": 2,
+  "weight": 2.4694983843266645
+ }
+}

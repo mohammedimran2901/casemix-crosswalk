@@ -15,9 +15,10 @@ const money = (v, c) => CURR[c] + v.toLocaleString();
 function renderRow(p, blur) {
   const ae = typeof AE !== "undefined" ? AE[p.name] : null;
   const de = typeof DE !== "undefined" ? DE[p.name] : null;
+  const au = typeof AU !== "undefined" ? AU[p.name] : null;
   const tr = document.createElement("tr");
   if (blur) tr.classList.add("blurred");
-  tr.innerHTML = `<td><strong>${p.name}</strong></td>` + cell(p.us, "us") + cell(p.uk, "uk") + deCell(de) + aeCell(ae);
+  tr.innerHTML = `<td><strong>${p.name}</strong></td>` + cell(p.us, "us") + cell(p.uk, "uk") + deCell(de) + weightCell(au, "NEP (A$)") + aeCell(ae);
   tbody.appendChild(tr);
 }
 
@@ -48,6 +49,16 @@ function deCell(de) {
   return `<td><span class="code">${de.family}</span><span class="rate">×${std.weight.toFixed(2)} weight</span>${alosHtml}${rangeHtml}<span class="desc">× state base rate (€)</span></td>`;
 }
 
+function weightCell(sys, curLabel) {
+  if (!sys) return `<td><span class="desc">Mapping pending</span></td>`;
+  const w = sys.tiers.map(t => t.weight);
+  const min = Math.min(...w), max = Math.max(...w);
+  const std = sys.tiers[0];
+  const rangeHtml = min !== max ? `<span class="desc">×${min.toFixed(2)} – ×${max.toFixed(2)} by complexity</span>` : "";
+  const alosHtml = std.alos != null ? `<span class="alos">🏥 ${std.alos.toFixed(1)} days avg stay</span>` : "";
+  return `<td><span class="code">${sys.family}</span><span class="rate">×${std.weight.toFixed(2)} weight</span>${alosHtml}${rangeHtml}<span class="desc">× ${curLabel}</span></td>`;
+}
+
 function renderComplexity(p, blur) {
   const panel = document.getElementById("complexityPanel");
   if (!panel) return;
@@ -75,6 +86,17 @@ function renderComplexity(p, blur) {
         <span class="cm-pct">×${t.weight.toFixed(2)}</span></div>`;
     });
     html += `<div class="cm-alos">Payment = weight × facility base rate (AED)</div></div>`;
+  }
+  const au = typeof AU !== "undefined" ? AU[p.name] : null;
+  if (au) {
+    const maxW = Math.max(...au.tiers.map(t => t.weight));
+    html += `<div class="cm-card${blur ? " blurred" : ""}"><div class="cm-title">🇦🇺 Australia AR-DRG (NWAU price weight)</div>`;
+    au.tiers.forEach(t => {
+      html += `<div class="cm-row"><span class="cm-label">${t.code} · ${t.tier}</span>
+        <div class="cm-bar"><div class="cm-fill" style="width:${Math.round(t.weight / maxW * 100)}%"></div></div>
+        <span class="cm-pct">×${t.weight.toFixed(2)}</span></div>`;
+    });
+    html += `<div class="cm-alos">Avg. stay: <strong>${au.tiers[0].alos.toFixed(1)} days</strong> · × NEP (A$)</div></div>`;
   }
   const de = typeof DE !== "undefined" ? DE[p.name] : null;
   if (de) {
@@ -104,8 +126,34 @@ function renderComplexity(p, blur) {
       html += `<div class="cm-alos">Real activity: <strong>${total.toLocaleString()} NHS cases</strong> (FCEs, 2024/25)</div></div>`;
     }
   }
-  html += `</div><p class="fineprint">US: national average = DRG weight × $7,276.76 (FY2026), before geographic adjustment. UK: 2025/26 elective unit price, before MFF; activity shares from National Cost Collection 2024/25 (real counts). Germany: aG-DRG 2025 Bewertungsrelation × state base rate (€); official mean LOS. UAE: DoH Abu Dhabi IR-DRG weights (v2012-Q2 era publication). Sources: ${SOURCES.us}; ${SOURCES.uk}; ${SOURCES.de}; ${SOURCES.ae}; ${SOURCES.ukAct}.</p>`;
+  html += `</div><div class="chart-block"><div class="chart-title"><span class="rule"></span>Complexity uplift by system <span class="chart-sub">most complex tier vs baseline, per system</span></div><canvas id="compareChart" height="120"></canvas></div><p class="fineprint">US: national average = DRG weight × $7,276.76 (FY2026), before geographic adjustment. UK: 2025/26 elective unit price, before MFF; activity shares from National Cost Collection 2024/25 (real counts). Germany: aG-DRG 2025 Bewertungsrelation × state base rate (€); official mean LOS. Australia: AR-DRG V11.0 price weight × NEP. UAE: DoH Abu Dhabi IR-DRG weights (v2012-Q2 era publication). Sources: ${SOURCES.us}; ${SOURCES.uk}; ${SOURCES.de}; ${SOURCES.au}; ${SOURCES.ae}; ${SOURCES.ukAct}.</p>`;
   panel.innerHTML = html;
+
+  // Chart.js: complexity uplift per system (Economist-style horizontal bars)
+  if (window.Chart) {
+    const sys = [];
+    if (p.us) sys.push({ label: "🇺🇸 US", uplift: p.us.tiers[p.us.tiers.length-1].price / p.us.tiers[0].price - 1 });
+    if (p.uk) sys.push({ label: "🇬🇧 UK", uplift: p.uk.tiers[p.uk.tiers.length-1].price / p.uk.tiers[0].price - 1 });
+    if (au) sys.push({ label: "🇦🇺 AU", uplift: au.tiers[au.tiers.length-1].weight / au.tiers[0].weight - 1 });
+    if (de) sys.push({ label: "🇩🇪 DE", uplift: de.tiers[de.tiers.length-1].weight / de.tiers[0].weight - 1 });
+    if (ae) sys.push({ label: "🇦🇪 UAE", uplift: ae.tiers[ae.tiers.length-1].weight / ae.tiers[0].weight - 1 });
+    sys.sort((a,b) => a.uplift - b.uplift);
+    const ctx = document.getElementById("compareChart");
+    if (ctx && sys.length) {
+      if (window.__ccChart) window.__ccChart.destroy();
+      window.__ccChart = new Chart(ctx, {
+        type: "bar",
+        data: { labels: sys.map(s => s.label),
+          datasets: [{ data: sys.map(s => Math.round(s.uplift * 100)),
+            backgroundColor: sys.map(s => s.label.includes("🇬🇧") ? "#B91C1C" : "#0F766E"),
+            borderRadius: 2, barThickness: 22 }] },
+        options: { indexAxis: "y", responsive: true, plugins: { legend: { display: false },
+            tooltip: { callbacks: { label: c => ` +${c.raw}% payment uplift for most complex tier` } } },
+          scales: { x: { ticks: { callback: v => v + "%", color: "#6B7280", font: { family: "Inter", size: 11 } }, grid: { color: "#E7E2D8" }, border: { display: false } },
+                    y: { ticks: { color: "#141414", font: { family: "Inter", size: 12, weight: "600" } }, grid: { display: false }, border: { display: false } } } }
+      });
+    }
+  }
 }
 
 function showPaywall() {
@@ -128,7 +176,8 @@ function search(qRaw) {
       p.us.tiers.some(t => t.code.toLowerCase() === q) ||
       p.uk.tiers.some(t => t.code.toLowerCase() === q) ||
       (typeof AE !== "undefined" && AE[p.name] && AE[p.name].tiers.some(t => t.code.toLowerCase() === q)) ||
-      (typeof DE !== "undefined" && DE[p.name] && DE[p.name].tiers.some(t => t.code.toLowerCase() === q))
+      (typeof DE !== "undefined" && DE[p.name] && DE[p.name].tiers.some(t => t.code.toLowerCase() === q)) ||
+      (typeof AU !== "undefined" && AU[p.name] && AU[p.name].tiers.some(t => t.code.toLowerCase() === q))
     );
   }
   currentMatches = matches;

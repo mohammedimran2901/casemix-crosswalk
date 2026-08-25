@@ -7,7 +7,8 @@
 <meta name="description" content="Search orthopedic procedure codes across US MS-DRG, UK HRG, German G-DRG and Australian AR-DRG systems. See published reimbursement side by side.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700;8..60,900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -25,7 +26,7 @@
 
 <section class="hero">
   <div class="container">
-    <div class="badge">✦ Built for market-access &amp; health-economics teams</div>
+    <div class="kicker">Health systems compared · Casemix reference</div>
     <h1>Compare DRG / HRG reimbursement<br><span class="grad">across countries</span> — in seconds.</h1>
     <p class="sub">Stop digging through grouper manuals and tariff PDFs. Search a procedure and instantly see the equivalent code, published payment rates across complexity tiers, and average length of stay — compiled directly from official CMS and NHS tariff publications.</p>
     <div class="hero-actions">
@@ -33,20 +34,21 @@
       <a href="#pricing" class="btn btn-ghost btn-lg">See pricing</a>
     </div>
     <div class="stats">
-      <div class="stat"><strong>4</strong><span>casemix systems</span></div>
+      <div class="stat"><strong>5</strong><span>casemix systems</span></div>
       <div class="stat"><strong>19</strong><span>procedure families</span></div>
       <div class="stat"><strong>100%</strong><span>source-verified prices</span></div>
       <div class="stat"><strong>Real</strong><span>UK activity shares</span></div>
     </div>
-    <p class="hero-note">US MS-DRG · UK NHS HRG · Germany G-DRG · UAE IR-DRG · Saudi &amp; more coming soon</p>
+    <p class="hero-note">US MS-DRG · UK NHS HRG · Germany G-DRG · Australia AR-DRG · UAE IR-DRG · Saudi coming soon</p>
   </div>
 </section>
 
 <section id="search" class="search-section">
   <div class="container">
     <div class="section-head">
+      <div class="kicker">Live lookup</div>
       <h2>Find your code</h2>
-      <p>Type a procedure name or a code from either system (e.g. "470", "HN12D").</p>
+      <p>Type a procedure name or a code from any system (e.g. "470", "HN12D", "I47C", "I04B").</p>
     </div>
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
@@ -70,6 +72,7 @@
             <th><span class="flag">🇺🇸</span> US MS-DRG <span class="src-tag">FY2026 verified</span></th>
             <th><span class="flag">🇬🇧</span> UK HRG <span class="src-tag">2025/26 verified</span></th>
             <th><span class="flag">🇩🇪</span> Germany G-DRG <span class="src-tag">2025 verified</span></th>
+            <th><span class="flag">🇦🇺</span> AU AR-DRG <span class="src-tag">NEP 25-26</span></th>
             <th><span class="flag">🇦🇪</span> UAE IR-DRG <span class="src-tag">DoH weights</span></th>
           </tr>
         </thead>
@@ -90,6 +93,7 @@
 <section id="features" class="features">
   <div class="container">
     <div class="section-head center">
+      <div class="kicker">Methodology</div>
       <h2>Why teams use CasemixCrosswalk</h2>
       <p>Everything you need for cross-border pricing research — nothing you don't.</p>
     </div>
@@ -116,6 +120,7 @@
 <section id="pricing">
   <div class="container">
     <div class="section-head center">
+      <div class="kicker">Pricing</div>
       <h2>Simple pricing</h2>
       <p>One payment. Lifetime access to the current dataset plus 12 months of updates.</p>
     </div>

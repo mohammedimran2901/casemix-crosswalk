@@ -42,6 +42,13 @@ All prices shown in CasemixCrosswalk are compiled directly from the following of
 - **Values shown:** finished consultant episodes (FCEs) per HRG code, aggregated across day case / elective / non-elective sectors. Percentages = code FCEs ÷ family FCEs. These are REAL activity distributions, not estimates.
 - **Downloaded:** 2026-08-25
 
+## 🇦🇺 Australia — AR-DRG V11.0
+- **Publication:** IHACPA National Efficient Price Determination 2025–26, Appendix H — price weights for admitted acute patients (AR-DRG V11.0).
+    https://www.ihacpa.gov.au/sites/default/files/2025-03/national_efficient_price_determination_2025-26-price_weight_tables.xlsx
+- **Values shown:** inlier price weight (NWAU) and official mean ALOS per AR-DRG. Payment = price weight × National Efficient Price (NEP 2024–25 = A$6,465/NWAU), before adjustments (paediatric, remoteness, ICU, etc.).
+- **Note:** the AIHW AR-DRG activity cube (real AU separations %) is published at aihhw.gov.au but is behind Cloudflare bot protection for automated download — AU activity % pending manual download.
+- **Downloaded:** 2026-08-25 (via text conversion)
+
 ## Procedure-to-HRG/DRG family mapping
 Mappings were made at the procedure-family level (e.g., "primary hip replacement → Very Major Hip Procedures HN12"; "revision hip/knee → HN80/HN81"; "single-level lumbar fusion → HC54"). Exact HRG assignment for an individual patient depends on the OPCS/ICD-10 coding and the NHS grouper; exact MS-DRG assignment depends on the CMS Grouper. Users should verify individual case mappings.
 

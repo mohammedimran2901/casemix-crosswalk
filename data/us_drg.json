@@ -1,0 +1,4622 @@
+{
+ "001": {
+  "title": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITH MCC",
+  "weight": 28.0239,
+  "payment_usd": 203923,
+  "alos": 36.2
+ },
+ "002": {
+  "title": "HEART TRANSPLANT OR IMPLANT OF HEART ASSIST SYSTEM WITHOUT MCC",
+  "weight": 11.3318,
+  "payment_usd": 82459,
+  "alos": 14.0
+ },
+ "003": {
+  "title": "ECMO OR TRACHEOSTOMY WITH MV >96 HOURS OR PRINCIPAL DIAGNOSIS EXCEPT FACE, MOUTH AND NECK WITH MAJOR O.R. PROCEDURES",
+  "weight": 21.2252,
+  "payment_usd": 154451,
+  "alos": 33.0
+ },
+ "004": {
+  "title": "TRACHEOSTOMY WITH MV >96 HOURS OR PRINCIPAL DIAGNOSIS EXCEPT FACE, MOUTH AND NECK WITHOUT MAJOR O.R. PROCEDURES",
+  "weight": 13.8514,
+  "payment_usd": 100793,
+  "alos": 28.0
+ },
+ "005": {
+  "title": "LIVER TRANSPLANT WITH MCC OR INTESTINAL TRANSPLANT",
+  "weight": 10.3105,
+  "payment_usd": 75027,
+  "alos": 19.1
+ },
+ "006": {
+  "title": "LIVER TRANSPLANT WITHOUT MCC",
+  "weight": 4.637,
+  "payment_usd": 33742,
+  "alos": 7.8
+ },
+ "007": {
+  "title": "LUNG TRANSPLANT",
+  "weight": 12.9502,
+  "payment_usd": 94235,
+  "alos": 23.5
+ },
+ "008": {
+  "title": "SIMULTANEOUS PANCREAS AND KIDNEY TRANSPLANT",
+  "weight": 5.6046,
+  "payment_usd": 40783,
+  "alos": 10.0
+ },
+ "010": {
+  "title": "PANCREAS TRANSPLANT",
+  "weight": 3.0699,
+  "payment_usd": 22339,
+  "alos": 6.0
+ },
+ "011": {
+  "title": "TRACHEOSTOMY FOR FACE, MOUTH AND NECK DIAGNOSES OR LARYNGECTOMY WITH MCC",
+  "weight": 5.4541,
+  "payment_usd": 39688,
+  "alos": 13.9
+ },
+ "012": {
+  "title": "TRACHEOSTOMY FOR FACE, MOUTH AND NECK DIAGNOSES OR LARYNGECTOMY WITH CC",
+  "weight": 4.216,
+  "payment_usd": 30679,
+  "alos": 9.8
+ },
+ "013": {
+  "title": "TRACHEOSTOMY FOR FACE, MOUTH AND NECK DIAGNOSES OR LARYNGECTOMY WITHOUT CC/MCC",
+  "weight": 2.8818,
+  "payment_usd": 20970,
+  "alos": 7.1
+ },
+ "014": {
+  "title": "ALLOGENEIC BONE MARROW TRANSPLANT",
+  "weight": 12.0179,
+  "payment_usd": 87451,
+  "alos": 28.7
+ },
+ "016": {
+  "title": "AUTOLOGOUS BONE MARROW TRANSPLANT WITH CC/MCC",
+  "weight": 5.9297,
+  "payment_usd": 43149,
+  "alos": 17.2
+ },
+ "017": {
+  "title": "AUTOLOGOUS BONE MARROW TRANSPLANT WITHOUT CC/MCC",
+  "weight": 4.8383,
+  "payment_usd": 35207,
+  "alos": 11.5
+ },
+ "018": {
+  "title": "CHIMERIC ANTIGEN RECEPTOR (CAR) T-CELL AND OTHER IMMUNOTHERAPIES",
+  "weight": 43.1828,
+  "payment_usd": 314231,
+  "alos": 14.7
+ },
+ "019": {
+  "title": "SIMULTANEOUS PANCREAS AND KIDNEY TRANSPLANT WITH HEMODIALYSIS",
+  "weight": 6.6272,
+  "payment_usd": 48225,
+  "alos": 11.8
+ },
+ "020": {
+  "title": "INTRACRANIAL VASCULAR PROCEDURES WITH PRINCIPAL DIAGNOSIS HEMORRHAGE WITH MCC",
+  "weight": 7.8688,
+  "payment_usd": 57259,
+  "alos": 12.5
+ },
+ "021": {
+  "title": "INTRACRANIAL VASCULAR PROCEDURES WITH PRINCIPAL DIAGNOSIS HEMORRHAGE WITH CC",
+  "weight": 5.2938,
+  "payment_usd": 38522,
+  "alos": 7.8
+ },
+ "022": {
+  "title": "INTRACRANIAL VASCULAR PROCEDURES WITH PRINCIPAL DIAGNOSIS HEMORRHAGE WITHOUT CC/MCC",
+  "weight": 3.0751,
+  "payment_usd": 22377,
+  "alos": 2.4
+ },
+ "023": {
+  "title": "CRANIOTOMY WITH MAJOR DEVICE IMPLANT OR ACUTE COMPLEX CNS PRINCIPAL DIAGNOSIS WITH MCC OR ANTINEOPLASTIC IMPLANT OR EPILEPSY WITH NEUROSTIMULATOR",
+  "weight": 5.7303,
+  "payment_usd": 41698,
+  "alos": 10.0
+ },
+ "024": {
+  "title": "CRANIOTOMY WITH MAJOR DEVICE IMPLANT OR ACUTE COMPLEX CNS PRINCIPAL DIAGNOSIS WITHOUT MCC",
+  "weight": 3.9119,
+  "payment_usd": 28466,
+  "alos": 4.9
+ },
+ "025": {
+  "title": "CRANIOTOMY AND ENDOVASCULAR INTRACRANIAL PROCEDURES WITH MCC",
+  "weight": 4.5467,
+  "payment_usd": 33085,
+  "alos": 8.6
+ },
+ "026": {
+  "title": "CRANIOTOMY AND ENDOVASCULAR INTRACRANIAL PROCEDURES WITH CC",
+  "weight": 3.1092,
+  "payment_usd": 22625,
+  "alos": 4.1
+ },
+ "027": {
+  "title": "CRANIOTOMY AND ENDOVASCULAR INTRACRANIAL PROCEDURES WITHOUT CC/MCC",
+  "weight": 2.5229,
+  "payment_usd": 18359,
+  "alos": 2.0
+ },
+ "028": {
+  "title": "SPINAL PROCEDURES WITH MCC",
+  "weight": 6.0083,
+  "payment_usd": 43721,
+  "alos": 12.2
+ },
+ "029": {
+  "title": "SPINAL PROCEDURES WITH CC OR SPINAL NEUROSTIMULATORS",
+  "weight": 3.4116,
+  "payment_usd": 24825,
+  "alos": 6.2
+ },
+ "030": {
+  "title": "SPINAL PROCEDURES WITHOUT CC/MCC",
+  "weight": 2.1952,
+  "payment_usd": 15974,
+  "alos": 3.3
+ },
+ "031": {
+  "title": "VENTRICULAR SHUNT PROCEDURES WITH MCC",
+  "weight": 4.4805,
+  "payment_usd": 32604,
+  "alos": 10.6
+ },
+ "032": {
+  "title": "VENTRICULAR SHUNT PROCEDURES WITH CC",
+  "weight": 2.131,
+  "payment_usd": 15507,
+  "alos": 3.7
+ },
+ "033": {
+  "title": "VENTRICULAR SHUNT PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.6629,
+  "payment_usd": 12101,
+  "alos": 1.9
+ },
+ "034": {
+  "title": "CAROTID ARTERY STENT PROCEDURES WITH MCC",
+  "weight": 3.8707,
+  "payment_usd": 28166,
+  "alos": 6.7
+ },
+ "035": {
+  "title": "CAROTID ARTERY STENT PROCEDURES WITH CC",
+  "weight": 2.3905,
+  "payment_usd": 17395,
+  "alos": 2.7
+ },
+ "036": {
+  "title": "CAROTID ARTERY STENT PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.9428,
+  "payment_usd": 14137,
+  "alos": 1.4
+ },
+ "037": {
+  "title": "EXTRACRANIAL PROCEDURES WITH MCC",
+  "weight": 3.2921,
+  "payment_usd": 23956,
+  "alos": 7.2
+ },
+ "038": {
+  "title": "EXTRACRANIAL PROCEDURES WITH CC",
+  "weight": 1.6226,
+  "payment_usd": 11807,
+  "alos": 2.7
+ },
+ "039": {
+  "title": "EXTRACRANIAL PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.1755,
+  "payment_usd": 8554,
+  "alos": 1.4
+ },
+ "040": {
+  "title": "PERIPHERAL, CRANIAL NERVE AND OTHER NERVOUS SYSTEM PROCEDURES WITH MCC",
+  "weight": 3.8612,
+  "payment_usd": 28097,
+  "alos": 10.7
+ },
+ "041": {
+  "title": "PERIPHERAL, CRANIAL NERVE AND OTHER NERVOUS SYSTEM PROCEDURES WITH CC OR PERIPHERAL NEUROSTIMULATOR",
+  "weight": 2.1987,
+  "payment_usd": 15999,
+  "alos": 4.8
+ },
+ "042": {
+  "title": "PERIPHERAL, CRANIAL NERVE AND OTHER NERVOUS SYSTEM PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.7277,
+  "payment_usd": 12572,
+  "alos": 2.9
+ },
+ "052": {
+  "title": "SPINAL DISORDERS AND INJURIES WITH CC/MCC",
+  "weight": 1.7808,
+  "payment_usd": 12958,
+  "alos": 5.7
+ },
+ "053": {
+  "title": "SPINAL DISORDERS AND INJURIES WITHOUT CC/MCC",
+  "weight": 0.9792,
+  "payment_usd": 7125,
+  "alos": 3.3
+ },
+ "054": {
+  "title": "NERVOUS SYSTEM NEOPLASMS WITH MCC",
+  "weight": 1.5269,
+  "payment_usd": 11111,
+  "alos": 5.7
+ },
+ "055": {
+  "title": "NERVOUS SYSTEM NEOPLASMS WITHOUT MCC",
+  "weight": 1.0196,
+  "payment_usd": 7419,
+  "alos": 3.9
+ },
+ "056": {
+  "title": "DEGENERATIVE NERVOUS SYSTEM DISORDERS WITH MCC",
+  "weight": 2.3231,
+  "payment_usd": 16905,
+  "alos": 9.1
+ },
+ "057": {
+  "title": "DEGENERATIVE NERVOUS SYSTEM DISORDERS WITHOUT MCC",
+  "weight": 1.2956,
+  "payment_usd": 9428,
+  "alos": 5.9
+ },
+ "058": {
+  "title": "MULTIPLE SCLEROSIS AND CEREBELLAR ATAXIA WITH MCC",
+  "weight": 1.7095,
+  "payment_usd": 12440,
+  "alos": 6.3
+ },
+ "059": {
+  "title": "MULTIPLE SCLEROSIS AND CEREBELLAR ATAXIA WITH CC",
+  "weight": 1.2409,
+  "payment_usd": 9030,
+  "alos": 4.8
+ },
+ "060": {
+  "title": "MULTIPLE SCLEROSIS AND CEREBELLAR ATAXIA WITHOUT CC/MCC",
+  "weight": 0.9198,
+  "payment_usd": 6693,
+  "alos": 3.6
+ },
+ "061": {
+  "title": "ISCHEMIC STROKE, PRECEREBRAL OCCLUSION OR TRANSIENT ISCHEMIA WITH THROMBOLYTIC AGENT WITH MCC",
+  "weight": 2.7571,
+  "payment_usd": 20063,
+  "alos": 6.2
+ },
+ "062": {
+  "title": "ISCHEMIC STROKE, PRECEREBRAL OCCLUSION OR TRANSIENT ISCHEMIA WITH THROMBOLYTIC AGENT WITH CC",
+  "weight": 1.7572,
+  "payment_usd": 12787,
+  "alos": 3.6
+ },
+ "063": {
+  "title": "ISCHEMIC STROKE, PRECEREBRAL OCCLUSION OR TRANSIENT ISCHEMIA WITH THROMBOLYTIC AGENT WITHOUT CC/MCC",
+  "weight": 1.4038,
+  "payment_usd": 10215,
+  "alos": 2.5
+ },
+ "064": {
+  "title": "INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION WITH MCC",
+  "weight": 2.011,
+  "payment_usd": 14634,
+  "alos": 6.3
+ },
+ "065": {
+  "title": "INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION WITH CC OR TPA IN 24 HOURS",
+  "weight": 1.0103,
+  "payment_usd": 7352,
+  "alos": 3.6
+ },
+ "066": {
+  "title": "INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION WITHOUT CC/MCC",
+  "weight": 0.6844,
+  "payment_usd": 4980,
+  "alos": 2.3
+ },
+ "067": {
+  "title": "PRECEREBRAL OCCLUSION WITHOUT INFARCTION WITH MCC",
+  "weight": 1.4687,
+  "payment_usd": 10687,
+  "alos": 4.7
+ },
+ "068": {
+  "title": "PRECEREBRAL OCCLUSION WITHOUT INFARCTION WITHOUT MCC",
+  "weight": 0.8644,
+  "payment_usd": 6290,
+  "alos": 2.5
+ },
+ "069": {
+  "title": "TRANSIENT ISCHEMIA WITHOUT THROMBOLYTIC",
+  "weight": 0.7988,
+  "payment_usd": 5813,
+  "alos": 2.5
+ },
+ "070": {
+  "title": "OTHER CEREBROVASCULAR DISORDERS WITH MCC",
+  "weight": 1.6648,
+  "payment_usd": 12114,
+  "alos": 6.3
+ },
+ "071": {
+  "title": "OTHER CEREBROVASCULAR DISORDERS WITH CC",
+  "weight": 1.026,
+  "payment_usd": 7466,
+  "alos": 4.4
+ },
+ "072": {
+  "title": "OTHER CEREBROVASCULAR DISORDERS WITHOUT CC/MCC",
+  "weight": 0.7562,
+  "payment_usd": 5503,
+  "alos": 2.9
+ },
+ "073": {
+  "title": "CRANIAL AND PERIPHERAL NERVE DISORDERS WITH MCC",
+  "weight": 1.6043,
+  "payment_usd": 11674,
+  "alos": 5.8
+ },
+ "074": {
+  "title": "CRANIAL AND PERIPHERAL NERVE DISORDERS WITHOUT MCC",
+  "weight": 1.0308,
+  "payment_usd": 7501,
+  "alos": 3.7
+ },
+ "075": {
+  "title": "VIRAL MENINGITIS WITH CC/MCC",
+  "weight": 1.9175,
+  "payment_usd": 13953,
+  "alos": 7.2
+ },
+ "076": {
+  "title": "VIRAL MENINGITIS WITHOUT CC/MCC",
+  "weight": 0.7488,
+  "payment_usd": 5449,
+  "alos": 3.2
+ },
+ "080": {
+  "title": "NONTRAUMATIC STUPOR AND COMA WITH MCC",
+  "weight": 1.81,
+  "payment_usd": 13171,
+  "alos": 6.5
+ },
+ "081": {
+  "title": "NONTRAUMATIC STUPOR AND COMA WITHOUT MCC",
+  "weight": 0.8956,
+  "payment_usd": 6517,
+  "alos": 3.6
+ },
+ "082": {
+  "title": "TRAUMATIC STUPOR AND COMA >1 HOUR WITH MCC",
+  "weight": 2.2856,
+  "payment_usd": 16632,
+  "alos": 6.6
+ },
+ "083": {
+  "title": "TRAUMATIC STUPOR AND COMA >1 HOUR WITH CC",
+  "weight": 1.3958,
+  "payment_usd": 10157,
+  "alos": 4.3
+ },
+ "084": {
+  "title": "TRAUMATIC STUPOR AND COMA >1 HOUR WITHOUT CC/MCC",
+  "weight": 0.9558,
+  "payment_usd": 6955,
+  "alos": 2.5
+ },
+ "085": {
+  "title": "TRAUMATIC STUPOR AND COMA <1 HOUR WITH MCC",
+  "weight": 2.2719,
+  "payment_usd": 16532,
+  "alos": 6.3
+ },
+ "086": {
+  "title": "TRAUMATIC STUPOR AND COMA <1 HOUR WITH CC",
+  "weight": 1.3027,
+  "payment_usd": 9479,
+  "alos": 3.6
+ },
+ "087": {
+  "title": "TRAUMATIC STUPOR AND COMA <1 HOUR WITHOUT CC/MCC",
+  "weight": 0.9147,
+  "payment_usd": 6656,
+  "alos": 2.3
+ },
+ "088": {
+  "title": "CONCUSSION WITH MCC",
+  "weight": 1.3518,
+  "payment_usd": 9837,
+  "alos": 4.5
+ },
+ "089": {
+  "title": "CONCUSSION WITH CC",
+  "weight": 1.0986,
+  "payment_usd": 7994,
+  "alos": 3.3
+ },
+ "090": {
+  "title": "CONCUSSION WITHOUT CC/MCC",
+  "weight": 0.8232,
+  "payment_usd": 5990,
+  "alos": 2.3
+ },
+ "091": {
+  "title": "OTHER DISORDERS OF NERVOUS SYSTEM WITH MCC",
+  "weight": 1.7562,
+  "payment_usd": 12779,
+  "alos": 6.3
+ },
+ "092": {
+  "title": "OTHER DISORDERS OF NERVOUS SYSTEM WITH CC",
+  "weight": 1.023,
+  "payment_usd": 7444,
+  "alos": 4.0
+ },
+ "093": {
+  "title": "OTHER DISORDERS OF NERVOUS SYSTEM WITHOUT CC/MCC",
+  "weight": 0.7963,
+  "payment_usd": 5794,
+  "alos": 2.7
+ },
+ "094": {
+  "title": "BACTERIAL AND TUBERCULOUS INFECTIONS OF NERVOUS SYSTEM WITH MCC",
+  "weight": 3.5194,
+  "payment_usd": 25610,
+  "alos": 10.5
+ },
+ "095": {
+  "title": "BACTERIAL AND TUBERCULOUS INFECTIONS OF NERVOUS SYSTEM WITH CC",
+  "weight": 2.5792,
+  "payment_usd": 18768,
+  "alos": 6.8
+ },
+ "096": {
+  "title": "BACTERIAL AND TUBERCULOUS INFECTIONS OF NERVOUS SYSTEM WITHOUT CC/MCC",
+  "weight": 2.5792,
+  "payment_usd": 18768,
+  "alos": 6.8
+ },
+ "097": {
+  "title": "NON-BACTERIAL INFECTION OF NERVOUS SYSTEM EXCEPT VIRAL MENINGITIS WITH MCC",
+  "weight": 3.6118,
+  "payment_usd": 26282,
+  "alos": 11.7
+ },
+ "098": {
+  "title": "NON-BACTERIAL INFECTION OF NERVOUS SYSTEM EXCEPT VIRAL MENINGITIS WITH CC",
+  "weight": 2.2949,
+  "payment_usd": 16699,
+  "alos": 7.7
+ },
+ "099": {
+  "title": "NON-BACTERIAL INFECTION OF NERVOUS SYSTEM EXCEPT VIRAL MENINGITIS WITHOUT CC/MCC",
+  "weight": 1.3624,
+  "payment_usd": 9914,
+  "alos": 4.7
+ },
+ "100": {
+  "title": "SEIZURES WITH MCC",
+  "weight": 1.9368,
+  "payment_usd": 14094,
+  "alos": 6.3
+ },
+ "101": {
+  "title": "SEIZURES WITHOUT MCC",
+  "weight": 0.9026,
+  "payment_usd": 6568,
+  "alos": 3.4
+ },
+ "102": {
+  "title": "HEADACHES WITH MCC",
+  "weight": 1.1209,
+  "payment_usd": 8157,
+  "alos": 4.0
+ },
+ "103": {
+  "title": "HEADACHES WITHOUT MCC",
+  "weight": 0.8363,
+  "payment_usd": 6086,
+  "alos": 2.9
+ },
+ "113": {
+  "title": "ORBITAL PROCEDURES WITH CC/MCC",
+  "weight": 2.3511,
+  "payment_usd": 17108,
+  "alos": 6.5
+ },
+ "114": {
+  "title": "ORBITAL PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.353,
+  "payment_usd": 9845,
+  "alos": 3.3
+ },
+ "115": {
+  "title": "EXTRAOCULAR PROCEDURES EXCEPT ORBIT",
+  "weight": 1.5349,
+  "payment_usd": 11169,
+  "alos": 5.3
+ },
+ "116": {
+  "title": "INTRAOCULAR PROCEDURES WITH CC/MCC",
+  "weight": 1.8081,
+  "payment_usd": 13157,
+  "alos": 6.3
+ },
+ "117": {
+  "title": "INTRAOCULAR PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.0849,
+  "payment_usd": 7895,
+  "alos": 2.5
+ },
+ "121": {
+  "title": "ACUTE MAJOR EYE INFECTIONS WITH CC/MCC",
+  "weight": 1.1633,
+  "payment_usd": 8465,
+  "alos": 5.5
+ },
+ "122": {
+  "title": "ACUTE MAJOR EYE INFECTIONS WITHOUT CC/MCC",
+  "weight": 0.7858,
+  "payment_usd": 5718,
+  "alos": 4.0
+ },
+ "123": {
+  "title": "NEUROLOGICAL EYE DISORDERS",
+  "weight": 0.7986,
+  "payment_usd": 5811,
+  "alos": 2.6
+ },
+ "124": {
+  "title": "OTHER DISORDERS OF THE EYE WITH MCC OR THROMBOLYTIC AGENT",
+  "weight": 1.3231,
+  "payment_usd": 9628,
+  "alos": 4.6
+ },
+ "125": {
+  "title": "OTHER DISORDERS OF THE EYE WITHOUT MCC",
+  "weight": 0.7678,
+  "payment_usd": 5587,
+  "alos": 2.9
+ },
+ "135": {
+  "title": "SINUS AND MASTOID PROCEDURES WITH CC/MCC",
+  "weight": 2.1152,
+  "payment_usd": 15392,
+  "alos": 5.6
+ },
+ "136": {
+  "title": "SINUS AND MASTOID PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.0153,
+  "payment_usd": 7388,
+  "alos": 1.6
+ },
+ "137": {
+  "title": "MOUTH PROCEDURES WITH CC/MCC",
+  "weight": 1.4932,
+  "payment_usd": 10866,
+  "alos": 4.9
+ },
+ "138": {
+  "title": "MOUTH PROCEDURES WITHOUT CC/MCC",
+  "weight": 0.8862,
+  "payment_usd": 6449,
+  "alos": 2.0
+ },
+ "139": {
+  "title": "SALIVARY GLAND PROCEDURES",
+  "weight": 1.2086,
+  "payment_usd": 8795,
+  "alos": 2.9
+ },
+ "140": {
+  "title": "MAJOR HEAD AND NECK PROCEDURES WITH MCC",
+  "weight": 4.2653,
+  "payment_usd": 31038,
+  "alos": 9.1
+ },
+ "141": {
+  "title": "MAJOR HEAD AND NECK PROCEDURES WITH CC",
+  "weight": 2.1811,
+  "payment_usd": 15871,
+  "alos": 4.1
+ },
+ "142": {
+  "title": "MAJOR HEAD AND NECK PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.5964,
+  "payment_usd": 11617,
+  "alos": 2.5
+ },
+ "143": {
+  "title": "OTHER EAR, NOSE, MOUTH AND THROAT O.R. PROCEDURES WITH MCC",
+  "weight": 3.7466,
+  "payment_usd": 27263,
+  "alos": 9.5
+ },
+ "144": {
+  "title": "OTHER EAR, NOSE, MOUTH AND THROAT O.R. PROCEDURES WITH CC",
+  "weight": 1.7329,
+  "payment_usd": 12610,
+  "alos": 3.8
+ },
+ "145": {
+  "title": "OTHER EAR, NOSE, MOUTH AND THROAT O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.2023,
+  "payment_usd": 8749,
+  "alos": 1.9
+ },
+ "146": {
+  "title": "EAR, NOSE, MOUTH AND THROAT MALIGNANCY WITH MCC",
+  "weight": 2.1174,
+  "payment_usd": 15408,
+  "alos": 8.0
+ },
+ "147": {
+  "title": "EAR, NOSE, MOUTH AND THROAT MALIGNANCY WITH CC",
+  "weight": 1.2715,
+  "payment_usd": 9252,
+  "alos": 4.8
+ },
+ "148": {
+  "title": "EAR, NOSE, MOUTH AND THROAT MALIGNANCY WITHOUT CC/MCC",
+  "weight": 0.7971,
+  "payment_usd": 5800,
+  "alos": 2.4
+ },
+ "149": {
+  "title": "DYSEQUILIBRIUM",
+  "weight": 0.7516,
+  "payment_usd": 5469,
+  "alos": 2.4
+ },
+ "150": {
+  "title": "EPISTAXIS WITH MCC",
+  "weight": 1.3315,
+  "payment_usd": 9689,
+  "alos": 4.5
+ },
+ "151": {
+  "title": "EPISTAXIS WITHOUT MCC",
+  "weight": 0.734,
+  "payment_usd": 5341,
+  "alos": 2.6
+ },
+ "152": {
+  "title": "OTITIS MEDIA AND URI WITH MCC",
+  "weight": 1.1822,
+  "payment_usd": 8603,
+  "alos": 4.4
+ },
+ "153": {
+  "title": "OTITIS MEDIA AND URI WITHOUT MCC",
+  "weight": 0.7382,
+  "payment_usd": 5372,
+  "alos": 2.8
+ },
+ "154": {
+  "title": "OTHER EAR, NOSE, MOUTH AND THROAT DIAGNOSES WITH MCC",
+  "weight": 1.5635,
+  "payment_usd": 11377,
+  "alos": 5.6
+ },
+ "155": {
+  "title": "OTHER EAR, NOSE, MOUTH AND THROAT DIAGNOSES WITH CC",
+  "weight": 0.9165,
+  "payment_usd": 6669,
+  "alos": 3.5
+ },
+ "156": {
+  "title": "OTHER EAR, NOSE, MOUTH AND THROAT DIAGNOSES WITHOUT CC/MCC",
+  "weight": 0.6911,
+  "payment_usd": 5029,
+  "alos": 2.4
+ },
+ "157": {
+  "title": "DENTAL AND ORAL DISEASES WITH MCC",
+  "weight": 1.7168,
+  "payment_usd": 12493,
+  "alos": 6.3
+ },
+ "158": {
+  "title": "DENTAL AND ORAL DISEASES WITH CC",
+  "weight": 0.9098,
+  "payment_usd": 6620,
+  "alos": 3.5
+ },
+ "159": {
+  "title": "DENTAL AND ORAL DISEASES WITHOUT CC/MCC",
+  "weight": 0.7085,
+  "payment_usd": 5156,
+  "alos": 2.5
+ },
+ "163": {
+  "title": "MAJOR CHEST PROCEDURES WITH MCC",
+  "weight": 4.4818,
+  "payment_usd": 32613,
+  "alos": 8.7
+ },
+ "164": {
+  "title": "MAJOR CHEST PROCEDURES WITH CC",
+  "weight": 2.524,
+  "payment_usd": 18367,
+  "alos": 4.3
+ },
+ "165": {
+  "title": "MAJOR CHEST PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.9142,
+  "payment_usd": 13929,
+  "alos": 2.4
+ },
+ "166": {
+  "title": "OTHER RESPIRATORY SYSTEM O.R. PROCEDURES WITH MCC",
+  "weight": 3.7377,
+  "payment_usd": 27198,
+  "alos": 10.5
+ },
+ "167": {
+  "title": "OTHER RESPIRATORY SYSTEM O.R. PROCEDURES WITH CC",
+  "weight": 1.8034,
+  "payment_usd": 13123,
+  "alos": 4.6
+ },
+ "168": {
+  "title": "OTHER RESPIRATORY SYSTEM O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.3664,
+  "payment_usd": 9943,
+  "alos": 2.2
+ },
+ "173": {
+  "title": "ULTRASOUND ACCELERATED AND OTHER THROMBOLYSIS WITH PRINCIPAL DIAGNOSIS PULMONARY EMBOLISM",
+  "weight": 2.9764,
+  "payment_usd": 21659,
+  "alos": 4.6
+ },
+ "175": {
+  "title": "PULMONARY EMBOLISM WITH MCC OR ACUTE COR PULMONALE",
+  "weight": 1.3736,
+  "payment_usd": 9995,
+  "alos": 4.9
+ },
+ "176": {
+  "title": "PULMONARY EMBOLISM WITHOUT MCC",
+  "weight": 0.805,
+  "payment_usd": 5858,
+  "alos": 3.0
+ },
+ "177": {
+  "title": "RESPIRATORY INFECTIONS AND INFLAMMATIONS WITH MCC",
+  "weight": 1.5627,
+  "payment_usd": 11371,
+  "alos": 5.7
+ },
+ "178": {
+  "title": "RESPIRATORY INFECTIONS AND INFLAMMATIONS WITH CC",
+  "weight": 0.976,
+  "payment_usd": 7102,
+  "alos": 3.9
+ },
+ "179": {
+  "title": "RESPIRATORY INFECTIONS AND INFLAMMATIONS WITHOUT CC/MCC",
+  "weight": 0.755,
+  "payment_usd": 5494,
+  "alos": 3.0
+ },
+ "180": {
+  "title": "RESPIRATORY NEOPLASMS WITH MCC",
+  "weight": 1.766,
+  "payment_usd": 12851,
+  "alos": 6.5
+ },
+ "181": {
+  "title": "RESPIRATORY NEOPLASMS WITH CC",
+  "weight": 1.071,
+  "payment_usd": 7793,
+  "alos": 4.1
+ },
+ "182": {
+  "title": "RESPIRATORY NEOPLASMS WITHOUT CC/MCC",
+  "weight": 0.744,
+  "payment_usd": 5414,
+  "alos": 2.8
+ },
+ "183": {
+  "title": "MAJOR CHEST TRAUMA WITH MCC",
+  "weight": 1.5299,
+  "payment_usd": 11133,
+  "alos": 5.4
+ },
+ "184": {
+  "title": "MAJOR CHEST TRAUMA WITH CC",
+  "weight": 1.0641,
+  "payment_usd": 7743,
+  "alos": 3.7
+ },
+ "185": {
+  "title": "MAJOR CHEST TRAUMA WITHOUT CC/MCC",
+  "weight": 0.7865,
+  "payment_usd": 5723,
+  "alos": 2.7
+ },
+ "186": {
+  "title": "PLEURAL EFFUSION WITH MCC",
+  "weight": 1.5585,
+  "payment_usd": 11341,
+  "alos": 5.6
+ },
+ "187": {
+  "title": "PLEURAL EFFUSION WITH CC",
+  "weight": 0.9891,
+  "payment_usd": 7197,
+  "alos": 3.8
+ },
+ "188": {
+  "title": "PLEURAL EFFUSION WITHOUT CC/MCC",
+  "weight": 0.7172,
+  "payment_usd": 5219,
+  "alos": 2.6
+ },
+ "189": {
+  "title": "PULMONARY EDEMA AND RESPIRATORY FAILURE",
+  "weight": 1.2354,
+  "payment_usd": 8990,
+  "alos": 4.7
+ },
+ "190": {
+  "title": "CHRONIC OBSTRUCTIVE PULMONARY DISEASE WITH MCC",
+  "weight": 1.1077,
+  "payment_usd": 8060,
+  "alos": 4.2
+ },
+ "191": {
+  "title": "CHRONIC OBSTRUCTIVE PULMONARY DISEASE WITH CC",
+  "weight": 0.843,
+  "payment_usd": 6134,
+  "alos": 3.3
+ },
+ "192": {
+  "title": "CHRONIC OBSTRUCTIVE PULMONARY DISEASE WITHOUT CC/MCC",
+  "weight": 0.642,
+  "payment_usd": 4672,
+  "alos": 2.5
+ },
+ "193": {
+  "title": "SIMPLE PNEUMONIA AND PLEURISY WITH MCC",
+  "weight": 1.3144,
+  "payment_usd": 9565,
+  "alos": 4.9
+ },
+ "194": {
+  "title": "SIMPLE PNEUMONIA AND PLEURISY WITH CC",
+  "weight": 0.8059,
+  "payment_usd": 5864,
+  "alos": 3.4
+ },
+ "195": {
+  "title": "SIMPLE PNEUMONIA AND PLEURISY WITHOUT CC/MCC",
+  "weight": 0.6285,
+  "payment_usd": 4573,
+  "alos": 2.7
+ },
+ "196": {
+  "title": "INTERSTITIAL LUNG DISEASE WITH MCC",
+  "weight": 1.8872,
+  "payment_usd": 13733,
+  "alos": 6.5
+ },
+ "197": {
+  "title": "INTERSTITIAL LUNG DISEASE WITH CC",
+  "weight": 0.9491,
+  "payment_usd": 6906,
+  "alos": 3.6
+ },
+ "198": {
+  "title": "INTERSTITIAL LUNG DISEASE WITHOUT CC/MCC",
+  "weight": 0.7162,
+  "payment_usd": 5212,
+  "alos": 2.7
+ },
+ "199": {
+  "title": "PNEUMOTHORAX WITH MCC",
+  "weight": 1.7641,
+  "payment_usd": 12837,
+  "alos": 6.3
+ },
+ "200": {
+  "title": "PNEUMOTHORAX WITH CC",
+  "weight": 1.0993,
+  "payment_usd": 7999,
+  "alos": 3.9
+ },
+ "201": {
+  "title": "PNEUMOTHORAX WITHOUT CC/MCC",
+  "weight": 0.7151,
+  "payment_usd": 5204,
+  "alos": 2.8
+ },
+ "202": {
+  "title": "BRONCHITIS AND ASTHMA WITH CC/MCC",
+  "weight": 0.9712,
+  "payment_usd": 7067,
+  "alos": 3.6
+ },
+ "203": {
+  "title": "BRONCHITIS AND ASTHMA WITHOUT CC/MCC",
+  "weight": 0.67,
+  "payment_usd": 4875,
+  "alos": 2.6
+ },
+ "204": {
+  "title": "RESPIRATORY SIGNS AND SYMPTOMS",
+  "weight": 0.8074,
+  "payment_usd": 5875,
+  "alos": 2.7
+ },
+ "205": {
+  "title": "OTHER RESPIRATORY SYSTEM DIAGNOSES WITH MCC",
+  "weight": 1.831,
+  "payment_usd": 13324,
+  "alos": 6.0
+ },
+ "206": {
+  "title": "OTHER RESPIRATORY SYSTEM DIAGNOSES WITHOUT MCC",
+  "weight": 0.9411,
+  "payment_usd": 6848,
+  "alos": 3.1
+ },
+ "207": {
+  "title": "RESPIRATORY SYSTEM DIAGNOSIS WITH VENTILATOR SUPPORT >96 HOURS",
+  "weight": 6.4347,
+  "payment_usd": 46824,
+  "alos": 15.1
+ },
+ "208": {
+  "title": "RESPIRATORY SYSTEM DIAGNOSIS WITH VENTILATOR SUPPORT <=96 HOURS",
+  "weight": 2.7487,
+  "payment_usd": 20002,
+  "alos": 7.1
+ },
+ "209": {
+  "title": "COMPLEX AORTIC ARCH PROCEDURES",
+  "weight": 11.3188,
+  "payment_usd": 82364,
+  "alos": 10.6
+ },
+ "212": {
+  "title": "CONCOMITANT AORTIC AND MITRAL VALVE PROCEDURES",
+  "weight": 10.8741,
+  "payment_usd": 79128,
+  "alos": 15.5
+ },
+ "213": {
+  "title": "ENDOVASCULAR ABDOMINAL AORTA WITH ILIAC BRANCH PROCEDURES",
+  "weight": 5.7069,
+  "payment_usd": 41528,
+  "alos": 2.9
+ },
+ "215": {
+  "title": "OTHER HEART ASSIST SYSTEM IMPLANT",
+  "weight": 9.957,
+  "payment_usd": 72455,
+  "alos": 8.1
+ },
+ "216": {
+  "title": "CARDIAC VALVE AND OTHER MAJOR CARDIOTHORACIC PROCEDURES WITH CARDIAC CATHETERIZATION WITH MCC",
+  "weight": 9.7828,
+  "payment_usd": 71187,
+  "alos": 13.6
+ },
+ "217": {
+  "title": "CARDIAC VALVE AND OTHER MAJOR CARDIOTHORACIC PROCEDURES WITH CARDIAC CATHETERIZATION WITH CC",
+  "weight": 6.5753,
+  "payment_usd": 47847,
+  "alos": 6.2
+ },
+ "218": {
+  "title": "CARDIAC VALVE AND OTHER MAJOR CARDIOTHORACIC PROCEDURES WITH CARDIAC CATHETERIZATION WITHOUT CC/MCC",
+  "weight": 6.5753,
+  "payment_usd": 47847,
+  "alos": 6.2
+ },
+ "219": {
+  "title": "CARDIAC VALVE AND OTHER MAJOR CARDIOTHORACIC PROCEDURES WITHOUT CARDIAC CATHETERIZATION WITH MCC",
+  "weight": 7.6783,
+  "payment_usd": 55873,
+  "alos": 10.0
+ },
+ "220": {
+  "title": "CARDIAC VALVE AND OTHER MAJOR CARDIOTHORACIC PROCEDURES WITHOUT CARDIAC CATHETERIZATION WITH CC",
+  "weight": 5.3328,
+  "payment_usd": 38806,
+  "alos": 6.1
+ },
+ "221": {
+  "title": "CARDIAC VALVE AND OTHER MAJOR CARDIOTHORACIC PROCEDURES WITHOUT CARDIAC CATHETERIZATION WITHOUT CC/MCC",
+  "weight": 5.0402,
+  "payment_usd": 36676,
+  "alos": 3.6
+ },
+ "228": {
+  "title": "OTHER CARDIOTHORACIC PROCEDURES WITH MCC",
+  "weight": 4.9474,
+  "payment_usd": 36001,
+  "alos": 8.5
+ },
+ "229": {
+  "title": "OTHER CARDIOTHORACIC PROCEDURES WITHOUT MCC",
+  "weight": 3.1495,
+  "payment_usd": 22918,
+  "alos": 3.2
+ },
+ "231": {
+  "title": "CORONARY BYPASS WITH PTCA WITH MCC",
+  "weight": 8.4299,
+  "payment_usd": 61342,
+  "alos": 12.0
+ },
+ "232": {
+  "title": "CORONARY BYPASS WITH PTCA WITHOUT MCC",
+  "weight": 6.0626,
+  "payment_usd": 44116,
+  "alos": 8.6
+ },
+ "233": {
+  "title": "CORONARY BYPASS WITH CARDIAC CATHETERIZATION OR OPEN ABLATION WITH MCC",
+  "weight": 7.6452,
+  "payment_usd": 55632,
+  "alos": 12.3
+ },
+ "234": {
+  "title": "CORONARY BYPASS WITH CARDIAC CATHETERIZATION OR OPEN ABLATION WITHOUT MCC",
+  "weight": 5.4627,
+  "payment_usd": 39751,
+  "alos": 8.8
+ },
+ "235": {
+  "title": "CORONARY BYPASS WITHOUT CARDIAC CATHETERIZATION WITH MCC",
+  "weight": 5.8686,
+  "payment_usd": 42704,
+  "alos": 9.1
+ },
+ "236": {
+  "title": "CORONARY BYPASS WITHOUT CARDIAC CATHETERIZATION WITHOUT MCC",
+  "weight": 4.1888,
+  "payment_usd": 30481,
+  "alos": 6.2
+ },
+ "239": {
+  "title": "AMPUTATION FOR CIRCULATORY SYSTEM DISORDERS EXCEPT UPPER LIMB AND TOE WITH MCC",
+  "weight": 4.9217,
+  "payment_usd": 35814,
+  "alos": 13.8
+ },
+ "240": {
+  "title": "AMPUTATION FOR CIRCULATORY SYSTEM DISORDERS EXCEPT UPPER LIMB AND TOE WITH CC",
+  "weight": 2.8505,
+  "payment_usd": 20742,
+  "alos": 8.8
+ },
+ "241": {
+  "title": "AMPUTATION FOR CIRCULATORY SYSTEM DISORDERS EXCEPT UPPER LIMB AND TOE WITHOUT CC/MCC",
+  "weight": 1.3844,
+  "payment_usd": 10074,
+  "alos": 4.8
+ },
+ "242": {
+  "title": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH MCC",
+  "weight": 3.1928,
+  "payment_usd": 23233,
+  "alos": 6.2
+ },
+ "243": {
+  "title": "PERMANENT CARDIAC PACEMAKER IMPLANT WITH CC",
+  "weight": 2.1309,
+  "payment_usd": 15506,
+  "alos": 3.5
+ },
+ "244": {
+  "title": "PERMANENT CARDIAC PACEMAKER IMPLANT WITHOUT CC/MCC",
+  "weight": 1.8075,
+  "payment_usd": 13153,
+  "alos": 2.5
+ },
+ "245": {
+  "title": "AICD GENERATOR PROCEDURES",
+  "weight": 4.5624,
+  "payment_usd": 33199,
+  "alos": 6.2
+ },
+ "250": {
+  "title": "PERCUTANEOUS CARDIOVASCULAR PROCEDURES WITHOUT INTRALUMINAL DEVICE WITH MCC",
+  "weight": 2.1825,
+  "payment_usd": 15882,
+  "alos": 4.3
+ },
+ "251": {
+  "title": "PERCUTANEOUS CARDIOVASCULAR PROCEDURES WITHOUT INTRALUMINAL DEVICE WITHOUT MCC",
+  "weight": 1.4945,
+  "payment_usd": 10875,
+  "alos": 2.4
+ },
+ "252": {
+  "title": "OTHER VASCULAR PROCEDURES WITH MCC",
+  "weight": 3.4883,
+  "payment_usd": 25384,
+  "alos": 7.8
+ },
+ "253": {
+  "title": "OTHER VASCULAR PROCEDURES WITH CC",
+  "weight": 2.5956,
+  "payment_usd": 18888,
+  "alos": 5.1
+ },
+ "254": {
+  "title": "OTHER VASCULAR PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.7817,
+  "payment_usd": 12965,
+  "alos": 2.2
+ },
+ "255": {
+  "title": "UPPER LIMB AND TOE AMPUTATION FOR CIRCULATORY SYSTEM DISORDERS WITH MCC",
+  "weight": 2.6974,
+  "payment_usd": 19628,
+  "alos": 8.6
+ },
+ "256": {
+  "title": "UPPER LIMB AND TOE AMPUTATION FOR CIRCULATORY SYSTEM DISORDERS WITH CC",
+  "weight": 1.6979,
+  "payment_usd": 12355,
+  "alos": 6.1
+ },
+ "257": {
+  "title": "UPPER LIMB AND TOE AMPUTATION FOR CIRCULATORY SYSTEM DISORDERS WITHOUT CC/MCC",
+  "weight": 1.0922,
+  "payment_usd": 7948,
+  "alos": 3.8
+ },
+ "258": {
+  "title": "CARDIAC PACEMAKER DEVICE REPLACEMENT WITH MCC",
+  "weight": 3.1421,
+  "payment_usd": 22864,
+  "alos": 7.2
+ },
+ "259": {
+  "title": "CARDIAC PACEMAKER DEVICE REPLACEMENT WITHOUT MCC",
+  "weight": 2.0221,
+  "payment_usd": 14714,
+  "alos": 2.8
+ },
+ "260": {
+  "title": "CARDIAC PACEMAKER REVISION EXCEPT DEVICE REPLACEMENT WITH MCC",
+  "weight": 3.2528,
+  "payment_usd": 23670,
+  "alos": 7.7
+ },
+ "261": {
+  "title": "CARDIAC PACEMAKER REVISION EXCEPT DEVICE REPLACEMENT WITH CC",
+  "weight": 1.8905,
+  "payment_usd": 13757,
+  "alos": 3.6
+ },
+ "262": {
+  "title": "CARDIAC PACEMAKER REVISION EXCEPT DEVICE REPLACEMENT WITHOUT CC/MCC",
+  "weight": 1.6299,
+  "payment_usd": 11860,
+  "alos": 2.4
+ },
+ "263": {
+  "title": "VEIN LIGATION AND STRIPPING",
+  "weight": 3.0574,
+  "payment_usd": 22248,
+  "alos": 6.8
+ },
+ "264": {
+  "title": "OTHER CIRCULATORY SYSTEM O.R. PROCEDURES",
+  "weight": 3.3406,
+  "payment_usd": 24309,
+  "alos": 9.7
+ },
+ "265": {
+  "title": "AICD LEAD PROCEDURES",
+  "weight": 3.6182,
+  "payment_usd": 26329,
+  "alos": 6.3
+ },
+ "266": {
+  "title": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITH MCC",
+  "weight": 6.1284,
+  "payment_usd": 44595,
+  "alos": 4.5
+ },
+ "267": {
+  "title": "ENDOVASCULAR CARDIAC VALVE REPLACEMENT AND SUPPLEMENT PROCEDURES WITHOUT MCC",
+  "weight": 4.7608,
+  "payment_usd": 34643,
+  "alos": 1.5
+ },
+ "268": {
+  "title": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITH MCC",
+  "weight": 6.8779,
+  "payment_usd": 50049,
+  "alos": 9.2
+ },
+ "269": {
+  "title": "AORTIC AND HEART ASSIST PROCEDURES EXCEPT PULSATION BALLOON WITHOUT MCC",
+  "weight": 4.2232,
+  "payment_usd": 30731,
+  "alos": 2.0
+ },
+ "270": {
+  "title": "OTHER MAJOR CARDIOVASCULAR PROCEDURES WITH MCC",
+  "weight": 5.2763,
+  "payment_usd": 38394,
+  "alos": 9.3
+ },
+ "271": {
+  "title": "OTHER MAJOR CARDIOVASCULAR PROCEDURES WITH CC",
+  "weight": 3.5563,
+  "payment_usd": 25878,
+  "alos": 5.0
+ },
+ "272": {
+  "title": "OTHER MAJOR CARDIOVASCULAR PROCEDURES WITHOUT CC/MCC",
+  "weight": 2.553,
+  "payment_usd": 18578,
+  "alos": 2.2
+ },
+ "273": {
+  "title": "PERCUTANEOUS AND OTHER INTRACARDIAC PROCEDURES WITH MCC",
+  "weight": 4.1255,
+  "payment_usd": 30020,
+  "alos": 5.6
+ },
+ "274": {
+  "title": "PERCUTANEOUS AND OTHER INTRACARDIAC PROCEDURES WITHOUT MCC",
+  "weight": 3.2917,
+  "payment_usd": 23953,
+  "alos": 1.4
+ },
+ "275": {
+  "title": "CARDIAC DEFIBRILLATOR IMPLANT WITH CARDIAC CATHETERIZATION AND MCC",
+  "weight": 7.1304,
+  "payment_usd": 51886,
+  "alos": 10.3
+ },
+ "276": {
+  "title": "CARDIAC DEFIBRILLATOR IMPLANT WITH MCC OR CAROTID SINUS NEUROSTIMULATOR",
+  "weight": 6.0066,
+  "payment_usd": 43709,
+  "alos": 8.1
+ },
+ "277": {
+  "title": "CARDIAC DEFIBRILLATOR IMPLANT WITHOUT MCC",
+  "weight": 4.6185,
+  "payment_usd": 33608,
+  "alos": 4.1
+ },
+ "278": {
+  "title": "ULTRASOUND ACCELERATED AND OTHER THROMBOLYSIS OF PERIPHERAL VASCULAR STRUCTURES WITH MCC",
+  "weight": 5.5662,
+  "payment_usd": 40504,
+  "alos": 10.4
+ },
+ "279": {
+  "title": "ULTRASOUND ACCELERATED AND OTHER THROMBOLYSIS OF PERIPHERAL VASCULAR STRUCTURES WITHOUT MCC",
+  "weight": 3.6064,
+  "payment_usd": 26243,
+  "alos": 5.0
+ },
+ "280": {
+  "title": "ACUTE MYOCARDIAL INFARCTION, DISCHARGED ALIVE WITH MCC",
+  "weight": 1.6041,
+  "payment_usd": 11673,
+  "alos": 5.3
+ },
+ "281": {
+  "title": "ACUTE MYOCARDIAL INFARCTION, DISCHARGED ALIVE WITH CC",
+  "weight": 0.9191,
+  "payment_usd": 6688,
+  "alos": 2.9
+ },
+ "282": {
+  "title": "ACUTE MYOCARDIAL INFARCTION, DISCHARGED ALIVE WITHOUT CC/MCC",
+  "weight": 0.7231,
+  "payment_usd": 5262,
+  "alos": 2.0
+ },
+ "283": {
+  "title": "ACUTE MYOCARDIAL INFARCTION, EXPIRED WITH MCC",
+  "weight": 1.9808,
+  "payment_usd": 14414,
+  "alos": 5.3
+ },
+ "284": {
+  "title": "ACUTE MYOCARDIAL INFARCTION, EXPIRED WITH CC",
+  "weight": 0.6922,
+  "payment_usd": 5037,
+  "alos": 2.0
+ },
+ "285": {
+  "title": "ACUTE MYOCARDIAL INFARCTION, EXPIRED WITHOUT CC/MCC",
+  "weight": 0.5989,
+  "payment_usd": 4358,
+  "alos": 1.3
+ },
+ "286": {
+  "title": "CIRCULATORY DISORDERS EXCEPT AMI, WITH CARDIAC CATHETERIZATION WITH MCC",
+  "weight": 2.2128,
+  "payment_usd": 16102,
+  "alos": 7.2
+ },
+ "287": {
+  "title": "CIRCULATORY DISORDERS EXCEPT AMI, WITH CARDIAC CATHETERIZATION WITHOUT MCC",
+  "weight": 1.0701,
+  "payment_usd": 7787,
+  "alos": 2.7
+ },
+ "288": {
+  "title": "ACUTE AND SUBACUTE ENDOCARDITIS WITH MCC",
+  "weight": 2.7062,
+  "payment_usd": 19692,
+  "alos": 9.7
+ },
+ "289": {
+  "title": "ACUTE AND SUBACUTE ENDOCARDITIS WITH CC",
+  "weight": 1.7069,
+  "payment_usd": 12421,
+  "alos": 6.4
+ },
+ "290": {
+  "title": "ACUTE AND SUBACUTE ENDOCARDITIS WITHOUT CC/MCC",
+  "weight": 0.9297,
+  "payment_usd": 6765,
+  "alos": 3.5
+ },
+ "291": {
+  "title": "HEART FAILURE AND SHOCK WITH MCC",
+  "weight": 1.2838,
+  "payment_usd": 9342,
+  "alos": 5.0
+ },
+ "292": {
+  "title": "HEART FAILURE AND SHOCK WITH CC",
+  "weight": 0.849,
+  "payment_usd": 6178,
+  "alos": 3.7
+ },
+ "293": {
+  "title": "HEART FAILURE AND SHOCK WITHOUT CC/MCC",
+  "weight": 0.566,
+  "payment_usd": 4119,
+  "alos": 2.5
+ },
+ "296": {
+  "title": "CARDIAC ARREST, UNEXPLAINED WITH MCC",
+  "weight": 1.5619,
+  "payment_usd": 11366,
+  "alos": 3.2
+ },
+ "297": {
+  "title": "CARDIAC ARREST, UNEXPLAINED WITH CC",
+  "weight": 0.6235,
+  "payment_usd": 4537,
+  "alos": 1.7
+ },
+ "298": {
+  "title": "CARDIAC ARREST, UNEXPLAINED WITHOUT CC/MCC",
+  "weight": 0.4551,
+  "payment_usd": 3312,
+  "alos": 1.2
+ },
+ "299": {
+  "title": "PERIPHERAL VASCULAR DISORDERS WITH MCC",
+  "weight": 1.6327,
+  "payment_usd": 11881,
+  "alos": 5.5
+ },
+ "300": {
+  "title": "PERIPHERAL VASCULAR DISORDERS WITH CC",
+  "weight": 1.0675,
+  "payment_usd": 7768,
+  "alos": 3.9
+ },
+ "301": {
+  "title": "PERIPHERAL VASCULAR DISORDERS WITHOUT CC/MCC",
+  "weight": 0.7197,
+  "payment_usd": 5237,
+  "alos": 2.5
+ },
+ "302": {
+  "title": "ATHEROSCLEROSIS WITH MCC",
+  "weight": 1.1966,
+  "payment_usd": 8707,
+  "alos": 4.0
+ },
+ "303": {
+  "title": "ATHEROSCLEROSIS WITHOUT MCC",
+  "weight": 0.6732,
+  "payment_usd": 4899,
+  "alos": 2.3
+ },
+ "304": {
+  "title": "HYPERTENSION WITH MCC",
+  "weight": 1.19,
+  "payment_usd": 8659,
+  "alos": 4.1
+ },
+ "305": {
+  "title": "HYPERTENSION WITHOUT MCC",
+  "weight": 0.7551,
+  "payment_usd": 5495,
+  "alos": 2.6
+ },
+ "306": {
+  "title": "CARDIAC CONGENITAL AND VALVULAR DISORDERS WITH MCC",
+  "weight": 1.5758,
+  "payment_usd": 11467,
+  "alos": 5.2
+ },
+ "307": {
+  "title": "CARDIAC CONGENITAL AND VALVULAR DISORDERS WITHOUT MCC",
+  "weight": 0.9132,
+  "payment_usd": 6645,
+  "alos": 2.8
+ },
+ "308": {
+  "title": "CARDIAC ARRHYTHMIA AND CONDUCTION DISORDERS WITH MCC",
+  "weight": 1.204,
+  "payment_usd": 8761,
+  "alos": 4.5
+ },
+ "309": {
+  "title": "CARDIAC ARRHYTHMIA AND CONDUCTION DISORDERS WITH CC",
+  "weight": 0.7357,
+  "payment_usd": 5354,
+  "alos": 2.8
+ },
+ "310": {
+  "title": "CARDIAC ARRHYTHMIA AND CONDUCTION DISORDERS WITHOUT CC/MCC",
+  "weight": 0.5661,
+  "payment_usd": 4119,
+  "alos": 2.1
+ },
+ "311": {
+  "title": "ANGINA PECTORIS",
+  "weight": 0.7019,
+  "payment_usd": 5108,
+  "alos": 2.4
+ },
+ "312": {
+  "title": "SYNCOPE AND COLLAPSE",
+  "weight": 0.8716,
+  "payment_usd": 6342,
+  "alos": 3.1
+ },
+ "313": {
+  "title": "CHEST PAIN",
+  "weight": 0.72,
+  "payment_usd": 5239,
+  "alos": 2.1
+ },
+ "314": {
+  "title": "OTHER CIRCULATORY SYSTEM DIAGNOSES WITH MCC",
+  "weight": 2.0852,
+  "payment_usd": 15173,
+  "alos": 6.7
+ },
+ "315": {
+  "title": "OTHER CIRCULATORY SYSTEM DIAGNOSES WITH CC",
+  "weight": 0.9633,
+  "payment_usd": 7010,
+  "alos": 3.4
+ },
+ "316": {
+  "title": "OTHER CIRCULATORY SYSTEM DIAGNOSES WITHOUT CC/MCC",
+  "weight": 0.6821,
+  "payment_usd": 4963,
+  "alos": 2.2
+ },
+ "317": {
+  "title": "CONCOMITANT LEFT ATRIAL APPENDAGE CLOSURE AND CARDIAC ABLATION",
+  "weight": 6.6865,
+  "payment_usd": 48656,
+  "alos": 7.1
+ },
+ "318": {
+  "title": "PERCUTANEOUS CORONARY ATHERECTOMY WITHOUT INTRALUMINAL DEVICE",
+  "weight": 2.4222,
+  "payment_usd": 17626,
+  "alos": 3.7
+ },
+ "319": {
+  "title": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITH MCC",
+  "weight": 4.4629,
+  "payment_usd": 32475,
+  "alos": 10.2
+ },
+ "320": {
+  "title": "OTHER ENDOVASCULAR CARDIAC VALVE PROCEDURES WITHOUT MCC",
+  "weight": 2.4053,
+  "payment_usd": 17503,
+  "alos": 3.0
+ },
+ "321": {
+  "title": "PERCUTANEOUS CARDIOVASCULAR PROCEDURES WITH INTRALUMINAL DEVICE WITH MCC OR 4+ ARTERIES/INTRALUMINAL DEVICES",
+  "weight": 2.7208,
+  "payment_usd": 19799,
+  "alos": 4.9
+ },
+ "322": {
+  "title": "PERCUTANEOUS CARDIOVASCULAR PROCEDURES WITH INTRALUMINAL DEVICE WITHOUT MCC",
+  "weight": 1.763,
+  "payment_usd": 12829,
+  "alos": 2.3
+ },
+ "323": {
+  "title": "CORONARY INTRAVASCULAR LITHOTRIPSY WITH INTRALUMINAL DEVICE WITH MCC",
+  "weight": 4.3274,
+  "payment_usd": 31489,
+  "alos": 6.1
+ },
+ "324": {
+  "title": "CORONARY INTRAVASCULAR LITHOTRIPSY WITH INTRALUMINAL DEVICE WITHOUT MCC",
+  "weight": 3.151,
+  "payment_usd": 22929,
+  "alos": 2.9
+ },
+ "325": {
+  "title": "CORONARY INTRAVASCULAR LITHOTRIPSY WITHOUT INTRALUMINAL DEVICE",
+  "weight": 3.2104,
+  "payment_usd": 23361,
+  "alos": 3.8
+ },
+ "326": {
+  "title": "STOMACH, ESOPHAGEAL AND DUODENAL PROCEDURES WITH MCC",
+  "weight": 4.9874,
+  "payment_usd": 36292,
+  "alos": 12.3
+ },
+ "327": {
+  "title": "STOMACH, ESOPHAGEAL AND DUODENAL PROCEDURES WITH CC",
+  "weight": 2.4442,
+  "payment_usd": 17786,
+  "alos": 5.4
+ },
+ "328": {
+  "title": "STOMACH, ESOPHAGEAL AND DUODENAL PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.6023,
+  "payment_usd": 11660,
+  "alos": 2.5
+ },
+ "329": {
+  "title": "MAJOR SMALL AND LARGE BOWEL PROCEDURES WITH MCC",
+  "weight": 4.5965,
+  "payment_usd": 33448,
+  "alos": 12.2
+ },
+ "330": {
+  "title": "MAJOR SMALL AND LARGE BOWEL PROCEDURES WITH CC",
+  "weight": 2.3972,
+  "payment_usd": 17444,
+  "alos": 6.1
+ },
+ "331": {
+  "title": "MAJOR SMALL AND LARGE BOWEL PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.6829,
+  "payment_usd": 12246,
+  "alos": 3.2
+ },
+ "332": {
+  "title": "RECTAL RESECTION WITH MCC",
+  "weight": 3.6207,
+  "payment_usd": 26347,
+  "alos": 8.9
+ },
+ "333": {
+  "title": "RECTAL RESECTION WITH CC",
+  "weight": 2.3422,
+  "payment_usd": 17044,
+  "alos": 4.5
+ },
+ "334": {
+  "title": "RECTAL RESECTION WITHOUT CC/MCC",
+  "weight": 1.6379,
+  "payment_usd": 11919,
+  "alos": 2.6
+ },
+ "335": {
+  "title": "PERITONEAL ADHESIOLYSIS WITH MCC",
+  "weight": 3.5709,
+  "payment_usd": 25985,
+  "alos": 10.7
+ },
+ "336": {
+  "title": "PERITONEAL ADHESIOLYSIS WITH CC",
+  "weight": 2.1087,
+  "payment_usd": 15345,
+  "alos": 6.4
+ },
+ "337": {
+  "title": "PERITONEAL ADHESIOLYSIS WITHOUT CC/MCC",
+  "weight": 1.535,
+  "payment_usd": 11170,
+  "alos": 3.8
+ },
+ "344": {
+  "title": "MINOR SMALL AND LARGE BOWEL PROCEDURES WITH MCC",
+  "weight": 2.5828,
+  "payment_usd": 18794,
+  "alos": 9.2
+ },
+ "345": {
+  "title": "MINOR SMALL AND LARGE BOWEL PROCEDURES WITH CC",
+  "weight": 1.5047,
+  "payment_usd": 10949,
+  "alos": 5.2
+ },
+ "346": {
+  "title": "MINOR SMALL AND LARGE BOWEL PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.1862,
+  "payment_usd": 8632,
+  "alos": 3.1
+ },
+ "347": {
+  "title": "ANAL AND STOMAL PROCEDURES WITH MCC",
+  "weight": 2.2956,
+  "payment_usd": 16705,
+  "alos": 7.3
+ },
+ "348": {
+  "title": "ANAL AND STOMAL PROCEDURES WITH CC",
+  "weight": 1.3088,
+  "payment_usd": 9524,
+  "alos": 4.0
+ },
+ "349": {
+  "title": "ANAL AND STOMAL PROCEDURES WITHOUT CC/MCC",
+  "weight": 0.8706,
+  "payment_usd": 6335,
+  "alos": 2.0
+ },
+ "350": {
+  "title": "INGUINAL AND FEMORAL HERNIA PROCEDURES WITH MCC",
+  "weight": 2.4919,
+  "payment_usd": 18133,
+  "alos": 6.4
+ },
+ "351": {
+  "title": "INGUINAL AND FEMORAL HERNIA PROCEDURES WITH CC",
+  "weight": 1.5245,
+  "payment_usd": 11093,
+  "alos": 3.6
+ },
+ "352": {
+  "title": "INGUINAL AND FEMORAL HERNIA PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.1678,
+  "payment_usd": 8498,
+  "alos": 2.2
+ },
+ "353": {
+  "title": "HERNIA PROCEDURES EXCEPT INGUINAL AND FEMORAL WITH MCC",
+  "weight": 2.902,
+  "payment_usd": 21117,
+  "alos": 7.7
+ },
+ "354": {
+  "title": "HERNIA PROCEDURES EXCEPT INGUINAL AND FEMORAL WITH CC",
+  "weight": 1.6824,
+  "payment_usd": 12242,
+  "alos": 4.0
+ },
+ "355": {
+  "title": "HERNIA PROCEDURES EXCEPT INGUINAL AND FEMORAL WITHOUT CC/MCC",
+  "weight": 1.345,
+  "payment_usd": 9787,
+  "alos": 2.2
+ },
+ "356": {
+  "title": "OTHER DIGESTIVE SYSTEM O.R. PROCEDURES WITH MCC",
+  "weight": 4.3928,
+  "payment_usd": 31965,
+  "alos": 10.2
+ },
+ "357": {
+  "title": "OTHER DIGESTIVE SYSTEM O.R. PROCEDURES WITH CC",
+  "weight": 2.3255,
+  "payment_usd": 16922,
+  "alos": 5.7
+ },
+ "358": {
+  "title": "OTHER DIGESTIVE SYSTEM O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.3979,
+  "payment_usd": 10172,
+  "alos": 3.2
+ },
+ "359": {
+  "title": "PERCUTANEOUS CORONARY ATHERECTOMY WITH INTRALUMINAL DEVICE WITH MCC",
+  "weight": 3.4386,
+  "payment_usd": 25022,
+  "alos": 5.3
+ },
+ "360": {
+  "title": "PERCUTANEOUS CORONARY ATHERECTOMY WITH INTRALUMINAL DEVICE WITHOUT MCC",
+  "weight": 2.4143,
+  "payment_usd": 17568,
+  "alos": 2.6
+ },
+ "368": {
+  "title": "MAJOR ESOPHAGEAL DISORDERS WITH MCC",
+  "weight": 1.5919,
+  "payment_usd": 11584,
+  "alos": 5.3
+ },
+ "369": {
+  "title": "MAJOR ESOPHAGEAL DISORDERS WITH CC",
+  "weight": 1.0002,
+  "payment_usd": 7278,
+  "alos": 3.5
+ },
+ "370": {
+  "title": "MAJOR ESOPHAGEAL DISORDERS WITHOUT CC/MCC",
+  "weight": 0.7008,
+  "payment_usd": 5100,
+  "alos": 2.6
+ },
+ "371": {
+  "title": "MAJOR GASTROINTESTINAL DISORDERS AND PERITONEAL INFECTIONS WITH MCC",
+  "weight": 1.7731,
+  "payment_usd": 12902,
+  "alos": 6.9
+ },
+ "372": {
+  "title": "MAJOR GASTROINTESTINAL DISORDERS AND PERITONEAL INFECTIONS WITH CC",
+  "weight": 1.021,
+  "payment_usd": 7430,
+  "alos": 4.4
+ },
+ "373": {
+  "title": "MAJOR GASTROINTESTINAL DISORDERS AND PERITONEAL INFECTIONS WITHOUT CC/MCC",
+  "weight": 0.7274,
+  "payment_usd": 5293,
+  "alos": 3.3
+ },
+ "374": {
+  "title": "DIGESTIVE MALIGNANCY WITH MCC",
+  "weight": 2.1387,
+  "payment_usd": 15563,
+  "alos": 7.6
+ },
+ "375": {
+  "title": "DIGESTIVE MALIGNANCY WITH CC",
+  "weight": 1.2096,
+  "payment_usd": 8802,
+  "alos": 4.5
+ },
+ "376": {
+  "title": "DIGESTIVE MALIGNANCY WITHOUT CC/MCC",
+  "weight": 0.9243,
+  "payment_usd": 6726,
+  "alos": 3.0
+ },
+ "377": {
+  "title": "GASTROINTESTINAL HEMORRHAGE WITH MCC",
+  "weight": 1.828,
+  "payment_usd": 13302,
+  "alos": 5.8
+ },
+ "378": {
+  "title": "GASTROINTESTINAL HEMORRHAGE WITH CC",
+  "weight": 0.9807,
+  "payment_usd": 7136,
+  "alos": 3.5
+ },
+ "379": {
+  "title": "GASTROINTESTINAL HEMORRHAGE WITHOUT CC/MCC",
+  "weight": 0.6304,
+  "payment_usd": 4587,
+  "alos": 2.4
+ },
+ "380": {
+  "title": "COMPLICATED PEPTIC ULCER WITH MCC",
+  "weight": 1.9622,
+  "payment_usd": 14278,
+  "alos": 6.7
+ },
+ "381": {
+  "title": "COMPLICATED PEPTIC ULCER WITH CC",
+  "weight": 1.0835,
+  "payment_usd": 7884,
+  "alos": 3.8
+ },
+ "382": {
+  "title": "COMPLICATED PEPTIC ULCER WITHOUT CC/MCC",
+  "weight": 0.8006,
+  "payment_usd": 5826,
+  "alos": 2.9
+ },
+ "383": {
+  "title": "UNCOMPLICATED PEPTIC ULCER WITH MCC",
+  "weight": 1.3807,
+  "payment_usd": 10047,
+  "alos": 5.1
+ },
+ "384": {
+  "title": "UNCOMPLICATED PEPTIC ULCER WITHOUT MCC",
+  "weight": 0.8548,
+  "payment_usd": 6220,
+  "alos": 3.0
+ },
+ "385": {
+  "title": "INFLAMMATORY BOWEL DISEASE WITH MCC",
+  "weight": 1.5823,
+  "payment_usd": 11514,
+  "alos": 6.5
+ },
+ "386": {
+  "title": "INFLAMMATORY BOWEL DISEASE WITH CC",
+  "weight": 0.9763,
+  "payment_usd": 7104,
+  "alos": 4.2
+ },
+ "387": {
+  "title": "INFLAMMATORY BOWEL DISEASE WITHOUT CC/MCC",
+  "weight": 0.6813,
+  "payment_usd": 4958,
+  "alos": 3.1
+ },
+ "388": {
+  "title": "GASTROINTESTINAL OBSTRUCTION WITH MCC",
+  "weight": 1.4768,
+  "payment_usd": 10746,
+  "alos": 6.0
+ },
+ "389": {
+  "title": "GASTROINTESTINAL OBSTRUCTION WITH CC",
+  "weight": 0.7898,
+  "payment_usd": 5747,
+  "alos": 3.6
+ },
+ "390": {
+  "title": "GASTROINTESTINAL OBSTRUCTION WITHOUT CC/MCC",
+  "weight": 0.544,
+  "payment_usd": 3959,
+  "alos": 2.6
+ },
+ "391": {
+  "title": "ESOPHAGITIS, GASTROENTERITIS AND MISCELLANEOUS DIGESTIVE DISORDERS WITH MCC",
+  "weight": 1.2683,
+  "payment_usd": 9229,
+  "alos": 5.1
+ },
+ "392": {
+  "title": "ESOPHAGITIS, GASTROENTERITIS AND MISCELLANEOUS DIGESTIVE DISORDERS WITHOUT MCC",
+  "weight": 0.7796,
+  "payment_usd": 5673,
+  "alos": 3.2
+ },
+ "393": {
+  "title": "OTHER DIGESTIVE SYSTEM DIAGNOSES WITH MCC",
+  "weight": 1.5993,
+  "payment_usd": 11638,
+  "alos": 5.9
+ },
+ "394": {
+  "title": "OTHER DIGESTIVE SYSTEM DIAGNOSES WITH CC",
+  "weight": 0.9357,
+  "payment_usd": 6809,
+  "alos": 3.7
+ },
+ "395": {
+  "title": "OTHER DIGESTIVE SYSTEM DIAGNOSES WITHOUT CC/MCC",
+  "weight": 0.649,
+  "payment_usd": 4723,
+  "alos": 2.5
+ },
+ "397": {
+  "title": "APPENDIX PROCEDURES WITH MCC",
+  "weight": 2.3949,
+  "payment_usd": 17427,
+  "alos": 6.5
+ },
+ "398": {
+  "title": "APPENDIX PROCEDURES WITH CC",
+  "weight": 1.5136,
+  "payment_usd": 11014,
+  "alos": 3.8
+ },
+ "399": {
+  "title": "APPENDIX PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.1447,
+  "payment_usd": 8330,
+  "alos": 2.2
+ },
+ "402": {
+  "title": "SINGLE LEVEL COMBINED ANTERIOR AND POSTERIOR SPINAL FUSION EXCEPT CERVICAL",
+  "weight": 4.0205,
+  "payment_usd": 29256,
+  "alos": 2.9
+ },
+ "405": {
+  "title": "PANCREAS, LIVER AND SHUNT PROCEDURES WITH MCC",
+  "weight": 5.4705,
+  "payment_usd": 39808,
+  "alos": 11.8
+ },
+ "406": {
+  "title": "PANCREAS, LIVER AND SHUNT PROCEDURES WITH CC",
+  "weight": 2.9002,
+  "payment_usd": 21104,
+  "alos": 5.9
+ },
+ "407": {
+  "title": "PANCREAS, LIVER AND SHUNT PROCEDURES WITHOUT CC/MCC",
+  "weight": 2.2196,
+  "payment_usd": 16151,
+  "alos": 3.9
+ },
+ "408": {
+  "title": "BILIARY TRACT PROCEDURES EXCEPT ONLY CHOLECYSTECTOMY WITH OR WITHOUT C.D.E. WITH MCC",
+  "weight": 3.5656,
+  "payment_usd": 25946,
+  "alos": 10.4
+ },
+ "409": {
+  "title": "BILIARY TRACT PROCEDURES EXCEPT ONLY CHOLECYSTECTOMY WITH OR WITHOUT C.D.E. WITH CC",
+  "weight": 2.1773,
+  "payment_usd": 15844,
+  "alos": 5.4
+ },
+ "410": {
+  "title": "BILIARY TRACT PROCEDURES EXCEPT ONLY CHOLECYSTECTOMY WITH OR WITHOUT C.D.E. WITHOUT CC/MCC",
+  "weight": 1.5877,
+  "payment_usd": 11553,
+  "alos": 3.5
+ },
+ "411": {
+  "title": "CHOLECYSTECTOMY WITH C.D.E. WITH MCC",
+  "weight": 3.3033,
+  "payment_usd": 24037,
+  "alos": 8.3
+ },
+ "412": {
+  "title": "CHOLECYSTECTOMY WITH C.D.E. WITH CC",
+  "weight": 2.1025,
+  "payment_usd": 15299,
+  "alos": 4.5
+ },
+ "413": {
+  "title": "CHOLECYSTECTOMY WITH C.D.E. WITHOUT CC/MCC",
+  "weight": 1.6605,
+  "payment_usd": 12083,
+  "alos": 3.3
+ },
+ "414": {
+  "title": "CHOLECYSTECTOMY EXCEPT BY LAPAROSCOPE WITHOUT C.D.E. WITH MCC",
+  "weight": 3.5626,
+  "payment_usd": 25924,
+  "alos": 9.4
+ },
+ "415": {
+  "title": "CHOLECYSTECTOMY EXCEPT BY LAPAROSCOPE WITHOUT C.D.E. WITH CC",
+  "weight": 2.0667,
+  "payment_usd": 15039,
+  "alos": 5.6
+ },
+ "416": {
+  "title": "CHOLECYSTECTOMY EXCEPT BY LAPAROSCOPE WITHOUT C.D.E. WITHOUT CC/MCC",
+  "weight": 1.3633,
+  "payment_usd": 9920,
+  "alos": 3.3
+ },
+ "417": {
+  "title": "LAPAROSCOPIC CHOLECYSTECTOMY WITHOUT C.D.E. WITH MCC",
+  "weight": 2.3864,
+  "payment_usd": 17365,
+  "alos": 6.1
+ },
+ "418": {
+  "title": "LAPAROSCOPIC CHOLECYSTECTOMY WITHOUT C.D.E. WITH CC",
+  "weight": 1.6916,
+  "payment_usd": 12309,
+  "alos": 3.9
+ },
+ "419": {
+  "title": "LAPAROSCOPIC CHOLECYSTECTOMY WITHOUT C.D.E. WITHOUT CC/MCC",
+  "weight": 1.3658,
+  "payment_usd": 9939,
+  "alos": 2.6
+ },
+ "420": {
+  "title": "HEPATOBILIARY DIAGNOSTIC PROCEDURES WITH MCC",
+  "weight": 3.4071,
+  "payment_usd": 24793,
+  "alos": 9.5
+ },
+ "421": {
+  "title": "HEPATOBILIARY DIAGNOSTIC PROCEDURES WITH CC",
+  "weight": 1.7375,
+  "payment_usd": 12643,
+  "alos": 4.5
+ },
+ "422": {
+  "title": "HEPATOBILIARY DIAGNOSTIC PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.3995,
+  "payment_usd": 10184,
+  "alos": 2.9
+ },
+ "423": {
+  "title": "OTHER HEPATOBILIARY OR PANCREAS O.R. PROCEDURES WITH MCC",
+  "weight": 4.153,
+  "payment_usd": 30220,
+  "alos": 11.3
+ },
+ "424": {
+  "title": "OTHER HEPATOBILIARY OR PANCREAS O.R. PROCEDURES WITH CC",
+  "weight": 2.1879,
+  "payment_usd": 15921,
+  "alos": 5.9
+ },
+ "425": {
+  "title": "OTHER HEPATOBILIARY OR PANCREAS O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.5003,
+  "payment_usd": 10917,
+  "alos": 3.2
+ },
+ "426": {
+  "title": "MULTIPLE LEVEL COMBINED ANTERIOR AND POSTERIOR SPINAL FUSION EXCEPT CERVICAL WITH MCC OR CUSTOM-MADE ANATOMICALLY DESIGNED INTERBODY FUSION DEVICE",
+  "weight": 11.0212,
+  "payment_usd": 80199,
+  "alos": 9.2
+ },
+ "427": {
+  "title": "MULTIPLE LEVEL COMBINED ANTERIOR AND POSTERIOR SPINAL FUSION EXCEPT CERVICAL WITH CC",
+  "weight": 7.2186,
+  "payment_usd": 52528,
+  "alos": 4.8
+ },
+ "428": {
+  "title": "MULTIPLE LEVEL COMBINED ANTERIOR AND POSTERIOR SPINAL FUSION EXCEPT CERVICAL WITHOUT CC/MCC",
+  "weight": 5.622,
+  "payment_usd": 40910,
+  "alos": 3.0
+ },
+ "429": {
+  "title": "COMBINED ANTERIOR AND POSTERIOR CERVICAL SPINAL FUSION WITH MCC",
+  "weight": 9.0096,
+  "payment_usd": 65561,
+  "alos": 12.3
+ },
+ "430": {
+  "title": "COMBINED ANTERIOR AND POSTERIOR CERVICAL SPINAL FUSION WITHOUT MCC",
+  "weight": 5.7671,
+  "payment_usd": 41966,
+  "alos": 4.6
+ },
+ "432": {
+  "title": "CIRRHOSIS AND ALCOHOLIC HEPATITIS WITH MCC",
+  "weight": 1.9682,
+  "payment_usd": 14322,
+  "alos": 6.7
+ },
+ "433": {
+  "title": "CIRRHOSIS AND ALCOHOLIC HEPATITIS WITH CC",
+  "weight": 1.0562,
+  "payment_usd": 7686,
+  "alos": 4.2
+ },
+ "434": {
+  "title": "CIRRHOSIS AND ALCOHOLIC HEPATITIS WITHOUT CC/MCC",
+  "weight": 0.7125,
+  "payment_usd": 5185,
+  "alos": 3.0
+ },
+ "435": {
+  "title": "MALIGNANCY OF HEPATOBILIARY SYSTEM OR PANCREAS WITH MCC",
+  "weight": 1.8367,
+  "payment_usd": 13365,
+  "alos": 6.3
+ },
+ "436": {
+  "title": "MALIGNANCY OF HEPATOBILIARY SYSTEM OR PANCREAS WITH CC",
+  "weight": 1.1311,
+  "payment_usd": 8231,
+  "alos": 4.3
+ },
+ "437": {
+  "title": "MALIGNANCY OF HEPATOBILIARY SYSTEM OR PANCREAS WITHOUT CC/MCC",
+  "weight": 0.8533,
+  "payment_usd": 6209,
+  "alos": 2.9
+ },
+ "438": {
+  "title": "DISORDERS OF PANCREAS EXCEPT MALIGNANCY WITH MCC",
+  "weight": 1.6302,
+  "payment_usd": 11863,
+  "alos": 6.3
+ },
+ "439": {
+  "title": "DISORDERS OF PANCREAS EXCEPT MALIGNANCY WITH CC",
+  "weight": 0.8412,
+  "payment_usd": 6121,
+  "alos": 3.6
+ },
+ "440": {
+  "title": "DISORDERS OF PANCREAS EXCEPT MALIGNANCY WITHOUT CC/MCC",
+  "weight": 0.6214,
+  "payment_usd": 4522,
+  "alos": 2.7
+ },
+ "441": {
+  "title": "DISORDERS OF LIVER EXCEPT MALIGNANCY, CIRRHOSIS OR ALCOHOLIC HEPATITIS WITH MCC",
+  "weight": 1.7947,
+  "payment_usd": 13060,
+  "alos": 6.3
+ },
+ "442": {
+  "title": "DISORDERS OF LIVER EXCEPT MALIGNANCY, CIRRHOSIS OR ALCOHOLIC HEPATITIS WITH CC",
+  "weight": 0.9653,
+  "payment_usd": 7024,
+  "alos": 4.0
+ },
+ "443": {
+  "title": "DISORDERS OF LIVER EXCEPT MALIGNANCY, CIRRHOSIS OR ALCOHOLIC HEPATITIS WITHOUT CC/MCC",
+  "weight": 0.6997,
+  "payment_usd": 5092,
+  "alos": 2.9
+ },
+ "444": {
+  "title": "DISORDERS OF THE BILIARY TRACT WITH MCC",
+  "weight": 1.6709,
+  "payment_usd": 12159,
+  "alos": 5.7
+ },
+ "445": {
+  "title": "DISORDERS OF THE BILIARY TRACT WITH CC",
+  "weight": 1.0944,
+  "payment_usd": 7964,
+  "alos": 3.7
+ },
+ "446": {
+  "title": "DISORDERS OF THE BILIARY TRACT WITHOUT CC/MCC",
+  "weight": 0.8273,
+  "payment_usd": 6020,
+  "alos": 2.5
+ },
+ "447": {
+  "title": "MULTIPLE LEVEL SPINAL FUSION EXCEPT CERVICAL WITH MCC OR CUSTOM-MADE ANATOMICALLY DESIGNED INTERBODY FUSION DEVICE",
+  "weight": 6.6816,
+  "payment_usd": 48620,
+  "alos": 9.7
+ },
+ "448": {
+  "title": "MULTIPLE LEVEL SPINAL FUSION EXCEPT CERVICAL WITHOUT MCC",
+  "weight": 4.2408,
+  "payment_usd": 30859,
+  "alos": 4.1
+ },
+ "450": {
+  "title": "SINGLE LEVEL SPINAL FUSION EXCEPT CERVICAL WITH MCC OR CUSTOM-MADE ANATOMICALLY DESIGNED INTERBODY FUSION DEVICE",
+  "weight": 5.3296,
+  "payment_usd": 38782,
+  "alos": 8.1
+ },
+ "451": {
+  "title": "SINGLE LEVEL SPINAL FUSION EXCEPT CERVICAL WITHOUT MCC",
+  "weight": 3.2304,
+  "payment_usd": 23507,
+  "alos": 3.1
+ },
+ "456": {
+  "title": "SPINAL FUSION EXCEPT CERVICAL WITH SPINAL CURVATURE, MALIGNANCY, INFECTION OR EXTENSIVE FUSIONS WITH MCC",
+  "weight": 8.4034,
+  "payment_usd": 61150,
+  "alos": 11.5
+ },
+ "457": {
+  "title": "SPINAL FUSION EXCEPT CERVICAL WITH SPINAL CURVATURE, MALIGNANCY, INFECTION OR EXTENSIVE FUSIONS WITH CC",
+  "weight": 5.9631,
+  "payment_usd": 43392,
+  "alos": 5.9
+ },
+ "458": {
+  "title": "SPINAL FUSION EXCEPT CERVICAL WITH SPINAL CURVATURE, MALIGNANCY, INFECTION OR EXTENSIVE FUSIONS WITHOUT CC/MCC",
+  "weight": 4.1726,
+  "payment_usd": 30363,
+  "alos": 2.8
+ },
+ "461": {
+  "title": "BILATERAL OR MULTIPLE MAJOR JOINT PROCEDURES OF LOWER EXTREMITY WITH MCC",
+  "weight": 5.3606,
+  "payment_usd": 39008,
+  "alos": 7.6
+ },
+ "462": {
+  "title": "BILATERAL OR MULTIPLE MAJOR JOINT PROCEDURES OF LOWER EXTREMITY WITHOUT MCC",
+  "weight": 2.66,
+  "payment_usd": 19356,
+  "alos": 2.7
+ },
+ "463": {
+  "title": "WOUND DEBRIDEMENT AND SKIN GRAFT EXCEPT HAND FOR MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS WITH MCC",
+  "weight": 5.6995,
+  "payment_usd": 41474,
+  "alos": 14.3
+ },
+ "464": {
+  "title": "WOUND DEBRIDEMENT AND SKIN GRAFT EXCEPT HAND FOR MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS WITH CC",
+  "weight": 3.1147,
+  "payment_usd": 22665,
+  "alos": 7.3
+ },
+ "465": {
+  "title": "WOUND DEBRIDEMENT AND SKIN GRAFT EXCEPT HAND FOR MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS WITHOUT CC/MCC",
+  "weight": 1.8237,
+  "payment_usd": 13271,
+  "alos": 3.0
+ },
+ "466": {
+  "title": "REVISION OF HIP OR KNEE REPLACEMENT WITH MCC",
+  "weight": 5.2054,
+  "payment_usd": 37878,
+  "alos": 9.1
+ },
+ "467": {
+  "title": "REVISION OF HIP OR KNEE REPLACEMENT WITH CC",
+  "weight": 3.5266,
+  "payment_usd": 25662,
+  "alos": 4.1
+ },
+ "468": {
+  "title": "REVISION OF HIP OR KNEE REPLACEMENT WITHOUT CC/MCC",
+  "weight": 2.748,
+  "payment_usd": 19997,
+  "alos": 1.8
+ },
+ "469": {
+  "title": "MAJOR HIP AND KNEE JOINT REPLACEMENT OR REATTACHMENT OF LOWER EXTREMITY WITH MCC OR TOTAL ANKLE REPLACEMENT",
+  "weight": 3.0332,
+  "payment_usd": 22072,
+  "alos": 4.4
+ },
+ "470": {
+  "title": "MAJOR HIP AND KNEE JOINT REPLACEMENT OR REATTACHMENT OF LOWER EXTREMITY WITHOUT MCC",
+  "weight": 1.9289,
+  "payment_usd": 14036,
+  "alos": 2.2
+ },
+ "471": {
+  "title": "CERVICAL SPINAL FUSION WITH MCC",
+  "weight": 4.8287,
+  "payment_usd": 35137,
+  "alos": 9.4
+ },
+ "472": {
+  "title": "CERVICAL SPINAL FUSION WITH CC",
+  "weight": 2.9461,
+  "payment_usd": 21438,
+  "alos": 3.5
+ },
+ "473": {
+  "title": "CERVICAL SPINAL FUSION WITHOUT CC/MCC",
+  "weight": 2.4413,
+  "payment_usd": 17765,
+  "alos": 2.0
+ },
+ "474": {
+  "title": "AMPUTATION FOR MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE DISORDERS WITH MCC",
+  "weight": 4.2929,
+  "payment_usd": 31238,
+  "alos": 12.3
+ },
+ "475": {
+  "title": "AMPUTATION FOR MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE DISORDERS WITH CC",
+  "weight": 2.2757,
+  "payment_usd": 16560,
+  "alos": 7.3
+ },
+ "476": {
+  "title": "AMPUTATION FOR MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE DISORDERS WITHOUT CC/MCC",
+  "weight": 1.1802,
+  "payment_usd": 8588,
+  "alos": 3.6
+ },
+ "477": {
+  "title": "BIOPSIES OF MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE WITH MCC",
+  "weight": 3.4546,
+  "payment_usd": 25138,
+  "alos": 10.6
+ },
+ "478": {
+  "title": "BIOPSIES OF MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE WITH CC",
+  "weight": 2.4592,
+  "payment_usd": 17895,
+  "alos": 6.7
+ },
+ "479": {
+  "title": "BIOPSIES OF MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE WITHOUT CC/MCC",
+  "weight": 1.8589,
+  "payment_usd": 13527,
+  "alos": 4.1
+ },
+ "480": {
+  "title": "HIP AND FEMUR PROCEDURES EXCEPT MAJOR JOINT WITH MCC",
+  "weight": 2.9123,
+  "payment_usd": 21192,
+  "alos": 7.3
+ },
+ "481": {
+  "title": "HIP AND FEMUR PROCEDURES EXCEPT MAJOR JOINT WITH CC",
+  "weight": 2.0945,
+  "payment_usd": 15241,
+  "alos": 4.8
+ },
+ "482": {
+  "title": "HIP AND FEMUR PROCEDURES EXCEPT MAJOR JOINT WITHOUT CC/MCC",
+  "weight": 1.631,
+  "payment_usd": 11868,
+  "alos": 3.5
+ },
+ "483": {
+  "title": "MAJOR JOINT OR LIMB REATTACHMENT PROCEDURES OF UPPER EXTREMITIES",
+  "weight": 2.7719,
+  "payment_usd": 20170,
+  "alos": 2.8
+ },
+ "485": {
+  "title": "KNEE PROCEDURES WITH PRINCIPAL DIAGNOSIS OF INFECTION WITH MCC",
+  "weight": 3.2271,
+  "payment_usd": 23483,
+  "alos": 9.6
+ },
+ "486": {
+  "title": "KNEE PROCEDURES WITH PRINCIPAL DIAGNOSIS OF INFECTION WITH CC",
+  "weight": 2.0911,
+  "payment_usd": 15216,
+  "alos": 6.0
+ },
+ "487": {
+  "title": "KNEE PROCEDURES WITH PRINCIPAL DIAGNOSIS OF INFECTION WITHOUT CC/MCC",
+  "weight": 1.5662,
+  "payment_usd": 11397,
+  "alos": 4.1
+ },
+ "488": {
+  "title": "KNEE PROCEDURES WITHOUT PRINCIPAL DIAGNOSIS OF INFECTION WITH CC/MCC",
+  "weight": 1.5236,
+  "payment_usd": 11087,
+  "alos": 3.1
+ },
+ "489": {
+  "title": "KNEE PROCEDURES WITHOUT PRINCIPAL DIAGNOSIS OF INFECTION WITHOUT CC/MCC",
+  "weight": 1.1168,
+  "payment_usd": 8127,
+  "alos": 1.4
+ },
+ "492": {
+  "title": "LOWER EXTREMITY AND HUMERUS PROCEDURES EXCEPT HIP, FOOT AND FEMUR WITH MCC",
+  "weight": 3.6716,
+  "payment_usd": 26717,
+  "alos": 8.4
+ },
+ "493": {
+  "title": "LOWER EXTREMITY AND HUMERUS PROCEDURES EXCEPT HIP, FOOT AND FEMUR WITH CC",
+  "weight": 2.5361,
+  "payment_usd": 18455,
+  "alos": 5.1
+ },
+ "494": {
+  "title": "LOWER EXTREMITY AND HUMERUS PROCEDURES EXCEPT HIP, FOOT AND FEMUR WITHOUT CC/MCC",
+  "weight": 2.0065,
+  "payment_usd": 14601,
+  "alos": 3.4
+ },
+ "495": {
+  "title": "LOCAL EXCISION AND REMOVAL OF INTERNAL FIXATION DEVICES EXCEPT HIP AND FEMUR WITH MCC",
+  "weight": 3.6257,
+  "payment_usd": 26383,
+  "alos": 9.9
+ },
+ "496": {
+  "title": "LOCAL EXCISION AND REMOVAL OF INTERNAL FIXATION DEVICES EXCEPT HIP AND FEMUR WITH CC",
+  "weight": 1.8039,
+  "payment_usd": 13127,
+  "alos": 3.9
+ },
+ "497": {
+  "title": "LOCAL EXCISION AND REMOVAL OF INTERNAL FIXATION DEVICES EXCEPT HIP AND FEMUR WITHOUT CC/MCC",
+  "weight": 1.1517,
+  "payment_usd": 8381,
+  "alos": 1.8
+ },
+ "498": {
+  "title": "LOCAL EXCISION AND REMOVAL OF INTERNAL FIXATION DEVICES OF HIP AND FEMUR WITH CC/MCC",
+  "weight": 3.0168,
+  "payment_usd": 21953,
+  "alos": 5.9
+ },
+ "499": {
+  "title": "LOCAL EXCISION AND REMOVAL OF INTERNAL FIXATION DEVICES OF HIP AND FEMUR WITHOUT CC/MCC",
+  "weight": 2.0148,
+  "payment_usd": 14661,
+  "alos": 2.3
+ },
+ "500": {
+  "title": "SOFT TISSUE PROCEDURES WITH MCC",
+  "weight": 3.1648,
+  "payment_usd": 23029,
+  "alos": 9.9
+ },
+ "501": {
+  "title": "SOFT TISSUE PROCEDURES WITH CC",
+  "weight": 1.7481,
+  "payment_usd": 12721,
+  "alos": 5.2
+ },
+ "502": {
+  "title": "SOFT TISSUE PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.3459,
+  "payment_usd": 9794,
+  "alos": 3.0
+ },
+ "503": {
+  "title": "FOOT PROCEDURES WITH MCC",
+  "weight": 2.7911,
+  "payment_usd": 20310,
+  "alos": 8.9
+ },
+ "504": {
+  "title": "FOOT PROCEDURES WITH CC",
+  "weight": 1.8692,
+  "payment_usd": 13602,
+  "alos": 5.5
+ },
+ "505": {
+  "title": "FOOT PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.7928,
+  "payment_usd": 13046,
+  "alos": 3.2
+ },
+ "506": {
+  "title": "MAJOR THUMB OR JOINT PROCEDURES",
+  "weight": 1.1996,
+  "payment_usd": 8729,
+  "alos": 4.5
+ },
+ "507": {
+  "title": "MAJOR SHOULDER OR ELBOW JOINT PROCEDURES WITH CC/MCC",
+  "weight": 1.8064,
+  "payment_usd": 13145,
+  "alos": 6.4
+ },
+ "508": {
+  "title": "MAJOR SHOULDER OR ELBOW JOINT PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.5144,
+  "payment_usd": 11020,
+  "alos": 3.8
+ },
+ "510": {
+  "title": "SHOULDER, ELBOW OR FOREARM PROCEDURES, EXCEPT MAJOR JOINT PROCEDURES WITH MCC",
+  "weight": 3.0205,
+  "payment_usd": 21979,
+  "alos": 6.9
+ },
+ "511": {
+  "title": "SHOULDER, ELBOW OR FOREARM PROCEDURES, EXCEPT MAJOR JOINT PROCEDURES WITH CC",
+  "weight": 2.0794,
+  "payment_usd": 15131,
+  "alos": 4.4
+ },
+ "512": {
+  "title": "SHOULDER, ELBOW OR FOREARM PROCEDURES, EXCEPT MAJOR JOINT PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.6554,
+  "payment_usd": 12046,
+  "alos": 2.7
+ },
+ "513": {
+  "title": "HAND OR WRIST PROCEDURES, EXCEPT MAJOR THUMB OR JOINT PROCEDURES WITH CC/MCC",
+  "weight": 1.5743,
+  "payment_usd": 11456,
+  "alos": 5.2
+ },
+ "514": {
+  "title": "HAND OR WRIST PROCEDURES, EXCEPT MAJOR THUMB OR JOINT PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.0223,
+  "payment_usd": 7439,
+  "alos": 2.6
+ },
+ "515": {
+  "title": "OTHER MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE O.R. PROCEDURES WITH MCC",
+  "weight": 3.1869,
+  "payment_usd": 23190,
+  "alos": 8.4
+ },
+ "516": {
+  "title": "OTHER MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE O.R. PROCEDURES WITH CC",
+  "weight": 2.0781,
+  "payment_usd": 15122,
+  "alos": 5.1
+ },
+ "517": {
+  "title": "OTHER MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.5367,
+  "payment_usd": 11182,
+  "alos": 2.9
+ },
+ "518": {
+  "title": "BACK AND NECK PROCEDURES EXCEPT SPINAL FUSION WITH MCC OR DISC DEVICE OR NEUROSTIMULATOR",
+  "weight": 3.7373,
+  "payment_usd": 27195,
+  "alos": 7.6
+ },
+ "519": {
+  "title": "BACK AND NECK PROCEDURES EXCEPT SPINAL FUSION WITH CC",
+  "weight": 2.0002,
+  "payment_usd": 14555,
+  "alos": 4.2
+ },
+ "520": {
+  "title": "BACK AND NECK PROCEDURES EXCEPT SPINAL FUSION WITHOUT CC/MCC",
+  "weight": 1.4939,
+  "payment_usd": 10871,
+  "alos": 2.6
+ },
+ "521": {
+  "title": "HIP REPLACEMENT WITH PRINCIPAL DIAGNOSIS OF HIP FRACTURE WITH MCC",
+  "weight": 2.8702,
+  "payment_usd": 20886,
+  "alos": 7.0
+ },
+ "522": {
+  "title": "HIP REPLACEMENT WITH PRINCIPAL DIAGNOSIS OF HIP FRACTURE WITHOUT MCC",
+  "weight": 2.1177,
+  "payment_usd": 15410,
+  "alos": 4.5
+ },
+ "533": {
+  "title": "FRACTURES OF FEMUR WITH MCC",
+  "weight": 1.5677,
+  "payment_usd": 11408,
+  "alos": 5.7
+ },
+ "534": {
+  "title": "FRACTURES OF FEMUR WITHOUT MCC",
+  "weight": 0.8061,
+  "payment_usd": 5866,
+  "alos": 3.5
+ },
+ "535": {
+  "title": "FRACTURES OF HIP AND PELVIS WITH MCC",
+  "weight": 1.282,
+  "payment_usd": 9329,
+  "alos": 5.0
+ },
+ "536": {
+  "title": "FRACTURES OF HIP AND PELVIS WITHOUT MCC",
+  "weight": 0.8076,
+  "payment_usd": 5877,
+  "alos": 3.5
+ },
+ "537": {
+  "title": "SPRAINS, STRAINS, AND DISLOCATIONS OF HIP, PELVIS AND THIGH WITH CC/MCC",
+  "weight": 0.9543,
+  "payment_usd": 6944,
+  "alos": 4.1
+ },
+ "538": {
+  "title": "SPRAINS, STRAINS, AND DISLOCATIONS OF HIP, PELVIS AND THIGH WITHOUT CC/MCC",
+  "weight": 0.7203,
+  "payment_usd": 5241,
+  "alos": 2.9
+ },
+ "539": {
+  "title": "OSTEOMYELITIS WITH MCC",
+  "weight": 1.9697,
+  "payment_usd": 14333,
+  "alos": 8.1
+ },
+ "540": {
+  "title": "OSTEOMYELITIS WITH CC",
+  "weight": 1.2963,
+  "payment_usd": 9433,
+  "alos": 5.6
+ },
+ "541": {
+  "title": "OSTEOMYELITIS WITHOUT CC/MCC",
+  "weight": 0.7715,
+  "payment_usd": 5614,
+  "alos": 3.6
+ },
+ "542": {
+  "title": "PATHOLOGICAL FRACTURES AND MUSCULOSKELETAL AND CONNECTIVE TISSUE MALIGNANCY WITH MCC",
+  "weight": 1.7665,
+  "payment_usd": 12854,
+  "alos": 6.8
+ },
+ "543": {
+  "title": "PATHOLOGICAL FRACTURES AND MUSCULOSKELETAL AND CONNECTIVE TISSUE MALIGNANCY WITH CC",
+  "weight": 1.028,
+  "payment_usd": 7481,
+  "alos": 4.4
+ },
+ "544": {
+  "title": "PATHOLOGICAL FRACTURES AND MUSCULOSKELETAL AND CONNECTIVE TISSUE MALIGNANCY WITHOUT CC/MCC",
+  "weight": 0.7546,
+  "payment_usd": 5491,
+  "alos": 3.1
+ },
+ "545": {
+  "title": "CONNECTIVE TISSUE DISORDERS WITH MCC",
+  "weight": 2.4817,
+  "payment_usd": 18059,
+  "alos": 8.3
+ },
+ "546": {
+  "title": "CONNECTIVE TISSUE DISORDERS WITH CC",
+  "weight": 1.1534,
+  "payment_usd": 8393,
+  "alos": 4.4
+ },
+ "547": {
+  "title": "CONNECTIVE TISSUE DISORDERS WITHOUT CC/MCC",
+  "weight": 0.8362,
+  "payment_usd": 6085,
+  "alos": 3.0
+ },
+ "548": {
+  "title": "SEPTIC ARTHRITIS WITH MCC",
+  "weight": 1.9309,
+  "payment_usd": 14051,
+  "alos": 7.7
+ },
+ "549": {
+  "title": "SEPTIC ARTHRITIS WITH CC",
+  "weight": 1.2072,
+  "payment_usd": 8785,
+  "alos": 4.9
+ },
+ "550": {
+  "title": "SEPTIC ARTHRITIS WITHOUT CC/MCC",
+  "weight": 0.8741,
+  "payment_usd": 6361,
+  "alos": 3.7
+ },
+ "551": {
+  "title": "MEDICAL BACK PROBLEMS WITH MCC",
+  "weight": 1.6761,
+  "payment_usd": 12197,
+  "alos": 5.9
+ },
+ "552": {
+  "title": "MEDICAL BACK PROBLEMS WITHOUT MCC",
+  "weight": 0.9613,
+  "payment_usd": 6995,
+  "alos": 3.6
+ },
+ "553": {
+  "title": "BONE DISEASES AND ARTHROPATHIES WITH MCC",
+  "weight": 1.2963,
+  "payment_usd": 9433,
+  "alos": 5.2
+ },
+ "554": {
+  "title": "BONE DISEASES AND ARTHROPATHIES WITHOUT MCC",
+  "weight": 0.8301,
+  "payment_usd": 6040,
+  "alos": 3.5
+ },
+ "555": {
+  "title": "SIGNS AND SYMPTOMS OF MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE WITH MCC",
+  "weight": 1.3218,
+  "payment_usd": 9618,
+  "alos": 5.2
+ },
+ "556": {
+  "title": "SIGNS AND SYMPTOMS OF MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE WITHOUT MCC",
+  "weight": 0.8306,
+  "payment_usd": 6044,
+  "alos": 3.3
+ },
+ "557": {
+  "title": "TENDONITIS, MYOSITIS AND BURSITIS WITH MCC",
+  "weight": 1.4869,
+  "payment_usd": 10820,
+  "alos": 6.1
+ },
+ "558": {
+  "title": "TENDONITIS, MYOSITIS AND BURSITIS WITHOUT MCC",
+  "weight": 0.8932,
+  "payment_usd": 6500,
+  "alos": 3.9
+ },
+ "559": {
+  "title": "AFTERCARE, MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE WITH MCC",
+  "weight": 1.8649,
+  "payment_usd": 13570,
+  "alos": 7.0
+ },
+ "560": {
+  "title": "AFTERCARE, MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE WITH CC",
+  "weight": 1.1261,
+  "payment_usd": 8194,
+  "alos": 5.2
+ },
+ "561": {
+  "title": "AFTERCARE, MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE WITHOUT CC/MCC",
+  "weight": 0.8039,
+  "payment_usd": 5850,
+  "alos": 4.2
+ },
+ "562": {
+  "title": "FRACTURE, SPRAIN, STRAIN AND DISLOCATION EXCEPT FEMUR, HIP, PELVIS AND THIGH WITH MCC",
+  "weight": 1.4248,
+  "payment_usd": 10368,
+  "alos": 5.2
+ },
+ "563": {
+  "title": "FRACTURE, SPRAIN, STRAIN AND DISLOCATION EXCEPT FEMUR, HIP, PELVIS AND THIGH WITHOUT MCC",
+  "weight": 0.8955,
+  "payment_usd": 6516,
+  "alos": 3.5
+ },
+ "564": {
+  "title": "OTHER MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE DIAGNOSES WITH MCC",
+  "weight": 1.5436,
+  "payment_usd": 11232,
+  "alos": 6.2
+ },
+ "565": {
+  "title": "OTHER MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE DIAGNOSES WITH CC",
+  "weight": 0.9744,
+  "payment_usd": 7090,
+  "alos": 4.1
+ },
+ "566": {
+  "title": "OTHER MUSCULOSKELETAL SYSTEM AND CONNECTIVE TISSUE DIAGNOSES WITHOUT CC/MCC",
+  "weight": 0.7493,
+  "payment_usd": 5452,
+  "alos": 2.9
+ },
+ "570": {
+  "title": "SKIN DEBRIDEMENT WITH MCC",
+  "weight": 2.9411,
+  "payment_usd": 21402,
+  "alos": 10.3
+ },
+ "571": {
+  "title": "SKIN DEBRIDEMENT WITH CC",
+  "weight": 1.6895,
+  "payment_usd": 12294,
+  "alos": 6.3
+ },
+ "572": {
+  "title": "SKIN DEBRIDEMENT WITHOUT CC/MCC",
+  "weight": 1.1463,
+  "payment_usd": 8341,
+  "alos": 3.6
+ },
+ "573": {
+  "title": "SKIN GRAFT FOR SKIN ULCER OR CELLULITIS WITH MCC",
+  "weight": 6.5514,
+  "payment_usd": 47673,
+  "alos": 16.7
+ },
+ "574": {
+  "title": "SKIN GRAFT FOR SKIN ULCER OR CELLULITIS WITH CC",
+  "weight": 3.4714,
+  "payment_usd": 25261,
+  "alos": 10.6
+ },
+ "575": {
+  "title": "SKIN GRAFT FOR SKIN ULCER OR CELLULITIS WITHOUT CC/MCC",
+  "weight": 1.6336,
+  "payment_usd": 11887,
+  "alos": 4.9
+ },
+ "576": {
+  "title": "SKIN GRAFT EXCEPT FOR SKIN ULCER OR CELLULITIS WITH MCC",
+  "weight": 4.9012,
+  "payment_usd": 35665,
+  "alos": 12.5
+ },
+ "577": {
+  "title": "SKIN GRAFT EXCEPT FOR SKIN ULCER OR CELLULITIS WITH CC",
+  "weight": 2.6507,
+  "payment_usd": 19289,
+  "alos": 6.6
+ },
+ "578": {
+  "title": "SKIN GRAFT EXCEPT FOR SKIN ULCER OR CELLULITIS WITHOUT CC/MCC",
+  "weight": 1.6064,
+  "payment_usd": 11689,
+  "alos": 3.2
+ },
+ "579": {
+  "title": "OTHER SKIN, SUBCUTANEOUS TISSUE AND BREAST PROCEDURES WITH MCC",
+  "weight": 3.2385,
+  "payment_usd": 23566,
+  "alos": 10.3
+ },
+ "580": {
+  "title": "OTHER SKIN, SUBCUTANEOUS TISSUE AND BREAST PROCEDURES WITH CC",
+  "weight": 1.728,
+  "payment_usd": 12574,
+  "alos": 5.5
+ },
+ "581": {
+  "title": "OTHER SKIN, SUBCUTANEOUS TISSUE AND BREAST PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.4431,
+  "payment_usd": 10501,
+  "alos": 2.6
+ },
+ "582": {
+  "title": "MASTECTOMY FOR MALIGNANCY WITH CC/MCC",
+  "weight": 1.9266,
+  "payment_usd": 14019,
+  "alos": 3.4
+ },
+ "583": {
+  "title": "MASTECTOMY FOR MALIGNANCY WITHOUT CC/MCC",
+  "weight": 1.7244,
+  "payment_usd": 12548,
+  "alos": 2.1
+ },
+ "584": {
+  "title": "BREAST BIOPSY, LOCAL EXCISION AND OTHER BREAST PROCEDURES WITH CC/MCC",
+  "weight": 2.1407,
+  "payment_usd": 15577,
+  "alos": 4.4
+ },
+ "585": {
+  "title": "BREAST BIOPSY, LOCAL EXCISION AND OTHER BREAST PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.9291,
+  "payment_usd": 14038,
+  "alos": 2.3
+ },
+ "592": {
+  "title": "SKIN ULCERS WITH MCC",
+  "weight": 1.9353,
+  "payment_usd": 14083,
+  "alos": 8.1
+ },
+ "593": {
+  "title": "SKIN ULCERS WITH CC",
+  "weight": 1.1863,
+  "payment_usd": 8632,
+  "alos": 5.6
+ },
+ "594": {
+  "title": "SKIN ULCERS WITHOUT CC/MCC",
+  "weight": 0.8668,
+  "payment_usd": 6307,
+  "alos": 4.1
+ },
+ "595": {
+  "title": "MAJOR SKIN DISORDERS WITH MCC",
+  "weight": 2.1207,
+  "payment_usd": 15432,
+  "alos": 7.5
+ },
+ "596": {
+  "title": "MAJOR SKIN DISORDERS WITHOUT MCC",
+  "weight": 1.0825,
+  "payment_usd": 7877,
+  "alos": 4.5
+ },
+ "597": {
+  "title": "MALIGNANT BREAST DISORDERS WITH MCC",
+  "weight": 1.6671,
+  "payment_usd": 12131,
+  "alos": 6.5
+ },
+ "598": {
+  "title": "MALIGNANT BREAST DISORDERS WITH CC",
+  "weight": 1.1313,
+  "payment_usd": 8232,
+  "alos": 4.7
+ },
+ "599": {
+  "title": "MALIGNANT BREAST DISORDERS WITHOUT CC/MCC",
+  "weight": 0.7332,
+  "payment_usd": 5335,
+  "alos": 2.8
+ },
+ "600": {
+  "title": "NON-MALIGNANT BREAST DISORDERS WITH CC/MCC",
+  "weight": 1.0416,
+  "payment_usd": 7579,
+  "alos": 4.0
+ },
+ "601": {
+  "title": "NON-MALIGNANT BREAST DISORDERS WITHOUT CC/MCC",
+  "weight": 0.605,
+  "payment_usd": 4402,
+  "alos": 2.6
+ },
+ "602": {
+  "title": "CELLULITIS WITH MCC",
+  "weight": 1.4213,
+  "payment_usd": 10342,
+  "alos": 5.8
+ },
+ "603": {
+  "title": "CELLULITIS WITHOUT MCC",
+  "weight": 0.8709,
+  "payment_usd": 6337,
+  "alos": 3.8
+ },
+ "604": {
+  "title": "TRAUMA TO THE SKIN, SUBCUTANEOUS TISSUE AND BREAST WITH MCC",
+  "weight": 1.4721,
+  "payment_usd": 10712,
+  "alos": 5.1
+ },
+ "605": {
+  "title": "TRAUMA TO THE SKIN, SUBCUTANEOUS TISSUE AND BREAST WITHOUT MCC",
+  "weight": 0.916,
+  "payment_usd": 6666,
+  "alos": 3.3
+ },
+ "606": {
+  "title": "MINOR SKIN DISORDERS WITH MCC",
+  "weight": 1.5132,
+  "payment_usd": 11011,
+  "alos": 6.3
+ },
+ "607": {
+  "title": "MINOR SKIN DISORDERS WITHOUT MCC",
+  "weight": 0.9064,
+  "payment_usd": 6596,
+  "alos": 3.8
+ },
+ "614": {
+  "title": "ADRENAL AND PITUITARY PROCEDURES WITH CC/MCC",
+  "weight": 2.1918,
+  "payment_usd": 15949,
+  "alos": 3.6
+ },
+ "615": {
+  "title": "ADRENAL AND PITUITARY PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.3993,
+  "payment_usd": 10182,
+  "alos": 1.6
+ },
+ "616": {
+  "title": "AMPUTATION OF LOWER LIMB FOR ENDOCRINE, NUTRITIONAL AND METABOLIC DISORDERS WITH MCC",
+  "weight": 3.4874,
+  "payment_usd": 25377,
+  "alos": 11.0
+ },
+ "617": {
+  "title": "AMPUTATION OF LOWER LIMB FOR ENDOCRINE, NUTRITIONAL AND METABOLIC DISORDERS WITH CC",
+  "weight": 1.8703,
+  "payment_usd": 13610,
+  "alos": 6.7
+ },
+ "618": {
+  "title": "AMPUTATION OF LOWER LIMB FOR ENDOCRINE, NUTRITIONAL AND METABOLIC DISORDERS WITHOUT CC/MCC",
+  "weight": 1.4183,
+  "payment_usd": 10321,
+  "alos": 5.1
+ },
+ "619": {
+  "title": "O.R. PROCEDURES FOR OBESITY WITH MCC",
+  "weight": 2.8874,
+  "payment_usd": 21011,
+  "alos": 4.9
+ },
+ "620": {
+  "title": "O.R. PROCEDURES FOR OBESITY WITH CC",
+  "weight": 1.6003,
+  "payment_usd": 11645,
+  "alos": 1.8
+ },
+ "621": {
+  "title": "O.R. PROCEDURES FOR OBESITY WITHOUT CC/MCC",
+  "weight": 1.5084,
+  "payment_usd": 10976,
+  "alos": 1.3
+ },
+ "622": {
+  "title": "SKIN GRAFTS AND WOUND DEBRIDEMENT FOR ENDOCRINE, NUTRITIONAL AND METABOLIC DISORDERS WITH MCC",
+  "weight": 3.5592,
+  "payment_usd": 25899,
+  "alos": 11.5
+ },
+ "623": {
+  "title": "SKIN GRAFTS AND WOUND DEBRIDEMENT FOR ENDOCRINE, NUTRITIONAL AND METABOLIC DISORDERS WITH CC",
+  "weight": 1.7939,
+  "payment_usd": 13054,
+  "alos": 6.3
+ },
+ "624": {
+  "title": "SKIN GRAFTS AND WOUND DEBRIDEMENT FOR ENDOCRINE, NUTRITIONAL AND METABOLIC DISORDERS WITHOUT CC/MCC",
+  "weight": 1.2519,
+  "payment_usd": 9110,
+  "alos": 3.8
+ },
+ "625": {
+  "title": "THYROID, PARATHYROID AND THYROGLOSSAL PROCEDURES WITH MCC",
+  "weight": 3.0201,
+  "payment_usd": 21977,
+  "alos": 8.1
+ },
+ "626": {
+  "title": "THYROID, PARATHYROID AND THYROGLOSSAL PROCEDURES WITH CC",
+  "weight": 1.4994,
+  "payment_usd": 10911,
+  "alos": 2.6
+ },
+ "627": {
+  "title": "THYROID, PARATHYROID AND THYROGLOSSAL PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.3283,
+  "payment_usd": 9666,
+  "alos": 1.5
+ },
+ "628": {
+  "title": "OTHER ENDOCRINE, NUTRITIONAL AND METABOLIC O.R. PROCEDURES WITH MCC",
+  "weight": 3.7268,
+  "payment_usd": 27119,
+  "alos": 10.9
+ },
+ "629": {
+  "title": "OTHER ENDOCRINE, NUTRITIONAL AND METABOLIC O.R. PROCEDURES WITH CC",
+  "weight": 2.1788,
+  "payment_usd": 15855,
+  "alos": 7.1
+ },
+ "630": {
+  "title": "OTHER ENDOCRINE, NUTRITIONAL AND METABOLIC O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.4595,
+  "payment_usd": 10620,
+  "alos": 2.6
+ },
+ "637": {
+  "title": "DIABETES WITH MCC",
+  "weight": 1.4367,
+  "payment_usd": 10455,
+  "alos": 5.3
+ },
+ "638": {
+  "title": "DIABETES WITH CC",
+  "weight": 0.8962,
+  "payment_usd": 6521,
+  "alos": 3.7
+ },
+ "639": {
+  "title": "DIABETES WITHOUT CC/MCC",
+  "weight": 0.6212,
+  "payment_usd": 4520,
+  "alos": 2.4
+ },
+ "640": {
+  "title": "MISCELLANEOUS DISORDERS OF NUTRITION, METABOLISM, FLUIDS AND ELECTROLYTES WITH MCC",
+  "weight": 1.3356,
+  "payment_usd": 9719,
+  "alos": 5.0
+ },
+ "641": {
+  "title": "MISCELLANEOUS DISORDERS OF NUTRITION, METABOLISM, FLUIDS AND ELECTROLYTES WITHOUT MCC",
+  "weight": 0.7782,
+  "payment_usd": 5663,
+  "alos": 3.3
+ },
+ "642": {
+  "title": "INBORN AND OTHER DISORDERS OF METABOLISM",
+  "weight": 1.4221,
+  "payment_usd": 10348,
+  "alos": 4.6
+ },
+ "643": {
+  "title": "ENDOCRINE DISORDERS WITH MCC",
+  "weight": 1.6461,
+  "payment_usd": 11978,
+  "alos": 6.3
+ },
+ "644": {
+  "title": "ENDOCRINE DISORDERS WITH CC",
+  "weight": 1.025,
+  "payment_usd": 7459,
+  "alos": 4.2
+ },
+ "645": {
+  "title": "ENDOCRINE DISORDERS WITHOUT CC/MCC",
+  "weight": 0.7683,
+  "payment_usd": 5591,
+  "alos": 3.2
+ },
+ "650": {
+  "title": "KIDNEY TRANSPLANT WITH HEMODIALYSIS WITH MCC",
+  "weight": 4.7014,
+  "payment_usd": 34211,
+  "alos": 7.6
+ },
+ "651": {
+  "title": "KIDNEY TRANSPLANT WITH HEMODIALYSIS WITHOUT MCC",
+  "weight": 3.7058,
+  "payment_usd": 26966,
+  "alos": 6.3
+ },
+ "652": {
+  "title": "KIDNEY TRANSPLANT",
+  "weight": 3.2295,
+  "payment_usd": 23500,
+  "alos": 4.8
+ },
+ "653": {
+  "title": "MAJOR BLADDER PROCEDURES WITH MCC",
+  "weight": 5.1964,
+  "payment_usd": 37813,
+  "alos": 12.4
+ },
+ "654": {
+  "title": "MAJOR BLADDER PROCEDURES WITH CC",
+  "weight": 2.7993,
+  "payment_usd": 20370,
+  "alos": 6.2
+ },
+ "655": {
+  "title": "MAJOR BLADDER PROCEDURES WITHOUT CC/MCC",
+  "weight": 2.1166,
+  "payment_usd": 15402,
+  "alos": 3.9
+ },
+ "656": {
+  "title": "KIDNEY AND URETER PROCEDURES FOR NEOPLASM WITH MCC",
+  "weight": 3.1838,
+  "payment_usd": 23168,
+  "alos": 7.2
+ },
+ "657": {
+  "title": "KIDNEY AND URETER PROCEDURES FOR NEOPLASM WITH CC",
+  "weight": 1.83,
+  "payment_usd": 13316,
+  "alos": 3.2
+ },
+ "658": {
+  "title": "KIDNEY AND URETER PROCEDURES FOR NEOPLASM WITHOUT CC/MCC",
+  "weight": 1.5518,
+  "payment_usd": 11292,
+  "alos": 1.8
+ },
+ "659": {
+  "title": "KIDNEY AND URETER PROCEDURES FOR NON-NEOPLASM WITH MCC",
+  "weight": 2.5409,
+  "payment_usd": 18490,
+  "alos": 7.7
+ },
+ "660": {
+  "title": "KIDNEY AND URETER PROCEDURES FOR NON-NEOPLASM WITH CC",
+  "weight": 1.3217,
+  "payment_usd": 9618,
+  "alos": 3.7
+ },
+ "661": {
+  "title": "KIDNEY AND URETER PROCEDURES FOR NON-NEOPLASM WITHOUT CC/MCC",
+  "weight": 1.0354,
+  "payment_usd": 7534,
+  "alos": 2.1
+ },
+ "662": {
+  "title": "MINOR BLADDER PROCEDURES WITH MCC",
+  "weight": 3.0615,
+  "payment_usd": 22278,
+  "alos": 9.7
+ },
+ "663": {
+  "title": "MINOR BLADDER PROCEDURES WITH CC",
+  "weight": 1.5202,
+  "payment_usd": 11062,
+  "alos": 4.7
+ },
+ "664": {
+  "title": "MINOR BLADDER PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.0469,
+  "payment_usd": 7618,
+  "alos": 2.6
+ },
+ "665": {
+  "title": "PROSTATECTOMY WITH MCC",
+  "weight": 3.1212,
+  "payment_usd": 22712,
+  "alos": 9.8
+ },
+ "666": {
+  "title": "PROSTATECTOMY WITH CC",
+  "weight": 1.7493,
+  "payment_usd": 12729,
+  "alos": 5.0
+ },
+ "667": {
+  "title": "PROSTATECTOMY WITHOUT CC/MCC",
+  "weight": 1.1062,
+  "payment_usd": 8050,
+  "alos": 2.7
+ },
+ "668": {
+  "title": "TRANSURETHRAL PROCEDURES WITH MCC",
+  "weight": 2.92,
+  "payment_usd": 21248,
+  "alos": 9.4
+ },
+ "669": {
+  "title": "TRANSURETHRAL PROCEDURES WITH CC",
+  "weight": 1.552,
+  "payment_usd": 11294,
+  "alos": 4.9
+ },
+ "670": {
+  "title": "TRANSURETHRAL PROCEDURES WITHOUT CC/MCC",
+  "weight": 0.9773,
+  "payment_usd": 7112,
+  "alos": 2.5
+ },
+ "671": {
+  "title": "URETHRAL PROCEDURES WITH CC/MCC",
+  "weight": 1.795,
+  "payment_usd": 13062,
+  "alos": 5.5
+ },
+ "672": {
+  "title": "URETHRAL PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.0795,
+  "payment_usd": 7855,
+  "alos": 2.1
+ },
+ "673": {
+  "title": "OTHER KIDNEY AND URINARY TRACT PROCEDURES WITH MCC",
+  "weight": 4.2016,
+  "payment_usd": 30574,
+  "alos": 13.1
+ },
+ "674": {
+  "title": "OTHER KIDNEY AND URINARY TRACT PROCEDURES WITH CC",
+  "weight": 2.3386,
+  "payment_usd": 17017,
+  "alos": 7.1
+ },
+ "675": {
+  "title": "OTHER KIDNEY AND URINARY TRACT PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.6414,
+  "payment_usd": 11944,
+  "alos": 3.6
+ },
+ "682": {
+  "title": "RENAL FAILURE WITH MCC",
+  "weight": 1.481,
+  "payment_usd": 10777,
+  "alos": 5.7
+ },
+ "683": {
+  "title": "RENAL FAILURE WITH CC",
+  "weight": 0.8758,
+  "payment_usd": 6373,
+  "alos": 3.7
+ },
+ "684": {
+  "title": "RENAL FAILURE WITHOUT CC/MCC",
+  "weight": 0.6003,
+  "payment_usd": 4368,
+  "alos": 2.6
+ },
+ "686": {
+  "title": "KIDNEY AND URINARY TRACT NEOPLASMS WITH MCC",
+  "weight": 1.8037,
+  "payment_usd": 13125,
+  "alos": 6.9
+ },
+ "687": {
+  "title": "KIDNEY AND URINARY TRACT NEOPLASMS WITH CC",
+  "weight": 1.0478,
+  "payment_usd": 7625,
+  "alos": 4.2
+ },
+ "688": {
+  "title": "KIDNEY AND URINARY TRACT NEOPLASMS WITHOUT CC/MCC",
+  "weight": 0.7903,
+  "payment_usd": 5751,
+  "alos": 2.3
+ },
+ "689": {
+  "title": "KIDNEY AND URINARY TRACT INFECTIONS WITH MCC",
+  "weight": 1.1603,
+  "payment_usd": 8443,
+  "alos": 4.9
+ },
+ "690": {
+  "title": "KIDNEY AND URINARY TRACT INFECTIONS WITHOUT MCC",
+  "weight": 0.8095,
+  "payment_usd": 5891,
+  "alos": 3.5
+ },
+ "693": {
+  "title": "URINARY STONES WITH MCC",
+  "weight": 1.3445,
+  "payment_usd": 9784,
+  "alos": 4.9
+ },
+ "694": {
+  "title": "URINARY STONES WITHOUT MCC",
+  "weight": 0.7817,
+  "payment_usd": 5688,
+  "alos": 2.7
+ },
+ "695": {
+  "title": "KIDNEY AND URINARY TRACT SIGNS AND SYMPTOMS WITH MCC",
+  "weight": 1.1438,
+  "payment_usd": 8323,
+  "alos": 4.6
+ },
+ "696": {
+  "title": "KIDNEY AND URINARY TRACT SIGNS AND SYMPTOMS WITHOUT MCC",
+  "weight": 0.689,
+  "payment_usd": 5014,
+  "alos": 2.9
+ },
+ "697": {
+  "title": "URETHRAL STRICTURE",
+  "weight": 1.0778,
+  "payment_usd": 7843,
+  "alos": 3.6
+ },
+ "698": {
+  "title": "OTHER KIDNEY AND URINARY TRACT DIAGNOSES WITH MCC",
+  "weight": 1.6544,
+  "payment_usd": 12039,
+  "alos": 6.1
+ },
+ "699": {
+  "title": "OTHER KIDNEY AND URINARY TRACT DIAGNOSES WITH CC",
+  "weight": 1.015,
+  "payment_usd": 7386,
+  "alos": 4.0
+ },
+ "700": {
+  "title": "OTHER KIDNEY AND URINARY TRACT DIAGNOSES WITHOUT CC/MCC",
+  "weight": 0.6899,
+  "payment_usd": 5020,
+  "alos": 2.8
+ },
+ "707": {
+  "title": "MAJOR MALE PELVIC PROCEDURES WITH CC/MCC",
+  "weight": 2.0003,
+  "payment_usd": 14556,
+  "alos": 3.1
+ },
+ "708": {
+  "title": "MAJOR MALE PELVIC PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.5342,
+  "payment_usd": 11164,
+  "alos": 1.5
+ },
+ "709": {
+  "title": "PENIS PROCEDURES WITH CC/MCC",
+  "weight": 2.3271,
+  "payment_usd": 16934,
+  "alos": 6.5
+ },
+ "710": {
+  "title": "PENIS PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.4012,
+  "payment_usd": 10196,
+  "alos": 1.9
+ },
+ "711": {
+  "title": "TESTES PROCEDURES WITH CC/MCC",
+  "weight": 2.0838,
+  "payment_usd": 15163,
+  "alos": 6.8
+ },
+ "712": {
+  "title": "TESTES PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.0997,
+  "payment_usd": 8002,
+  "alos": 3.0
+ },
+ "713": {
+  "title": "TRANSURETHRAL PROSTATECTOMY WITH CC/MCC",
+  "weight": 1.5034,
+  "payment_usd": 10940,
+  "alos": 3.5
+ },
+ "714": {
+  "title": "TRANSURETHRAL PROSTATECTOMY WITHOUT CC/MCC",
+  "weight": 1.0574,
+  "payment_usd": 7694,
+  "alos": 1.7
+ },
+ "715": {
+  "title": "OTHER MALE REPRODUCTIVE SYSTEM O.R. PROCEDURES FOR MALIGNANCY WITH CC/MCC",
+  "weight": 2.2373,
+  "payment_usd": 16280,
+  "alos": 7.2
+ },
+ "716": {
+  "title": "OTHER MALE REPRODUCTIVE SYSTEM O.R. PROCEDURES FOR MALIGNANCY WITHOUT CC/MCC",
+  "weight": 1.471,
+  "payment_usd": 10704,
+  "alos": 1.8
+ },
+ "717": {
+  "title": "OTHER MALE REPRODUCTIVE SYSTEM O.R. PROCEDURES EXCEPT MALIGNANCY WITH CC/MCC",
+  "weight": 1.8905,
+  "payment_usd": 13757,
+  "alos": 5.2
+ },
+ "718": {
+  "title": "OTHER MALE REPRODUCTIVE SYSTEM O.R. PROCEDURES EXCEPT MALIGNANCY WITHOUT CC/MCC",
+  "weight": 1.3431,
+  "payment_usd": 9773,
+  "alos": 2.3
+ },
+ "722": {
+  "title": "MALIGNANCY, MALE REPRODUCTIVE SYSTEM WITH MCC",
+  "weight": 1.8097,
+  "payment_usd": 13169,
+  "alos": 7.1
+ },
+ "723": {
+  "title": "MALIGNANCY, MALE REPRODUCTIVE SYSTEM WITH CC",
+  "weight": 1.1427,
+  "payment_usd": 8315,
+  "alos": 4.7
+ },
+ "724": {
+  "title": "MALIGNANCY, MALE REPRODUCTIVE SYSTEM WITHOUT CC/MCC",
+  "weight": 0.6117,
+  "payment_usd": 4451,
+  "alos": 2.1
+ },
+ "725": {
+  "title": "BENIGN PROSTATIC HYPERTROPHY WITH MCC",
+  "weight": 1.1702,
+  "payment_usd": 8515,
+  "alos": 4.9
+ },
+ "726": {
+  "title": "BENIGN PROSTATIC HYPERTROPHY WITHOUT MCC",
+  "weight": 0.722,
+  "payment_usd": 5254,
+  "alos": 3.1
+ },
+ "727": {
+  "title": "INFLAMMATION OF THE MALE REPRODUCTIVE SYSTEM WITH MCC",
+  "weight": 1.4829,
+  "payment_usd": 10791,
+  "alos": 6.0
+ },
+ "728": {
+  "title": "INFLAMMATION OF THE MALE REPRODUCTIVE SYSTEM WITHOUT MCC",
+  "weight": 0.8112,
+  "payment_usd": 5903,
+  "alos": 3.6
+ },
+ "729": {
+  "title": "OTHER MALE REPRODUCTIVE SYSTEM DIAGNOSES WITH CC/MCC",
+  "weight": 1.0587,
+  "payment_usd": 7704,
+  "alos": 4.1
+ },
+ "730": {
+  "title": "OTHER MALE REPRODUCTIVE SYSTEM DIAGNOSES WITHOUT CC/MCC",
+  "weight": 0.672,
+  "payment_usd": 4890,
+  "alos": 2.1
+ },
+ "734": {
+  "title": "PELVIC EVISCERATION, RADICAL HYSTERECTOMY AND RADICAL VULVECTOMY WITH CC/MCC",
+  "weight": 2.13,
+  "payment_usd": 15499,
+  "alos": 4.7
+ },
+ "735": {
+  "title": "PELVIC EVISCERATION, RADICAL HYSTERECTOMY AND RADICAL VULVECTOMY WITHOUT CC/MCC",
+  "weight": 1.3455,
+  "payment_usd": 9791,
+  "alos": 1.9
+ },
+ "736": {
+  "title": "UTERINE AND ADNEXA PROCEDURES FOR OVARIAN OR ADNEXAL MALIGNANCY WITH MCC",
+  "weight": 3.5745,
+  "payment_usd": 26011,
+  "alos": 8.2
+ },
+ "737": {
+  "title": "UTERINE AND ADNEXA PROCEDURES FOR OVARIAN OR ADNEXAL MALIGNANCY WITH CC",
+  "weight": 2.0606,
+  "payment_usd": 14994,
+  "alos": 4.5
+ },
+ "738": {
+  "title": "UTERINE AND ADNEXA PROCEDURES FOR OVARIAN OR ADNEXAL MALIGNANCY WITHOUT CC/MCC",
+  "weight": 1.4685,
+  "payment_usd": 10686,
+  "alos": 2.6
+ },
+ "739": {
+  "title": "UTERINE AND ADNEXA PROCEDURES FOR NON-OVARIAN AND NON-ADNEXAL MALIGNANCY WITH MCC",
+  "weight": 3.5263,
+  "payment_usd": 25660,
+  "alos": 8.3
+ },
+ "740": {
+  "title": "UTERINE AND ADNEXA PROCEDURES FOR NON-OVARIAN AND NON-ADNEXAL MALIGNANCY WITH CC",
+  "weight": 1.8096,
+  "payment_usd": 13168,
+  "alos": 3.6
+ },
+ "741": {
+  "title": "UTERINE AND ADNEXA PROCEDURES FOR NON-OVARIAN AND NON-ADNEXAL MALIGNANCY WITHOUT CC/MCC",
+  "weight": 1.4261,
+  "payment_usd": 10377,
+  "alos": 1.8
+ },
+ "742": {
+  "title": "UTERINE AND ADNEXA PROCEDURES FOR NON-MALIGNANCY WITH CC/MCC",
+  "weight": 1.8348,
+  "payment_usd": 13351,
+  "alos": 3.6
+ },
+ "743": {
+  "title": "UTERINE AND ADNEXA PROCEDURES FOR NON-MALIGNANCY WITHOUT CC/MCC",
+  "weight": 1.2407,
+  "payment_usd": 9028,
+  "alos": 1.7
+ },
+ "744": {
+  "title": "D&C, CONIZATION, LAPAROSCOPY AND TUBAL INTERRUPTION WITH CC/MCC",
+  "weight": 2.0491,
+  "payment_usd": 14911,
+  "alos": 6.6
+ },
+ "745": {
+  "title": "D&C, CONIZATION, LAPAROSCOPY AND TUBAL INTERRUPTION WITHOUT CC/MCC",
+  "weight": 1.1375,
+  "payment_usd": 8277,
+  "alos": 2.6
+ },
+ "746": {
+  "title": "VAGINA, CERVIX AND VULVA PROCEDURES WITH CC/MCC",
+  "weight": 1.7371,
+  "payment_usd": 12640,
+  "alos": 5.1
+ },
+ "747": {
+  "title": "VAGINA, CERVIX AND VULVA PROCEDURES WITHOUT CC/MCC",
+  "weight": 0.8395,
+  "payment_usd": 6109,
+  "alos": 1.6
+ },
+ "748": {
+  "title": "FEMALE REPRODUCTIVE SYSTEM RECONSTRUCTIVE PROCEDURES",
+  "weight": 1.3873,
+  "payment_usd": 10095,
+  "alos": 1.8
+ },
+ "749": {
+  "title": "OTHER FEMALE REPRODUCTIVE SYSTEM O.R. PROCEDURES WITH CC/MCC",
+  "weight": 2.5676,
+  "payment_usd": 18684,
+  "alos": 7.1
+ },
+ "750": {
+  "title": "OTHER FEMALE REPRODUCTIVE SYSTEM O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.4758,
+  "payment_usd": 10739,
+  "alos": 2.6
+ },
+ "754": {
+  "title": "MALIGNANCY, FEMALE REPRODUCTIVE SYSTEM WITH MCC",
+  "weight": 1.8417,
+  "payment_usd": 13402,
+  "alos": 7.1
+ },
+ "755": {
+  "title": "MALIGNANCY, FEMALE REPRODUCTIVE SYSTEM WITH CC",
+  "weight": 1.0878,
+  "payment_usd": 7916,
+  "alos": 4.3
+ },
+ "756": {
+  "title": "MALIGNANCY, FEMALE REPRODUCTIVE SYSTEM WITHOUT CC/MCC",
+  "weight": 0.9605,
+  "payment_usd": 6989,
+  "alos": 2.3
+ },
+ "757": {
+  "title": "INFECTIONS, FEMALE REPRODUCTIVE SYSTEM WITH MCC",
+  "weight": 1.4319,
+  "payment_usd": 10420,
+  "alos": 6.0
+ },
+ "758": {
+  "title": "INFECTIONS, FEMALE REPRODUCTIVE SYSTEM WITH CC",
+  "weight": 0.979,
+  "payment_usd": 7124,
+  "alos": 4.4
+ },
+ "759": {
+  "title": "INFECTIONS, FEMALE REPRODUCTIVE SYSTEM WITHOUT CC/MCC",
+  "weight": 0.6636,
+  "payment_usd": 4829,
+  "alos": 2.9
+ },
+ "760": {
+  "title": "MENSTRUAL AND OTHER FEMALE REPRODUCTIVE SYSTEM DISORDERS WITH CC/MCC",
+  "weight": 1.0075,
+  "payment_usd": 7331,
+  "alos": 3.8
+ },
+ "761": {
+  "title": "MENSTRUAL AND OTHER FEMALE REPRODUCTIVE SYSTEM DISORDERS WITHOUT CC/MCC",
+  "weight": 0.5696,
+  "payment_usd": 4145,
+  "alos": 2.1
+ },
+ "768": {
+  "title": "VAGINAL DELIVERY WITH O.R. PROCEDURES EXCEPT STERILIZATION AND/OR D&C",
+  "weight": 1.0716,
+  "payment_usd": 7798,
+  "alos": 3.4
+ },
+ "769": {
+  "title": "POSTPARTUM AND POST ABORTION DIAGNOSES WITH O.R. PROCEDURES",
+  "weight": 1.6898,
+  "payment_usd": 12296,
+  "alos": 4.7
+ },
+ "770": {
+  "title": "ABORTION WITH D&C, ASPIRATION CURETTAGE OR HYSTEROTOMY",
+  "weight": 1.0027,
+  "payment_usd": 7296,
+  "alos": 2.3
+ },
+ "776": {
+  "title": "POSTPARTUM AND POST ABORTION DIAGNOSES WITHOUT O.R. PROCEDURES",
+  "weight": 0.6547,
+  "payment_usd": 4764,
+  "alos": 3.1
+ },
+ "779": {
+  "title": "ABORTION WITHOUT D&C",
+  "weight": 0.7131,
+  "payment_usd": 5189,
+  "alos": 2.0
+ },
+ "783": {
+  "title": "CESAREAN SECTION WITH STERILIZATION WITH MCC",
+  "weight": 2.4551,
+  "payment_usd": 17865,
+  "alos": 8.6
+ },
+ "784": {
+  "title": "CESAREAN SECTION WITH STERILIZATION WITH CC",
+  "weight": 1.0601,
+  "payment_usd": 7714,
+  "alos": 3.6
+ },
+ "785": {
+  "title": "CESAREAN SECTION WITH STERILIZATION WITHOUT CC/MCC",
+  "weight": 0.9578,
+  "payment_usd": 6970,
+  "alos": 3.0
+ },
+ "786": {
+  "title": "CESAREAN SECTION WITHOUT STERILIZATION WITH MCC",
+  "weight": 1.6495,
+  "payment_usd": 12003,
+  "alos": 6.2
+ },
+ "787": {
+  "title": "CESAREAN SECTION WITHOUT STERILIZATION WITH CC",
+  "weight": 1.1168,
+  "payment_usd": 8127,
+  "alos": 4.2
+ },
+ "788": {
+  "title": "CESAREAN SECTION WITHOUT STERILIZATION WITHOUT CC/MCC",
+  "weight": 0.9588,
+  "payment_usd": 6977,
+  "alos": 3.2
+ },
+ "789": {
+  "title": "NEONATES, DIED OR TRANSFERRED TO ANOTHER ACUTE CARE FACILITY",
+  "weight": 1.8022,
+  "payment_usd": 13114,
+  "alos": 1.8
+ },
+ "790": {
+  "title": "EXTREME IMMATURITY OR RESPIRATORY DISTRESS SYNDROME, NEONATE",
+  "weight": 5.9435,
+  "payment_usd": 43249,
+  "alos": 17.9
+ },
+ "791": {
+  "title": "PREMATURITY WITH MAJOR PROBLEMS",
+  "weight": 4.059,
+  "payment_usd": 29536,
+  "alos": 13.3
+ },
+ "792": {
+  "title": "PREMATURITY WITHOUT MAJOR PROBLEMS",
+  "weight": 2.4492,
+  "payment_usd": 17822,
+  "alos": 8.6
+ },
+ "793": {
+  "title": "FULL TERM NEONATE WITH MAJOR PROBLEMS",
+  "weight": 4.1696,
+  "payment_usd": 30341,
+  "alos": 4.7
+ },
+ "794": {
+  "title": "NEONATE WITH OTHER SIGNIFICANT PROBLEMS",
+  "weight": 1.4759,
+  "payment_usd": 10740,
+  "alos": 3.4
+ },
+ "795": {
+  "title": "NORMAL NEWBORN",
+  "weight": 0.1998,
+  "payment_usd": 1454,
+  "alos": 3.1
+ },
+ "796": {
+  "title": "VAGINAL DELIVERY WITH STERILIZATION AND/OR D&C WITH MCC",
+  "weight": 1.167,
+  "payment_usd": 8492,
+  "alos": 4.4
+ },
+ "797": {
+  "title": "VAGINAL DELIVERY WITH STERILIZATION AND/OR D&C WITH CC",
+  "weight": 1.0004,
+  "payment_usd": 7280,
+  "alos": 3.1
+ },
+ "798": {
+  "title": "VAGINAL DELIVERY WITH STERILIZATION AND/OR D&C WITHOUT CC/MCC",
+  "weight": 0.9571,
+  "payment_usd": 6965,
+  "alos": 2.5
+ },
+ "799": {
+  "title": "SPLENIC PROCEDURES WITH MCC",
+  "weight": 4.5289,
+  "payment_usd": 32956,
+  "alos": 9.1
+ },
+ "800": {
+  "title": "SPLENIC PROCEDURES WITH CC",
+  "weight": 2.8094,
+  "payment_usd": 20443,
+  "alos": 5.2
+ },
+ "801": {
+  "title": "SPLENIC PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.9089,
+  "payment_usd": 13891,
+  "alos": 3.3
+ },
+ "802": {
+  "title": "OTHER O.R. PROCEDURES OF THE BLOOD AND BLOOD FORMING ORGANS WITH MCC",
+  "weight": 3.9841,
+  "payment_usd": 28991,
+  "alos": 11.6
+ },
+ "803": {
+  "title": "OTHER O.R. PROCEDURES OF THE BLOOD AND BLOOD FORMING ORGANS WITH CC",
+  "weight": 1.8589,
+  "payment_usd": 13527,
+  "alos": 5.2
+ },
+ "804": {
+  "title": "OTHER O.R. PROCEDURES OF THE BLOOD AND BLOOD FORMING ORGANS WITHOUT CC/MCC",
+  "weight": 1.356,
+  "payment_usd": 9867,
+  "alos": 2.2
+ },
+ "805": {
+  "title": "VAGINAL DELIVERY WITHOUT STERILIZATION OR D&C WITH MCC",
+  "weight": 1.0792,
+  "payment_usd": 7853,
+  "alos": 4.5
+ },
+ "806": {
+  "title": "VAGINAL DELIVERY WITHOUT STERILIZATION OR D&C WITH CC",
+  "weight": 0.754,
+  "payment_usd": 5487,
+  "alos": 2.7
+ },
+ "807": {
+  "title": "VAGINAL DELIVERY WITHOUT STERILIZATION OR D&C WITHOUT CC/MCC",
+  "weight": 0.6742,
+  "payment_usd": 4906,
+  "alos": 2.2
+ },
+ "808": {
+  "title": "MAJOR HEMATOLOGICAL AND IMMUNOLOGICAL DIAGNOSES EXCEPT SICKLE CELL CRISIS AND COAGULATION DISORDERS WITH MCC",
+  "weight": 2.2079,
+  "payment_usd": 16066,
+  "alos": 7.1
+ },
+ "809": {
+  "title": "MAJOR HEMATOLOGICAL AND IMMUNOLOGICAL DIAGNOSES EXCEPT SICKLE CELL CRISIS AND COAGULATION DISORDERS WITH CC",
+  "weight": 1.2659,
+  "payment_usd": 9212,
+  "alos": 4.3
+ },
+ "810": {
+  "title": "MAJOR HEMATOLOGICAL AND IMMUNOLOGICAL DIAGNOSES EXCEPT SICKLE CELL CRISIS AND COAGULATION DISORDERS WITHOUT CC/MCC",
+  "weight": 1.0466,
+  "payment_usd": 7616,
+  "alos": 3.3
+ },
+ "811": {
+  "title": "RED BLOOD CELL DISORDERS WITH MCC",
+  "weight": 1.4043,
+  "payment_usd": 10219,
+  "alos": 4.9
+ },
+ "812": {
+  "title": "RED BLOOD CELL DISORDERS WITHOUT MCC",
+  "weight": 0.9182,
+  "payment_usd": 6682,
+  "alos": 3.6
+ },
+ "813": {
+  "title": "COAGULATION DISORDERS",
+  "weight": 1.5253,
+  "payment_usd": 11099,
+  "alos": 4.7
+ },
+ "814": {
+  "title": "RETICULOENDOTHELIAL AND IMMUNITY DISORDERS WITH MCC",
+  "weight": 2.1267,
+  "payment_usd": 15475,
+  "alos": 6.9
+ },
+ "815": {
+  "title": "RETICULOENDOTHELIAL AND IMMUNITY DISORDERS WITH CC",
+  "weight": 1.014,
+  "payment_usd": 7379,
+  "alos": 3.8
+ },
+ "816": {
+  "title": "RETICULOENDOTHELIAL AND IMMUNITY DISORDERS WITHOUT CC/MCC",
+  "weight": 0.632,
+  "payment_usd": 4599,
+  "alos": 2.3
+ },
+ "817": {
+  "title": "OTHER ANTEPARTUM DIAGNOSES WITH O.R. PROCEDURES WITH MCC",
+  "weight": 1.688,
+  "payment_usd": 12283,
+  "alos": 5.5
+ },
+ "818": {
+  "title": "OTHER ANTEPARTUM DIAGNOSES WITH O.R. PROCEDURES WITH CC",
+  "weight": 1.0542,
+  "payment_usd": 7671,
+  "alos": 3.4
+ },
+ "819": {
+  "title": "OTHER ANTEPARTUM DIAGNOSES WITH O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 0.8599,
+  "payment_usd": 6257,
+  "alos": 1.7
+ },
+ "820": {
+  "title": "LYMPHOMA AND LEUKEMIA WITH MAJOR O.R. PROCEDURES WITH MCC",
+  "weight": 5.8648,
+  "payment_usd": 42677,
+  "alos": 15.4
+ },
+ "821": {
+  "title": "LYMPHOMA AND LEUKEMIA WITH MAJOR O.R. PROCEDURES WITH CC",
+  "weight": 2.2386,
+  "payment_usd": 16290,
+  "alos": 5.2
+ },
+ "822": {
+  "title": "LYMPHOMA AND LEUKEMIA WITH MAJOR O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.204,
+  "payment_usd": 8761,
+  "alos": 1.8
+ },
+ "823": {
+  "title": "LYMPHOMA AND NON-ACUTE LEUKEMIA WITH OTHER PROCEDURES WITH MCC",
+  "weight": 4.5848,
+  "payment_usd": 33362,
+  "alos": 13.6
+ },
+ "824": {
+  "title": "LYMPHOMA AND NON-ACUTE LEUKEMIA WITH OTHER PROCEDURES WITH CC",
+  "weight": 2.2656,
+  "payment_usd": 16486,
+  "alos": 6.7
+ },
+ "825": {
+  "title": "LYMPHOMA AND NON-ACUTE LEUKEMIA WITH OTHER PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.3494,
+  "payment_usd": 9819,
+  "alos": 3.0
+ },
+ "826": {
+  "title": "MYELOPROLIFERATIVE DISORDERS OR POORLY DIFFERENTIATED NEOPLASMS WITH MAJOR O.R. PROCEDURES WITH MCC",
+  "weight": 4.6778,
+  "payment_usd": 34039,
+  "alos": 11.2
+ },
+ "827": {
+  "title": "MYELOPROLIFERATIVE DISORDERS OR POORLY DIFFERENTIATED NEOPLASMS WITH MAJOR O.R. PROCEDURES WITH CC",
+  "weight": 2.3112,
+  "payment_usd": 16818,
+  "alos": 5.2
+ },
+ "828": {
+  "title": "MYELOPROLIFERATIVE DISORDERS OR POORLY DIFFERENTIATED NEOPLASMS WITH MAJOR O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.7038,
+  "payment_usd": 12398,
+  "alos": 2.9
+ },
+ "829": {
+  "title": "MYELOPROLIFERATIVE DISORDERS OR POORLY DIFFERENTIATED NEOPLASMS WITH OTHER PROCEDURES WITH CC/MCC",
+  "weight": 3.16,
+  "payment_usd": 22995,
+  "alos": 9.0
+ },
+ "830": {
+  "title": "MYELOPROLIFERATIVE DISORDERS OR POORLY DIFFERENTIATED NEOPLASMS WITH OTHER PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.505,
+  "payment_usd": 10952,
+  "alos": 2.6
+ },
+ "831": {
+  "title": "OTHER ANTEPARTUM DIAGNOSES WITHOUT O.R. PROCEDURES WITH MCC",
+  "weight": 1.2025,
+  "payment_usd": 8750,
+  "alos": 5.0
+ },
+ "832": {
+  "title": "OTHER ANTEPARTUM DIAGNOSES WITHOUT O.R. PROCEDURES WITH CC",
+  "weight": 0.7216,
+  "payment_usd": 5251,
+  "alos": 3.7
+ },
+ "833": {
+  "title": "OTHER ANTEPARTUM DIAGNOSES WITHOUT O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 0.5229,
+  "payment_usd": 3805,
+  "alos": 2.2
+ },
+ "834": {
+  "title": "ACUTE LEUKEMIA WITH MCC",
+  "weight": 5.4899,
+  "payment_usd": 39949,
+  "alos": 15.4
+ },
+ "835": {
+  "title": "ACUTE LEUKEMIA WITH CC",
+  "weight": 2.0858,
+  "payment_usd": 15178,
+  "alos": 6.8
+ },
+ "836": {
+  "title": "ACUTE LEUKEMIA WITHOUT CC/MCC",
+  "weight": 1.2195,
+  "payment_usd": 8874,
+  "alos": 4.0
+ },
+ "837": {
+  "title": "CHEMOTHERAPY WITH ACUTE LEUKEMIA AS SECONDARY DIAGNOSIS OR WITH HIGH DOSE CHEMOTHERAPY AGENT WITH MCC",
+  "weight": 4.8043,
+  "payment_usd": 34960,
+  "alos": 14.9
+ },
+ "838": {
+  "title": "CHEMOTHERAPY WITH ACUTE LEUKEMIA AS SECONDARY DIAGNOSIS WITH CC OR HIGH DOSE CHEMOTHERAPY AGENT",
+  "weight": 2.0874,
+  "payment_usd": 15190,
+  "alos": 6.7
+ },
+ "839": {
+  "title": "CHEMOTHERAPY WITH ACUTE LEUKEMIA AS SECONDARY DIAGNOSIS WITHOUT CC/MCC",
+  "weight": 1.4439,
+  "payment_usd": 10507,
+  "alos": 4.5
+ },
+ "840": {
+  "title": "LYMPHOMA AND NON-ACUTE LEUKEMIA WITH MCC",
+  "weight": 3.2349,
+  "payment_usd": 23540,
+  "alos": 9.7
+ },
+ "841": {
+  "title": "LYMPHOMA AND NON-ACUTE LEUKEMIA WITH CC",
+  "weight": 1.6314,
+  "payment_usd": 11871,
+  "alos": 5.4
+ },
+ "842": {
+  "title": "LYMPHOMA AND NON-ACUTE LEUKEMIA WITHOUT CC/MCC",
+  "weight": 1.0104,
+  "payment_usd": 7352,
+  "alos": 3.3
+ },
+ "843": {
+  "title": "OTHER MYELOPROLIFERATIVE DISORDERS OR POORLY DIFFERENTIATED NEOPLASTIC DIAGNOSES WITH MCC",
+  "weight": 1.9948,
+  "payment_usd": 14516,
+  "alos": 7.5
+ },
+ "844": {
+  "title": "OTHER MYELOPROLIFERATIVE DISORDERS OR POORLY DIFFERENTIATED NEOPLASTIC DIAGNOSES WITH CC",
+  "weight": 1.2174,
+  "payment_usd": 8859,
+  "alos": 5.0
+ },
+ "845": {
+  "title": "OTHER MYELOPROLIFERATIVE DISORDERS OR POORLY DIFFERENTIATED NEOPLASTIC DIAGNOSES WITHOUT CC/MCC",
+  "weight": 0.8516,
+  "payment_usd": 6197,
+  "alos": 3.2
+ },
+ "846": {
+  "title": "CHEMOTHERAPY WITHOUT ACUTE LEUKEMIA AS SECONDARY DIAGNOSIS WITH MCC",
+  "weight": 2.5925,
+  "payment_usd": 18865,
+  "alos": 7.7
+ },
+ "847": {
+  "title": "CHEMOTHERAPY WITHOUT ACUTE LEUKEMIA AS SECONDARY DIAGNOSIS WITH CC",
+  "weight": 1.3082,
+  "payment_usd": 9519,
+  "alos": 4.3
+ },
+ "848": {
+  "title": "CHEMOTHERAPY WITHOUT ACUTE LEUKEMIA AS SECONDARY DIAGNOSIS WITHOUT CC/MCC",
+  "weight": 0.8494,
+  "payment_usd": 6181,
+  "alos": 3.3
+ },
+ "849": {
+  "title": "RADIOTHERAPY",
+  "weight": 2.7095,
+  "payment_usd": 19716,
+  "alos": 9.8
+ },
+ "850": {
+  "title": "ACUTE LEUKEMIA WITH OTHER PROCEDURES",
+  "weight": 8.6595,
+  "payment_usd": 63013,
+  "alos": 23.0
+ },
+ "853": {
+  "title": "INFECTIOUS AND PARASITIC DISEASES WITH O.R. PROCEDURES WITH MCC",
+  "weight": 4.9386,
+  "payment_usd": 35937,
+  "alos": 12.4
+ },
+ "854": {
+  "title": "INFECTIOUS AND PARASITIC DISEASES WITH O.R. PROCEDURES WITH CC",
+  "weight": 1.9981,
+  "payment_usd": 14540,
+  "alos": 6.2
+ },
+ "855": {
+  "title": "INFECTIOUS AND PARASITIC DISEASES WITH O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.4972,
+  "payment_usd": 10895,
+  "alos": 3.7
+ },
+ "856": {
+  "title": "POSTOPERATIVE OR POST-TRAUMATIC INFECTIONS WITH O.R. PROCEDURES WITH MCC",
+  "weight": 4.5487,
+  "payment_usd": 33100,
+  "alos": 12.1
+ },
+ "857": {
+  "title": "POSTOPERATIVE OR POST-TRAUMATIC INFECTIONS WITH O.R. PROCEDURES WITH CC",
+  "weight": 2.1415,
+  "payment_usd": 15583,
+  "alos": 6.7
+ },
+ "858": {
+  "title": "POSTOPERATIVE OR POST-TRAUMATIC INFECTIONS WITH O.R. PROCEDURES WITHOUT CC/MCC",
+  "weight": 1.3929,
+  "payment_usd": 10136,
+  "alos": 4.2
+ },
+ "862": {
+  "title": "POSTOPERATIVE AND POST-TRAUMATIC INFECTIONS WITH MCC",
+  "weight": 1.8237,
+  "payment_usd": 13271,
+  "alos": 6.6
+ },
+ "863": {
+  "title": "POSTOPERATIVE AND POST-TRAUMATIC INFECTIONS WITHOUT MCC",
+  "weight": 0.9979,
+  "payment_usd": 7261,
+  "alos": 4.1
+ },
+ "864": {
+  "title": "FEVER AND INFLAMMATORY CONDITIONS",
+  "weight": 0.8877,
+  "payment_usd": 6460,
+  "alos": 3.2
+ },
+ "865": {
+  "title": "VIRAL ILLNESS WITH MCC",
+  "weight": 1.4983,
+  "payment_usd": 10903,
+  "alos": 5.7
+ },
+ "866": {
+  "title": "VIRAL ILLNESS WITHOUT MCC",
+  "weight": 0.8696,
+  "payment_usd": 6328,
+  "alos": 3.5
+ },
+ "867": {
+  "title": "OTHER INFECTIOUS AND PARASITIC DISEASES DIAGNOSES WITH MCC",
+  "weight": 2.0932,
+  "payment_usd": 15232,
+  "alos": 7.3
+ },
+ "868": {
+  "title": "OTHER INFECTIOUS AND PARASITIC DISEASES DIAGNOSES WITH CC",
+  "weight": 1.0311,
+  "payment_usd": 7503,
+  "alos": 4.3
+ },
+ "869": {
+  "title": "OTHER INFECTIOUS AND PARASITIC DISEASES DIAGNOSES WITHOUT CC/MCC",
+  "weight": 0.7297,
+  "payment_usd": 5310,
+  "alos": 3.0
+ },
+ "870": {
+  "title": "SEPTICEMIA OR SEVERE SEPSIS WITH MV >96 HOURS",
+  "weight": 6.9118,
+  "payment_usd": 50296,
+  "alos": 15.2
+ },
+ "871": {
+  "title": "SEPTICEMIA OR SEVERE SEPSIS WITHOUT MV >96 HOURS WITH MCC",
+  "weight": 1.9425,
+  "payment_usd": 14135,
+  "alos": 6.4
+ },
+ "872": {
+  "title": "SEPTICEMIA OR SEVERE SEPSIS WITHOUT MV >96 HOURS WITHOUT MCC",
+  "weight": 1.0233,
+  "payment_usd": 7446,
+  "alos": 4.2
+ },
+ "876": {
+  "title": "O.R. PROCEDURES WITH PRINCIPAL DIAGNOSIS OF MENTAL ILLNESS",
+  "weight": 3.8649,
+  "payment_usd": 28124,
+  "alos": 19.3
+ },
+ "880": {
+  "title": "ACUTE ADJUSTMENT REACTION AND PSYCHOSOCIAL DYSFUNCTION",
+  "weight": 0.9602,
+  "payment_usd": 6987,
+  "alos": 4.2
+ },
+ "881": {
+  "title": "DEPRESSIVE NEUROSES",
+  "weight": 0.9409,
+  "payment_usd": 6847,
+  "alos": 6.2
+ },
+ "882": {
+  "title": "NEUROSES EXCEPT DEPRESSIVE",
+  "weight": 1.0738,
+  "payment_usd": 7814,
+  "alos": 5.9
+ },
+ "883": {
+  "title": "DISORDERS OF PERSONALITY AND IMPULSE CONTROL",
+  "weight": 1.9663,
+  "payment_usd": 14308,
+  "alos": 11.3
+ },
+ "884": {
+  "title": "ORGANIC DISTURBANCES AND INTELLECTUAL DISABILITY",
+  "weight": 1.6089,
+  "payment_usd": 11708,
+  "alos": 7.8
+ },
+ "885": {
+  "title": "PSYCHOSES",
+  "weight": 1.3968,
+  "payment_usd": 10164,
+  "alos": 9.8
+ },
+ "886": {
+  "title": "BEHAVIORAL AND DEVELOPMENTAL DISORDERS",
+  "weight": 2.0753,
+  "payment_usd": 15101,
+  "alos": 14.9
+ },
+ "887": {
+  "title": "OTHER MENTAL DISORDER DIAGNOSES",
+  "weight": 1.0709,
+  "payment_usd": 7793,
+  "alos": 4.9
+ },
+ "894": {
+  "title": "ALCOHOL, DRUG ABUSE OR DEPENDENCE, LEFT AMA",
+  "weight": 0.6169,
+  "payment_usd": 4489,
+  "alos": 2.9
+ },
+ "895": {
+  "title": "ALCOHOL, DRUG ABUSE OR DEPENDENCE WITH REHABILITATION THERAPY",
+  "weight": 1.4156,
+  "payment_usd": 10301,
+  "alos": 10.3
+ },
+ "896": {
+  "title": "ALCOHOL, DRUG ABUSE OR DEPENDENCE WITHOUT REHABILITATION THERAPY WITH MCC",
+  "weight": 1.7451,
+  "payment_usd": 12699,
+  "alos": 7.0
+ },
+ "897": {
+  "title": "ALCOHOL, DRUG ABUSE OR DEPENDENCE WITHOUT REHABILITATION THERAPY WITHOUT MCC",
+  "weight": 0.8828,
+  "payment_usd": 6424,
+  "alos": 4.3
+ },
+ "901": {
+  "title": "WOUND DEBRIDEMENTS FOR INJURIES WITH MCC",
+  "weight": 4.1966,
+  "payment_usd": 30538,
+  "alos": 12.5
+ },
+ "902": {
+  "title": "WOUND DEBRIDEMENTS FOR INJURIES WITH CC",
+  "weight": 1.9145,
+  "payment_usd": 13931,
+  "alos": 6.5
+ },
+ "903": {
+  "title": "WOUND DEBRIDEMENTS FOR INJURIES WITHOUT CC/MCC",
+  "weight": 1.1696,
+  "payment_usd": 8511,
+  "alos": 3.3
+ },
+ "904": {
+  "title": "SKIN GRAFTS FOR INJURIES WITH CC/MCC",
+  "weight": 3.6731,
+  "payment_usd": 26728,
+  "alos": 10.2
+ },
+ "905": {
+  "title": "SKIN GRAFTS FOR INJURIES WITHOUT CC/MCC",
+  "weight": 1.4318,
+  "payment_usd": 10419,
+  "alos": 4.0
+ },
+ "906": {
+  "title": "HAND PROCEDURES FOR INJURIES",
+  "weight": 1.7624,
+  "payment_usd": 12825,
+  "alos": 4.4
+ },
+ "907": {
+  "title": "OTHER O.R. PROCEDURES FOR INJURIES WITH MCC",
+  "weight": 3.8393,
+  "payment_usd": 27938,
+  "alos": 9.4
+ },
+ "908": {
+  "title": "OTHER O.R. PROCEDURES FOR INJURIES WITH CC",
+  "weight": 1.9952,
+  "payment_usd": 14519,
+  "alos": 4.8
+ },
+ "909": {
+  "title": "OTHER O.R. PROCEDURES FOR INJURIES WITHOUT CC/MCC",
+  "weight": 1.3127,
+  "payment_usd": 9552,
+  "alos": 2.7
+ },
+ "913": {
+  "title": "TRAUMATIC INJURY WITH MCC",
+  "weight": 1.6346,
+  "payment_usd": 11895,
+  "alos": 5.5
+ },
+ "914": {
+  "title": "TRAUMATIC INJURY WITHOUT MCC",
+  "weight": 0.8855,
+  "payment_usd": 6444,
+  "alos": 3.1
+ },
+ "915": {
+  "title": "ALLERGIC REACTIONS WITH MCC",
+  "weight": 1.6816,
+  "payment_usd": 12237,
+  "alos": 4.8
+ },
+ "916": {
+  "title": "ALLERGIC REACTIONS WITHOUT MCC",
+  "weight": 0.6663,
+  "payment_usd": 4849,
+  "alos": 2.2
+ },
+ "917": {
+  "title": "POISONING AND TOXIC EFFECTS OF DRUGS WITH MCC",
+  "weight": 1.5684,
+  "payment_usd": 11413,
+  "alos": 5.4
+ },
+ "918": {
+  "title": "POISONING AND TOXIC EFFECTS OF DRUGS WITHOUT MCC",
+  "weight": 0.8571,
+  "payment_usd": 6237,
+  "alos": 3.4
+ },
+ "919": {
+  "title": "COMPLICATIONS OF TREATMENT WITH MCC",
+  "weight": 1.8308,
+  "payment_usd": 13322,
+  "alos": 6.0
+ },
+ "920": {
+  "title": "COMPLICATIONS OF TREATMENT WITH CC",
+  "weight": 1.0023,
+  "payment_usd": 7293,
+  "alos": 3.7
+ },
+ "921": {
+  "title": "COMPLICATIONS OF TREATMENT WITHOUT CC/MCC",
+  "weight": 0.6884,
+  "payment_usd": 5009,
+  "alos": 2.5
+ },
+ "922": {
+  "title": "OTHER INJURY, POISONING AND TOXIC EFFECT DIAGNOSES WITH MCC",
+  "weight": 1.7494,
+  "payment_usd": 12730,
+  "alos": 7.4
+ },
+ "923": {
+  "title": "OTHER INJURY, POISONING AND TOXIC EFFECT DIAGNOSES WITHOUT MCC",
+  "weight": 1.0177,
+  "payment_usd": 7406,
+  "alos": 4.4
+ },
+ "927": {
+  "title": "EXTENSIVE BURNS OR FULL THICKNESS BURNS WITH MV >96 HOURS WITH SKIN GRAFT",
+  "weight": 18.4302,
+  "payment_usd": 134112,
+  "alos": 32.1
+ },
+ "928": {
+  "title": "FULL THICKNESS BURN WITH SKIN GRAFT OR INHALATION INJURY WITH CC/MCC",
+  "weight": 7.1727,
+  "payment_usd": 52194,
+  "alos": 17.4
+ },
+ "929": {
+  "title": "FULL THICKNESS BURN WITH SKIN GRAFT OR INHALATION INJURY WITHOUT CC/MCC",
+  "weight": 3.2208,
+  "payment_usd": 23437,
+  "alos": 8.0
+ },
+ "933": {
+  "title": "EXTENSIVE BURNS OR FULL THICKNESS BURNS WITH MV >96 HOURS WITHOUT SKIN GRAFT",
+  "weight": 3.8167,
+  "payment_usd": 27773,
+  "alos": 6.7
+ },
+ "934": {
+  "title": "FULL THICKNESS BURN WITHOUT SKIN GRAFT OR INHALATION INJURY",
+  "weight": 2.2106,
+  "payment_usd": 16086,
+  "alos": 7.4
+ },
+ "935": {
+  "title": "NON-EXTENSIVE BURNS",
+  "weight": 2.06,
+  "payment_usd": 14990,
+  "alos": 5.9
+ },
+ "939": {
+  "title": "O.R. PROCEDURES WITH DIAGNOSES OF OTHER CONTACT WITH HEALTH SERVICES WITH MCC",
+  "weight": 3.6285,
+  "payment_usd": 26404,
+  "alos": 10.5
+ },
+ "940": {
+  "title": "O.R. PROCEDURES WITH DIAGNOSES OF OTHER CONTACT WITH HEALTH SERVICES WITH CC",
+  "weight": 2.3369,
+  "payment_usd": 17005,
+  "alos": 4.5
+ },
+ "941": {
+  "title": "O.R. PROCEDURES WITH DIAGNOSES OF OTHER CONTACT WITH HEALTH SERVICES WITHOUT CC/MCC",
+  "weight": 2.0277,
+  "payment_usd": 14755,
+  "alos": 2.4
+ },
+ "945": {
+  "title": "REHABILITATION WITH CC/MCC",
+  "weight": 1.5486,
+  "payment_usd": 11269,
+  "alos": 7.6
+ },
+ "946": {
+  "title": "REHABILITATION WITHOUT CC/MCC",
+  "weight": 1.1468,
+  "payment_usd": 8345,
+  "alos": 5.9
+ },
+ "947": {
+  "title": "SIGNS AND SYMPTOMS WITH MCC",
+  "weight": 1.2694,
+  "payment_usd": 9237,
+  "alos": 5.2
+ },
+ "948": {
+  "title": "SIGNS AND SYMPTOMS WITHOUT MCC",
+  "weight": 0.8005,
+  "payment_usd": 5825,
+  "alos": 3.4
+ },
+ "949": {
+  "title": "AFTERCARE WITH CC/MCC",
+  "weight": 1.1897,
+  "payment_usd": 8657,
+  "alos": 6.7
+ },
+ "950": {
+  "title": "AFTERCARE WITHOUT CC/MCC",
+  "weight": 0.6277,
+  "payment_usd": 4568,
+  "alos": 4.3
+ },
+ "951": {
+  "title": "OTHER FACTORS INFLUENCING HEALTH STATUS",
+  "weight": 0.556,
+  "payment_usd": 4046,
+  "alos": 2.6
+ },
+ "955": {
+  "title": "CRANIOTOMY FOR MULTIPLE SIGNIFICANT TRAUMA",
+  "weight": 6.7311,
+  "payment_usd": 48981,
+  "alos": 12.8
+ },
+ "956": {
+  "title": "LIMB REATTACHMENT, HIP AND FEMUR PROCEDURES FOR MULTIPLE SIGNIFICANT TRAUMA",
+  "weight": 3.763,
+  "payment_usd": 27382,
+  "alos": 7.3
+ },
+ "957": {
+  "title": "OTHER O.R. PROCEDURES FOR MULTIPLE SIGNIFICANT TRAUMA WITH MCC",
+  "weight": 7.6199,
+  "payment_usd": 55448,
+  "alos": 13.9
+ },
+ "958": {
+  "title": "OTHER O.R. PROCEDURES FOR MULTIPLE SIGNIFICANT TRAUMA WITH CC",
+  "weight": 4.2139,
+  "payment_usd": 30664,
+  "alos": 8.1
+ },
+ "959": {
+  "title": "OTHER O.R. PROCEDURES FOR MULTIPLE SIGNIFICANT TRAUMA WITHOUT CC/MCC",
+  "weight": 2.9441,
+  "payment_usd": 21424,
+  "alos": 4.6
+ },
+ "963": {
+  "title": "OTHER MULTIPLE SIGNIFICANT TRAUMA WITH MCC",
+  "weight": 2.7338,
+  "payment_usd": 19893,
+  "alos": 8.0
+ },
+ "964": {
+  "title": "OTHER MULTIPLE SIGNIFICANT TRAUMA WITH CC",
+  "weight": 1.5326,
+  "payment_usd": 11152,
+  "alos": 4.9
+ },
+ "965": {
+  "title": "OTHER MULTIPLE SIGNIFICANT TRAUMA WITHOUT CC/MCC",
+  "weight": 0.9405,
+  "payment_usd": 6844,
+  "alos": 3.0
+ },
+ "969": {
+  "title": "HIV WITH EXTENSIVE O.R. PROCEDURES WITH MCC",
+  "weight": 6.1213,
+  "payment_usd": 44543,
+  "alos": 15.9
+ },
+ "970": {
+  "title": "HIV WITH EXTENSIVE O.R. PROCEDURES WITHOUT MCC",
+  "weight": 2.6374,
+  "payment_usd": 19192,
+  "alos": 9.4
+ },
+ "974": {
+  "title": "HIV WITH MAJOR RELATED CONDITION WITH MCC",
+  "weight": 2.886,
+  "payment_usd": 21001,
+  "alos": 9.4
+ },
+ "975": {
+  "title": "HIV WITH MAJOR RELATED CONDITION WITH CC",
+  "weight": 1.295,
+  "payment_usd": 9423,
+  "alos": 5.1
+ },
+ "976": {
+  "title": "HIV WITH MAJOR RELATED CONDITION WITHOUT CC/MCC",
+  "weight": 0.8945,
+  "payment_usd": 6509,
+  "alos": 3.8
+ },
+ "977": {
+  "title": "HIV WITH OR WITHOUT OTHER RELATED CONDITION",
+  "weight": 1.2676,
+  "payment_usd": 9224,
+  "alos": 5.1
+ },
+ "981": {
+  "title": "EXTENSIVE O.R. PROCEDURES UNRELATED TO PRINCIPAL DIAGNOSIS WITH MCC",
+  "weight": 4.6918,
+  "payment_usd": 34141,
+  "alos": 11.8
+ },
+ "982": {
+  "title": "EXTENSIVE O.R. PROCEDURES UNRELATED TO PRINCIPAL DIAGNOSIS WITH CC",
+  "weight": 2.4585,
+  "payment_usd": 17890,
+  "alos": 5.6
+ },
+ "983": {
+  "title": "EXTENSIVE O.R. PROCEDURES UNRELATED TO PRINCIPAL DIAGNOSIS WITHOUT CC/MCC",
+  "weight": 1.714,
+  "payment_usd": 12472,
+  "alos": 2.6
+ },
+ "987": {
+  "title": "NON-EXTENSIVE O.R. PROCEDURES UNRELATED TO PRINCIPAL DIAGNOSIS WITH MCC",
+  "weight": 3.4284,
+  "payment_usd": 24948,
+  "alos": 11.1
+ },
+ "988": {
+  "title": "NON-EXTENSIVE O.R. PROCEDURES UNRELATED TO PRINCIPAL DIAGNOSIS WITH CC",
+  "weight": 1.6436,
+  "payment_usd": 11960,
+  "alos": 5.5
+ },
+ "989": {
+  "title": "NON-EXTENSIVE O.R. PROCEDURES UNRELATED TO PRINCIPAL DIAGNOSIS WITHOUT CC/MCC",
+  "weight": 1.1992,
+  "payment_usd": 8726,
+  "alos": 3.0
+ }
+}

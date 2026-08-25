@@ -12,7 +12,8 @@ const SOURCES = {
   uk: "NHS Payment Scheme 2025/26 Annex A (pay award, 27 Jun 2025)",
   ae: "DoH Abu Dhabi IR-DRG relative weights (v2012-Q2 era, DoH-published weight update file)",
   de: "InEK Fallpauschalen-Katalog 2025 (aG-DRG-Version 2025, published 14 Oct 2024)",
-  ukAct: "NHS National Cost Collection 2024/25, Admitted Patient Care (real FCE activity)"
+  ukAct: "NHS National Cost Collection 2024/25, Admitted Patient Care (real FCE activity)",
+  au: "IHACPA National Efficient Price Determination 2025-26, Appendix H (AR-DRG V11.0 price weights)"
 };
 
 // 🇦🇪 UAE: Abu Dhabi Department of Health IR-DRG system.
@@ -420,4 +421,64 @@ const UK_ACT_FAMILY = {
   "Carpal tunnel release / minor hand surgery": "HN45",
   "Major hand surgery (e.g. Dupuytren's contracture)": "HN43",
   "Shoulder arthroscopy / intermediate shoulder surgery": "HN54"
+};
+
+// 🇦🇺 Australia: AR-DRG V11.0 price weights (NWAU) from IHACPA NEP 2025-26
+// Appendix H, with official mean ALOS. Payment = price weight × National
+// Efficient Price (A$; NEP 2024-25 = $6,465/NWAU).
+const AU = {
+  "Primary hip replacement (elective)": { family: "AR-DRG I33A/B (Hip Replacement, Non-Trauma)", tiers: [
+    { code: "I33B", tier: "Minor Complexity", weight: 3.3985, alos: 3.4 },
+    { code: "I33A", tier: "Major Complexity", weight: 4.7586, alos: 7.5 } ] },
+  "Primary knee replacement (elective)": { family: "AR-DRG I04A/B (Knee Replacement)", tiers: [
+    { code: "I04B", tier: "Minor Complexity", weight: 3.3738, alos: 3.7 },
+    { code: "I04A", tier: "Major Complexity", weight: 4.3261, alos: 6.5 } ] },
+  "Revision of hip or knee replacement": { family: "AR-DRG I31/I32 (Revision Hip/Knee)", tiers: [
+    { code: "I31C", tier: "Revision hip, Minor", weight: 4.6229, alos: 7.0 },
+    { code: "I31B", tier: "Revision hip, Intermediate", weight: 6.4049, alos: 11.4 },
+    { code: "I31A", tier: "Revision hip, Major", weight: 9.8229, alos: 20.9 },
+    { code: "I32B", tier: "Revision knee, Minor", weight: 5.1067, alos: 8.9 },
+    { code: "I32A", tier: "Revision knee, Major", weight: 8.5196, alos: 19.0 } ] },
+  "Shoulder replacement (elective)": { family: "AR-DRG I05A/B (Other Joint Replacement)", tiers: [
+    { code: "I05B", tier: "Minor Complexity", weight: 3.4944, alos: 2.6 },
+    { code: "I05A", tier: "Major Complexity", weight: 5.8361, alos: 9.6 } ] },
+  "Elbow replacement (elective)": { family: "AR-DRG I05A/B (Other Joint Replacement)", tiers: [
+    { code: "I05B", tier: "Minor Complexity", weight: 3.4944, alos: 2.6 },
+    { code: "I05A", tier: "Major Complexity", weight: 5.8361, alos: 9.6 } ] },
+  "Knee arthroscopy (e.g. meniscectomy)": { family: "AR-DRG I18B (Other Knee, Minor)", tiers: [
+    { code: "I18B", tier: "Minor Complexity", weight: 1.316, alos: 1.1 } ] },
+  "ACL / major knee ligament reconstruction": { family: "AR-DRG I29Z (Knee Reconstructions)", tiers: [
+    { code: "I29Z", tier: "All", weight: 1.8182, alos: 1.3 } ] },
+  "Lumbar spinal fusion, single level (elective)": { family: "AR-DRG I09B/C (Spinal Fusion)", tiers: [
+    { code: "I09C", tier: "Minor Complexity", weight: 4.2266, alos: 3.9 },
+    { code: "I09B", tier: "Intermediate Complexity", weight: 6.1886, alos: 7.4 } ] },
+  "Multi-level lumbar spinal fusion": { family: "AR-DRG I09A/B (Spinal Fusion)", tiers: [
+    { code: "I09B", tier: "Intermediate Complexity", weight: 6.1886, alos: 7.4 },
+    { code: "I09A", tier: "Major Complexity", weight: 10.9984, alos: 18.6 } ] },
+  "Cervical spinal fusion (elective)": { family: "AR-DRG I09B/C (Spinal Fusion)", tiers: [
+    { code: "I09C", tier: "Minor Complexity", weight: 4.2266, alos: 3.9 },
+    { code: "I09B", tier: "Intermediate Complexity", weight: 6.1886, alos: 7.4 } ] },
+  "Complex spinal deformity correction": { family: "AR-DRG I06Z (Spinal Fusion for Deformity)", tiers: [
+    { code: "I06Z", tier: "All", weight: 10.3493, alos: 7.1 } ] },
+  "Lumbar discectomy / decompression": { family: "AR-DRG I10A/B (Other Back & Neck)", tiers: [
+    { code: "I10B", tier: "Minor Complexity", weight: 2.1496, alos: 2.6 },
+    { code: "I10A", tier: "Major Complexity", weight: 4.8425, alos: 10.0 } ] },
+  "Major foot / ankle reconstruction (elective)": { family: "AR-DRG I20A/B (Other Foot)", tiers: [
+    { code: "I20B", tier: "Minor Complexity", weight: 1.316, alos: 1.5 },
+    { code: "I20A", tier: "Major Complexity", weight: 2.722, alos: 6.1 } ] },
+  "Bunion correction / minor foot surgery": { family: "AR-DRG I20B (Other Foot, Minor)", tiers: [
+    { code: "I20B", tier: "Minor Complexity", weight: 1.316, alos: 1.5 } ] },
+  "Carpal tunnel release / minor hand surgery": { family: "AR-DRG I30Z (Hand Interventions)", tiers: [
+    { code: "I30Z", tier: "All", weight: 0.8529, alos: 1.2 } ] },
+  "Major hand surgery (e.g. Dupuytren's contracture)": { family: "AR-DRG I30Z (Hand Interventions)", tiers: [
+    { code: "I30Z", tier: "All", weight: 0.8529, alos: 1.2 } ] },
+  "Shoulder arthroscopy / intermediate shoulder surgery": { family: "AR-DRG I16Z (Other Shoulder)", tiers: [
+    { code: "I16Z", tier: "All", weight: 1.655, alos: 1.3 } ] },
+  "Other hip surgery, non-joint (elective)": { family: "AR-DRG I08A–C (Hip & Femur)", tiers: [
+    { code: "I08C", tier: "Minor Complexity", weight: 2.9049, alos: 6.0 },
+    { code: "I08B", tier: "Intermediate Complexity", weight: 4.0197, alos: 8.9 },
+    { code: "I08A", tier: "Major Complexity", weight: 6.2959, alos: 15.0 } ] },
+  "Soft tissue / tendon procedures (musculoskeletal)": { family: "AR-DRG I27A/B (Soft Tissue)", tiers: [
+    { code: "I27B", tier: "Minor Complexity", weight: 1.4282, alos: 2.6 },
+    { code: "I27A", tier: "Major Complexity", weight: 4.7208, alos: 11.6 } ] },
 };
