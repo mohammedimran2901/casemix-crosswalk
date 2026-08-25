@@ -78,6 +78,16 @@
         </thead>
         <tbody></tbody>
       </table>
+      <div id="usCatalogSection" class="us-catalog hidden">
+        <div class="catalog-head"><span class="kicker">Full US catalog</span><h3>Matching US MS-DRGs <span id="usCatCount" class="catalog-count"></span></h3></div>
+        <table id="usCatalogTable">
+          <thead>
+            <tr><th>MS-DRG</th><th>Description</th><th>Weight</th><th>National avg payment</th><th>Avg LOS</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <p class="fineprint">Full FY2026 MS-DRG catalog (770 DRGs). National average = weight × $7,276.76, before geographic adjustment.</p>
+      </div>
       <div id="complexityPanel" class="complexity-panel"></div>
       <div id="paywall" class="paywall hidden">
         <div class="paywall-icon">🔒</div>
@@ -148,6 +158,7 @@
 </footer>
 
 <script src="data.js"></script>
+<script src="us-catalog.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

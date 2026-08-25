@@ -180,14 +180,21 @@ function search(qRaw) {
       (typeof AU !== "undefined" && AU[p.name] && AU[p.name].tiers.some(t => t.code.toLowerCase() === q))
     );
   }
+  // Full US catalog search (770 DRGs)
+  const catMatches = q && typeof US_CATALOG !== "undefined" ? US_CATALOG.filter(d =>
+    d.code === qRaw.trim() || d.code.startsWith(q) || d.title.toLowerCase().includes(q)
+  ).slice(0, 50) : [];
+  renderUsCatalog(catMatches, blur => catMatches.forEach(d => renderCatRow(d, blur)));
+
   currentMatches = matches;
-  resultCount.textContent = q ? `${matches.length} match(es) for "${qRaw.trim()}"` : "";
+  resultCount.textContent = q ? `${matches.length} match(es) for "${qRaw.trim()}"` +
+    (catMatches.length ? ` · ${catMatches.length} US catalog match(es)` : "") : "";
   updateExportBar(matches);
-  if (!matches.length) return;
+  if (!matches.length && !catMatches.length) return;
 
   if (unlocked || freeUsed < FREE_LOOKUPS) {
     matches.forEach(p => renderRow(p, false));
-    renderComplexity(matches[0], false);
+    if (matches.length) renderComplexity(matches[0], false);
     if (!unlocked) {
       freeUsed++;
       localStorage.setItem("cc_free_used", freeUsed);
@@ -196,9 +203,27 @@ function search(qRaw) {
     }
   } else {
     matches.slice(0, 4).forEach(p => renderRow(p, true));
-    renderComplexity(matches[0], true);
+    if (matches.length) renderComplexity(matches[0], true);
     showPaywall();
   }
+}
+
+function renderUsCatalog(catMatches, renderFn) {
+  const sec = document.getElementById("usCatalogSection");
+  if (!sec) return;
+  sec.classList.toggle("hidden", !catMatches.length);
+  const tb = document.querySelector("#usCatalogTable tbody");
+  tb.innerHTML = "";
+  if (!catMatches.length) return;
+  document.getElementById("usCatCount").textContent = `(${catMatches.length}${catMatches.length >= 50 ? "+, showing first 50" : ""})`;
+  catMatches.forEach(d => {
+    const tr = document.createElement("tr");
+    if (typeof unlocked !== "undefined" && !unlocked && freeUsed >= FREE_LOOKUPS) tr.classList.add("blurred");
+    tr.innerHTML = `<td><span class="code">${d.code}</span></td><td>${d.title}</td>
+      <td>×${d.weight.toFixed(4)}</td><td><span class="rate">$${d.payment.toLocaleString()}</span></td>
+      <td>${d.alos.toFixed(1)} days</td>`;
+    tb.appendChild(tr);
+  });
 }
 
 function updateExportBar(matches) {
